@@ -65,7 +65,7 @@ const displayedWord = computed(() => {
   if (current.value) {
     return {
       text: mode.value === 'write' ? current.value.translation : current.value.word,
-      description: current.value.description,
+      description: mode.value === 'test' ? '' : current.value.description,
     }
   }
   return {
