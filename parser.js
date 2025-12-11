@@ -3,7 +3,12 @@ const path = require('path');
 const axios = require('axios');
 const puppeteer = require('puppeteer');
 
-const WORDS = ['집', '학교', '사람'];
+const WORDS = [
+  "것",
+  "하다",
+  "있다",
+]
+
 const AUDIO_BUTTON_SELECTOR = 'button.btn_listen.all';
 const OUTPUT_DIR = path.join(__dirname, 'audio');
 
