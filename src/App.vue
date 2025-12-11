@@ -28,6 +28,9 @@ template(v-else)
         path(d="M14 2.26953V6.40007C14 6.96012 14 7.24015 14.109 7.45406C14.2049 7.64222 14.3578 7.7952 14.546 7.89108C14.7599 8.00007 15.0399 8.00007 15.6 8.00007H19.7305M9 15L12 18M12 18L15 15M12 18L12 12M14 2H8.8C7.11984 2 6.27976 2 5.63803 2.32698C5.07354 2.6146 4.6146 3.07354 4.32698 3.63803C4 4.27976 4 5.11984 4 6.8V17.2C4 18.8802 4 19.7202 4.32698 20.362C4.6146 20.9265 5.07354 21.3854 5.63803 21.673C6.27976 22 7.11984 22 8.8 22H15.2C16.8802 22 17.7202 22 18.362 21.673C18.9265 21.3854 19.3854 20.9265 19.673 20.362C20 19.7202 20 18.8802 20 17.2V8L14 2Z"
         stroke="var(--c4)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
 
+  //- СЧЁТЧИК НАД СЛОВОМ
+  .counter(v-if="totalCount && current")
+    span {{ passedCount }} / {{ totalCount }}
 
   .word-wrapper
     transition(name="word")
@@ -70,7 +73,7 @@ input(
 </template>
 
 <script setup lang="ts">
-import { ref, onBeforeUnmount, onMounted } from 'vue'
+import { ref, onBeforeUnmount, onMounted, computed } from 'vue'
 
 export interface Word {
   word: string
@@ -89,8 +92,18 @@ const options = ref<string[]>([])
 const selected = ref<string | null>(null)
 const isCorrect = ref<boolean | null>(null)
 const userAnswer = ref('')
-const lastIndex = ref<number | null>(null)
+const remaining = ref<Word[]>([])
+
 const fileInput = ref<HTMLInputElement | null>(null)
+
+// всего слов
+const totalCount = computed(() => list.value.length)
+
+// сколько уже показано в текущем круге
+const passedCount = computed(() => {
+  if (!list.value.length || !current.value) return 0
+  return list.value.length - remaining.value.length
+})
 
 const shuffle = <T,>(arr: T[]): T[] => {
   return [...arr].sort(() => Math.random() - 0.5)
@@ -142,10 +155,11 @@ const onFileChange = async (e: Event) => {
 
     list.value = parsed
     current.value = null
-    lastIndex.value = null
     isCorrect.value = null
     userAnswer.value = ''
     options.value = []
+
+    remaining.value = shuffle([...list.value])
 
     generateQuestion()
   } catch (err) {
@@ -189,19 +203,13 @@ const play = (src: string) => {
 const generateQuestion = () => {
   if (!list.value.length) return
 
-  let randomIndex: number
-
-  if (list.value.length === 1) {
-    randomIndex = 0
-  } else {
-    do {
-      randomIndex = Math.floor(Math.random() * list.value.length)
-    } while (randomIndex === lastIndex.value)
+  if (!remaining.value.length) {
+    remaining.value = shuffle([...list.value])
   }
 
-  lastIndex.value = randomIndex
-  const word = list.value[randomIndex]
+  const word = remaining.value.pop()
   if (!word) return
+
   current.value = word
 
   const others = list.value.filter((w) => w !== word)
@@ -351,6 +359,11 @@ button
       outline: 2px solid var(--accent)
       path
         stroke: var(--accent)
+.counter
+  font-size: 14px
+  color: var(--c4)
+  text-align: center
+  margin-bottom: 8px
 
 .word
   position: absolute
@@ -360,6 +373,7 @@ button
   justify-content: center
   font-size: 100px
   font-weight: 500
+  text-align: center
   &-wrapper
     position: relative
     width: 100vw
@@ -414,10 +428,14 @@ button
 .answer
   display: flex
   gap: 20px
-  align-items: center
+  place-content: center
+  place-items: center
+  flex-wrap: wrap
+  width: 100vw
+  padding: 0 10vw
 
   button
-    text-align: left
+    text-align: center
     padding: 0 10px
     padding-bottom: 6px
     border-radius: 10px
