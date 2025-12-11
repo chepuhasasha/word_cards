@@ -3,462 +3,539 @@
     "word": "숫자",
     "translation": "число",
     "transcription": "sutja",
-    "audio": null
+    "audio": "audio/숫자.mp3",
+    "description": "Общее слово для чисел и цифр."
   },
   {
     "word": "번호",
     "translation": "номер",
     "transcription": "beonho",
-    "audio": null
+    "audio": "audio/번호.mp3",
+    "description": "Номер телефона, билета, комнаты и т.п."
   },
   {
     "word": "돈",
     "translation": "деньги",
     "transcription": "don",
-    "audio": null
+    "audio": "audio/돈.mp3",
+    "description": "Общее слово «деньги»."
   },
   {
     "word": "가격",
     "translation": "цена",
     "transcription": "gagyeok",
-    "audio": null
+    "audio": "audio/가격.mp3",
+    "description": "Цена товара или услуги."
   },
   {
     "word": "값",
     "translation": "стоимость",
     "transcription": "gap",
-    "audio": null
+    "audio": "audio/값.mp3",
+    "description": "Стоимость, ценность; иногда итоговая цена."
   },
   {
     "word": "비용",
     "translation": "расходы, затраты",
     "transcription": "biyong",
-    "audio": null
+    "audio": "audio/비용.mp3",
+    "description": "Расходы, траты в широком смысле."
   },
   {
     "word": "세금",
     "translation": "налог",
     "transcription": "segum",
-    "audio": null
+    "audio": "audio/세금.mp3",
+    "description": "Налог, налоговые платежи."
   },
   {
     "word": "할인",
     "translation": "скидка",
     "transcription": "harin",
-    "audio": null
+    "audio": "error",
+    "description": "Скидка с обычной цены."
   },
   {
     "word": "세일",
     "translation": "распродажа, сейл",
     "transcription": "seil",
-    "audio": null
+    "audio": "audio/세일.mp3",
+    "description": "Распродажа, период скидок (sale)."
   },
   {
     "word": "현금",
     "translation": "наличные",
     "transcription": "hyeongeum",
-    "audio": null
+    "audio": "audio/현금.mp3",
+    "description": "Наличные деньги, кэш."
   },
   {
     "word": "카드",
-    "translation": "карта (банковская)",
+    "translation": "карта",
     "transcription": "kadeu",
-    "audio": null
+    "audio": "audio/카드.mp3",
+    "description": "Банковская карта в общем (дебетовая/кредитная)."
   },
   {
     "word": "신용카드",
     "translation": "кредитная карта",
     "transcription": "sinyong-kadeu",
-    "audio": null
+    "audio": "error",
+    "description": "Именно кредитная банковская карта."
   },
   {
     "word": "영수증",
     "translation": "чек, квитанция",
     "transcription": "yeongsujeung",
-    "audio": null
+    "audio": "audio/영수증.mp3",
+    "description": "Фискальный чек, квитанция об оплате."
   },
   {
     "word": "거스름돈",
     "translation": "сдача",
     "transcription": "geoseureumdon",
-    "audio": null
+    "audio": "audio/거스름돈.mp3",
+    "description": "Сдача, которую дают после оплаты."
   },
   {
     "word": "원",
-    "translation": "вон (валюта)",
+    "translation": "вон",
     "transcription": "won",
-    "audio": null
+    "audio": "audio/원.mp3",
+    "description": "Корейская валюта, «₩»."
   },
   {
     "word": "한국 돈",
     "translation": "корейские деньги",
     "transcription": "hanguk don",
-    "audio": null
+    "audio": "error",
+    "description": "Фраза «корейские деньги» в общем."
   },
   {
     "word": "달러",
     "translation": "доллар",
     "transcription": "dalleo",
-    "audio": null
+    "audio": "audio/달러.mp3",
+    "description": "Доллар (обычно USD, зависит от контекста)."
   },
   {
     "word": "유로",
     "translation": "евро",
     "transcription": "yuro",
-    "audio": null
+    "audio": "audio/유로.mp3",
+    "description": "Валюта евро."
   },
   {
     "word": "엔",
     "translation": "иена",
     "transcription": "en",
-    "audio": null
+    "audio": "audio/엔.mp3",
+    "description": "Японская иена."
   },
   {
     "word": "합계",
     "translation": "итог, сумма",
     "transcription": "hapgye",
-    "audio": null
+    "audio": "audio/합계.mp3",
+    "description": "Итоговая сумма после подсчёта."
   },
   {
     "word": "총",
-    "translation": "общий (например, общая сумма)",
+    "translation": "общий",
     "transcription": "chong",
-    "audio": null
+    "audio": "audio/총.mp3",
+    "description": "Общий, суммарный (часто «общая сумма»)."
   },
   {
     "word": "잔돈",
-    "translation": "мелочь, мелкие деньги",
+    "translation": "мелочь",
     "transcription": "jandon",
-    "audio": null
+    "audio": "audio/잔돈.mp3",
+    "description": "Мелкие деньги или сдача монетами."
   },
   {
     "word": "동전",
     "translation": "монета",
     "transcription": "dongjeon",
-    "audio": null
+    "audio": "audio/동전.mp3",
+    "description": "Отдельная монета."
   },
   {
     "word": "지폐",
     "translation": "бумажная купюра",
     "transcription": "jipye",
-    "audio": null
+    "audio": "audio/지폐.mp3",
+    "description": "Бумажная банкнота."
   },
   {
     "word": "공",
     "translation": "ноль",
     "transcription": "gong",
-    "audio": null
+    "audio": "audio/공.mp3",
+    "description": "Ноль; часто в номерах телефонов."
   },
   {
     "word": "영",
     "translation": "ноль",
     "transcription": "yeong",
-    "audio": null
+    "audio": "audio/영.mp3",
+    "description": "Ноль; употребляется и в математике, и в счёте."
   },
   {
     "word": "일",
     "translation": "один",
     "transcription": "il",
-    "audio": null
+    "audio": "audio/일.mp3",
+    "description": "Китайско-корейское число 1; деньги, даты, номера."
   },
   {
     "word": "이",
     "translation": "два",
     "transcription": "i",
-    "audio": null
+    "audio": "audio/이.mp3",
+    "description": "Китайско-корейское число 2; цены, даты и т.п."
   },
   {
     "word": "삼",
     "translation": "три",
     "transcription": "sam",
-    "audio": null
+    "audio": "audio/삼.mp3",
+    "description": "Китайско-корейское число 3."
   },
   {
     "word": "사",
     "translation": "четыре",
     "transcription": "sa",
-    "audio": null
+    "audio": "audio/사.mp3",
+    "description": "Китайско-корейское число 4."
   },
   {
     "word": "오",
     "translation": "пять",
     "transcription": "o",
-    "audio": null
+    "audio": "audio/오.mp3",
+    "description": "Китайско-корейское число 5."
   },
   {
     "word": "육",
     "translation": "шесть",
     "transcription": "yuk",
-    "audio": null
+    "audio": "audio/육.mp3",
+    "description": "Китайско-корейское число 6."
   },
   {
     "word": "칠",
     "translation": "семь",
     "transcription": "chil",
-    "audio": null
+    "audio": "audio/칠.mp3",
+    "description": "Китайско-корейское число 7."
   },
   {
     "word": "팔",
     "translation": "восемь",
     "transcription": "pal",
-    "audio": null
+    "audio": "audio/팔.mp3",
+    "description": "Китайско-корейское число 8."
   },
   {
     "word": "구",
     "translation": "девять",
     "transcription": "gu",
-    "audio": null
+    "audio": "audio/구.mp3",
+    "description": "Китайско-корейское число 9."
   },
   {
     "word": "십",
     "translation": "десять",
     "transcription": "sip",
-    "audio": null
+    "audio": "audio/십.mp3",
+    "description": "Китайско-корейское число 10."
   },
   {
     "word": "이십",
     "translation": "двадцать",
     "transcription": "isip",
-    "audio": null
+    "audio": "audio/이십.mp3",
+    "description": "Китайско-корейское число 20."
   },
   {
     "word": "삼십",
     "translation": "тридцать",
     "transcription": "samsip",
-    "audio": null
+    "audio": "audio/삼십.mp3",
+    "description": "Китайско-корейское число 30."
   },
   {
     "word": "사십",
     "translation": "сорок",
     "transcription": "sasip",
-    "audio": null
+    "audio": "audio/사십.mp3",
+    "description": "Китайско-корейское число 40."
   },
   {
     "word": "오십",
     "translation": "пятьдесят",
     "transcription": "osip",
-    "audio": null
+    "audio": "audio/오십.mp3",
+    "description": "Китайско-корейское число 50."
   },
   {
     "word": "육십",
     "translation": "шестьдесят",
     "transcription": "yuksip",
-    "audio": null
+    "audio": "audio/육십.mp3",
+    "description": "Китайско-корейское число 60."
   },
   {
     "word": "칠십",
     "translation": "семьдесят",
     "transcription": "chilsip",
-    "audio": null
+    "audio": "audio/칠십.mp3",
+    "description": "Китайско-корейское число 70."
   },
   {
     "word": "팔십",
     "translation": "восемьдесят",
     "transcription": "palsip",
-    "audio": null
+    "audio": "audio/팔십.mp3",
+    "description": "Китайско-корейское число 80."
   },
   {
     "word": "구십",
     "translation": "девяносто",
     "transcription": "gusip",
-    "audio": null
+    "audio": "audio/구십.mp3",
+    "description": "Китайско-корейское число 90."
   },
   {
     "word": "백",
     "translation": "сто",
     "transcription": "baek",
-    "audio": null
+    "audio": "audio/백.mp3",
+    "description": "100; используется в больших числах и ценах."
   },
   {
     "word": "천",
     "translation": "тысяча",
     "transcription": "cheon",
-    "audio": null
+    "audio": "audio/천.mp3",
+    "description": "1 000; часто в ценах (천 원)."
   },
   {
     "word": "만",
     "translation": "десять тысяч",
     "transcription": "man",
-    "audio": null
+    "audio": "audio/만.mp3",
+    "description": "10 000; базовая единица в ценах (만 원)."
   },
   {
     "word": "십만",
     "translation": "сто тысяч",
     "transcription": "simman",
-    "audio": null
+    "audio": "audio/십만.mp3",
+    "description": "100 000; крупные суммы."
   },
   {
     "word": "백만",
     "translation": "миллион",
     "transcription": "baengman",
-    "audio": null
+    "audio": "audio/백만.mp3",
+    "description": "1 000 000; миллион вон и выше."
   },
   {
     "word": "천만",
     "translation": "десять миллионов",
     "transcription": "cheonman",
-    "audio": null
+    "audio": "audio/천만.mp3",
+    "description": "10 000 000; очень крупные суммы."
   },
   {
     "word": "억",
     "translation": "сто миллионов",
     "transcription": "eok",
-    "audio": null
+    "audio": "audio/억.mp3",
+    "description": "100 000 000; «сто миллионов вон» и выше."
   },
   {
     "word": "하나",
-    "translation": "один (нативное число)",
+    "translation": "один",
     "transcription": "hana",
-    "audio": null
+    "audio": "audio/하나.mp3",
+    "description": "Нативное число 1; счёт предметов, возраста."
   },
   {
     "word": "둘",
-    "translation": "два (нативное число)",
+    "translation": "два",
     "transcription": "dul",
-    "audio": null
+    "audio": "audio/둘.mp3",
+    "description": "Нативное число 2; разговорный счёт."
   },
   {
     "word": "셋",
-    "translation": "три (нативное число)",
+    "translation": "три",
     "transcription": "set",
-    "audio": null
+    "audio": "audio/셋.mp3",
+    "description": "Нативное число 3."
   },
   {
     "word": "넷",
-    "translation": "четыре (нативное число)",
+    "translation": "четыре",
     "transcription": "net",
-    "audio": null
+    "audio": "audio/넷.mp3",
+    "description": "Нативное число 4."
   },
   {
     "word": "다섯",
-    "translation": "пять (нативное число)",
+    "translation": "пять",
     "transcription": "daseot",
-    "audio": null
+    "audio": "audio/다섯.mp3",
+    "description": "Нативное число 5."
   },
   {
     "word": "여섯",
-    "translation": "шесть (нативное число)",
+    "translation": "шесть",
     "transcription": "yeoseot",
-    "audio": null
+    "audio": "audio/여섯.mp3",
+    "description": "Нативное число 6."
   },
   {
     "word": "일곱",
-    "translation": "семь (нативное число)",
+    "translation": "семь",
     "transcription": "ilgop",
-    "audio": null
+    "audio": "audio/일곱.mp3",
+    "description": "Нативное число 7."
   },
   {
     "word": "여덟",
-    "translation": "восемь (нативное число)",
+    "translation": "восемь",
     "transcription": "yeodeol",
-    "audio": null
+    "audio": "audio/여덟.mp3",
+    "description": "Нативное число 8."
   },
   {
     "word": "아홉",
-    "translation": "девять (нативное число)",
+    "translation": "девять",
     "transcription": "ahop",
-    "audio": null
+    "audio": "audio/아홉.mp3",
+    "description": "Нативное число 9."
   },
   {
     "word": "열",
-    "translation": "десять (нативное число)",
+    "translation": "десять",
     "transcription": "yeol",
-    "audio": null
+    "audio": "audio/열.mp3",
+    "description": "Нативное число 10."
   },
   {
     "word": "한",
-    "translation": "один (перед счетным словом)",
+    "translation": "один",
     "transcription": "han",
-    "audio": null
+    "audio": "audio/한.mp3",
+    "description": "Сокращённая форма «하나» перед счётными словами."
   },
   {
     "word": "두",
-    "translation": "два (перед счетным словом)",
+    "translation": "два",
     "transcription": "du",
-    "audio": null
+    "audio": "audio/두.mp3",
+    "description": "Сокращённая форма «둘» перед счётными словами."
   },
   {
     "word": "세",
-    "translation": "три (перед счетным словом)",
+    "translation": "три",
     "transcription": "se",
-    "audio": null
+    "audio": "error",
+    "description": "Сокращённая форма «셋» перед счётными словами."
   },
   {
     "word": "네",
-    "translation": "четыре (перед счетным словом)",
+    "translation": "четыре",
     "transcription": "ne",
-    "audio": null
+    "audio": "audio/네.mp3",
+    "description": "Сокращённая форма «넷» перед счётными словами."
   },
   {
     "word": "개",
-    "translation": "штука (счетное слово)",
+    "translation": "штука",
     "transcription": "gae",
-    "audio": null
+    "audio": "audio/개.mp3",
+    "description": "Счётное слово для предметов, универсальное."
   },
   {
     "word": "명",
-    "translation": "человек (счетное слово)",
+    "translation": "человек",
     "transcription": "myeong",
-    "audio": null
+    "audio": "audio/명.mp3",
+    "description": "Счётное слово для людей."
   },
   {
     "word": "마리",
-    "translation": "голова (животное, счетное слово)",
+    "translation": "голова",
     "transcription": "mari",
-    "audio": null
+    "audio": "error",
+    "description": "Счётное слово для животных."
   },
   {
     "word": "번",
-    "translation": "раз (сколько раз)",
+    "translation": "раз",
     "transcription": "beon",
-    "audio": null
+    "audio": "audio/번.mp3",
+    "description": "Сколько раз что-то происходит."
   },
   {
     "word": "장",
-    "translation": "лист, билет (счетное слово)",
+    "translation": "лист, билет",
     "transcription": "jang",
-    "audio": null
+    "audio": "audio/장.mp3",
+    "description": "Счётное слово для плоских вещей, билетов."
   },
   {
     "word": "병",
-    "translation": "бутылка (счетное слово)",
+    "translation": "бутылка",
     "transcription": "byeong",
-    "audio": null
+    "audio": "audio/병.mp3",
+    "description": "Счётное слово для бутылок."
   },
   {
     "word": "얼마예요?",
     "translation": "Сколько стоит?",
     "transcription": "eolmayeyo?",
-    "audio": null
+    "audio": "error",
+    "description": "Вежливый вопрос о цене товара."
   },
   {
     "word": "얼마죠?",
     "translation": "Сколько?",
     "transcription": "eolmajyo?",
-    "audio": null
+    "audio": "error",
+    "description": "Сокращённый разговорный вопрос о цене."
   },
   {
     "word": "너무 비싸요",
     "translation": "Слишком дорого",
     "transcription": "neomu bissayo",
-    "audio": null
+    "audio": "error",
+    "description": "Фраза, когда цена кажется завышенной."
   },
   {
     "word": "싸요",
     "translation": "Дешево / недорого",
     "transcription": "ssayo",
-    "audio": null
+    "audio": "error",
+    "description": "Говорят, когда цена низкая или нормальная."
   },
   {
     "word": "카드 돼요?",
     "translation": "Можно картой?",
     "transcription": "kadeu dwaeyo?",
-    "audio": null
+    "audio": "error",
+    "description": "Вопрос, принимают ли оплату картой."
   },
   {
     "word": "현금만 돼요",
     "translation": "Только наличные",
     "transcription": "hyeongeumman dwaeyo",
-    "audio": null
+    "audio": "error",
+    "description": "Ответ/надпись, что принимают только наличные."
   }
 ]

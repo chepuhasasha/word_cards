@@ -9,8 +9,8 @@ const AUDIO_BUTTON_SELECTOR = 'button.btn_listen.all';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const OUTPUT_DIR = path.join(__dirname, 'public/audio');
-const JSON_FILE = path.join(__dirname, 'public/numbers.json');
+const OUTPUT_DIR = path.join(__dirname, '../public/audio');
+const JSON_FILE = path.join(__dirname, '../public/numbers.json');
 
 if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
@@ -20,7 +20,7 @@ function loadJson() {
   const raw = fs.readFileSync(JSON_FILE, 'utf8');
   const data = JSON.parse(raw);
   if (!Array.isArray(data)) {
-    throw new Error('6k.json должен содержать массив объектов');
+    throw new Error('.json должен содержать массив объектов');
   }
   return data;
 }
@@ -93,7 +93,7 @@ async function getAudioUrlForWord(browser, word) {
 (async () => {
   const data = loadJson();
   const itemsToProcess = data.filter(
-    (item) => item && item.word && !Object.prototype.hasOwnProperty.call(item, 'audio')
+    (item) => item && item.word && !item.audio
   );
 
   if (itemsToProcess.length === 0) {
@@ -103,7 +103,7 @@ async function getAudioUrlForWord(browser, word) {
 
   console.log(`Нужно обработать слов: ${itemsToProcess.length}`);
 
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch({ headless: true });
 
   try {
     for (const item of itemsToProcess) {

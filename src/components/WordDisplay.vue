@@ -1,11 +1,18 @@
 <template lang="pug">
 .word-wrapper
   transition(name="word")
-    .word(:key="wordKey") {{ text }}
+    .word(:key="wordKey")
+      span {{ word.description }}
+      |{{ word.text }}
 </template>
 
 <script setup lang="ts">
-defineProps<{ text: string; wordKey: string }>()
+import type { PropType } from 'vue'
+
+defineProps({
+  word: { type: Object as PropType<{ text: string; description: string }>, required: true },
+  wordKey: { type: String as PropType<string>, required: true },
+})
 </script>
 
 <style scoped lang="sass">
@@ -18,6 +25,10 @@ defineProps<{ text: string; wordKey: string }>()
   font-size: 100px
   font-weight: 500
   text-align: center
+  flex-direction: column
+  span
+    font-size: 12px
+    color: var(--c4)
 
 .word-wrapper
   position: relative

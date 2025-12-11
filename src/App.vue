@@ -4,7 +4,7 @@ main
   template(v-else)
     ModeBar(:mode="mode" @update:mode="updateMode" @open="open")
     WordCounter(:passed="passedCount" :total="totalCount" :current="Boolean(current)")
-    WordDisplay(:text="displayedWord" :word-key="wordKey")
+    WordDisplay(:word="displayedWord" :word-key="wordKey")
     AudioPlayer(
       v-if="mode !== 'write' && current?.audio"
       :audio-src="current?.audio || ''"
@@ -40,6 +40,7 @@ export interface Word {
   translation: string
   transcription: string
   audio: string | null
+  description: string
 }
 
 const mode = ref<'test' | 'learn' | 'write'>('learn')
@@ -61,8 +62,16 @@ const passedCount = computed(() => {
 })
 
 const displayedWord = computed(() => {
-  if (!current.value) return ''
-  return mode.value === 'write' ? current.value.translation : current.value.word
+  if (current.value) {
+    return {
+      text: mode.value === 'write' ? current.value.translation : current.value.word,
+      description: current.value.description,
+    }
+  }
+  return {
+    text: '',
+    description: '',
+  }
 })
 
 const wordKey = computed(() => {
@@ -117,6 +126,7 @@ const onFileChange = async (e: Event): Promise<void> => {
         translation: String(item.translation),
         transcription: item.transcription ? String(item.transcription) : '',
         audio: String(item.audio),
+        description: item.description,
       }))
 
     if (!parsed.length) {
