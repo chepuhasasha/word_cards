@@ -119,6 +119,10 @@ onBeforeUnmount(() => {
 
 <style scoped lang="sass">
 .audio
+  display: flex
+  flex-direction: column
+  gap: 10px
+  place-items: center
   &__play
     outline: 2px solid var(--accent)
 
@@ -137,6 +141,7 @@ onBeforeUnmount(() => {
     justify-content: space-around
     min-height: 80px
     min-width: 80px
+    max-width: 80px
     height: 80px
     border-radius: 20px
 
