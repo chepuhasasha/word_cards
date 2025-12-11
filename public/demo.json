@@ -1,0 +1,32 @@
+[
+  {
+    "value": "겨울",
+    "translate": "зима",
+    "transcription": "gyeoul",
+    "audio": "audio/겨울.mp3"
+  },
+  {
+    "value": "봄",
+    "translate": "весна",
+    "transcription": "bom",
+    "audio": "audio/봄.mp3"
+  },
+  {
+    "value": "여름",
+    "translate": "лето",
+    "transcription": "yeoleum",
+    "audio": "audio/여름.mp3"
+  },
+  {
+    "value": "가을",
+    "translate": "осень",
+    "transcription": "ga-eul",
+    "audio": "audio/가을.mp3"
+  },
+  {
+    "value": "집",
+    "translate": "дом",
+    "transcription": "jib",
+    "audio": "audio/집.mp3"
+  }
+]
