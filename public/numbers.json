@@ -52,7 +52,7 @@
     "word": "할인",
     "translation": "скидка",
     "transcription": "harin",
-    "audio": "error",
+    "audio": "audio/할인_tts.mp3",
     "description": "Скидка с обычной цены."
   },
   {
@@ -80,7 +80,7 @@
     "word": "신용카드",
     "translation": "кредитная карта",
     "transcription": "sinyong-kadeu",
-    "audio": "error",
+    "audio": "audio/신용카드_tts.mp3",
     "description": "Именно кредитная банковская карта."
   },
   {
@@ -108,7 +108,7 @@
     "word": "한국 돈",
     "translation": "корейские деньги",
     "transcription": "hanguk don",
-    "audio": "error",
+    "audio": "audio/한국 돈_tts.mp3",
     "description": "Фраза «корейские деньги» в общем."
   },
   {
@@ -444,7 +444,7 @@
     "word": "세",
     "translation": "три",
     "transcription": "se",
-    "audio": "error",
+    "audio": "audio/세_tts.mp3",
     "description": "Сокращённая форма «셋» перед счётными словами."
   },
   {
@@ -472,7 +472,7 @@
     "word": "마리",
     "translation": "голова",
     "transcription": "mari",
-    "audio": "error",
+    "audio": "audio/마리_tts.mp3",
     "description": "Счётное слово для животных."
   },
   {
@@ -500,42 +500,42 @@
     "word": "얼마예요?",
     "translation": "Сколько стоит?",
     "transcription": "eolmayeyo?",
-    "audio": "error",
+    "audio": "audio/얼마예요__tts.mp3",
     "description": "Вежливый вопрос о цене товара."
   },
   {
     "word": "얼마죠?",
     "translation": "Сколько?",
     "transcription": "eolmajyo?",
-    "audio": "error",
+    "audio": "audio/얼마죠__tts.mp3",
     "description": "Сокращённый разговорный вопрос о цене."
   },
   {
     "word": "너무 비싸요",
     "translation": "Слишком дорого",
     "transcription": "neomu bissayo",
-    "audio": "error",
+    "audio": "audio/너무 비싸요_tts.mp3",
     "description": "Фраза, когда цена кажется завышенной."
   },
   {
     "word": "싸요",
     "translation": "Дешево / недорого",
     "transcription": "ssayo",
-    "audio": "error",
+    "audio": "audio/싸요_tts.mp3",
     "description": "Говорят, когда цена низкая или нормальная."
   },
   {
     "word": "카드 돼요?",
     "translation": "Можно картой?",
     "transcription": "kadeu dwaeyo?",
-    "audio": "error",
+    "audio": "audio/카드 돼요__tts.mp3",
     "description": "Вопрос, принимают ли оплату картой."
   },
   {
     "word": "현금만 돼요",
     "translation": "Только наличные",
     "transcription": "hyeongeumman dwaeyo",
-    "audio": "error",
+    "audio": "audio/현금만 돼요_tts.mp3",
     "description": "Ответ/надпись, что принимают только наличные."
   }
 ]
