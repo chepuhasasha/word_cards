@@ -116,3 +116,34 @@ onBeforeUnmount(() => {
   }
 })
 </script>
+
+<style scoped lang="sass">
+.audio
+  &__play
+    outline: 2px solid var(--accent)
+
+    path
+      stroke: var(--accent)
+
+  span
+    color: var(--c4)
+    font-size: 12px
+
+  button
+    color: var(--c4)
+    background: var(--c2)
+    display: flex
+    align-items: center
+    justify-content: space-around
+    min-height: 80px
+    min-width: 80px
+    height: 80px
+    border-radius: 20px
+
+    &:hover
+      background: var(--accent)
+      color: var(--c1)
+
+      path
+        stroke: var(--c1)
+</style>

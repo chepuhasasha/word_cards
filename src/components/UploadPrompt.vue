@@ -22,3 +22,21 @@ const handleOpen = (): void => {
   emit('open')
 }
 </script>
+
+<style scoped lang="sass">
+.open
+  display: flex
+  flex-direction: column
+  gap: 20px
+
+  button
+    background: none
+
+    &:hover
+      path
+        stroke: var(--accent)
+
+  span
+    font-size: 12px
+    color: var(--c4)
+</style>

@@ -33,3 +33,30 @@ const changeMode = (nextMode: 'test' | 'learn' | 'write'): void => {
   emit('update:mode', nextMode)
 }
 </script>
+
+<style scoped lang="sass">
+.bar
+  display: flex
+  gap: 10px
+
+  &__active
+    path
+      stroke: var(--accent)
+
+  button
+    color: var(--c4)
+    background: var(--c1)
+    display: flex
+    align-items: center
+    justify-content: space-around
+    min-height: 80px
+    min-width: 80px
+    height: 80px
+    border-radius: 20px
+
+    &:hover
+      outline: 2px solid var(--accent)
+
+      path
+        stroke: var(--accent)
+</style>

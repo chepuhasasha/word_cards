@@ -63,3 +63,50 @@ const submitWrite = (): void => {
   }
 }
 </script>
+
+<style scoped lang="sass">
+.answer
+  display: flex
+  gap: 20px
+  place-content: center
+  place-items: center
+  flex-wrap: wrap
+  width: 100vw
+  padding: 0 10vw
+
+  button
+    text-align: center
+    padding: 0 10px
+    padding-bottom: 6px
+    border-radius: 10px
+    font-size: 40px
+    width: max-content
+    background: none
+    color: var(--c5)
+
+    &:hover
+      color: var(--accent)
+
+    &:focus-visible
+      color: var(--accent)
+
+  input
+    font-size: 50px
+    text-align: center
+    background: none
+    border: none
+    border-bottom: 2px solid var(--c2)
+    color: var(--c5)
+    outline: none
+
+    &::placeholder
+      font-size: 12px
+      color: var(--c3)
+
+    &:focus-visible
+      border-color: var(--accent)
+
+  &__text
+    font-size: 40px
+    color: var(--c5)
+</style>
