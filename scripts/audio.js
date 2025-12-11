@@ -13,9 +13,16 @@ const __dirname = path.dirname(__filename)
 
 const OUTPUT_DIR = path.join(__dirname, '../public/audio')
 const DEFAULT_JSON_FILE = path.join(__dirname, '../public/syllables.json')
-const JSON_FILE = process.argv[2] ? path.resolve(process.cwd(), process.argv[2]) : DEFAULT_JSON_FILE
+const args = process.argv.slice(2)
+const jsonArg = args.find((arg) => !arg.startsWith('--'))
+const FORCE_REWRITE_AUDIO = args.includes('--rewrite-audio')
+
+const JSON_FILE = jsonArg ? path.resolve(process.cwd(), jsonArg) : DEFAULT_JSON_FILE
 
 console.log(`Использую JSON файл: ${JSON_FILE}`)
+console.log(
+  `Режим перезаписи audio: ${FORCE_REWRITE_AUDIO ? 'ВКЛЮЧЕН (перезаписываю всё)' : 'ВЫКЛЮЧЕН (пропускаю, где audio уже есть)'}`,
+)
 
 if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true })
@@ -126,9 +133,13 @@ async function getAudioUrlForWord(browser, word) {
 
 ;(async () => {
   const data = loadJson()
-  const itemsToProcess = data.filter(
-    (item) => item && item.word && (!item.audio || item.audio === 'error'),
-  )
+
+  const itemsToProcess = data.filter((item) => {
+    if (!item || !item.word) return false
+    if (FORCE_REWRITE_AUDIO) return true // игнорируем существующее audio, перезаписываем всё
+    // старое поведение — только где audio нет или 'error'
+    return !item.audio || item.audio === 'error'
+  })
 
   if (itemsToProcess.length === 0) {
     console.log('Все слова уже имеют поле audio — ничего делать не нужно.')
