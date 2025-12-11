@@ -97,9 +97,11 @@ const remaining = ref<Word[]>([])
 const fileInput = ref<HTMLInputElement | null>(null)
 
 // всего слов
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const totalCount = computed(() => list.value.length)
 
 // сколько уже показано в текущем круге
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const passedCount = computed(() => {
   if (!list.value.length || !current.value) return 0
   return list.value.length - remaining.value.length
@@ -109,12 +111,14 @@ const shuffle = <T,>(arr: T[]): T[] => {
   return [...arr].sort(() => Math.random() - 0.5)
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const open = () => {
   if (fileInput.value) {
     fileInput.value.click()
   }
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const onFileChange = async (e: Event) => {
   const target = e.target as HTMLInputElement
   const file = target.files?.[0]
@@ -239,6 +243,7 @@ const next = () => {
   generateQuestion()
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const check = (answer: string) => {
   if (mode.value !== 'test') return
   if (!current.value) return
