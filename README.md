@@ -22,5 +22,8 @@ npm run build
 npm run lint
 ```
 
-node audio.js ../public/numbers.json --rewrite-audio
-node audio.js ../public/phrases.json --rewrite-audio
+### Get audio
+
+```sh
+npm run audio
+```

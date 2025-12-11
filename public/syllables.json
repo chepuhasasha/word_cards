@@ -3,42 +3,42 @@
     "word": "가",
     "translation": "가",
     "transcription": "ga",
-    "audio": "audio/가.mp3",
+    "audio": "audio/가_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "나",
     "translation": "나",
     "transcription": "na",
-    "audio": "audio/나.mp3",
+    "audio": "audio/나_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "다",
     "translation": "다",
     "transcription": "da",
-    "audio": "audio/다.mp3",
+    "audio": "audio/다_tts.mp3",
     "description": "Корейейский слог для чтения."
   },
   {
     "word": "라",
     "translation": "라",
     "transcription": "ra",
-    "audio": "audio/라.mp3",
+    "audio": "audio/라_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "마",
     "translation": "마",
     "transcription": "ma",
-    "audio": "audio/마.mp3",
+    "audio": "audio/마_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "바",
     "translation": "바",
     "transcription": "ba",
-    "audio": "audio/바.mp3",
+    "audio": "audio/바_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -52,84 +52,84 @@
     "word": "아",
     "translation": "아",
     "transcription": "a",
-    "audio": "audio/아.mp3",
+    "audio": "audio/아_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "자",
     "translation": "자",
     "transcription": "ja",
-    "audio": "audio/자.mp3",
+    "audio": "audio/자_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "차",
     "translation": "차",
     "transcription": "cha",
-    "audio": "audio/차.mp3",
+    "audio": "audio/차_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "카",
     "translation": "카",
     "transcription": "ka",
-    "audio": "audio/카.mp3",
+    "audio": "audio/카_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "타",
     "translation": "타",
     "transcription": "ta",
-    "audio": "audio/타.mp3",
+    "audio": "audio/타_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "파",
     "translation": "파",
     "transcription": "pa",
-    "audio": "audio/파.mp3",
+    "audio": "audio/파_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "하",
     "translation": "하",
     "transcription": "ha",
-    "audio": "audio/하.mp3",
+    "audio": "audio/하_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "거",
     "translation": "거",
     "transcription": "geo",
-    "audio": "audio/거.mp3",
+    "audio": "audio/거_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "너",
     "translation": "너",
     "transcription": "neo",
-    "audio": "audio/너.mp3",
+    "audio": "audio/너_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "더",
     "translation": "더",
     "transcription": "deo",
-    "audio": "audio/더.mp3",
+    "audio": "audio/더_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "러",
     "translation": "러",
     "transcription": "reo",
-    "audio": "audio/러.mp3",
+    "audio": "audio/러_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "머",
     "translation": "머",
     "transcription": "meo",
-    "audio": "audio/머.mp3",
+    "audio": "audio/머_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -150,21 +150,21 @@
     "word": "어",
     "translation": "어",
     "transcription": "eo",
-    "audio": "audio/어.mp3",
+    "audio": "audio/어_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "저",
     "translation": "저",
     "transcription": "jeo",
-    "audio": "audio/저.mp3",
+    "audio": "audio/저_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "처",
     "translation": "처",
     "transcription": "cheo",
-    "audio": "audio/처.mp3",
+    "audio": "audio/처_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -178,7 +178,7 @@
     "word": "터",
     "translation": "터",
     "transcription": "teo",
-    "audio": "audio/터.mp3",
+    "audio": "audio/터_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -199,14 +199,14 @@
     "word": "겨",
     "translation": "겨",
     "transcription": "gyeo",
-    "audio": "audio/겨.mp3",
+    "audio": "audio/겨_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "녀",
     "translation": "녀",
     "transcription": "nyeo",
-    "audio": "audio/녀.mp3",
+    "audio": "audio/녀_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -220,7 +220,7 @@
     "word": "려",
     "translation": "려",
     "transcription": "ryeo",
-    "audio": "audio/려.mp3",
+    "audio": "audio/려_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -234,7 +234,7 @@
     "word": "벼",
     "translation": "벼",
     "transcription": "byeo",
-    "audio": "audio/벼.mp3",
+    "audio": "audio/벼_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -248,7 +248,7 @@
     "word": "여",
     "translation": "여",
     "transcription": "yeo",
-    "audio": "audio/여.mp3",
+    "audio": "audio/여_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -269,7 +269,7 @@
     "word": "켜",
     "translation": "켜",
     "transcription": "kyeo",
-    "audio": "audio/켜.mp3",
+    "audio": "audio/켜_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -290,56 +290,56 @@
     "word": "혀",
     "translation": "혀",
     "transcription": "hyeo",
-    "audio": "audio/혀.mp3",
+    "audio": "audio/혀_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "고",
     "translation": "고",
     "transcription": "go",
-    "audio": "audio/고.mp3",
+    "audio": "audio/고_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "노",
     "translation": "노",
     "transcription": "no",
-    "audio": "audio/노.mp3",
+    "audio": "audio/노_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "도",
     "translation": "도",
     "transcription": "do",
-    "audio": "audio/도.mp3",
+    "audio": "audio/도_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "로",
     "translation": "로",
     "transcription": "ro",
-    "audio": "audio/로.mp3",
+    "audio": "audio/로_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "모",
     "translation": "모",
     "transcription": "mo",
-    "audio": "audio/모.mp3",
+    "audio": "audio/모_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "보",
     "translation": "보",
     "transcription": "bo",
-    "audio": "audio/보.mp3",
+    "audio": "audio/보_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "소",
     "translation": "소",
     "transcription": "so",
-    "audio": "audio/소.mp3",
+    "audio": "audio/소_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -353,56 +353,56 @@
     "word": "조",
     "translation": "조",
     "transcription": "jo",
-    "audio": "audio/조.mp3",
+    "audio": "audio/조_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "초",
     "translation": "초",
     "transcription": "cho",
-    "audio": "audio/초.mp3",
+    "audio": "audio/초_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "코",
     "translation": "코",
     "transcription": "ko",
-    "audio": "audio/코.mp3",
+    "audio": "audio/코_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "토",
     "translation": "토",
     "transcription": "to",
-    "audio": "audio/토.mp3",
+    "audio": "audio/토_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "포",
     "translation": "포",
     "transcription": "po",
-    "audio": "audio/포.mp3",
+    "audio": "audio/포_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "호",
     "translation": "호",
     "transcription": "ho",
-    "audio": "audio/호.mp3",
+    "audio": "audio/호_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "교",
     "translation": "교",
     "transcription": "gyo",
-    "audio": "audio/교.mp3",
+    "audio": "audio/교_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "뇨",
     "translation": "뇨",
     "transcription": "nyo",
-    "audio": "audio/뇨.mp3",
+    "audio": "audio/뇨_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -416,14 +416,14 @@
     "word": "료",
     "translation": "료",
     "transcription": "ryo",
-    "audio": "audio/료.mp3",
+    "audio": "audio/료_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "묘",
     "translation": "묘",
     "transcription": "myo",
-    "audio": "audio/묘.mp3",
+    "audio": "audio/묘_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -437,14 +437,14 @@
     "word": "쇼",
     "translation": "쇼",
     "transcription": "syo",
-    "audio": "audio/쇼.mp3",
+    "audio": "audio/쇼_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "요",
     "translation": "요",
     "transcription": "yo",
-    "audio": "audio/요.mp3",
+    "audio": "audio/요_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -479,14 +479,14 @@
     "word": "표",
     "translation": "표",
     "transcription": "pyo",
-    "audio": "audio/표.mp3",
+    "audio": "audio/표_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "효",
     "translation": "효",
     "transcription": "hyo",
-    "audio": "audio/효.mp3",
+    "audio": "audio/효_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -500,7 +500,7 @@
     "word": "누",
     "translation": "누",
     "transcription": "nu",
-    "audio": "audio/누.mp3",
+    "audio": "audio/누_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -514,112 +514,112 @@
     "word": "루",
     "translation": "루",
     "transcription": "ru",
-    "audio": "audio/루.mp3",
+    "audio": "audio/루_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "무",
     "translation": "무",
     "transcription": "mu",
-    "audio": "audio/무.mp3",
+    "audio": "audio/무_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "부",
     "translation": "부",
     "transcription": "bu",
-    "audio": "audio/부.mp3",
+    "audio": "audio/부_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "수",
     "translation": "수",
     "transcription": "su",
-    "audio": "audio/수.mp3",
+    "audio": "audio/수_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "우",
     "translation": "우",
     "transcription": "u",
-    "audio": "audio/우.mp3",
+    "audio": "audio/우_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "주",
     "translation": "주",
     "transcription": "ju",
-    "audio": "audio/주.mp3",
+    "audio": "audio/주_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "추",
     "translation": "추",
     "transcription": "chu",
-    "audio": "audio/추.mp3",
+    "audio": "audio/추_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "쿠",
     "translation": "쿠",
     "transcription": "ku",
-    "audio": "audio/쿠.mp3",
+    "audio": "audio/쿠_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "투",
     "translation": "투",
     "transcription": "tu",
-    "audio": "audio/투.mp3",
+    "audio": "audio/투_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "푸",
     "translation": "푸",
     "transcription": "pu",
-    "audio": "audio/푸.mp3",
+    "audio": "audio/푸_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "후",
     "translation": "후",
     "transcription": "hu",
-    "audio": "audio/후.mp3",
+    "audio": "audio/후_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "규",
     "translation": "규",
     "transcription": "gyu",
-    "audio": "audio/규.mp3",
+    "audio": "audio/규_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "뉴",
     "translation": "뉴",
     "transcription": "nyu",
-    "audio": "audio/뉴.mp3",
+    "audio": "audio/뉴_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "듀",
     "translation": "듀",
     "transcription": "dyu",
-    "audio": "audio/듀.mp3",
+    "audio": "audio/듀_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "류",
     "translation": "류",
     "transcription": "ryu",
-    "audio": "audio/류.mp3",
+    "audio": "audio/류_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "뮤",
     "translation": "뮤",
     "transcription": "myu",
-    "audio": "audio/뮤.mp3",
+    "audio": "audio/뮤_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -633,35 +633,35 @@
     "word": "슈",
     "translation": "슈",
     "transcription": "syu",
-    "audio": "audio/슈.mp3",
+    "audio": "audio/슈_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "유",
     "translation": "유",
     "transcription": "yu",
-    "audio": "audio/유.mp3",
+    "audio": "audio/유_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "쥬",
     "translation": "쥬",
     "transcription": "jyu",
-    "audio": "audio/쥬.mp3",
+    "audio": "audio/쥬_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "츄",
     "translation": "츄",
     "transcription": "chyu",
-    "audio": "audio/츄.mp3",
+    "audio": "audio/츄_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "큐",
     "translation": "큐",
     "transcription": "kyu",
-    "audio": "audio/큐.mp3",
+    "audio": "audio/큐_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -682,14 +682,14 @@
     "word": "휴",
     "translation": "휴",
     "transcription": "hyu",
-    "audio": "audio/휴.mp3",
+    "audio": "audio/휴_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "그",
     "translation": "그",
     "transcription": "geu",
-    "audio": "audio/그.mp3",
+    "audio": "audio/그_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -710,7 +710,7 @@
     "word": "르",
     "translation": "르",
     "transcription": "reu",
-    "audio": "audio/르.mp3",
+    "audio": "audio/르_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -731,7 +731,7 @@
     "word": "스",
     "translation": "스",
     "transcription": "seu",
-    "audio": "audio/스.mp3",
+    "audio": "audio/스_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -745,14 +745,14 @@
     "word": "즈",
     "translation": "즈",
     "transcription": "jeu",
-    "audio": "audio/즈.mp3",
+    "audio": "audio/즈_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "츠",
     "translation": "츠",
     "transcription": "cheu",
-    "audio": "audio/츠.mp3",
+    "audio": "audio/츠_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -787,7 +787,7 @@
     "word": "기",
     "translation": "기",
     "transcription": "gi",
-    "audio": "audio/기.mp3",
+    "audio": "audio/기_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -801,35 +801,35 @@
     "word": "디",
     "translation": "디",
     "transcription": "di",
-    "audio": "audio/디.mp3",
+    "audio": "audio/디_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "리",
     "translation": "리",
     "transcription": "ri",
-    "audio": "audio/리.mp3",
+    "audio": "audio/리_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "미",
     "translation": "미",
     "transcription": "mi",
-    "audio": "audio/미.mp3",
+    "audio": "audio/미_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "비",
     "translation": "비",
     "transcription": "bi",
-    "audio": "audio/비.mp3",
+    "audio": "audio/비_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "시",
     "translation": "시",
     "transcription": "si",
-    "audio": "audio/시.mp3",
+    "audio": "audio/시_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -843,42 +843,42 @@
     "word": "지",
     "translation": "지",
     "transcription": "ji",
-    "audio": "audio/지.mp3",
+    "audio": "audio/지_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "치",
     "translation": "치",
     "transcription": "chi",
-    "audio": "audio/치.mp3",
+    "audio": "audio/치_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "키",
     "translation": "키",
     "transcription": "ki",
-    "audio": "audio/키.mp3",
+    "audio": "audio/키_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "티",
     "translation": "티",
     "transcription": "ti",
-    "audio": "audio/티.mp3",
+    "audio": "audio/티_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "피",
     "translation": "피",
     "transcription": "pi",
-    "audio": "audio/피.mp3",
+    "audio": "audio/피_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "히",
     "translation": "히",
     "transcription": "hi",
-    "audio": "audio/히.mp3",
+    "audio": "audio/히_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -892,14 +892,14 @@
     "word": "내",
     "translation": "내",
     "transcription": "nae",
-    "audio": "audio/내.mp3",
+    "audio": "audio/내_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "대",
     "translation": "대",
     "transcription": "dae",
-    "audio": "audio/대.mp3",
+    "audio": "audio/대_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -913,42 +913,42 @@
     "word": "매",
     "translation": "매",
     "transcription": "mae",
-    "audio": "audio/매.mp3",
+    "audio": "audio/매_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "배",
     "translation": "배",
     "transcription": "bae",
-    "audio": "audio/배.mp3",
+    "audio": "audio/배_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "새",
     "translation": "새",
     "transcription": "sae",
-    "audio": "audio/새.mp3",
+    "audio": "audio/새_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "애",
     "translation": "애",
     "transcription": "ae",
-    "audio": "audio/애.mp3",
+    "audio": "audio/애_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "재",
     "translation": "재",
     "transcription": "jae",
-    "audio": "audio/재.mp3",
+    "audio": "audio/재_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "채",
     "translation": "채",
     "transcription": "chae",
-    "audio": "audio/채.mp3",
+    "audio": "audio/채_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
@@ -962,21 +962,21 @@
     "word": "태",
     "translation": "태",
     "transcription": "tae",
-    "audio": "audio/태.mp3",
+    "audio": "audio/태_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "패",
     "translation": "패",
     "transcription": "pae",
-    "audio": "audio/패.mp3",
+    "audio": "audio/패_tts.mp3",
     "description": "Корейский слог для чтения."
   },
   {
     "word": "해",
     "translation": "해",
     "transcription": "hae",
-    "audio": "audio/해.mp3",
+    "audio": "audio/해_tts.mp3",
     "description": "Корейский слог для чтения."
   }
 ]
