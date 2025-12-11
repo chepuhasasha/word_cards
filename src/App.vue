@@ -39,8 +39,7 @@ export interface Word {
   word: string
   translation: string
   transcription: string
-  audio: string
-  rating?: number
+  audio: string | null
 }
 
 const mode = ref<'test' | 'learn' | 'write'>('learn')
@@ -118,12 +117,6 @@ const onFileChange = async (e: Event): Promise<void> => {
         translation: String(item.translation),
         transcription: item.transcription ? String(item.transcription) : '',
         audio: String(item.audio),
-        rating:
-          typeof item.rating === 'number'
-            ? item.rating
-            : item.rating != null
-              ? Number(item.rating)
-              : undefined,
       }))
 
     if (!parsed.length) {

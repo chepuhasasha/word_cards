@@ -1,5 +1,3 @@
-// parser.js (ESM)
-
 import fs from 'fs';
 import path from 'path';
 import axios from 'axios';
@@ -12,7 +10,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const OUTPUT_DIR = path.join(__dirname, 'public/audio');
-const JSON_FILE = path.join(__dirname, 'public/source.json');
+const JSON_FILE = path.join(__dirname, 'public/numbers.json');
 
 if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });

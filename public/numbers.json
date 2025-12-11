@@ -1,0 +1,464 @@
+[
+  {
+    "word": "숫자",
+    "translation": "число",
+    "transcription": "sutja",
+    "audio": null
+  },
+  {
+    "word": "번호",
+    "translation": "номер",
+    "transcription": "beonho",
+    "audio": null
+  },
+  {
+    "word": "돈",
+    "translation": "деньги",
+    "transcription": "don",
+    "audio": null
+  },
+  {
+    "word": "가격",
+    "translation": "цена",
+    "transcription": "gagyeok",
+    "audio": null
+  },
+  {
+    "word": "값",
+    "translation": "стоимость",
+    "transcription": "gap",
+    "audio": null
+  },
+  {
+    "word": "비용",
+    "translation": "расходы, затраты",
+    "transcription": "biyong",
+    "audio": null
+  },
+  {
+    "word": "세금",
+    "translation": "налог",
+    "transcription": "segum",
+    "audio": null
+  },
+  {
+    "word": "할인",
+    "translation": "скидка",
+    "transcription": "harin",
+    "audio": null
+  },
+  {
+    "word": "세일",
+    "translation": "распродажа, сейл",
+    "transcription": "seil",
+    "audio": null
+  },
+  {
+    "word": "현금",
+    "translation": "наличные",
+    "transcription": "hyeongeum",
+    "audio": null
+  },
+  {
+    "word": "카드",
+    "translation": "карта (банковская)",
+    "transcription": "kadeu",
+    "audio": null
+  },
+  {
+    "word": "신용카드",
+    "translation": "кредитная карта",
+    "transcription": "sinyong-kadeu",
+    "audio": null
+  },
+  {
+    "word": "영수증",
+    "translation": "чек, квитанция",
+    "transcription": "yeongsujeung",
+    "audio": null
+  },
+  {
+    "word": "거스름돈",
+    "translation": "сдача",
+    "transcription": "geoseureumdon",
+    "audio": null
+  },
+  {
+    "word": "원",
+    "translation": "вон (валюта)",
+    "transcription": "won",
+    "audio": null
+  },
+  {
+    "word": "한국 돈",
+    "translation": "корейские деньги",
+    "transcription": "hanguk don",
+    "audio": null
+  },
+  {
+    "word": "달러",
+    "translation": "доллар",
+    "transcription": "dalleo",
+    "audio": null
+  },
+  {
+    "word": "유로",
+    "translation": "евро",
+    "transcription": "yuro",
+    "audio": null
+  },
+  {
+    "word": "엔",
+    "translation": "иена",
+    "transcription": "en",
+    "audio": null
+  },
+  {
+    "word": "합계",
+    "translation": "итог, сумма",
+    "transcription": "hapgye",
+    "audio": null
+  },
+  {
+    "word": "총",
+    "translation": "общий (например, общая сумма)",
+    "transcription": "chong",
+    "audio": null
+  },
+  {
+    "word": "잔돈",
+    "translation": "мелочь, мелкие деньги",
+    "transcription": "jandon",
+    "audio": null
+  },
+  {
+    "word": "동전",
+    "translation": "монета",
+    "transcription": "dongjeon",
+    "audio": null
+  },
+  {
+    "word": "지폐",
+    "translation": "бумажная купюра",
+    "transcription": "jipye",
+    "audio": null
+  },
+  {
+    "word": "공",
+    "translation": "ноль",
+    "transcription": "gong",
+    "audio": null
+  },
+  {
+    "word": "영",
+    "translation": "ноль",
+    "transcription": "yeong",
+    "audio": null
+  },
+  {
+    "word": "일",
+    "translation": "один",
+    "transcription": "il",
+    "audio": null
+  },
+  {
+    "word": "이",
+    "translation": "два",
+    "transcription": "i",
+    "audio": null
+  },
+  {
+    "word": "삼",
+    "translation": "три",
+    "transcription": "sam",
+    "audio": null
+  },
+  {
+    "word": "사",
+    "translation": "четыре",
+    "transcription": "sa",
+    "audio": null
+  },
+  {
+    "word": "오",
+    "translation": "пять",
+    "transcription": "o",
+    "audio": null
+  },
+  {
+    "word": "육",
+    "translation": "шесть",
+    "transcription": "yuk",
+    "audio": null
+  },
+  {
+    "word": "칠",
+    "translation": "семь",
+    "transcription": "chil",
+    "audio": null
+  },
+  {
+    "word": "팔",
+    "translation": "восемь",
+    "transcription": "pal",
+    "audio": null
+  },
+  {
+    "word": "구",
+    "translation": "девять",
+    "transcription": "gu",
+    "audio": null
+  },
+  {
+    "word": "십",
+    "translation": "десять",
+    "transcription": "sip",
+    "audio": null
+  },
+  {
+    "word": "이십",
+    "translation": "двадцать",
+    "transcription": "isip",
+    "audio": null
+  },
+  {
+    "word": "삼십",
+    "translation": "тридцать",
+    "transcription": "samsip",
+    "audio": null
+  },
+  {
+    "word": "사십",
+    "translation": "сорок",
+    "transcription": "sasip",
+    "audio": null
+  },
+  {
+    "word": "오십",
+    "translation": "пятьдесят",
+    "transcription": "osip",
+    "audio": null
+  },
+  {
+    "word": "육십",
+    "translation": "шестьдесят",
+    "transcription": "yuksip",
+    "audio": null
+  },
+  {
+    "word": "칠십",
+    "translation": "семьдесят",
+    "transcription": "chilsip",
+    "audio": null
+  },
+  {
+    "word": "팔십",
+    "translation": "восемьдесят",
+    "transcription": "palsip",
+    "audio": null
+  },
+  {
+    "word": "구십",
+    "translation": "девяносто",
+    "transcription": "gusip",
+    "audio": null
+  },
+  {
+    "word": "백",
+    "translation": "сто",
+    "transcription": "baek",
+    "audio": null
+  },
+  {
+    "word": "천",
+    "translation": "тысяча",
+    "transcription": "cheon",
+    "audio": null
+  },
+  {
+    "word": "만",
+    "translation": "десять тысяч",
+    "transcription": "man",
+    "audio": null
+  },
+  {
+    "word": "십만",
+    "translation": "сто тысяч",
+    "transcription": "simman",
+    "audio": null
+  },
+  {
+    "word": "백만",
+    "translation": "миллион",
+    "transcription": "baengman",
+    "audio": null
+  },
+  {
+    "word": "천만",
+    "translation": "десять миллионов",
+    "transcription": "cheonman",
+    "audio": null
+  },
+  {
+    "word": "억",
+    "translation": "сто миллионов",
+    "transcription": "eok",
+    "audio": null
+  },
+  {
+    "word": "하나",
+    "translation": "один (нативное число)",
+    "transcription": "hana",
+    "audio": null
+  },
+  {
+    "word": "둘",
+    "translation": "два (нативное число)",
+    "transcription": "dul",
+    "audio": null
+  },
+  {
+    "word": "셋",
+    "translation": "три (нативное число)",
+    "transcription": "set",
+    "audio": null
+  },
+  {
+    "word": "넷",
+    "translation": "четыре (нативное число)",
+    "transcription": "net",
+    "audio": null
+  },
+  {
+    "word": "다섯",
+    "translation": "пять (нативное число)",
+    "transcription": "daseot",
+    "audio": null
+  },
+  {
+    "word": "여섯",
+    "translation": "шесть (нативное число)",
+    "transcription": "yeoseot",
+    "audio": null
+  },
+  {
+    "word": "일곱",
+    "translation": "семь (нативное число)",
+    "transcription": "ilgop",
+    "audio": null
+  },
+  {
+    "word": "여덟",
+    "translation": "восемь (нативное число)",
+    "transcription": "yeodeol",
+    "audio": null
+  },
+  {
+    "word": "아홉",
+    "translation": "девять (нативное число)",
+    "transcription": "ahop",
+    "audio": null
+  },
+  {
+    "word": "열",
+    "translation": "десять (нативное число)",
+    "transcription": "yeol",
+    "audio": null
+  },
+  {
+    "word": "한",
+    "translation": "один (перед счетным словом)",
+    "transcription": "han",
+    "audio": null
+  },
+  {
+    "word": "두",
+    "translation": "два (перед счетным словом)",
+    "transcription": "du",
+    "audio": null
+  },
+  {
+    "word": "세",
+    "translation": "три (перед счетным словом)",
+    "transcription": "se",
+    "audio": null
+  },
+  {
+    "word": "네",
+    "translation": "четыре (перед счетным словом)",
+    "transcription": "ne",
+    "audio": null
+  },
+  {
+    "word": "개",
+    "translation": "штука (счетное слово)",
+    "transcription": "gae",
+    "audio": null
+  },
+  {
+    "word": "명",
+    "translation": "человек (счетное слово)",
+    "transcription": "myeong",
+    "audio": null
+  },
+  {
+    "word": "마리",
+    "translation": "голова (животное, счетное слово)",
+    "transcription": "mari",
+    "audio": null
+  },
+  {
+    "word": "번",
+    "translation": "раз (сколько раз)",
+    "transcription": "beon",
+    "audio": null
+  },
+  {
+    "word": "장",
+    "translation": "лист, билет (счетное слово)",
+    "transcription": "jang",
+    "audio": null
+  },
+  {
+    "word": "병",
+    "translation": "бутылка (счетное слово)",
+    "transcription": "byeong",
+    "audio": null
+  },
+  {
+    "word": "얼마예요?",
+    "translation": "Сколько стоит?",
+    "transcription": "eolmayeyo?",
+    "audio": null
+  },
+  {
+    "word": "얼마죠?",
+    "translation": "Сколько?",
+    "transcription": "eolmajyo?",
+    "audio": null
+  },
+  {
+    "word": "너무 비싸요",
+    "translation": "Слишком дорого",
+    "transcription": "neomu bissayo",
+    "audio": null
+  },
+  {
+    "word": "싸요",
+    "translation": "Дешево / недорого",
+    "transcription": "ssayo",
+    "audio": null
+  },
+  {
+    "word": "카드 돼요?",
+    "translation": "Можно картой?",
+    "transcription": "kadeu dwaeyo?",
+    "audio": null
+  },
+  {
+    "word": "현금만 돼요",
+    "translation": "Только наличные",
+    "transcription": "hyeongeumman dwaeyo",
+    "audio": null
+  }
+]
