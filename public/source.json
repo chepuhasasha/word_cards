@@ -1,283 +1,63 @@
 [
   {
-    "word": "하얀색",
-    "rating": 57151
-  },
-  {
-    "word": "초등학생",
-    "rating": 55056
-  },
-  {
-    "word": "저곳",
-    "rating": 52763
-  },
-  {
-    "word": "작은딸",
-    "rating": 52406
-  },
-  {
-    "word": "일식",
-    "rating": 52043
-  },
-  {
-    "word": "이십",
-    "rating": 51771
-  },
-  {
-    "word": "아흔",
-    "rating": 49265
-  },
-  {
-    "word": "미용실",
-    "rating": 44499
-  },
-  {
-    "word": "검정색",
-    "rating": 38923
-  },
-  {
-    "word": "갈비탕",
-    "rating": 38470
-  },
-  {
-    "word": "편의점",
-    "rating": 37520
-  },
-  {
-    "word": "케첩",
-    "rating": 37160
-  },
-  {
-    "word": "중식",
-    "rating": 36464
-  },
-  {
-    "word": "제과점",
-    "rating": 36191
-  },
-  {
-    "word": "외과",
-    "rating": 35141
-  },
-  {
-    "word": "여덟",
-    "rating": 34841
-  },
-  {
-    "word": "억",
-    "rating": 34770
-  },
-  {
-    "word": "양식",
-    "rating": 34701
-  },
-  {
-    "word": "약혼자",
-    "rating": 34677
-  },
-  {
-    "word": "분필",
-    "rating": 33246
-  },
-  {
-    "word": "멍멍",
-    "rating": 32365
-  },
-  {
-    "word": "팔십",
-    "rating": 29719
-  },
-  {
-    "word": "큰어머니",
-    "rating": 29578
-  },
-  {
-    "word": "출석하다",
-    "rating": 29478
-  },
-  {
-    "word": "육십",
-    "rating": 28580
-  },
-  {
-    "word": "예습하다",
-    "rating": 28338
-  },
-  {
-    "word": "예습",
-    "rating": 28337
-  },
-  {
-    "word": "예매하다",
-    "rating": 28328
-  },
-  {
-    "word": "영상",
-    "rating": 28312
-  },
-  {
-    "word": "어저께",
-    "rating": 28175
-  },
-  {
-    "word": "약혼녀",
-    "rating": 28129
-  },
-  {
-    "word": "식품점",
-    "rating": 27929
-  },
-  {
-    "word": "시아버지",
-    "rating": 27910
-  },
-  {
-    "word": "쉰",
-    "rating": 27846
-  },
-  {
-    "word": "따님",
-    "rating": 26587
-  },
-  {
-    "word": "내후년",
-    "rating": 26255
-  },
-  {
-    "word": "까만색",
-    "rating": 26135
-  },
-  {
-    "word": "기념일",
-    "rating": 26081
-  },
-  {
-    "word": "결석하다",
-    "rating": 25684
-  },
-  {
-    "word": "천",
-    "rating": 24937
-  },
-  {
-    "word": "아드님",
-    "rating": 24058
-  },
-  {
-    "word": "십",
-    "rating": 24036
-  },
-  {
-    "word": "설렁탕",
-    "rating": 23768
-  },
-  {
-    "word": "빗",
-    "rating": 23601
-  },
-  {
-    "word": "복사기",
-    "rating": 23452
-  },
-  {
-    "word": "메일",
-    "rating": 23197
-  },
-  {
-    "word": "넉",
-    "rating": 22829
-  },
-  {
-    "word": "한식",
-    "rating": 22159
-  },
-  {
-    "word": "한글날",
-    "rating": 22156
-  },
-  {
-    "word": "축구장",
-    "rating": 21959
-  },
-  {
-    "word": "작은어머니",
-    "rating": 21595
-  },
-  {
-    "word": "오",
-    "rating": 21348
-  },
-  {
-    "word": "예순",
-    "rating": 21340
-  },
-  {
-    "word": "양력",
-    "rating": 21230
-  },
-  {
-    "word": "소아과",
-    "rating": 21016
-  },
-  {
-    "word": "색연필",
-    "rating": 20933
-  },
-  {
-    "word": "사탕",
-    "rating": 20886
-  },
-  {
-    "word": "배추김치",
-    "rating": 20677
-  },
-  {
-    "word": "다섯째",
-    "rating": 20314
-  },
-  {
-    "word": "눈병",
-    "rating": 20303
-  },
-  {
     "word": "냉방",
-    "rating": 20268
+    "rating": 20268,
+    "translation": "охлаждение, кондиционирование (помещения)",
+    "transcription": "нэнбанг"
   },
   {
     "word": "그저께",
-    "rating": 20155
+    "rating": 20155,
+    "translation": "позавчера",
+    "transcription": "кычоккэ"
   },
   {
     "word": "관광버스",
-    "rating": 20077
+    "rating": 20077,
+    "translation": "туристический автобус",
+    "transcription": "квангванбоссы"
   },
   {
     "word": "공항버스",
-    "rating": 20070
+    "rating": 20070,
+    "translation": "аэропортовый автобус",
+    "transcription": "конханбоссы"
   },
   {
     "word": "형수",
-    "rating": 19808
+    "rating": 19808,
+    "translation": "жена старшего брата (для мужчины)",
+    "transcription": "хёнсу"
   },
   {
     "word": "학생증",
-    "rating": 19755
+    "rating": 19755,
+    "translation": "студенческий билет",
+    "transcription": "хаксэнчжын"
   },
   {
     "word": "필통",
-    "rating": 19748
+    "rating": 19748,
+    "translation": "пенал",
+    "transcription": "пхильтхон"
   },
   {
     "word": "칠십",
-    "rating": 19607
+    "rating": 19607,
+    "translation": "семьдесят",
+    "transcription": "чхильшип"
   },
   {
     "word": "청소기",
-    "rating": 19549
+    "rating": 19549,
+    "translation": "пылесос",
+    "transcription": "чхонсоги"
   },
   {
     "word": "중국어",
-    "rating": 19454
+    "rating": 19454,
+    "translation": "китайский язык",
+    "transcription": "чунгуго"
   },
   {
     "word": "주차하다",

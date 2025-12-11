@@ -31,10 +31,10 @@ template(v-else)
 
   .word-wrapper
     transition(name="word")
-      .word(:key="current.value + '-' + mode") {{ mode === 'write' ? current.translate : current.value }}
+      .word(:key="current.word + '-' + mode") {{ mode === 'write' ? current.translation : current.word }}
 
   .audio(v-if="mode !== 'write'")
-    button(@click='play(current.audio)' :class='{audio__play:isPlaying}')
+    button(v-if='current.audio && current.audio != "error"' @click='play(current.audio)' :class='{audio__play:isPlaying}')
       svg(width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg")
         path(d="M14.2451 4.79289C15.036 5.92672 15.4998 7.30566 15.4998 8.79286C15.4998 10.2802 15.036 11.6591 14.2451 12.7929M8.1343 1.15857L4.96863 4.32426C4.79568 4.49721 4.7092 4.58369 4.60828 4.64553C4.51881 4.70036 4.42127 4.74076 4.31923 4.76526C4.20414 4.79289 4.08185 4.79289 3.83726 4.79289H2.1C1.53995 4.79289 1.25992 4.79289 1.04601 4.90188C0.85785 4.99775 0.70487 5.15073 0.60899 5.3389C0.5 5.55281 0.5 5.83283 0.5 6.39289V11.1929C0.5 11.753 0.5 12.033 0.60899 12.2469C0.70487 12.4351 0.85785 12.5881 1.04601 12.6839C1.25992 12.7929 1.53995 12.7929 2.1 12.7929H3.83726C4.08185 12.7929 4.20414 12.7929 4.31923 12.8206C4.42127 12.8451 4.51881 12.8855 4.60828 12.9403C4.7092 13.0021 4.79568 13.0886 4.96863 13.2616L8.1343 16.4272C8.5627 16.8556 8.7769 17.0698 8.9608 17.0843C9.1203 17.0968 9.2763 17.0322 9.3802 16.9105C9.5 16.7703 9.5 16.4674 9.5 15.8616V1.72426C9.5 1.11844 9.5 0.815534 9.3802 0.675274C9.2763 0.553574 9.1203 0.488985 8.9608 0.501545C8.7769 0.516015 8.5627 0.730205 8.1343 1.15857Z"
           stroke="var(--c4)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
@@ -50,7 +50,7 @@ template(v-else)
       ) {{ option }}
 
     template(v-else-if="mode === 'learn'")
-      .answer__text {{ current.translate }}
+      .answer__text {{ current.translation }}
 
     template(v-else)
       input(
@@ -73,10 +73,11 @@ input(
 import { ref, onBeforeUnmount, onMounted } from 'vue'
 
 export interface Word {
-  value: string
-  translate: string
+  word: string
+  translation: string
   transcription: string
   audio: string
+  rating?: number
 }
 
 const mode = ref<'test' | 'learn' | 'write'>('test')
@@ -118,15 +119,21 @@ const onFileChange = async (e: Event) => {
       .filter(
         (item) =>
           item &&
-          typeof item.value === 'string' &&
-          typeof item.translate === 'string' &&
+          typeof item.word === 'string' &&
+          typeof item.translation === 'string' &&
           typeof item.audio === 'string',
       )
       .map((item) => ({
-        value: String(item.value),
-        translate: String(item.translate),
+        word: String(item.word),
+        translation: String(item.translation),
         transcription: item.transcription ? String(item.transcription) : '',
         audio: String(item.audio),
+        rating:
+          typeof item.rating === 'number'
+            ? item.rating
+            : item.rating != null
+              ? Number(item.rating)
+              : undefined,
       }))
 
     if (!parsed.length) {
@@ -200,8 +207,8 @@ const generateQuestion = () => {
   const others = list.value.filter((w) => w !== word)
   const distractors = shuffle(others)
     .slice(0, Math.min(3, others.length))
-    .map((w) => w.translate)
-  const allOptions = shuffle([...distractors, word.translate])
+    .map((w) => w.translation)
+  const allOptions = shuffle([...distractors, word.translation])
 
   options.value = allOptions
   selected.value = null
@@ -229,7 +236,7 @@ const check = (answer: string) => {
   if (!current.value) return
 
   selected.value = answer
-  isCorrect.value = answer === current.value.translate
+  isCorrect.value = answer === current.value.translation
 
   if (isCorrect.value) {
     setTimeout(() => {
@@ -244,7 +251,7 @@ const checkWrite = () => {
   if (mode.value !== 'write') return
   if (!current.value) return
 
-  const correct = normalize(userAnswer.value) === normalize(current.value.value)
+  const correct = normalize(userAnswer.value) === normalize(current.value.word)
   isCorrect.value = correct
 
   if (correct) {

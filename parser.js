@@ -1,19 +1,34 @@
-const fs = require('fs');
-const path = require('path');
-const axios = require('axios');
-const puppeteer = require('puppeteer');
+// parser.js (ESM)
 
-const WORDS = [
-  "것",
-  "하다",
-  "있다",
-]
+import fs from 'fs';
+import path from 'path';
+import axios from 'axios';
+import puppeteer from 'puppeteer';
+import { fileURLToPath } from 'url';
 
 const AUDIO_BUTTON_SELECTOR = 'button.btn_listen.all';
-const OUTPUT_DIR = path.join(__dirname, 'audio');
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const OUTPUT_DIR = path.join(__dirname, 'public/audio');
+const JSON_FILE = path.join(__dirname, 'public/source.json');
 
 if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+}
+
+function loadJson() {
+  const raw = fs.readFileSync(JSON_FILE, 'utf8');
+  const data = JSON.parse(raw);
+  if (!Array.isArray(data)) {
+    throw new Error('6k.json должен содержать массив объектов');
+  }
+  return data;
+}
+
+function saveJson(data) {
+  fs.writeFileSync(JSON_FILE, JSON.stringify(data, null, 2), 'utf8');
 }
 
 async function downloadFile(url, filePath) {
@@ -24,6 +39,23 @@ async function downloadFile(url, filePath) {
     w.on('finish', resolve);
     w.on('error', reject);
   });
+}
+
+async function downloadFileWithRetry(url, filePath, maxAttempts = 3) {
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      await downloadFile(url, filePath);
+      return;
+    } catch (e) {
+      console.log(
+        `Ошибка скачивания (попытка ${attempt}/${maxAttempts}) для "${filePath}": ${e.message}`
+      );
+      if (attempt === maxAttempts) {
+        throw e;
+      }
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+    }
+  }
 }
 
 async function getAudioUrlForWord(browser, word) {
@@ -61,36 +93,55 @@ async function getAudioUrlForWord(browser, word) {
 }
 
 (async () => {
+  const data = loadJson();
+  const itemsToProcess = data.filter(
+    (item) => item && item.word && !Object.prototype.hasOwnProperty.call(item, 'audio')
+  );
+
+  if (itemsToProcess.length === 0) {
+    console.log('Все слова уже имеют поле audio — ничего делать не нужно.');
+    return;
+  }
+
+  console.log(`Нужно обработать слов: ${itemsToProcess.length}`);
+
   const browser = await puppeteer.launch({ headless: false });
-  const results = [];
 
   try {
-    for (const word of WORDS) {
+    for (const item of itemsToProcess) {
+      const word = item.word;
+      console.log(`\nОбрабатываю слово: "${word}"`);
+
       try {
         const url = await getAudioUrlForWord(browser, word);
-        console.log(`${word}: ${url || 'нет урла'}`);
-        results.push({ word, url });
+
+        if (!url) {
+          console.log(`Не удалось найти урл для "${word}"`);
+          item.audio = 'error';
+          saveJson(data);
+          continue;
+        }
+
+        console.log(`Найден урл для "${word}": ${url}`);
+
+        const safeName = word.replace(/[\\\/:*?"<>|]/g, '_');
+        const filePath = path.join(OUTPUT_DIR, `${safeName}.mp3`);
+
+        console.log(`Скачиваю "${word}" -> ${filePath}`);
+        await downloadFileWithRetry(url, filePath, 3);
+        console.log(`Готово: ${filePath}`);
+
+        item.audio = `audio/${safeName}.mp3`;
+        saveJson(data);
       } catch (e) {
-        console.log(`${word}: ошибка — ${e.message}`);
-        results.push({ word, url: null });
+        console.log(`Ошибка для "${word}": ${e.message}`);
+        item.audio = 'error';
+        saveJson(data);
       }
     }
   } finally {
     await browser.close();
   }
 
-  for (const { word, url } of results) {
-    if (!url) continue;
-
-    const safeName = word.replace(/[\\\/:*?"<>|]/g, '_');
-    const filePath = path.join(OUTPUT_DIR, `${safeName}.mp3`);
-
-    try {
-      console.log(`Скачиваю ${word} -> ${filePath}`);
-      await downloadFile(url, filePath);
-      console.log(`Готово: ${filePath}`);
-    } catch (e) {
-      console.log(`Ошибка загрузки для ${word}: ${e.message}`);
-    }
-  }
+  console.log('\nОбработка завершена.');
 })();
