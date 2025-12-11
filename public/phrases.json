@@ -94,119 +94,119 @@
     "word": "화장실이 어디예요?",
     "translation": "Где туалет?",
     "transcription": "hwajangsil-i eodiyeyo",
-    "audio": "audio/화장실이_어디예요.mp3",
+    "audio": "audio/화장실이 어디예요__tts.mp3",
     "description": "Вежливый вопрос, где находится туалет."
   },
   {
     "word": "한국어 잘 못해요.",
     "translation": "Я плохо говорю по-корейски.",
     "transcription": "hangugeo jal mothaeyo",
-    "audio": "audio/한국어_잘_못해요.mp3",
+    "audio": "audio/한국어 잘 못해요._tts.mp3",
     "description": "Фраза, чтобы предупредить, что вы не очень владеете языком."
   },
   {
     "word": "천천히 말해 주세요.",
     "translation": "Говорите, пожалуйста, медленнее.",
     "transcription": "cheoncheonhi malhae juseyo",
-    "audio": "audio/천천히_말해_주세요.mp3",
+    "audio": "audio/천천히 말해 주세요._tts.mp3",
     "description": "Просьба говорить медленнее, чтобы лучше понять."
   },
   {
     "word": "다시 말해 주세요.",
     "translation": "Повторите, пожалуйста.",
     "transcription": "dasi malhae juseyo",
-    "audio": "audio/다시_말해_주세요.mp3",
+    "audio": "audio/다시 말해 주세요._tts.mp3",
     "description": "Просьба повторить сказанное."
   },
   {
     "word": "이해했어요.",
     "translation": "Я понял(а).",
     "transcription": "ihaehaesseoyo",
-    "audio": "audio/이해했어요.mp3",
+    "audio": "audio/이해했어요..mp3",
     "description": "Фраза, когда вы поняли объяснение."
   },
   {
     "word": "잘 모르겠어요.",
     "translation": "Я не очень понимаю; не знаю.",
     "transcription": "jal moreugesseoyo",
-    "audio": "audio/잘_모르겠어요.mp3",
+    "audio": "audio/잘 모르겠어요._tts.mp3",
     "description": "Вежливый способ сказать, что вы не уверены или не понимаете."
   },
   {
     "word": "좋아요.",
     "translation": "Хорошо; нравится.",
     "transcription": "joayo",
-    "audio": "audio/좋아요.mp3",
+    "audio": "audio/좋아요._tts.mp3",
     "description": "Согласие или выражение того, что что-то нравится."
   },
   {
     "word": "싫어요.",
     "translation": "Не нравится.",
     "transcription": "sireoyo",
-    "audio": "audio/싫어요.mp3",
+    "audio": "audio/싫어요..mp3",
     "description": "Вежливо сказать, что что-то не нравится."
   },
   {
     "word": "있어요.",
     "translation": "Есть; имеется.",
     "transcription": "isseoyo",
-    "audio": "audio/있어요.mp3",
+    "audio": "audio/있어요._tts.mp3",
     "description": "Указывает на наличие чего-то."
   },
   {
     "word": "없어요.",
     "translation": "Нет; не имеется.",
     "transcription": "eopseoyo",
-    "audio": "audio/없어요.mp3",
+    "audio": "audio/없어요._tts.mp3",
     "description": "Указывает на отсутствие чего-то."
   },
   {
     "word": "뭐예요?",
     "translation": "Что это?",
     "transcription": "mwoyeyo",
-    "audio": "audio/뭐예요.mp3",
+    "audio": "audio/뭐예요__tts.mp3",
     "description": "Вежливый вопрос «что это?»."
   },
   {
     "word": "지금 몇 시예요?",
     "translation": "Который сейчас час?",
     "transcription": "jigeum myeot siyeyo",
-    "audio": "audio/지금_몇_시예요.mp3",
+    "audio": "audio/지금 몇 시예요__tts.mp3",
     "description": "Вопрос о текущем времени."
   },
   {
     "word": "어디서 만날까요?",
     "translation": "Где встретимся?",
     "transcription": "eodiseo mannalkkayo",
-    "audio": "audio/어디서_만날까요.mp3",
+    "audio": "audio/어디서 만날까요__tts.mp3",
     "description": "Предложение обсудить место встречи."
   },
   {
     "word": "도와줘서 감사합니다.",
     "translation": "Спасибо за помощь.",
     "transcription": "dowajwoseo gamsahamnida",
-    "audio": "audio/도와줘서_감사합니다.mp3",
+    "audio": "audio/도와줘서 감사합니다._tts.mp3",
     "description": "Благодарность за оказанную помощь."
   },
   {
     "word": "수고하셨습니다.",
     "translation": "Спасибо за ваш труд.",
     "transcription": "sugohasyeosseumnida",
-    "audio": "audio/수고하셨습니다.mp3",
+    "audio": "audio/수고하셨습니다..mp3",
     "description": "Фраза после совместной работы или услуги."
   },
   {
     "word": "안녕히 계세요.",
     "translation": "До свидания (я ухожу).",
     "transcription": "annyeonghi gyeseyo",
-    "audio": "audio/안녕히_계세요.mp3",
+    "audio": "audio/안녕히 계세요._tts.mp3",
     "description": "Говорит уходящий человеку, который остается."
   },
   {
     "word": "안녕히 가세요.",
     "translation": "До свидания (вы уходите).",
     "transcription": "annyeonghi gaseyo",
-    "audio": "audio/안녕히_가세요.mp3",
+    "audio": "audio/안녕히 가세요._tts.mp3",
     "description": "Говорит остающийся человеку, который уходит."
   }
 ]
