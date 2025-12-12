@@ -3,8 +3,14 @@ main
   UploadPrompt(v-if="!current" @open="open")
   template(v-else)
     ModeBar(:mode="mode" @update:mode="updateMode" @open="open")
-    WordCounter(:passed="passedCount" :total="totalCount" :current="Boolean(current)")
-    WordDisplay(:word="displayedWord" :word-key="wordKey")
+    WordCounter(
+      :passed="passedCount"
+      :total="totalCount"
+      :current="Boolean(current)"
+      :liked="isCurrentLiked"
+      @remove-like="removeLike"
+    )
+    WordDisplay(:word="displayedWord" :word-key="wordKey" :liked="isCurrentLiked" @like="likeCurrentWord")
     AudioPlayer(
       v-if="mode !== 'write' && current?.audio"
       :audio-src="current?.audio || ''"
@@ -45,20 +51,27 @@ export interface Word {
 
 const mode = ref<'test' | 'learn' | 'write' | 'liked'>('learn')
 const list = ref<Word[]>([])
+const favorites = ref<Word[]>([])
 const current = ref<Word | null>(null)
 const options = ref<string[]>([])
 const selected = ref<string | null>(null)
 const isCorrect = ref<boolean | null>(null)
 const userAnswer = ref('')
 const remaining = ref<Word[]>([])
+const likedRemaining = ref<Word[]>([])
 
 const fileInput = ref<HTMLInputElement | null>(null)
 
-const totalCount = computed(() => list.value.length)
+const totalCount = computed(() =>
+  mode.value === 'liked' ? favorites.value.length : list.value.length,
+)
 
 const passedCount = computed(() => {
-  if (!list.value.length || !current.value) return 0
-  return list.value.length - remaining.value.length
+  const pool = mode.value === 'liked' ? likedRemaining.value : remaining.value
+  const listForMode = mode.value === 'liked' ? favorites.value : list.value
+
+  if (!listForMode.length || !current.value) return 0
+  return listForMode.length - pool.length
 })
 
 const displayedWord = computed(() => {
@@ -79,6 +92,13 @@ const wordKey = computed(() => {
   return `${current.value.word}-${mode.value}`
 })
 
+const FAVORITES_KEY = 'word-cards.favorites'
+
+const isCurrentLiked = computed(() => {
+  if (!current.value) return false
+  return favorites.value.some((word) => word.word === current.value?.word)
+})
+
 /**
  * Перемешивает элементы переданного массива.
  * @param arr Массив, порядок элементов которого нужно случайно изменить.
@@ -94,6 +114,25 @@ const open = (): void => {
   if (fileInput.value) {
     fileInput.value.click()
   }
+}
+
+/**
+ * Сохраняет список избранных слов в localStorage.
+ */
+const persistFavorites = (): void => {
+  localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites.value))
+}
+
+/**
+ * Загружает сохраненные избранные слова из localStorage.
+ */
+const loadFavorites = (): void => {
+  const stored = localStorage.getItem(FAVORITES_KEY)
+
+  if (!stored) return
+
+  const parsed = JSON.parse(stored) as Word[]
+  favorites.value = parsed
 }
 
 /**
@@ -154,22 +193,31 @@ const onFileChange = async (e: Event): Promise<void> => {
  * Формирует новый вопрос и подставляет варианты ответа.
  */
 const generateQuestion = (): void => {
-  if (!list.value.length) return
+  const listForMode = mode.value === 'liked' ? favorites.value : list.value
+  const pool = mode.value === 'liked' ? likedRemaining : remaining
 
-  if (!remaining.value.length) {
-    remaining.value = shuffle([...list.value])
+  if (!listForMode.length) {
+    current.value = null
+    options.value = []
+    selected.value = null
+    isCorrect.value = null
+    return
   }
 
-  const word = remaining.value.pop()
+  if (!pool.value.length) {
+    pool.value = shuffle([...listForMode])
+  }
+
+  const word = pool.value.pop()
   if (!word) return
 
   current.value = word
 
-  const others = list.value.filter((w) => w !== word)
+  const others = listForMode.filter((w) => w !== word)
   const distractors = shuffle(others)
     .slice(0, Math.min(3, others.length))
     .map((w) => w.translation)
-  const allOptions = shuffle([...distractors, word.translation])
+  const allOptions = mode.value === 'test' ? shuffle([...distractors, word.translation]) : []
 
   options.value = allOptions
   selected.value = null
@@ -238,7 +286,7 @@ const checkWrite = (): void => {
 const handleKeydown = (e: KeyboardEvent): void => {
   if (e.key !== 'Enter') return
 
-  if (mode.value === 'learn') {
+  if (mode.value === 'learn' || mode.value === 'liked') {
     e.preventDefault()
     next()
   } else if (mode.value === 'write') {
@@ -251,17 +299,49 @@ const handleKeydown = (e: KeyboardEvent): void => {
  * Устанавливает новый режим обучения и сбрасывает состояние ввода.
  * @param nextMode Режим, выбранный пользователем.
  */
-const updateMode = (nextMode: 'test' | 'learn' | 'write'): void => {
+const updateMode = (nextMode: 'test' | 'learn' | 'write' | 'liked'): void => {
   mode.value = nextMode
   isCorrect.value = null
   userAnswer.value = ''
+  selected.value = null
+  if (nextMode !== 'test') {
+    options.value = []
+  }
   if (current.value) {
+    generateQuestion()
+  }
+}
+
+/**
+ * Добавляет текущее слово в избранное.
+ */
+const likeCurrentWord = (): void => {
+  if (!current.value) return
+  if (isCurrentLiked.value) return
+
+  favorites.value = [...favorites.value, current.value]
+  likedRemaining.value = []
+  persistFavorites()
+}
+
+/**
+ * Удаляет текущее слово из избранного.
+ */
+const removeLike = (): void => {
+  if (!current.value) return
+
+  favorites.value = favorites.value.filter((word) => word.word !== current.value?.word)
+  likedRemaining.value = likedRemaining.value.filter((word) => word.word !== current.value?.word)
+  persistFavorites()
+
+  if (mode.value === 'liked') {
     generateQuestion()
   }
 }
 
 onMounted(() => {
   window.addEventListener('keydown', handleKeydown)
+  loadFavorites()
   generateQuestion()
 })
 

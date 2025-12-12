@@ -8,7 +8,7 @@
       :class="{ ok: selected === option && isCorrect === true, error: selected === option && isCorrect === false }"
     ) {{ option }}
 
-  template(v-else-if="mode === 'learn'")
+  template(v-else-if="mode === 'learn' || mode === 'liked'")
     .answer__text {{ translation }}
 
   template(v-else)
@@ -23,7 +23,7 @@
 
 <script setup lang="ts">
 const props = defineProps<{
-  mode: 'test' | 'learn' | 'write'
+  mode: 'test' | 'learn' | 'write' | 'liked'
   options: string[]
   selected: string | null
   isCorrect: boolean | null
