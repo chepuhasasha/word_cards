@@ -72,20 +72,32 @@ const cleanupAudio = (): void => {
 }
 
 /**
+ * Убирает лишние пробелы и подготавливает текст к генерации TTS.
+ * @param text Исходная строка.
+ */
+const normalizeText = (text: string): string => text.trim()
+
+/**
+ * Вычисляет длину строки в байтах для передачи параметра textlen.
+ * @param text Строка для подсчета длины.
+ */
+const getTextByteLength = (text: string): number => new TextEncoder().encode(text).length
+
+/**
  * Формирует URL для запроса озвучки через Google Translate TTS.
  * @param text Текст, который нужно озвучить.
  */
 const buildTtsUrl = (text: string): string => {
-  const trimmed = text.trim()
+  const normalized = normalizeText(text)
 
   const params = new URLSearchParams({
     ie: 'UTF-8',
-    q: trimmed,
+    q: normalized,
     tl: TTS_LANG,
     client: 'tw-ob',
     total: '1',
     idx: '0',
-    textlen: String(trimmed.length),
+    textlen: String(getTextByteLength(normalized)),
   })
 
   return `${TTS_ENDPOINT}?${params.toString()}`
@@ -96,12 +108,14 @@ const buildTtsUrl = (text: string): string => {
  * @param text Текст, который нужно озвучить.
  */
 const getAudioUrl = async (text: string): Promise<string> => {
-  if (audioCache.has(text)) {
-    return audioCache.get(text) as string
+  const normalized = normalizeText(text)
+
+  if (audioCache.has(normalized)) {
+    return audioCache.get(normalized) as string
   }
 
-  const ttsUrl = buildTtsUrl(text)
-  audioCache.set(text, ttsUrl)
+  const ttsUrl = buildTtsUrl(normalized)
+  audioCache.set(normalized, ttsUrl)
   return ttsUrl
 }
 
@@ -142,16 +156,18 @@ const waitForCanPlay = (element: HTMLAudioElement): Promise<void> =>
 const prepareAudio = async (text: string): Promise<void> => {
   ensureAudioElement()
 
-  if (!text || !audioElement.value) return
+  const normalized = normalizeText(text)
 
-  if (currentAudioKey.value === text && audioElement.value.src) {
+  if (!normalized || !audioElement.value) return
+
+  if (currentAudioKey.value === normalized && audioElement.value.src) {
     return
   }
 
   isLoading.value = true
   try {
-    const source = await getAudioUrl(text)
-    currentAudioKey.value = text
+    const source = await getAudioUrl(normalized)
+    currentAudioKey.value = normalized
     audioElement.value.src = source
     audioElement.value.load()
     await waitForCanPlay(audioElement.value)
@@ -191,8 +207,12 @@ const togglePlayback = async (): Promise<void> => {
     return
   }
 
-  await prepareAudio(props.audioSrc)
-  await playPreparedAudio()
+  try {
+    await prepareAudio(props.audioSrc)
+    await playPreparedAudio()
+  } catch (error) {
+    console.error('Не удалось подготовить или воспроизвести аудио', error)
+  }
 }
 
 watch(
@@ -204,10 +224,14 @@ watch(
     }
 
     isPlaying.value = false
-    await prepareAudio(next)
+    try {
+      await prepareAudio(next)
 
-    if (props.autoplay !== false) {
-      await playPreparedAudio()
+      if (props.autoplay !== false) {
+        await playPreparedAudio()
+      }
+    } catch (error) {
+      console.error('Не удалось загрузить аудио', error)
     }
   },
   { immediate: true },
