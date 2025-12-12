@@ -68,17 +68,15 @@ const handleSelect = (setId: string): void => {
   inset: 0;
   place-items: center;
   z-index: 1000;
-  background: rgb(0 0 0 / 40%);
   padding: 20px;
 }
 
 .selector {
   display: grid;
   gap: 16px;
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgb(0 0 0 / 15%);
-  background: var(--background);
-  padding: 24px;
+  border-radius: 40px;
+  background: var(--c2);
+  padding: 40px;
   width: min(480px, 100%);
 }
 
@@ -90,7 +88,7 @@ const handleSelect = (setId: string): void => {
 
 .selector__title {
   margin: 0;
-  color: var(--c1);
+  color: var(--c4);
   font-size: 18px;
 }
 
@@ -132,11 +130,11 @@ const handleSelect = (setId: string): void => {
     background 0.15s ease;
   border: 1px solid transparent;
   border-radius: 10px;
-  background: var(--c6);
+  background: var(--c1);
   cursor: pointer;
   padding: 12px 14px;
   width: 100%;
-  color: var(--c1);
+  color: var(--c5);
 
   &:hover {
     border-color: var(--accent);
