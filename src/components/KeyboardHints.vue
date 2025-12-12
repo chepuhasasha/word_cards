@@ -26,11 +26,12 @@ const props = defineProps<{ activeKey: string | null }>()
 @use '@/assets/styles/mixins' as mixins;
 
 .keyboard {
+  @include mixins.flex-center(10px, row, wrap);
+
   position: absolute;
   bottom: 10px;
-  width: 100vw;
   padding: 0 40px;
-  @include mixins.flex-center(10px, row, wrap);
+  width: 100vw;
 
   &_key {
     @include mixins.flex-center(4px);
@@ -40,12 +41,12 @@ const props = defineProps<{ activeKey: string | null }>()
     @include mixins.capsule(0 10px);
 
     transition: all 0.3s ease;
-    height: 30px;
-    min-height: 30px;
-    min-width: 30px;
-    background: var(--c1);
     border: 1px solid var(--c3);
     border-bottom: 4px solid var(--c3);
+    background: var(--c1);
+    min-width: 30px;
+    height: 30px;
+    min-height: 30px;
   }
 
   &_hint,
@@ -54,8 +55,8 @@ const props = defineProps<{ activeKey: string | null }>()
   }
 
   &_highlight {
-    color: var(--accent);
     border-color: var(--accent);
+    color: var(--accent);
   }
 }
 </style>

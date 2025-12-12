@@ -22,12 +22,12 @@
 
 @keyframes bounce-out {
   0% {
-    opacity: 1;
     transform: scale(1);
+    opacity: 1;
   }
 
   100% {
-    opacity: 0;
     transform: scale(2);
+    opacity: 0;
   }
 }

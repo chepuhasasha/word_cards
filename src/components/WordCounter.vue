@@ -73,9 +73,9 @@ const next = (): void => {
 
 .counter {
   @include mixins.flex-center(10px);
+  @include mixins.text(14px, var(--c4));
 
   position: relative;
-  @include mixins.text(14px, var(--c4));
 
   &-isliked {
     position: absolute;
@@ -87,10 +87,10 @@ const next = (): void => {
   button {
     @include mixins.button-reset;
     @include mixins.focus-ring(var(--accent));
-
-    height: 40px;
-    width: 40px;
     @include mixins.flex-center;
+
+    width: 40px;
+    height: 40px;
 
     &:hover {
       path {

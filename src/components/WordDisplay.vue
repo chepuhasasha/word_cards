@@ -79,19 +79,19 @@ onBeforeUnmount(() => {
 @use '@/assets/styles/mixins' as mixins;
 
 .word {
-  position: absolute;
-  inset: 0;
   @include mixins.stack;
 
+  position: absolute;
+  inset: 0;
   transition: all 0.3s ease;
   padding: 0 100px;
 
   h1 {
-    cursor: pointer;
     @include mixins.text(100px, var(--c5), 500);
 
-    text-align: center;
+    cursor: pointer;
     max-height: 100%;
+    text-align: center;
     line-height: 1.1;
     word-break: break-word;
   }
@@ -101,22 +101,22 @@ onBeforeUnmount(() => {
   }
 
   &-like {
-    cursor: pointer;
-    position: absolute;
     @include mixins.flex-center;
 
+    position: absolute;
+    cursor: pointer;
     height: 100%;
   }
 }
 
 .word-wrapper {
-  position: relative;
-  width: 100vw;
-  height: 120px;
   @include mixins.flex-center;
 
+  position: relative;
   justify-content: space-between;
   padding: 0 100px;
+  width: 100vw;
+  height: 120px;
 }
 
 .word-enter-active,

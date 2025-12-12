@@ -142,8 +142,8 @@ onBeforeUnmount(() => {
     @include mixins.control-surface;
     @include mixins.focus-ring(var(--accent));
 
-    color: var(--c4);
     max-width: 80px;
+    color: var(--c4);
 
     &:hover {
       background: var(--accent);

@@ -70,10 +70,6 @@ const toggleFavorites = (): void => {
 
     color: var(--c4);
 
-    svg {
-      transition: all 0.3s ease;
-    }
-
     &:hover {
       outline: 2px solid var(--accent);
 
@@ -84,6 +80,10 @@ const toggleFavorites = (): void => {
       path {
         stroke: var(--accent);
       }
+    }
+
+    svg {
+      transition: all 0.3s ease;
     }
   }
 }

@@ -70,18 +70,18 @@ const submitWrite = (): void => {
 .answer {
   @include mixins.flex-center(20px, row, wrap);
 
-  width: 100vw;
   padding: 0 10vw;
+  width: 100vw;
 
   button {
     @include mixins.button-reset;
     @include mixins.text(40px);
     @include mixins.focus-ring(var(--accent));
 
-    text-align: center;
-    padding: 0 10px 6px;
     border-radius: 10px;
+    padding: 0 10px 6px;
     width: max-content;
+    text-align: center;
 
     &:hover {
       color: var(--accent);
@@ -91,14 +91,14 @@ const submitWrite = (): void => {
   input {
     @include mixins.text(50px);
 
-    text-align: center;
-    background: none;
-    border: none;
-    border-bottom: 2px solid var(--c2);
-    outline: none;
     transition:
       border-color 0.3s ease,
       color 0.3s ease;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--c2);
+    background: none;
+    text-align: center;
 
     &::placeholder {
       @include mixins.text(12px, var(--c3));

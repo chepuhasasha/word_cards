@@ -1,9 +1,11 @@
 export default {
   extends: [
     'stylelint-config-standard-scss',
+    'stylelint-config-concentric-order',
     'stylelint-config-html',
     'stylelint-config-prettier-scss',
   ],
+  plugins: ['stylelint-order'],
   overrides: [
     {
       files: ['**/*.vue'],
