@@ -1,7 +1,7 @@
-import './assets/null.sass'
-import './assets/root.sass'
-import './assets/layout.sass'
-import './assets/animations.sass'
+import './assets/null.scss'
+import './assets/root.scss'
+import './assets/layout.scss'
+import './assets/animations.scss'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'

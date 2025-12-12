@@ -75,62 +75,80 @@ onBeforeUnmount(() => {
 })
 </script>
 
-<style scoped lang="sass">
-.word
-  position: absolute
-  inset: 0
-  display: flex
-  align-items: center
-  justify-content: center
-  flex-direction: column
-  transition: all 0.3s ease
-  padding: 0 100px
-  h1
-    cursor: pointer
-    font-size: 100px
-    font-weight: 500
-    text-align: center
-    max-height: 100%
-    line-height: 1.1
-    word-break: break-word
-  span
-    font-size: 12px
-    color: var(--c4)
+<style scoped lang="scss">
+@use '@/assets/styles/mixins' as mixins;
 
-  &-like
-    cursor: pointer
-    position: absolute
-    display: flex
-    align-items: center
-    height: 100%
+.word {
+  position: absolute;
+  inset: 0;
+  @include mixins.stack;
 
-.word-wrapper
-  position: relative
-  width: 100vw
-  height: 120px
-  display: flex
-  align-items: center
-  justify-content: space-between
-  padding: 0 100px
+  transition: all 0.3s ease;
+  padding: 0 100px;
 
-.word-enter-active, .word-leave-active
-  transition: opacity 0.5s ease, transform 0.5s ease
+  h1 {
+    cursor: pointer;
+    @include mixins.text(100px, var(--c5), 500);
 
-.word-enter-from, .word-leave-to
-  opacity: 0
+    text-align: center;
+    max-height: 100%;
+    line-height: 1.1;
+    word-break: break-word;
+  }
 
-.word-enter-to, .word-leave-from
-  opacity: 1
+  span {
+    @include mixins.text(12px, var(--c4));
+  }
 
-.word-enter-from
-  transform: translateY(100px)
+  &-like {
+    cursor: pointer;
+    position: absolute;
+    @include mixins.flex-center;
 
-.word-enter-to
-  transform: translateY(0)
+    height: 100%;
+  }
+}
 
-.word-leave-to
-  transform: translateY(-100px)
+.word-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 120px;
+  @include mixins.flex-center;
 
-.word-leave-from
-  transform: translateY(-100)
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.word-enter-active,
+.word-leave-active {
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+
+.word-enter-from,
+.word-leave-to {
+  opacity: 0;
+}
+
+.word-enter-to,
+.word-leave-from {
+  opacity: 1;
+}
+
+.word-enter-from {
+  transform: translateY(100px);
+}
+
+.word-enter-to {
+  transform: translateY(0);
+}
+
+.word-leave-to {
+  transform: translateY(-100px);
+}
+
+.word-leave-from {
+  transform: translateY(-100);
+}
 </style>

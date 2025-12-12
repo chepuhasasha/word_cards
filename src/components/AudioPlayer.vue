@@ -117,38 +117,42 @@ onBeforeUnmount(() => {
 })
 </script>
 
-<style scoped lang="sass">
-.audio
-  display: flex
-  flex-direction: column
-  gap: 10px
-  place-items: center
-  &__play
-    outline: 2px solid var(--accent)
+<style scoped lang="scss">
+@use '@/assets/styles/mixins' as mixins;
 
-    path
-      stroke: var(--accent)
+.audio {
+  @include mixins.stack(10px);
 
-  span
-    color: var(--c4)
-    font-size: 12px
+  place-items: center;
 
-  button
-    color: var(--c4)
-    background: var(--c2)
-    display: flex
-    align-items: center
-    justify-content: space-around
-    min-height: 80px
-    min-width: 80px
-    max-width: 80px
-    height: 80px
-    border-radius: 20px
+  &__play {
+    outline: 2px solid var(--accent);
 
-    &:hover
-      background: var(--accent)
-      color: var(--c1)
+    path {
+      stroke: var(--accent);
+    }
+  }
 
-      path
-        stroke: var(--c1)
+  span {
+    @include mixins.text(12px, var(--c4));
+  }
+
+  button {
+    @include mixins.button-reset;
+    @include mixins.control-surface;
+    @include mixins.focus-ring(var(--accent));
+
+    color: var(--c4);
+    max-width: 80px;
+
+    &:hover {
+      background: var(--accent);
+      color: var(--c1);
+
+      path {
+        stroke: var(--c1);
+      }
+    }
+  }
+}
 </style>

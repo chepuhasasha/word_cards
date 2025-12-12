@@ -1,0 +1,53 @@
+@use 'sass:map';
+
+@mixin flex-center($gap: 0, $direction: row, $wrap: nowrap) {
+  display: flex;
+  flex-flow: $direction $wrap;
+  gap: $gap;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin stack($gap: 0) {
+  @include flex-center($gap, column);
+}
+
+@mixin button-reset($background: none) {
+  background: $background;
+  border: none;
+  cursor: pointer;
+}
+
+@mixin focus-ring($color: var(--accent)) {
+  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease,
+    outline-color 0.3s ease;
+
+  &:focus-visible {
+    outline: 2px solid $color;
+  }
+}
+
+@mixin text($size, $color: var(--c5), $weight: 400) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+}
+
+@mixin control-surface($size: 80px, $radius: 20px, $bg: var(--c2)) {
+  @include flex-center;
+
+  min-height: $size;
+  min-width: $size;
+  height: $size;
+  border-radius: $radius;
+  background: $bg;
+}
+
+@mixin capsule($padding: 0 10px, $radius: 10px, $bg: var(--c1), $color: var(--c4)) {
+  @include flex-center;
+
+  padding: $padding;
+  border-radius: $radius;
+  background: $bg;
+  color: $color;
+}

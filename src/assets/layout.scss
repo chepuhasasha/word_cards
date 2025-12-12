@@ -1,0 +1,36 @@
+@use '@/assets/styles/mixins' as mixins;
+
+main {
+  @include mixins.stack(40px);
+
+  background: var(--c1);
+  height: 100vh;
+  width: 100vw;
+  place-items: center;
+  place-content: center;
+}
+
+button {
+  @include mixins.button-reset;
+  @include mixins.focus-ring;
+
+  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+
+  &:active {
+    transform: scale(0.7);
+  }
+
+  &:hover {
+    transform: scale(0.95);
+  }
+}
+
+.ok {
+  color: var(--ok) !important;
+  outline: 2px solid var(--ok);
+}
+
+.error {
+  color: var(--error) !important;
+  outline: 2px solid var(--error);
+}

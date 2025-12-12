@@ -51,33 +51,40 @@ const toggleFavorites = (): void => {
 }
 </script>
 
-<style scoped lang="sass">
-.bar
-  display: flex
-  gap: 10px
+<style scoped lang="scss">
+@use '@/assets/styles/mixins' as mixins;
 
-  &__active
-    path
-      stroke: var(--accent)
+.bar {
+  @include mixins.flex-center(10px);
 
-  button
-    color: var(--c4)
-    background: var(--c1)
-    display: flex
-    align-items: center
-    justify-content: space-around
-    min-height: 80px
-    min-width: 80px
-    height: 80px
-    border-radius: 20px
+  &__active {
+    path {
+      stroke: var(--accent);
+    }
+  }
 
-    svg
-      transition: all 0.3s ease
+  button {
+    @include mixins.button-reset;
+    @include mixins.control-surface(80px, 20px, var(--c1));
+    @include mixins.focus-ring(var(--accent));
 
-    &:hover
-      outline: 2px solid var(--accent)
-      svg
-        transform: rotate(-20deg)
-      path
-        stroke: var(--accent)
+    color: var(--c4);
+
+    svg {
+      transition: all 0.3s ease;
+    }
+
+    &:hover {
+      outline: 2px solid var(--accent);
+
+      svg {
+        transform: rotate(-20deg);
+      }
+
+      path {
+        stroke: var(--accent);
+      }
+    }
+  }
+}
 </style>

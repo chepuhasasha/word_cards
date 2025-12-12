@@ -64,49 +64,53 @@ const submitWrite = (): void => {
 }
 </script>
 
-<style scoped lang="sass">
-.answer
-  display: flex
-  gap: 20px
-  place-content: center
-  place-items: center
-  flex-wrap: wrap
-  width: 100vw
-  padding: 0 10vw
+<style scoped lang="scss">
+@use '@/assets/styles/mixins' as mixins;
 
-  button
-    text-align: center
-    padding: 0 10px
-    padding-bottom: 6px
-    border-radius: 10px
-    font-size: 40px
-    width: max-content
-    background: none
-    color: var(--c5)
+.answer {
+  @include mixins.flex-center(20px, row, wrap);
 
-    &:hover
-      color: var(--accent)
+  width: 100vw;
+  padding: 0 10vw;
 
-    &:focus-visible
-      color: var(--accent)
+  button {
+    @include mixins.button-reset;
+    @include mixins.text(40px);
+    @include mixins.focus-ring(var(--accent));
 
-  input
-    font-size: 50px
-    text-align: center
-    background: none
-    border: none
-    border-bottom: 2px solid var(--c2)
-    color: var(--c5)
-    outline: none
+    text-align: center;
+    padding: 0 10px 6px;
+    border-radius: 10px;
+    width: max-content;
 
-    &::placeholder
-      font-size: 12px
-      color: var(--c3)
+    &:hover {
+      color: var(--accent);
+    }
+  }
 
-    &:focus-visible
-      border-color: var(--accent)
+  input {
+    @include mixins.text(50px);
 
-  &__text
-    font-size: 40px
-    color: var(--c5)
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 2px solid var(--c2);
+    outline: none;
+    transition:
+      border-color 0.3s ease,
+      color 0.3s ease;
+
+    &::placeholder {
+      @include mixins.text(12px, var(--c3));
+    }
+
+    &:focus-visible {
+      border-color: var(--accent);
+    }
+  }
+
+  &__text {
+    @include mixins.text(40px);
+  }
+}
 </style>

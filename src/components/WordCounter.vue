@@ -68,30 +68,35 @@ const next = (): void => {
 }
 </script>
 
-<style scoped lang="sass">
-.counter
-  display: flex
-  align-items: center
-  justify-content: center
-  gap: 10px
-  position: relative
-  align-items: center
-  font-size: 14px
-  color: var(--c4)
-  &-isliked
-    position: absolute
-    bottom: 100%
-    left: calc(50% - 10px)
-    cursor: pointer
+<style scoped lang="scss">
+@use '@/assets/styles/mixins' as mixins;
 
-  button
-    background: none
-    height: 40px
-    width: 40px
-    display: flex
-    place-content: center
-    place-items: center
-    &:hover
-      path
-        stroke: var(--accent)
+.counter {
+  @include mixins.flex-center(10px);
+
+  position: relative;
+  @include mixins.text(14px, var(--c4));
+
+  &-isliked {
+    position: absolute;
+    bottom: 100%;
+    left: calc(50% - 10px);
+    cursor: pointer;
+  }
+
+  button {
+    @include mixins.button-reset;
+    @include mixins.focus-ring(var(--accent));
+
+    height: 40px;
+    width: 40px;
+    @include mixins.flex-center;
+
+    &:hover {
+      path {
+        stroke: var(--accent);
+      }
+    }
+  }
+}
 </style>

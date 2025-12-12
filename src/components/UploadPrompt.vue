@@ -23,20 +23,25 @@ const handleOpen = (): void => {
 }
 </script>
 
-<style scoped lang="sass">
-.open
-  display: flex
-  flex-direction: column
-  gap: 20px
+<style scoped lang="scss">
+@use '@/assets/styles/mixins' as mixins;
 
-  button
-    background: none
+.open {
+  @include mixins.stack(20px);
 
-    &:hover
-      path
-        stroke: var(--accent)
+  button {
+    @include mixins.button-reset;
+    @include mixins.focus-ring(var(--accent));
 
-  span
-    font-size: 12px
-    color: var(--c4)
+    &:hover {
+      path {
+        stroke: var(--accent);
+      }
+    }
+  }
+
+  span {
+    @include mixins.text(12px, var(--c4));
+  }
+}
 </style>
