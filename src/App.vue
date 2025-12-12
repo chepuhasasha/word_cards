@@ -10,7 +10,6 @@ main
       @toggle:favorites="toggleFavorites"
       @open="open"
     )
-    p.keyboard-hint Управление: 1–4 — выбрать ответ (в тесте), ←/→ — навигация по словам, Space — лайк, Enter — подтвердить или перейти
     WordCounter(
       :passed="passedCount"
       :total="totalCount"
@@ -39,6 +38,23 @@ main
       @submit-write="checkWrite"
       @update:userAnswer="(value: string) => (userAnswer = value)"
     )
+    .keyboard
+      .keyboard_key
+        .keyboard_value(:class='{keyboard_highlight: activeKey === "1"}') 1
+        .keyboard_value(:class='{keyboard_highlight: activeKey === "2"}') 2
+        .keyboard_value(:class='{keyboard_highlight: activeKey === "3"}') 3
+        .keyboard_value(:class='{keyboard_highlight: activeKey === "4"}') 4
+        .keyboard_hint выбрать ответ (в тесте)
+      .keyboard_key
+        .keyboard_value(:class='{keyboard_highlight: activeKey === "ArrowLeft"}') ←
+        .keyboard_value(:class='{keyboard_highlight: activeKey === "ArrowRight"}') →
+        .keyboard_hint навигация по словам
+      .keyboard_key
+        .keyboard_value(:class='{keyboard_highlight: activeKey == " "}') Space
+        .keyboard_hint лайк
+      .keyboard_key
+        .keyboard_value(:class='{keyboard_highlight: activeKey == "Enter"}') Enter
+        .keyboard_hint подтвердить или перейти
   input(type="file" ref="fileInput" accept="application/json" @change="onFileChange" style="display: none")
 </template>
 
@@ -71,6 +87,7 @@ const isCorrect = ref<boolean | null>(null)
 const userAnswer = ref('')
 const order = ref<Word[]>([])
 const currentIndex = ref(0)
+const activeKey = ref<string | null>(null)
 
 const fileInput = ref<HTMLInputElement | null>(null)
 
@@ -313,6 +330,10 @@ const checkWrite = (): void => {
  * @param e Событие клавиатуры.
  */
 const handleKeydown = (e: KeyboardEvent): void => {
+  activeKey.value = e.key
+  setTimeout(() => {
+    activeKey.value = null
+  }, 100)
   const target = e.target as HTMLElement | null
   const isTextInput =
     target instanceof HTMLInputElement ||
@@ -477,8 +498,32 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped lang="sass">
-.keyboard-hint
-  margin: 10px 0
-  color: var(--c4)
-  text-align: center
+.keyboard
+  display: flex
+  gap: 10px
+  &_key
+    display: flex
+    align-items: center
+    gap: 4px
+  &_value
+    transition: all 0.3s ease
+    display: flex
+    place-content: center
+    place-items: center
+    height: 30px
+    min-height: 30px
+    min-width: 30px
+    padding: 0 10px
+    border-radius: 10px
+    background: var(--c1)
+    border: 1px solid var(--c3)
+    border-bottom: 4px solid var(--c3)
+
+  &_hint, &_value
+    color: var(--c4)
+    font-size: 12px
+
+  &_highlight
+    color: var(--accent)
+    border-color: var(--accent)
 </style>
