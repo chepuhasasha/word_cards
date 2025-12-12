@@ -1,0 +1,122 @@
+[
+  {
+    "word": "입다",
+    "translation": "надевать",
+    "transcription": "ipda",
+    "description": "одевать одежду или предмет на тело"
+  },
+  {
+    "word": "입원하다",
+    "translation": "лечь в больницу",
+    "transcription": "ibwonhada",
+    "description": "поступать на стационарное лечение"
+  },
+  {
+    "word": "입학",
+    "translation": "поступление в учебное заведение",
+    "transcription": "iphak",
+    "description": "зачисление в школу или университет"
+  },
+  {
+    "word": "있다",
+    "translation": "быть; иметься",
+    "transcription": "itda",
+    "description": "существовать или находиться где-либо"
+  },
+  {
+    "word": "잊다",
+    "translation": "забывать",
+    "transcription": "itda",
+    "description": "не помнить о чем-либо"
+  },
+  {
+    "word": "잊어버리다",
+    "translation": "забыть напрочь",
+    "transcription": "ijeobeorida",
+    "description": "полностью вылететь из памяти"
+  },
+  {
+    "word": "자",
+    "translation": "линейка",
+    "transcription": "ja",
+    "description": "предмет для измерения и проведения линий"
+  },
+  {
+    "word": "자기",
+    "translation": "сам; собственный",
+    "transcription": "jagi",
+    "description": "собственная персона или принадлежащее себе"
+  },
+  {
+    "word": "자다",
+    "translation": "спать",
+    "transcription": "jada",
+    "description": "находиться в состоянии сна"
+  },
+  {
+    "word": "자동차",
+    "translation": "автомобиль",
+    "transcription": "jadongcha",
+    "description": "моторное транспортное средство"
+  },
+  {
+    "word": "자동차회사",
+    "translation": "автокомпания",
+    "transcription": "jadongcha hoesa",
+    "description": "фирма, производящая или продающая автомобили"
+  },
+  {
+    "word": "자료",
+    "translation": "данные; материалы",
+    "transcription": "jaryo",
+    "description": "собранная информация или источники"
+  },
+  {
+    "word": "자르다",
+    "translation": "резать",
+    "transcription": "jareuda",
+    "description": "делить предмет ножом или ножницами"
+  },
+  {
+    "word": "자리",
+    "translation": "место; сиденье",
+    "transcription": "jari",
+    "description": "определённый участок для сидения или размещения"
+  },
+  {
+    "word": "자신",
+    "translation": "уверенность в себе",
+    "transcription": "jasin",
+    "description": "вера в собственные силы и возможности"
+  },
+  {
+    "word": "자연",
+    "translation": "природа",
+    "transcription": "jayeon",
+    "description": "естественный мир, не созданный человеком"
+  },
+  {
+    "word": "자유",
+    "translation": "свобода",
+    "transcription": "jayu",
+    "description": "возможность действовать без ограничений"
+  },
+  {
+    "word": "자장면",
+    "translation": "чачжанмён",
+    "transcription": "jajangmyeon",
+    "description": "лапша с густым чёрным соусом"
+  },
+  {
+    "word": "자전거",
+    "translation": "велосипед",
+    "transcription": "jajeongeo",
+    "description": "двухколёсное транспортное средство с педалями"
+  },
+  {
+    "word": "자주",
+    "translation": "часто",
+    "transcription": "jaju",
+    "description": "повторяясь с небольшой периодичностью"
+  }
+]

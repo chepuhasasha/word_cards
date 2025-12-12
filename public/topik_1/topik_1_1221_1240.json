@@ -1,0 +1,122 @@
+[
+  {
+    "word": "일본말",
+    "translation": "японский язык (разговорный)",
+    "transcription": "ilbonmal",
+    "description": "устная речь на японском языке"
+  },
+  {
+    "word": "일본사람",
+    "translation": "японец",
+    "transcription": "ilbon saram",
+    "description": "гражданин или уроженец Японии"
+  },
+  {
+    "word": "일본어",
+    "translation": "японский язык",
+    "transcription": "ilboneo",
+    "description": "официальный язык Японии"
+  },
+  {
+    "word": "일본요리",
+    "translation": "японская кухня",
+    "transcription": "ilbon yori",
+    "description": "традиционные блюда Японии"
+  },
+  {
+    "word": "일상생활",
+    "translation": "повседневная жизнь",
+    "transcription": "ilssang saenghwal",
+    "description": "обычные ежедневные дела и привычки"
+  },
+  {
+    "word": "일식",
+    "translation": "японская еда",
+    "transcription": "ilshik",
+    "description": "блюдо или кухня в японском стиле"
+  },
+  {
+    "word": "일어나다",
+    "translation": "вставать",
+    "transcription": "ireonada",
+    "description": "подниматься с постели или с места"
+  },
+  {
+    "word": "일어서다",
+    "translation": "вставать (на ноги)",
+    "transcription": "ireoseoda",
+    "description": "подниматься и стоять прямо"
+  },
+  {
+    "word": "일요일",
+    "translation": "воскресенье",
+    "transcription": "iryoil",
+    "description": "день недели между субботой и понедельником"
+  },
+  {
+    "word": "일월",
+    "translation": "январь",
+    "transcription": "irwol",
+    "description": "первый месяц года"
+  },
+  {
+    "word": "일주일",
+    "translation": "неделя",
+    "transcription": "iljuil",
+    "description": "период в семь дней"
+  },
+  {
+    "word": "일찍",
+    "translation": "рано",
+    "transcription": "iljjik",
+    "description": "раньше обычного времени"
+  },
+  {
+    "word": "일하다",
+    "translation": "работать",
+    "transcription": "ilhada",
+    "description": "выполнять труд или обязанности"
+  },
+  {
+    "word": "일흔",
+    "translation": "семьдесят",
+    "transcription": "ilheun",
+    "description": "число 70"
+  },
+  {
+    "word": "읽기",
+    "translation": "чтение",
+    "transcription": "ilgki",
+    "description": "процесс восприятия текста глазами"
+  },
+  {
+    "word": "읽다",
+    "translation": "читать",
+    "transcription": "iktta",
+    "description": "воспринимать текст и понимать его"
+  },
+  {
+    "word": "잃다",
+    "translation": "терять",
+    "transcription": "ilta",
+    "description": "лишаться чего-либо"
+  },
+  {
+    "word": "잃어버리다",
+    "translation": "потерять",
+    "transcription": "ireobeorida",
+    "description": "утратить что-то и не найти"
+  },
+  {
+    "word": "입",
+    "translation": "рот",
+    "transcription": "ip",
+    "description": "отверстие для еды и речи"
+  },
+  {
+    "word": "입구",
+    "translation": "вход",
+    "transcription": "ipgu",
+    "description": "место, через которое входят внутрь"
+  }
+]

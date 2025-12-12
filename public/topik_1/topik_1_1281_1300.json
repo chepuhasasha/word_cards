@@ -1,0 +1,122 @@
+[
+  {
+    "word": "장마철",
+    "translation": "пора дождей",
+    "transcription": "jangmacheol",
+    "description": "сезон, когда идут затяжные дожди"
+  },
+  {
+    "word": "장미",
+    "translation": "роза",
+    "transcription": "jangmi",
+    "description": "цветок с ароматными бутонами и шипами"
+  },
+  {
+    "word": "장소",
+    "translation": "место",
+    "transcription": "jangso",
+    "description": "определённый пункт или локация"
+  },
+  {
+    "word": "장점",
+    "translation": "достоинство; плюс",
+    "transcription": "jangjeom",
+    "description": "сильная сторона или преимущество"
+  },
+  {
+    "word": "재료",
+    "translation": "ингредиент; материал",
+    "transcription": "jaeryo",
+    "description": "вещество для изготовления или готовки"
+  },
+  {
+    "word": "재미없다",
+    "translation": "неинтересно",
+    "transcription": "jaemieoptta",
+    "description": "вызывать скуку, без удовольствия"
+  },
+  {
+    "word": "재미있다",
+    "translation": "интересно",
+    "transcription": "jaemiitda",
+    "description": "приносить удовольствие и увлекательность"
+  },
+  {
+    "word": "재킷",
+    "translation": "пиджак; куртка",
+    "transcription": "jaekit",
+    "description": "лёгкая верхняя одежда"
+  },
+  {
+    "word": "저",
+    "translation": "вон тот",
+    "transcription": "jeo",
+    "description": "указание на предмет, находящийся вдали"
+  },
+  {
+    "word": "저거",
+    "translation": "вон та вещь",
+    "transcription": "jeoge",
+    "description": "предмет, расположенный далеко от говорящих"
+  },
+  {
+    "word": "저것",
+    "translation": "вон то",
+    "transcription": "jeogeot",
+    "description": "то, что находится на удалении"
+  },
+  {
+    "word": "저곳",
+    "translation": "вон то место",
+    "transcription": "jeogot",
+    "description": "место, расположенное вдали"
+  },
+  {
+    "word": "저기",
+    "translation": "вон там",
+    "transcription": "jeogi",
+    "description": "указание на удалённое место"
+  },
+  {
+    "word": "저녁",
+    "translation": "вечер",
+    "transcription": "jeonyeok",
+    "description": "время суток после заката"
+  },
+  {
+    "word": "저녁식사",
+    "translation": "ужин",
+    "transcription": "jeonyeok siksa",
+    "description": "приём пищи вечером"
+  },
+  {
+    "word": "저렇게",
+    "translation": "так, вон так",
+    "transcription": "jeoreoke",
+    "description": "образ действия, показанный вдали"
+  },
+  {
+    "word": "저분",
+    "translation": "вон тот человек (уваж.)",
+    "transcription": "jeobun",
+    "description": "вежливое указание на человека вдали"
+  },
+  {
+    "word": "저쪽",
+    "translation": "та сторона",
+    "transcription": "jeojjok",
+    "description": "направление или участок, удалённые от говорящего"
+  },
+  {
+    "word": "저희",
+    "translation": "мы (скромн.)",
+    "transcription": "jeohui",
+    "description": "самоуничижительное местоимение для группы говорящего"
+  },
+  {
+    "word": "적",
+    "translation": "враг",
+    "transcription": "jeok",
+    "description": "противник или враждебная сторона"
+  }
+]
