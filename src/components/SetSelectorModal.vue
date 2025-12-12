@@ -75,7 +75,8 @@ const handleSelect = (setId: string): void => {
   display: grid;
   gap: 16px;
   border-radius: 40px;
-  background: var(--c2);
+  background: var(--c1);
+  border: 1px solid var(--c2);
   padding: 40px;
   width: min(480px, 100%);
 }
@@ -90,21 +91,23 @@ const handleSelect = (setId: string): void => {
   margin: 0;
   color: var(--c4);
   font-size: 18px;
+  font-weight: 300;
 }
 
 .selector__close {
   @include mixins.button-reset;
 
   border-radius: 50%;
-  background: var(--c5);
+  background: var(--c2);
   width: 32px;
   height: 32px;
   line-height: 1;
-  color: var(--c1);
+  color: var(--c4);
   font-size: 20px;
 
   &:hover {
-    background: var(--c4);
+    background: var(--accent);
+    color: var(--c1);
   }
 }
 
@@ -115,7 +118,6 @@ const handleSelect = (setId: string): void => {
 
 .selector__list {
   display: grid;
-  gap: 12px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -125,20 +127,20 @@ const handleSelect = (setId: string): void => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  transition:
-    border-color 0.15s ease,
-    background 0.15s ease;
-  border: 1px solid transparent;
   border-radius: 10px;
   background: var(--c1);
   cursor: pointer;
-  padding: 12px 14px;
+  padding: 10px;
   width: 100%;
   color: var(--c5);
 
   &:hover {
-    border-color: var(--accent);
-    background: var(--background);
+    background: var(--accent);
+    color: var(--c1);
+    transform: none;
+    span {
+      color: var(--c1);
+    }
   }
 }
 
