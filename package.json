@@ -19,8 +19,7 @@
     "format": "run-p format:code format:styles",
     "format:code": "prettier --write \"{src,tests}/**/*.{ts,js,vue}\"",
     "format:styles": "stylelint \"src/**/*.{vue,css,sass,scss}\" --fix",
-    "audio": "node scripts/audio.js public/sets.json",
-    "shuffle": "node scripts/shuffle.js public/sets.json public/topic_1_shuffled 20",
+    "audio": "node scripts/audio.js src/assets/sets/sets.json",
     "test": "vitest",
     "test:watch": "vitest --watch",
     "test:coverage": "vitest run --coverage"
