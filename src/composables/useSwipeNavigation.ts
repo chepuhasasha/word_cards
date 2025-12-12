@@ -34,8 +34,8 @@ export const useSwipeNavigation = (
    */
   const handleTouchStart = (event: TouchEvent): void => {
     const touch = event.touches[0]
-    startX.value = touch.clientX
-    startY.value = touch.clientY
+    startX.value = touch!.clientX
+    startY.value = touch!.clientY
   }
 
   /**
@@ -44,8 +44,8 @@ export const useSwipeNavigation = (
    */
   const handleTouchEnd = (event: TouchEvent): void => {
     const touch = event.changedTouches[0]
-    const deltaX = touch.clientX - startX.value
-    const deltaY = touch.clientY - startY.value
+    const deltaX = touch!.clientX - startX.value
+    const deltaY = touch!.clientY - startY.value
 
     if (Math.abs(deltaX) < threshold || Math.abs(deltaX) <= Math.abs(deltaY)) {
       return
