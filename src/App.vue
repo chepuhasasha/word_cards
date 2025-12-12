@@ -5,6 +5,7 @@ main
     ModeBar(
       :mode="mode"
       :use-favorites="useFavorites"
+      :has-favorites="hasFavorites"
       @update:mode="updateMode"
       @toggle:favorites="toggleFavorites"
       @open="open"
@@ -69,6 +70,7 @@ const likedRemaining = ref<Word[]>([])
 
 const fileInput = ref<HTMLInputElement | null>(null)
 
+const hasFavorites = computed(() => favorites.value.length > 0)
 const totalCount = computed(() => (useFavorites.value ? favorites.value.length : list.value.length))
 
 const passedCount = computed(() => {
@@ -352,20 +354,19 @@ const removeLike = (): void => {
   persistFavorites()
 
   if (useFavorites.value) {
+    if (!favorites.value.length) {
+      setSource(false)
+      return
+    }
+
     generateQuestion()
   }
 }
 
 /**
- * Переключает источник слов между избранными и загруженным списком.
+ * Сбрасывает состояние после смены источника слов.
  */
-const toggleFavorites = (): void => {
-  useFavorites.value = !useFavorites.value
-  if (useFavorites.value) {
-    likedRemaining.value = []
-  } else {
-    remaining.value = []
-  }
+const resetAfterSourceChange = (): void => {
   isCorrect.value = null
   userAnswer.value = ''
   selected.value = null
@@ -375,6 +376,31 @@ const toggleFavorites = (): void => {
   }
 
   generateQuestion()
+}
+
+/**
+ * Переключает источник слов между избранными и загруженным списком.
+ * @param useFavoriteSource Флаг использования избранного списка слов.
+ */
+const setSource = (useFavoriteSource: boolean): void => {
+  useFavorites.value = useFavoriteSource
+
+  if (useFavoriteSource) {
+    likedRemaining.value = []
+  } else {
+    remaining.value = []
+  }
+
+  resetAfterSourceChange()
+}
+
+/**
+ * Переключает источник слов между избранными и загруженным списком.
+ */
+const toggleFavorites = (): void => {
+  if (!useFavorites.value && !favorites.value.length) return
+
+  setSource(!useFavorites.value)
 }
 
 onMounted(() => {
