@@ -3,120 +3,140 @@
     "word": "은행",
     "translation": "банк",
     "transcription": "eunhaeng",
-    "description": "финансовое учреждение"
+    "description": "финансовое учреждение",
+    "audio": "audio/은행_tts.mp3"
   },
   {
     "word": "은행원",
     "translation": "банковский служащий",
     "transcription": "eunhaengwon",
-    "description": "сотрудник банка"
+    "description": "сотрудник банка",
+    "audio": "audio/은행원_tts.mp3"
   },
   {
     "word": "음료수",
     "translation": "напиток",
     "transcription": "eumnyosu",
-    "description": "безалкогольное питьё"
+    "description": "безалкогольное питьё",
+    "audio": "audio/음료수_tts.mp3"
   },
   {
     "word": "음반",
     "translation": "музыкальный альбом",
     "transcription": "eumban",
-    "description": "звукозапись музыки на носителе"
+    "description": "звукозапись музыки на носителе",
+    "audio": "audio/음반_tts.mp3"
   },
   {
     "word": "음식",
     "translation": "еда",
     "transcription": "eumsik",
-    "description": "приготовленные продукты питания"
+    "description": "приготовленные продукты питания",
+    "audio": "audio/음식_tts.mp3"
   },
   {
     "word": "음악",
     "translation": "музыка",
     "transcription": "eumak",
-    "description": "искусство сочетания звуков"
+    "description": "искусство сочетания звуков",
+    "audio": "audio/음악_tts.mp3"
   },
   {
     "word": "음악가",
     "translation": "музыкант",
     "transcription": "eumakga",
-    "description": "человек, создающий или исполняющий музыку"
+    "description": "человек, создающий или исполняющий музыку",
+    "audio": "audio/음악가_tts.mp3"
   },
   {
     "word": "응",
     "translation": "ага",
     "transcription": "eung",
-    "description": "неформальное согласие или отклик"
+    "description": "неформальное согласие или отклик",
+    "audio": "audio/응_tts.mp3"
   },
   {
     "word": "의미",
     "translation": "значение",
     "transcription": "uimi",
-    "description": "смысл слова или поступка"
+    "description": "смысл слова или поступка",
+    "audio": "audio/의미_tts.mp3"
   },
   {
     "word": "의사",
     "translation": "врач",
     "transcription": "uisa",
-    "description": "медицинский специалист"
+    "description": "медицинский специалист",
+    "audio": "audio/의사_tts.mp3"
   },
   {
     "word": "의자",
     "translation": "стул",
     "transcription": "uija",
-    "description": "сиденье с ножками и спинкой"
+    "description": "сиденье с ножками и спинкой",
+    "audio": "audio/의자_tts.mp3"
   },
   {
     "word": "이",
     "translation": "этот",
     "transcription": "i",
-    "description": "указание на близкий предмет; также зуб или число два"
+    "description": "указание на близкий предмет; также зуб или число два",
+    "audio": "audio/이_tts.mp3"
   },
   {
     "word": "이거",
     "translation": "эта вещь",
     "transcription": "igeo",
-    "description": "предмет рядом с говорящим"
+    "description": "предмет рядом с говорящим",
+    "audio": "audio/이거_tts.mp3"
   },
   {
     "word": "이것",
     "translation": "это",
     "transcription": "igeot",
-    "description": "данный предмет, находящийся поблизости"
+    "description": "данный предмет, находящийся поблизости",
+    "audio": "audio/이것_tts.mp3"
   },
   {
     "word": "이곳",
     "translation": "это место",
     "transcription": "igot",
-    "description": "место, где находится говорящий"
+    "description": "место, где находится говорящий",
+    "audio": "audio/이곳_tts.mp3"
   },
   {
     "word": "이따가",
     "translation": "позже",
     "transcription": "ittaga",
-    "description": "через некоторое время"
+    "description": "через некоторое время",
+    "audio": "audio/이따가_tts.mp3"
   },
   {
     "word": "이런",
     "translation": "такой",
     "transcription": "ireon",
-    "description": "подобный этому"
+    "description": "подобный этому",
+    "audio": "audio/이런_tts.mp3"
   },
   {
     "word": "이렇게",
     "translation": "так",
     "transcription": "ireoke",
-    "description": "именно таким образом"
+    "description": "именно таким образом",
+    "audio": "audio/이렇게_tts.mp3"
   },
   {
     "word": "이렇다",
     "translation": "быть таким",
     "transcription": "ireota",
-    "description": "иметь данный вид или состояние"
+    "description": "иметь данный вид или состояние",
+    "audio": "audio/이렇다_tts.mp3"
   },
   {
     "word": "이름",
     "translation": "имя",
     "transcription": "ireum",
-    "description": "личное имя человека"
+    "description": "личное имя человека",
+    "audio": "audio/이름_tts.mp3"
   }
 ]

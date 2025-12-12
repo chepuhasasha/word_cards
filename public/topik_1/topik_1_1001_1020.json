@@ -3,120 +3,140 @@
     "word": "어른",
     "translation": "взрослый",
     "transcription": "eoreun",
-    "description": "человек, достигший зрелого возраста"
+    "description": "человек, достигший зрелого возраста",
+    "audio": "audio/어른_tts.mp3"
   },
   {
     "word": "어리다",
     "translation": "быть молодым",
     "transcription": "eorida",
-    "description": "о возрасте: юный или маленький"
+    "description": "о возрасте: юный или маленький",
+    "audio": "audio/어리다_tts.mp3"
   },
   {
     "word": "어린이",
     "translation": "ребёнок",
     "transcription": "eorini",
-    "description": "маленький ребёнок или дошкольник"
+    "description": "маленький ребёнок или дошкольник",
+    "audio": "audio/어린이_tts.mp3"
   },
   {
     "word": "어머",
     "translation": "ой",
     "transcription": "eomeo",
-    "description": "междометие удивления или испуга"
+    "description": "междометие удивления или испуга",
+    "audio": "audio/어머_tts.mp3"
   },
   {
     "word": "어머니",
     "translation": "мать",
     "transcription": "eomeoni",
-    "description": "вежливое обращение к матери"
+    "description": "вежливое обращение к матери",
+    "audio": "audio/어머니_tts.mp3"
   },
   {
     "word": "어머님",
     "translation": "мама (уваж.)",
     "transcription": "eomeonim",
-    "description": "уважительная форма слова \"мать\""
+    "description": "уважительная форма слова \"мать\"",
+    "audio": "audio/어머님_tts.mp3"
   },
   {
     "word": "어서",
     "translation": "скорее",
     "transcription": "eoseo",
-    "description": "призыв поторопиться или сделать быстро"
+    "description": "призыв поторопиться или сделать быстро",
+    "audio": "audio/어서_tts.mp3"
   },
   {
     "word": "어울리다",
     "translation": "подходить",
     "transcription": "eoulrida",
-    "description": "хорошо сочетаться или быть к лицу"
+    "description": "хорошо сочетаться или быть к лицу",
+    "audio": "audio/어울리다_tts.mp3"
   },
   {
     "word": "어저께",
     "translation": "вчера",
     "transcription": "eojeokke",
-    "description": "день, непосредственно предшествующий сегодняшнему"
+    "description": "день, непосредственно предшествующий сегодняшнему",
+    "audio": "audio/어저께_tts.mp3"
   },
   {
     "word": "어제",
     "translation": "вчера",
     "transcription": "eoje",
-    "description": "предыдущий по отношению к сегодняшнему день"
+    "description": "предыдущий по отношению к сегодняшнему день",
+    "audio": "audio/어제_tts.mp3"
   },
   {
     "word": "어젯밤",
     "translation": "вчерашняя ночь",
     "transcription": "eojetbam",
-    "description": "ночь, прошедшая перед текущим днём"
+    "description": "ночь, прошедшая перед текущим днём",
+    "audio": "audio/어젯밤_tts.mp3"
   },
   {
     "word": "언니",
     "translation": "старшая сестра (для девушек)",
     "transcription": "eonni",
-    "description": "как девушки называют старшую сестру или подругу старше"
+    "description": "как девушки называют старшую сестру или подругу старше",
+    "audio": "audio/언니_tts.mp3"
   },
   {
     "word": "언제",
     "translation": "когда",
     "transcription": "eonje",
-    "description": "вопрос о времени события"
+    "description": "вопрос о времени события",
+    "audio": "audio/언제_tts.mp3"
   },
   {
     "word": "언제나",
     "translation": "всегда",
     "transcription": "eonjena",
-    "description": "в любое время, постоянно"
+    "description": "в любое время, постоянно",
+    "audio": "audio/언제나_tts.mp3"
   },
   {
     "word": "얼굴",
     "translation": "лицо",
     "transcription": "eolgul",
-    "description": "передняя часть головы человека"
+    "description": "передняя часть головы человека",
+    "audio": "audio/얼굴_tts.mp3"
   },
   {
     "word": "얼마나",
     "translation": "сколько",
     "transcription": "eolmana",
-    "description": "вопрос о степени или количестве"
+    "description": "вопрос о степени или количестве",
+    "audio": "audio/얼마나_tts.mp3"
   },
   {
     "word": "얼음",
     "translation": "лёд",
     "transcription": "eoreum",
-    "description": "замёрзшая вода"
+    "description": "замёрзшая вода",
+    "audio": "audio/얼음_tts.mp3"
   },
   {
     "word": "엄마",
     "translation": "мама",
     "transcription": "eomma",
-    "description": "неформальное обращение к матери"
+    "description": "неформальное обращение к матери",
+    "audio": "audio/엄마_tts.mp3"
   },
   {
     "word": "없다",
     "translation": "не быть",
     "transcription": "eopda",
-    "description": "отсутствовать или не иметься в наличии"
+    "description": "отсутствовать или не иметься в наличии",
+    "audio": "audio/없다_tts.mp3"
   },
   {
     "word": "없이",
     "translation": "без",
     "transcription": "eopssi",
-    "description": "в отсутствии кого-либо или чего-либо"
+    "description": "в отсутствии кого-либо или чего-либо",
+    "audio": "audio/없이_tts.mp3"
   }
 ]

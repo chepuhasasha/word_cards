@@ -3,120 +3,140 @@
     "word": "오랫동안",
     "translation": "долгое время",
     "transcription": "oraettongan",
-    "description": "продолжительный период"
+    "description": "продолжительный период",
+    "audio": "audio/오랫동안_tts.mp3"
   },
   {
     "word": "오렌지",
     "translation": "апельсин",
     "transcription": "orenji",
-    "description": "цитрусовый фрукт"
+    "description": "цитрусовый фрукт",
+    "audio": "audio/오렌지_tts.mp3"
   },
   {
     "word": "오르다",
     "translation": "подниматься",
     "transcription": "oreuda",
-    "description": "двигаться вверх или повышаться"
+    "description": "двигаться вверх или повышаться",
+    "audio": "audio/오르다_tts.mp3"
   },
   {
     "word": "오른쪽",
     "translation": "правая сторона",
     "transcription": "oreunjjok",
-    "description": "направление справа"
+    "description": "направление справа",
+    "audio": "audio/오른쪽_tts.mp3"
   },
   {
     "word": "오리",
     "translation": "утка",
     "transcription": "ori",
-    "description": "водоплавающая птица"
+    "description": "водоплавающая птица",
+    "audio": "audio/오리_tts.mp3"
   },
   {
     "word": "오빠",
     "translation": "старший брат (для девушек)",
     "transcription": "oppa",
-    "description": "как девушки называют старшего брата или близкого мужчину старше"
+    "description": "как девушки называют старшего брата или близкого мужчину старше",
+    "audio": "audio/오빠_tts.mp3"
   },
   {
     "word": "오십",
     "translation": "пятьдесят",
     "transcription": "osip",
-    "description": "число 50"
+    "description": "число 50",
+    "audio": "audio/오십_tts.mp3"
   },
   {
     "word": "오월",
     "translation": "май",
     "transcription": "owol",
-    "description": "пятый месяц года"
+    "description": "пятый месяц года",
+    "audio": "audio/오월_tts.mp3"
   },
   {
     "word": "오이",
     "translation": "огурец",
     "transcription": "oi",
-    "description": "длинный зелёный овощ"
+    "description": "длинный зелёный овощ",
+    "audio": "audio/오이_tts.mp3"
   },
   {
     "word": "오전",
     "translation": "утро",
     "transcription": "ojeon",
-    "description": "время до полудня"
+    "description": "время до полудня",
+    "audio": "audio/오전_tts.mp3"
   },
   {
     "word": "오징어",
     "translation": "кальмар",
     "transcription": "ojingeo",
-    "description": "морское головоногое животное"
+    "description": "морское головоногое животное",
+    "audio": "audio/오징어_tts.mp3"
   },
   {
     "word": "오후",
     "translation": "после полудня",
     "transcription": "ohu",
-    "description": "время дня после 12 часов"
+    "description": "время дня после 12 часов",
+    "audio": "audio/오후_tts.mp3"
   },
   {
     "word": "올라가다",
     "translation": "подниматься",
     "transcription": "ollagada",
-    "description": "двигаться вверх или на повышение"
+    "description": "двигаться вверх или на повышение",
+    "audio": "audio/올라가다_tts.mp3"
   },
   {
     "word": "올라오다",
     "translation": "подниматься сюда",
     "transcription": "ollaoda",
-    "description": "подниматься вверх к говорящему"
+    "description": "подниматься вверх к говорящему",
+    "audio": "audio/올라오다_tts.mp3"
   },
   {
     "word": "올려놓다",
     "translation": "положить наверх",
     "transcription": "ollyeonota",
-    "description": "разместить предмет сверху"
+    "description": "разместить предмет сверху",
+    "audio": "audio/올려놓다_tts.mp3"
   },
   {
     "word": "올림픽",
     "translation": "олимпиада",
     "transcription": "ollimpik",
-    "description": "Олимпийские игры"
+    "description": "Олимпийские игры",
+    "audio": "audio/올림픽_tts.mp3"
   },
   {
     "word": "올해",
     "translation": "в этом году",
     "transcription": "olhae",
-    "description": "текущий календарный год"
+    "description": "текущий календарный год",
+    "audio": "audio/올해_tts.mp3"
   },
   {
     "word": "옮기다",
     "translation": "перемещать",
     "transcription": "omgida",
-    "description": "переносить на другое место"
+    "description": "переносить на другое место",
+    "audio": "audio/옮기다_tts.mp3"
   },
   {
     "word": "옷",
     "translation": "одежда",
     "transcription": "ot",
-    "description": "предметы, которые надевают на тело"
+    "description": "предметы, которые надевают на тело",
+    "audio": "audio/옷_tts.mp3"
   },
   {
     "word": "옷가게",
     "translation": "магазин одежды",
     "transcription": "otgage",
-    "description": "торговая точка, где продают одежду"
+    "description": "торговая точка, где продают одежду",
+    "audio": "audio/옷가게_tts.mp3"
   }
 ]

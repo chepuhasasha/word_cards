@@ -3,120 +3,140 @@
     "word": "영하",
     "translation": "ниже нуля",
     "transcription": "yeongha",
-    "description": "температура со знаком минус"
+    "description": "температура со знаком минус",
+    "audio": "audio/영하_tts.mp3"
   },
   {
     "word": "영화",
     "translation": "фильм",
     "transcription": "yeonghwa",
-    "description": "кинокартина или кинематограф"
+    "description": "кинокартина или кинематограф",
+    "audio": "audio/영화_tts.mp3"
   },
   {
     "word": "영화관",
     "translation": "кинотеатр",
     "transcription": "yeonghwagwan",
-    "description": "зал для просмотра фильмов"
+    "description": "зал для просмотра фильмов",
+    "audio": "audio/영화관_tts.mp3"
   },
   {
     "word": "영화배우",
     "translation": "киноактёр",
     "transcription": "yeonghwabaeu",
-    "description": "актёр, снимающийся в кино"
+    "description": "актёр, снимающийся в кино",
+    "audio": "audio/영화배우_tts.mp3"
   },
   {
     "word": "영화표",
     "translation": "билет в кино",
     "transcription": "yeonghwapyo",
-    "description": "билет на кинопоказ"
+    "description": "билет на кинопоказ",
+    "audio": "audio/영화표_tts.mp3"
   },
   {
     "word": "옆",
     "translation": "бок",
     "transcription": "yeop",
-    "description": "сторона или место рядом"
+    "description": "сторона или место рядом",
+    "audio": "audio/옆_tts.mp3"
   },
   {
     "word": "예",
     "translation": "да (вежливо)",
     "transcription": "ye",
-    "description": "вежливое подтверждение"
+    "description": "вежливое подтверждение",
+    "audio": "audio/예_tts.mp3"
   },
   {
     "word": "예문",
     "translation": "пример предложения",
     "transcription": "yemun",
-    "description": "образцовая фраза для изучения"
+    "description": "образцовая фраза для изучения",
+    "audio": "audio/예문_tts.mp3"
   },
   {
     "word": "예쁘다",
     "translation": "красивый",
     "transcription": "yeppeuda",
-    "description": "выглядеть мило и симпатично"
+    "description": "выглядеть мило и симпатично",
+    "audio": "audio/예쁘다_tts.mp3"
   },
   {
     "word": "예순",
     "translation": "шестьдесят",
     "transcription": "yesun",
-    "description": "число 60"
+    "description": "число 60",
+    "audio": "audio/예순_tts.mp3"
   },
   {
     "word": "예약",
     "translation": "бронь",
     "transcription": "yeyak",
-    "description": "предварительное резервирование услуги"
+    "description": "предварительное резервирование услуги",
+    "audio": "audio/예약_tts.mp3"
   },
   {
     "word": "옛날",
     "translation": "давно",
     "transcription": "yennal",
-    "description": "в старину, в прежние времена"
+    "description": "в старину, в прежние времена",
+    "audio": "audio/옛날_tts.mp3"
   },
   {
     "word": "오",
     "translation": "пять",
     "transcription": "o",
-    "description": "число 5"
+    "description": "число 5",
+    "audio": "audio/오_tts.mp3"
   },
   {
     "word": "오늘",
     "translation": "сегодня",
     "transcription": "oneul",
-    "description": "текущий день"
+    "description": "текущий день",
+    "audio": "audio/오늘_tts.mp3"
   },
   {
     "word": "오다",
     "translation": "приходить",
     "transcription": "oda",
-    "description": "двигаться к месту говорящего"
+    "description": "двигаться к месту говорящего",
+    "audio": "audio/오다_tts.mp3"
   },
   {
     "word": "오래",
     "translation": "долго",
     "transcription": "orae",
-    "description": "в течение длительного времени"
+    "description": "в течение длительного времени",
+    "audio": "audio/오래_tts.mp3"
   },
   {
     "word": "오래간만",
     "translation": "давненько",
     "transcription": "oraeganman",
-    "description": "после долгого перерыва"
+    "description": "после долгого перерыва",
+    "audio": "audio/오래간만_tts.mp3"
   },
   {
     "word": "오래간만입니다",
     "translation": "давно не виделись (вежл.)",
     "transcription": "oraeganmanimnida",
-    "description": "приветствие после длительного расставания"
+    "description": "приветствие после длительного расставания",
+    "audio": "audio/오래간만입니다_tts.mp3"
   },
   {
     "word": "오랜만",
     "translation": "спустя долгое время",
     "transcription": "oraenman",
-    "description": "после значительного промежутка"
+    "description": "после значительного промежутка",
+    "audio": "audio/오랜만_tts.mp3"
   },
   {
     "word": "오랜만에",
     "translation": "наконец спустя долго",
     "transcription": "oraenman-e",
-    "description": "делая что-то впервые за долгий срок"
+    "description": "делая что-то впервые за долгий срок",
+    "audio": "audio/오랜만에_tts.mp3"
   }
 ]

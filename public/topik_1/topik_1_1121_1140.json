@@ -3,120 +3,140 @@
     "word": "우리나라",
     "translation": "наша страна",
     "transcription": "urinara",
-    "description": "собственная родина, обычно о Корее"
+    "description": "собственная родина, обычно о Корее",
+    "audio": "audio/우리나라_tts.mp3"
   },
   {
     "word": "우산",
     "translation": "зонт",
     "transcription": "usan",
-    "description": "предмет для защиты от дождя"
+    "description": "предмет для защиты от дождя",
+    "audio": "audio/우산_tts.mp3"
   },
   {
     "word": "우선",
     "translation": "сначала",
     "transcription": "useon",
-    "description": "в первую очередь, прежде всего"
+    "description": "в первую очередь, прежде всего",
+    "audio": "audio/우선_tts.mp3"
   },
   {
     "word": "우유",
     "translation": "молоко",
     "transcription": "uyu",
-    "description": "белый напиток из молока"
+    "description": "белый напиток из молока",
+    "audio": "audio/우유_tts.mp3"
   },
   {
     "word": "우체국",
     "translation": "почта",
     "transcription": "ucheguk",
-    "description": "учреждение для почтовых услуг"
+    "description": "учреждение для почтовых услуг",
+    "audio": "audio/우체국_tts.mp3"
   },
   {
     "word": "우표",
     "translation": "марка",
     "transcription": "upyo",
-    "description": "почтовая марка для отправки писем"
+    "description": "почтовая марка для отправки писем",
+    "audio": "audio/우표_tts.mp3"
   },
   {
     "word": "운동",
     "translation": "упражнение",
     "transcription": "undong",
-    "description": "физическая активность или спорт"
+    "description": "физическая активность или спорт",
+    "audio": "audio/운동_tts.mp3"
   },
   {
     "word": "운동복",
     "translation": "спортивная форма",
     "transcription": "undongbok",
-    "description": "одежда для занятий спортом"
+    "description": "одежда для занятий спортом",
+    "audio": "audio/운동복_tts.mp3"
   },
   {
     "word": "운동선수",
     "translation": "спортсмен",
     "transcription": "undongseonsu",
-    "description": "человек, занимающийся спортом профессионально"
+    "description": "человек, занимающийся спортом профессионально",
+    "audio": "audio/운동선수_tts.mp3"
   },
   {
     "word": "운동장",
     "translation": "спортивная площадка",
     "transcription": "undongjang",
-    "description": "открытое поле или стадион для игр"
+    "description": "открытое поле или стадион для игр",
+    "audio": "audio/운동장_tts.mp3"
   },
   {
     "word": "운동하다",
     "translation": "заниматься спортом",
     "transcription": "undonghada",
-    "description": "делать упражнения для формы"
+    "description": "делать упражнения для формы",
+    "audio": "audio/운동하다_tts.mp3"
   },
   {
     "word": "운동화",
     "translation": "кроссовки",
     "transcription": "undonghwa",
-    "description": "обувь, предназначенная для спорта"
+    "description": "обувь, предназначенная для спорта",
+    "audio": "audio/운동화_tts.mp3"
   },
   {
     "word": "운전하다",
     "translation": "водить машину",
     "transcription": "unjeonhada",
-    "description": "управлять транспортным средством"
+    "description": "управлять транспортным средством",
+    "audio": "audio/운전하다_tts.mp3"
   },
   {
     "word": "울다",
     "translation": "плакать",
     "transcription": "ulda",
-    "description": "проливать слёзы"
+    "description": "проливать слёзы",
+    "audio": "audio/울다_tts.mp3"
   },
   {
     "word": "울리다",
     "translation": "заставлять плакать",
     "transcription": "ullida",
-    "description": "вызывать слёзы или звон"
+    "description": "вызывать слёзы или звон",
+    "audio": "audio/울리다_tts.mp3"
   },
   {
     "word": "움직이다",
     "translation": "двигаться",
     "transcription": "umjigida",
-    "description": "менять положение или место"
+    "description": "менять положение или место",
+    "audio": "audio/움직이다_tts.mp3"
   },
   {
     "word": "웃기다",
     "translation": "смешить",
     "transcription": "utgida",
-    "description": "заставлять кого-то смеяться"
+    "description": "заставлять кого-то смеяться",
+    "audio": "audio/웃기다_tts.mp3"
   },
   {
     "word": "웃다",
     "translation": "смеяться",
     "transcription": "utda",
-    "description": "издавать смех"
+    "description": "издавать смех",
+    "audio": "audio/웃다_tts.mp3"
   },
   {
     "word": "원",
     "translation": "вон",
     "transcription": "won",
-    "description": "денежная единица Республики Корея"
+    "description": "денежная единица Республики Корея",
+    "audio": "audio/원_tts.mp3"
   },
   {
     "word": "원피스",
     "translation": "платье",
     "transcription": "wonpiseu",
-    "description": "женское платье цельным кроем"
+    "description": "женское платье цельным кроем",
+    "audio": "audio/원피스_tts.mp3"
   }
 ]

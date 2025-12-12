@@ -3,120 +3,140 @@
     "word": "에어컨",
     "translation": "кондиционер",
     "transcription": "eeokeon",
-    "description": "устройство для охлаждения и вентиляции воздуха"
+    "description": "устройство для охлаждения и вентиляции воздуха",
+    "audio": "audio/에어컨_tts.mp3"
   },
   {
     "word": "엔",
     "translation": "иена",
     "transcription": "en",
-    "description": "валюта Японии"
+    "description": "валюта Японии",
+    "audio": "audio/엔_tts.mp3"
   },
   {
     "word": "엘리베이터",
     "translation": "лифт",
     "transcription": "ellibeiteo",
-    "description": "подъёмная кабина для перемещения между этажами"
+    "description": "подъёмная кабина для перемещения между этажами",
+    "audio": "audio/엘리베이터_tts.mp3"
   },
   {
     "word": "여권",
     "translation": "паспорт",
     "transcription": "yeogwon",
-    "description": "документ для зарубежных поездок"
+    "description": "документ для зарубежных поездок",
+    "audio": "audio/여권_tts.mp3"
   },
   {
     "word": "여기",
     "translation": "здесь",
     "transcription": "yeogi",
-    "description": "место, где находится говорящий"
+    "description": "место, где находится говорящий",
+    "audio": "audio/여기_tts.mp3"
   },
   {
     "word": "여기저기",
     "translation": "там и сям",
     "transcription": "yeogijeogi",
-    "description": "в разных местах, повсюду"
+    "description": "в разных местах, повсюду",
+    "audio": "audio/여기저기_tts.mp3"
   },
   {
     "word": "여덟",
     "translation": "восемь",
     "transcription": "yeodeol",
-    "description": "число 8 в корейской счётной системе"
+    "description": "число 8 в корейской счётной системе",
+    "audio": "audio/여덟_tts.mp3"
   },
   {
     "word": "여동생",
     "translation": "младшая сестра",
     "transcription": "yeodongsaeng",
-    "description": "сестра младше говорящего"
+    "description": "сестра младше говорящего",
+    "audio": "audio/여동생_tts.mp3"
   },
   {
     "word": "여든",
     "translation": "восемьдесят",
     "transcription": "yeodeun",
-    "description": "число 80"
+    "description": "число 80",
+    "audio": "audio/여든_tts.mp3"
   },
   {
     "word": "여러",
     "translation": "несколько",
     "transcription": "yeoreo",
-    "description": "многие, разные по виду"
+    "description": "многие, разные по виду",
+    "audio": "audio/여러_tts.mp3"
   },
   {
     "word": "여러가지",
     "translation": "различные",
     "transcription": "yeoreogaji",
-    "description": "всякие типы или виды"
+    "description": "всякие типы или виды",
+    "audio": "audio/여러가지_tts.mp3"
   },
   {
     "word": "여러분",
     "translation": "уважаемые",
     "transcription": "yeoreobun",
-    "description": "обращение ко всем присутствующим"
+    "description": "обращение ко всем присутствующим",
+    "audio": "audio/여러분_tts.mp3"
   },
   {
     "word": "여름",
     "translation": "лето",
     "transcription": "yeoreum",
-    "description": "тёплое время года после весны"
+    "description": "тёплое время года после весны",
+    "audio": "audio/여름_tts.mp3"
   },
   {
     "word": "여보세요",
     "translation": "алло",
     "transcription": "yeoboseyo",
-    "description": "приветствие при телефонном звонке"
+    "description": "приветствие при телефонном звонке",
+    "audio": "audio/여보세요_tts.mp3"
   },
   {
     "word": "여섯",
     "translation": "шесть",
     "transcription": "yeoseot",
-    "description": "число 6"
+    "description": "число 6",
+    "audio": "audio/여섯_tts.mp3"
   },
   {
     "word": "여자",
     "translation": "женщина",
     "transcription": "yeoja",
-    "description": "лицо женского пола"
+    "description": "лицо женского пола",
+    "audio": "audio/여자_tts.mp3"
   },
   {
     "word": "여학생",
     "translation": "студентка",
     "transcription": "yeohaksaeng",
-    "description": "учащаяся женского пола"
+    "description": "учащаяся женского пола",
+    "audio": "audio/여학생_tts.mp3"
   },
   {
     "word": "여행",
     "translation": "путешествие",
     "transcription": "yeohaeng",
-    "description": "поездка в другое место"
+    "description": "поездка в другое место",
+    "audio": "audio/여행_tts.mp3"
   },
   {
     "word": "여행사",
     "translation": "турфирма",
     "transcription": "yeohaengsa",
-    "description": "компания, организующая путешествия"
+    "description": "компания, организующая путешествия",
+    "audio": "audio/여행사_tts.mp3"
   },
   {
     "word": "역",
     "translation": "станция",
     "transcription": "yeok",
-    "description": "место посадки на поезд или метро"
+    "description": "место посадки на поезд или метро",
+    "audio": "audio/역_tts.mp3"
   }
 ]
