@@ -1,0 +1,122 @@
+[
+  {
+    "word": "에어컨",
+    "translation": "кондиционер",
+    "transcription": "eeokeon",
+    "description": "устройство для охлаждения и вентиляции воздуха"
+  },
+  {
+    "word": "엔",
+    "translation": "иена",
+    "transcription": "en",
+    "description": "валюта Японии"
+  },
+  {
+    "word": "엘리베이터",
+    "translation": "лифт",
+    "transcription": "ellibeiteo",
+    "description": "подъёмная кабина для перемещения между этажами"
+  },
+  {
+    "word": "여권",
+    "translation": "паспорт",
+    "transcription": "yeogwon",
+    "description": "документ для зарубежных поездок"
+  },
+  {
+    "word": "여기",
+    "translation": "здесь",
+    "transcription": "yeogi",
+    "description": "место, где находится говорящий"
+  },
+  {
+    "word": "여기저기",
+    "translation": "там и сям",
+    "transcription": "yeogijeogi",
+    "description": "в разных местах, повсюду"
+  },
+  {
+    "word": "여덟",
+    "translation": "восемь",
+    "transcription": "yeodeol",
+    "description": "число 8 в корейской счётной системе"
+  },
+  {
+    "word": "여동생",
+    "translation": "младшая сестра",
+    "transcription": "yeodongsaeng",
+    "description": "сестра младше говорящего"
+  },
+  {
+    "word": "여든",
+    "translation": "восемьдесят",
+    "transcription": "yeodeun",
+    "description": "число 80"
+  },
+  {
+    "word": "여러",
+    "translation": "несколько",
+    "transcription": "yeoreo",
+    "description": "многие, разные по виду"
+  },
+  {
+    "word": "여러가지",
+    "translation": "различные",
+    "transcription": "yeoreogaji",
+    "description": "всякие типы или виды"
+  },
+  {
+    "word": "여러분",
+    "translation": "уважаемые",
+    "transcription": "yeoreobun",
+    "description": "обращение ко всем присутствующим"
+  },
+  {
+    "word": "여름",
+    "translation": "лето",
+    "transcription": "yeoreum",
+    "description": "тёплое время года после весны"
+  },
+  {
+    "word": "여보세요",
+    "translation": "алло",
+    "transcription": "yeoboseyo",
+    "description": "приветствие при телефонном звонке"
+  },
+  {
+    "word": "여섯",
+    "translation": "шесть",
+    "transcription": "yeoseot",
+    "description": "число 6"
+  },
+  {
+    "word": "여자",
+    "translation": "женщина",
+    "transcription": "yeoja",
+    "description": "лицо женского пола"
+  },
+  {
+    "word": "여학생",
+    "translation": "студентка",
+    "transcription": "yeohaksaeng",
+    "description": "учащаяся женского пола"
+  },
+  {
+    "word": "여행",
+    "translation": "путешествие",
+    "transcription": "yeohaeng",
+    "description": "поездка в другое место"
+  },
+  {
+    "word": "여행사",
+    "translation": "турфирма",
+    "transcription": "yeohaengsa",
+    "description": "компания, организующая путешествия"
+  },
+  {
+    "word": "역",
+    "translation": "станция",
+    "transcription": "yeok",
+    "description": "место посадки на поезд или метро"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "word": "이메일",
+    "translation": "электронная почта",
+    "transcription": "imeil",
+    "description": "сообщение, отправляемое через интернет"
+  },
+  {
+    "word": "이모",
+    "translation": "тётя (сестра матери)",
+    "transcription": "imo",
+    "description": "родная сестра матери"
+  },
+  {
+    "word": "이모부",
+    "translation": "дядя (муж тёти по маме)",
+    "transcription": "imobu",
+    "description": "муж сестры матери"
+  },
+  {
+    "word": "이번",
+    "translation": "на этот раз",
+    "transcription": "ibeon",
+    "description": "данный раз или случай"
+  },
+  {
+    "word": "이분",
+    "translation": "этот человек (уваж.)",
+    "transcription": "ibun",
+    "description": "вежливое указание на человека рядом"
+  },
+  {
+    "word": "이사",
+    "translation": "переезд",
+    "transcription": "isa",
+    "description": "смена места жительства или офиса"
+  },
+  {
+    "word": "이상",
+    "translation": "больше; странный",
+    "transcription": "isang",
+    "description": "превышение нормы или необычное состояние"
+  },
+  {
+    "word": "이상하다",
+    "translation": "странный",
+    "transcription": "isanghada",
+    "description": "выглядеть необычно или непонятно"
+  },
+  {
+    "word": "이십",
+    "translation": "двадцать",
+    "transcription": "isip",
+    "description": "число 20"
+  },
+  {
+    "word": "이야기",
+    "translation": "рассказ",
+    "transcription": "iyagi",
+    "description": "история или повествование о событиях"
+  },
+  {
+    "word": "이야기하다",
+    "translation": "разговаривать",
+    "transcription": "iyagihada",
+    "description": "вести беседу или рассказывать"
+  },
+  {
+    "word": "이용",
+    "translation": "использование",
+    "transcription": "iyong",
+    "description": "применение чего-либо"
+  },
+  {
+    "word": "이용하다",
+    "translation": "пользоваться",
+    "transcription": "iyonghada",
+    "description": "использовать на практике"
+  },
+  {
+    "word": "이월",
+    "translation": "февраль",
+    "transcription": "iwol",
+    "description": "второй месяц года"
+  },
+  {
+    "word": "이유",
+    "translation": "причина",
+    "transcription": "iyu",
+    "description": "основание, почему что-то происходит"
+  },
+  {
+    "word": "이제",
+    "translation": "теперь",
+    "transcription": "ije",
+    "description": "настоящий момент"
+  },
+  {
+    "word": "이집트",
+    "translation": "Египет",
+    "transcription": "ijipteu",
+    "description": "государство в северо-восточной Африке"
+  },
+  {
+    "word": "이쪽",
+    "translation": "сюда",
+    "transcription": "ijjok",
+    "description": "направление к говорящему или эта сторона"
+  },
+  {
+    "word": "이틀",
+    "translation": "двое суток",
+    "transcription": "iteul",
+    "description": "период в два дня"
+  },
+  {
+    "word": "이해",
+    "translation": "понимание",
+    "transcription": "ihae",
+    "description": "способность осознавать смысл"
+  }
+]

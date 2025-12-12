@@ -1,0 +1,122 @@
+[
+  {
+    "word": "역사",
+    "translation": "история",
+    "transcription": "yeoksa",
+    "description": "наука и события прошлого"
+  },
+  {
+    "word": "연락처",
+    "translation": "контакты",
+    "transcription": "yeollakcheo",
+    "description": "данные для связи: телефон или адрес"
+  },
+  {
+    "word": "연세",
+    "translation": "возраст (уваж.)",
+    "transcription": "yeonse",
+    "description": "вежливое обозначение возраста старшего"
+  },
+  {
+    "word": "연습",
+    "translation": "упражнение",
+    "transcription": "yeonseup",
+    "description": "тренировка для закрепления навыка"
+  },
+  {
+    "word": "연습하다",
+    "translation": "практиковаться",
+    "transcription": "yeonseupada",
+    "description": "выполнять упражнения для отработки"
+  },
+  {
+    "word": "연예인",
+    "translation": "знаменитость",
+    "transcription": "yeonyein",
+    "description": "известная медийная персона или артист"
+  },
+  {
+    "word": "연필",
+    "translation": "карандаш",
+    "transcription": "yeonpil",
+    "description": "пишущий стержень из графита"
+  },
+  {
+    "word": "연휴",
+    "translation": "длинные выходные",
+    "transcription": "yeonhyu",
+    "description": "несколько праздничных дней подряд"
+  },
+  {
+    "word": "열",
+    "translation": "десять",
+    "transcription": "yeol",
+    "description": "число 10"
+  },
+  {
+    "word": "열다",
+    "translation": "открывать",
+    "transcription": "yeolda",
+    "description": "раскрывать дверь или начинать доступ"
+  },
+  {
+    "word": "열리다",
+    "translation": "открываться",
+    "transcription": "yeollida",
+    "description": "становиться открытым"
+  },
+  {
+    "word": "열쇠",
+    "translation": "ключ",
+    "transcription": "yeolsoe",
+    "description": "предмет для запирания и отпирания"
+  },
+  {
+    "word": "열심히",
+    "translation": "усердно",
+    "transcription": "yeolssimhi",
+    "description": "прилагая много усилий"
+  },
+  {
+    "word": "열차",
+    "translation": "поезд",
+    "transcription": "yeolcha",
+    "description": "железнодорожный состав для перевозки"
+  },
+  {
+    "word": "엽서",
+    "translation": "открытка",
+    "transcription": "yeopseo",
+    "description": "почтовая карточка с изображением"
+  },
+  {
+    "word": "영",
+    "translation": "ноль",
+    "transcription": "yeong",
+    "description": "число 0; также значение духа"
+  },
+  {
+    "word": "영국",
+    "translation": "Великобритания",
+    "transcription": "yeongguk",
+    "description": "государство Соединённое Королевство"
+  },
+  {
+    "word": "영상",
+    "translation": "видео",
+    "transcription": "yeongsang",
+    "description": "записанное или транслируемое изображение"
+  },
+  {
+    "word": "영어",
+    "translation": "английский язык",
+    "transcription": "yeongeo",
+    "description": "язык англоязычных стран"
+  },
+  {
+    "word": "영어회화",
+    "translation": "разговорный английский",
+    "transcription": "yeongeo hoehwa",
+    "description": "устная речь и диалоги на английском"
+  }
+]

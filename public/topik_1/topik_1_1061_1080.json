@@ -1,0 +1,122 @@
+[
+  {
+    "word": "영하",
+    "translation": "ниже нуля",
+    "transcription": "yeongha",
+    "description": "температура со знаком минус"
+  },
+  {
+    "word": "영화",
+    "translation": "фильм",
+    "transcription": "yeonghwa",
+    "description": "кинокартина или кинематограф"
+  },
+  {
+    "word": "영화관",
+    "translation": "кинотеатр",
+    "transcription": "yeonghwagwan",
+    "description": "зал для просмотра фильмов"
+  },
+  {
+    "word": "영화배우",
+    "translation": "киноактёр",
+    "transcription": "yeonghwabaeu",
+    "description": "актёр, снимающийся в кино"
+  },
+  {
+    "word": "영화표",
+    "translation": "билет в кино",
+    "transcription": "yeonghwapyo",
+    "description": "билет на кинопоказ"
+  },
+  {
+    "word": "옆",
+    "translation": "бок",
+    "transcription": "yeop",
+    "description": "сторона или место рядом"
+  },
+  {
+    "word": "예",
+    "translation": "да (вежливо)",
+    "transcription": "ye",
+    "description": "вежливое подтверждение"
+  },
+  {
+    "word": "예문",
+    "translation": "пример предложения",
+    "transcription": "yemun",
+    "description": "образцовая фраза для изучения"
+  },
+  {
+    "word": "예쁘다",
+    "translation": "красивый",
+    "transcription": "yeppeuda",
+    "description": "выглядеть мило и симпатично"
+  },
+  {
+    "word": "예순",
+    "translation": "шестьдесят",
+    "transcription": "yesun",
+    "description": "число 60"
+  },
+  {
+    "word": "예약",
+    "translation": "бронь",
+    "transcription": "yeyak",
+    "description": "предварительное резервирование услуги"
+  },
+  {
+    "word": "옛날",
+    "translation": "давно",
+    "transcription": "yennal",
+    "description": "в старину, в прежние времена"
+  },
+  {
+    "word": "오",
+    "translation": "пять",
+    "transcription": "o",
+    "description": "число 5"
+  },
+  {
+    "word": "오늘",
+    "translation": "сегодня",
+    "transcription": "oneul",
+    "description": "текущий день"
+  },
+  {
+    "word": "오다",
+    "translation": "приходить",
+    "transcription": "oda",
+    "description": "двигаться к месту говорящего"
+  },
+  {
+    "word": "오래",
+    "translation": "долго",
+    "transcription": "orae",
+    "description": "в течение длительного времени"
+  },
+  {
+    "word": "오래간만",
+    "translation": "давненько",
+    "transcription": "oraeganman",
+    "description": "после долгого перерыва"
+  },
+  {
+    "word": "오래간만입니다",
+    "translation": "давно не виделись (вежл.)",
+    "transcription": "oraeganmanimnida",
+    "description": "приветствие после длительного расставания"
+  },
+  {
+    "word": "오랜만",
+    "translation": "спустя долгое время",
+    "transcription": "oraenman",
+    "description": "после значительного промежутка"
+  },
+  {
+    "word": "오랜만에",
+    "translation": "наконец спустя долго",
+    "transcription": "oraenman-e",
+    "description": "делая что-то впервые за долгий срок"
+  }
+]

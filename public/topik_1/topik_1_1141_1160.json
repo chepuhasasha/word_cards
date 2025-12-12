@@ -1,0 +1,122 @@
+[
+  {
+    "word": "원하다",
+    "translation": "хотеть",
+    "transcription": "wonhada",
+    "description": "желать чего-либо"
+  },
+  {
+    "word": "월",
+    "translation": "месяц",
+    "transcription": "wol",
+    "description": "единица времени в календаре"
+  },
+  {
+    "word": "월급",
+    "translation": "зарплата",
+    "transcription": "wolgeup",
+    "description": "ежемесячное вознаграждение за работу"
+  },
+  {
+    "word": "월드컵",
+    "translation": "чемпионат мира",
+    "transcription": "woldeukeop",
+    "description": "международный футбольный турнир"
+  },
+  {
+    "word": "월세",
+    "translation": "ежемесячная аренда",
+    "transcription": "wolse",
+    "description": "плата за аренду жилья каждый месяц"
+  },
+  {
+    "word": "월요일",
+    "translation": "понедельник",
+    "transcription": "woryoil",
+    "description": "первый рабочий день недели"
+  },
+  {
+    "word": "웬일",
+    "translation": "что случилось?",
+    "transcription": "wennil",
+    "description": "удивлённый вопрос о причине"
+  },
+  {
+    "word": "위",
+    "translation": "верх",
+    "transcription": "wi",
+    "description": "расположение выше чего-либо"
+  },
+  {
+    "word": "위치",
+    "translation": "расположение",
+    "transcription": "wichi",
+    "description": "место нахождения"
+  },
+  {
+    "word": "위하다",
+    "translation": "ради",
+    "transcription": "wihada",
+    "description": "делать что-то в интересах кого-либо"
+  },
+  {
+    "word": "위험하다",
+    "translation": "опасный",
+    "transcription": "wiheomhada",
+    "description": "содержащий риск или угрозу"
+  },
+  {
+    "word": "유럽",
+    "translation": "Европа",
+    "transcription": "yureop",
+    "description": "континент в западной Евразии"
+  },
+  {
+    "word": "유리",
+    "translation": "стекло",
+    "transcription": "yuri",
+    "description": "прозрачный твёрдый материал"
+  },
+  {
+    "word": "유명하다",
+    "translation": "известный",
+    "transcription": "yumyeonghada",
+    "description": "получивший широкую известность"
+  },
+  {
+    "word": "유월",
+    "translation": "июнь",
+    "transcription": "yuwol",
+    "description": "шестой месяц года"
+  },
+  {
+    "word": "유학",
+    "translation": "учёба за границей",
+    "transcription": "yuhak",
+    "description": "обучение в иностранной стране"
+  },
+  {
+    "word": "유학생",
+    "translation": "иностранный студент",
+    "transcription": "yuhaksaeng",
+    "description": "учащийся, проходящий обучение за границей"
+  },
+  {
+    "word": "유행",
+    "translation": "мода",
+    "transcription": "yuhaeng",
+    "description": "популярное направление или тенденция"
+  },
+  {
+    "word": "육",
+    "translation": "шесть",
+    "transcription": "yuk",
+    "description": "число 6 в китайско-корейском счёте"
+  },
+  {
+    "word": "육십",
+    "translation": "шестьдесят",
+    "transcription": "yuksip",
+    "description": "число 60 в китайско-корейском счёте"
+  }
+]

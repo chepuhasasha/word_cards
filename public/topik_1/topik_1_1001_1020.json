@@ -1,0 +1,122 @@
+[
+  {
+    "word": "어른",
+    "translation": "взрослый",
+    "transcription": "eoreun",
+    "description": "человек, достигший зрелого возраста"
+  },
+  {
+    "word": "어리다",
+    "translation": "быть молодым",
+    "transcription": "eorida",
+    "description": "о возрасте: юный или маленький"
+  },
+  {
+    "word": "어린이",
+    "translation": "ребёнок",
+    "transcription": "eorini",
+    "description": "маленький ребёнок или дошкольник"
+  },
+  {
+    "word": "어머",
+    "translation": "ой",
+    "transcription": "eomeo",
+    "description": "междометие удивления или испуга"
+  },
+  {
+    "word": "어머니",
+    "translation": "мать",
+    "transcription": "eomeoni",
+    "description": "вежливое обращение к матери"
+  },
+  {
+    "word": "어머님",
+    "translation": "мама (уваж.)",
+    "transcription": "eomeonim",
+    "description": "уважительная форма слова \"мать\""
+  },
+  {
+    "word": "어서",
+    "translation": "скорее",
+    "transcription": "eoseo",
+    "description": "призыв поторопиться или сделать быстро"
+  },
+  {
+    "word": "어울리다",
+    "translation": "подходить",
+    "transcription": "eoulrida",
+    "description": "хорошо сочетаться или быть к лицу"
+  },
+  {
+    "word": "어저께",
+    "translation": "вчера",
+    "transcription": "eojeokke",
+    "description": "день, непосредственно предшествующий сегодняшнему"
+  },
+  {
+    "word": "어제",
+    "translation": "вчера",
+    "transcription": "eoje",
+    "description": "предыдущий по отношению к сегодняшнему день"
+  },
+  {
+    "word": "어젯밤",
+    "translation": "вчерашняя ночь",
+    "transcription": "eojetbam",
+    "description": "ночь, прошедшая перед текущим днём"
+  },
+  {
+    "word": "언니",
+    "translation": "старшая сестра (для девушек)",
+    "transcription": "eonni",
+    "description": "как девушки называют старшую сестру или подругу старше"
+  },
+  {
+    "word": "언제",
+    "translation": "когда",
+    "transcription": "eonje",
+    "description": "вопрос о времени события"
+  },
+  {
+    "word": "언제나",
+    "translation": "всегда",
+    "transcription": "eonjena",
+    "description": "в любое время, постоянно"
+  },
+  {
+    "word": "얼굴",
+    "translation": "лицо",
+    "transcription": "eolgul",
+    "description": "передняя часть головы человека"
+  },
+  {
+    "word": "얼마나",
+    "translation": "сколько",
+    "transcription": "eolmana",
+    "description": "вопрос о степени или количестве"
+  },
+  {
+    "word": "얼음",
+    "translation": "лёд",
+    "transcription": "eoreum",
+    "description": "замёрзшая вода"
+  },
+  {
+    "word": "엄마",
+    "translation": "мама",
+    "transcription": "eomma",
+    "description": "неформальное обращение к матери"
+  },
+  {
+    "word": "없다",
+    "translation": "не быть",
+    "transcription": "eopda",
+    "description": "отсутствовать или не иметься в наличии"
+  },
+  {
+    "word": "없이",
+    "translation": "без",
+    "transcription": "eopssi",
+    "description": "в отсутствии кого-либо или чего-либо"
+  }
+]
