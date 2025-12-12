@@ -5,13 +5,7 @@
       v-for="option in options"
       :key="option"
       @click="() => selectOption(option)"
-      :class="[
-        'answer__option',
-        {
-          'answer__option--ok': selected === option && isCorrect === true,
-          'answer__option--error': selected === option && isCorrect === false,
-        },
-      ]"
+      :class="getOptionClass(option)"
     ) {{ option }}
 
   template(v-else-if="mode === 'learn'")
@@ -22,18 +16,14 @@
       :value="userAnswer"
       @input="onInput"
       @keyup.enter="submitWrite"
-      :class="[
-        'answer__input',
-        {
-          'answer__input--ok': isCorrect === true,
-          'answer__input--error': isCorrect === false,
-        },
-      ]"
+      :class="inputClass"
       placeholder="Напишите слово по-корейски"
     )
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
+
 const props = defineProps<{
   mode: 'test' | 'learn' | 'write'
   options: string[]
@@ -48,6 +38,14 @@ const emit = defineEmits<{
   (e: 'submit-write'): void
   (e: 'update:userAnswer', value: string): void
 }>()
+
+const inputClass = computed(() => [
+  'answer__input',
+  {
+    'answer__input--ok': props.isCorrect === true,
+    'answer__input--error': props.isCorrect === false,
+  },
+])
 
 /**
  * Передает выбранный пользователем вариант ответа родительскому компоненту.
@@ -74,6 +72,18 @@ const submitWrite = (): void => {
     emit('submit-write')
   }
 }
+
+/**
+ * Возвращает список классов для опции ответа с учетом выбранного состояния.
+ * @param option Значение отображаемой опции.
+ */
+const getOptionClass = (option: string): (string | Record<string, boolean>)[] => [
+  'answer__option',
+  {
+    'answer__option--ok': props.selected === option && props.isCorrect === true,
+    'answer__option--error': props.selected === option && props.isCorrect === false,
+  },
+]
 </script>
 
 <style scoped lang="scss">

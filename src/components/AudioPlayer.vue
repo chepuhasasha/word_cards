@@ -3,7 +3,7 @@
   button(
     v-if="audioSrc !== 'error'"
     @click="togglePlayback"
-    :class="['audio__button', { 'audio__button--play': isPlaying }]"
+    :class="buttonClass"
   )
     svg(width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg")
       path(
@@ -17,12 +17,14 @@
 </template>
 
 <script setup lang="ts">
-import { onBeforeUnmount, ref, watch } from 'vue'
+import { computed, onBeforeUnmount, ref, watch } from 'vue'
 
 const props = defineProps<{ audioSrc: string; transcription: string; autoplay?: boolean }>()
 
 const isPlaying = ref(false)
 const audioElement = ref<HTMLAudioElement | null>(null)
+
+const buttonClass = computed(() => ['audio__button', { 'audio__button--play': isPlaying.value }])
 
 /**
  * Останавливает текущее воспроизведение и очищает ресурсы аудио.
