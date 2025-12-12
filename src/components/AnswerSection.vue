@@ -5,7 +5,13 @@
       v-for="option in options"
       :key="option"
       @click="() => selectOption(option)"
-      :class="{ ok: selected === option && isCorrect === true, error: selected === option && isCorrect === false }"
+      :class="[
+        'answer__option',
+        {
+          'answer__option--ok': selected === option && isCorrect === true,
+          'answer__option--error': selected === option && isCorrect === false,
+        },
+      ]"
     ) {{ option }}
 
   template(v-else-if="mode === 'learn'")
@@ -16,7 +22,13 @@
       :value="userAnswer"
       @input="onInput"
       @keyup.enter="submitWrite"
-      :class="{ ok: isCorrect === true, error: isCorrect === false }"
+      :class="[
+        'answer__input',
+        {
+          'answer__input--ok': isCorrect === true,
+          'answer__input--error': isCorrect === false,
+        },
+      ]"
       placeholder="Напишите слово по-корейски"
     )
 </template>
@@ -73,7 +85,7 @@ const submitWrite = (): void => {
   padding: 0 10vw;
   width: 100vw;
 
-  button {
+  &__option {
     @include mixins.button-reset;
     @include mixins.text(40px);
     @include mixins.focus-ring(var(--accent));
@@ -86,9 +98,19 @@ const submitWrite = (): void => {
     &:hover {
       color: var(--accent);
     }
+
+    &--ok {
+      outline: 2px solid var(--ok);
+      color: var(--ok);
+    }
+
+    &--error {
+      outline: 2px solid var(--error);
+      color: var(--error);
+    }
   }
 
-  input {
+  &__input {
     @include mixins.text(50px);
 
     transition:
@@ -106,6 +128,16 @@ const submitWrite = (): void => {
 
     &:focus-visible {
       border-color: var(--accent);
+    }
+
+    &--ok {
+      border-color: var(--ok);
+      color: var(--ok);
+    }
+
+    &--error {
+      border-color: var(--error);
+      color: var(--error);
     }
   }
 

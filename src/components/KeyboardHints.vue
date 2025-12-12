@@ -1,21 +1,21 @@
 <template lang="pug">
 .keyboard
-  .keyboard_key
-    .keyboard_value(:class="{ keyboard_highlight: activeKey === '1' }") 1
-    .keyboard_value(:class="{ keyboard_highlight: activeKey === '2' }") 2
-    .keyboard_value(:class="{ keyboard_highlight: activeKey === '3' }") 3
-    .keyboard_value(:class="{ keyboard_highlight: activeKey === '4' }") 4
-    .keyboard_hint выбрать ответ (в тесте)
-  .keyboard_key
-    .keyboard_value(:class="{ keyboard_highlight: activeKey === 'ArrowLeft' }") ←
-    .keyboard_value(:class="{ keyboard_highlight: activeKey === 'ArrowRight' }") →
-    .keyboard_hint навигация по словам
-  .keyboard_key
-    .keyboard_value(:class="{ keyboard_highlight: activeKey === ' ' }") Space
-    .keyboard_hint лайк
-  .keyboard_key
-    .keyboard_value(:class="{ keyboard_highlight: activeKey === 'Enter' }") Enter
-    .keyboard_hint подтвердить или перейти
+  .keyboard__key
+    .keyboard__value(:class="{ 'keyboard__value--highlight': activeKey === '1' }") 1
+    .keyboard__value(:class="{ 'keyboard__value--highlight': activeKey === '2' }") 2
+    .keyboard__value(:class="{ 'keyboard__value--highlight': activeKey === '3' }") 3
+    .keyboard__value(:class="{ 'keyboard__value--highlight': activeKey === '4' }") 4
+    .keyboard__hint выбрать ответ (в тесте)
+  .keyboard__key
+    .keyboard__value(:class="{ 'keyboard__value--highlight': activeKey === 'ArrowLeft' }") ←
+    .keyboard__value(:class="{ 'keyboard__value--highlight': activeKey === 'ArrowRight' }") →
+    .keyboard__hint навигация по словам
+  .keyboard__key
+    .keyboard__value(:class="{ 'keyboard__value--highlight': activeKey === ' ' }") Space
+    .keyboard__hint лайк
+  .keyboard__key
+    .keyboard__value(:class="{ 'keyboard__value--highlight': activeKey === 'Enter' }") Enter
+    .keyboard__hint подтвердить или перейти
 </template>
 
 <script setup lang="ts">
@@ -33,11 +33,11 @@ const props = defineProps<{ activeKey: string | null }>()
   padding: 0 40px;
   width: 100vw;
 
-  &_key {
+  &__key {
     @include mixins.flex-center(4px);
   }
 
-  &_value {
+  &__value {
     @include mixins.capsule(0 10px);
 
     transition: all 0.3s ease;
@@ -47,16 +47,16 @@ const props = defineProps<{ activeKey: string | null }>()
     min-width: 30px;
     height: 30px;
     min-height: 30px;
+
+    &--highlight {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
   }
 
-  &_hint,
-  &_value {
+  &__hint,
+  &__value {
     @include mixins.text(12px, var(--c4));
-  }
-
-  &_highlight {
-    border-color: var(--accent);
-    color: var(--accent);
   }
 }
 </style>

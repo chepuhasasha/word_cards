@@ -1,9 +1,10 @@
 <template lang="pug">
-.word-wrapper(ref="wrapperRef")
-  transition(name="word")
-    .word(:key="wordKey")
-      h1(@click="toggleHelp" ref="headingRef" :style="headingStyle") {{ isHelp ? help : word.text }}
-      span {{ word.description }}
+.word-display(ref="wrapperRef")
+  transition(name="word-display")
+    .word-display__word(:key="wordKey")
+      h1.word-display__title(@click="toggleHelp" ref="headingRef" :style="headingStyle")
+        | {{ isHelp ? help : word.text }}
+      span.word-display__description {{ word.description }}
 </template>
 
 <script setup lang="ts">
@@ -78,15 +79,25 @@ onBeforeUnmount(() => {
 <style scoped lang="scss">
 @use '@/assets/styles/mixins' as mixins;
 
-.word {
-  @include mixins.stack;
+.word-display {
+  @include mixins.flex-center;
 
-  position: absolute;
-  inset: 0;
-  transition: all 0.3s ease;
+  position: relative;
+  justify-content: space-between;
   padding: 0 100px;
+  width: 100vw;
+  height: 120px;
 
-  h1 {
+  &__word {
+    @include mixins.stack;
+
+    position: absolute;
+    inset: 0;
+    transition: all 0.3s ease;
+    padding: 0 100px;
+  }
+
+  &__title {
     @include mixins.text(100px, var(--c5), 500);
 
     cursor: pointer;
@@ -96,59 +107,41 @@ onBeforeUnmount(() => {
     word-break: break-word;
   }
 
-  span {
+  &__description {
     @include mixins.text(12px, var(--c4));
   }
-
-  &-like {
-    @include mixins.flex-center;
-
-    position: absolute;
-    cursor: pointer;
-    height: 100%;
-  }
 }
 
-.word-wrapper {
-  @include mixins.flex-center;
-
-  position: relative;
-  justify-content: space-between;
-  padding: 0 100px;
-  width: 100vw;
-  height: 120px;
-}
-
-.word-enter-active,
-.word-leave-active {
+.word-display-enter-active,
+.word-display-leave-active {
   transition:
     opacity 0.5s ease,
     transform 0.5s ease;
 }
 
-.word-enter-from,
-.word-leave-to {
+.word-display-enter-from,
+.word-display-leave-to {
   opacity: 0;
 }
 
-.word-enter-to,
-.word-leave-from {
+.word-display-enter-to,
+.word-display-leave-from {
   opacity: 1;
 }
 
-.word-enter-from {
+.word-display-enter-from {
   transform: translateY(100px);
 }
 
-.word-enter-to {
+.word-display-enter-to {
   transform: translateY(0);
 }
 
-.word-leave-to {
+.word-display-leave-to {
   transform: translateY(-100px);
 }
 
-.word-leave-from {
+.word-display-leave-from {
   transform: translateY(-100);
 }
 </style>
