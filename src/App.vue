@@ -260,7 +260,7 @@ const generateQuestion = (): void => {
   order.value = shuffle([...listForMode])
   currentIndex.value = 0
 
-  const word = order.value[currentIndex.value]
+  const word = order.value[currentIndex.value]!
   setupQuestionForWord(word)
 }
 
@@ -271,7 +271,7 @@ const next = (): void => {
   if (!order.value.length) return
 
   currentIndex.value = (currentIndex.value + 1) % order.value.length
-  setupQuestionForWord(order.value[currentIndex.value])
+  setupQuestionForWord(order.value[currentIndex.value]!)
 }
 
 /**
@@ -281,7 +281,7 @@ const prev = (): void => {
   if (!order.value.length) return
 
   currentIndex.value = (currentIndex.value - 1 + order.value.length) % order.value.length
-  setupQuestionForWord(order.value[currentIndex.value])
+  setupQuestionForWord(order.value[currentIndex.value]!)
 }
 
 /**
