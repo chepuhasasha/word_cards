@@ -33,6 +33,8 @@
 const emit = defineEmits<{
   (e: 'remove-like'): void
   (e: 'like'): void
+  (e: 'prev'): void
+  (e: 'next'): void
 }>()
 
 defineProps<{ passed: number; total: number; current: boolean; liked: boolean }>()
@@ -51,8 +53,19 @@ const like = (): void => {
   emit('like')
 }
 
-const prev = () => {}
-const next = () => {}
+/**
+ * Сообщает о запросе перейти к предыдущему слову.
+ */
+const prev = (): void => {
+  emit('prev')
+}
+
+/**
+ * Сообщает о запросе перейти к следующему слову.
+ */
+const next = (): void => {
+  emit('next')
+}
 </script>
 
 <style scoped lang="sass">

@@ -15,6 +15,8 @@ main
       :total="totalCount"
       :current="Boolean(current)"
       :liked="isCurrentLiked"
+      @prev="prev"
+      @next="next"
       @remove-like="removeLike"
       @like="likeCurrentWord"
     )
@@ -68,6 +70,8 @@ const isCorrect = ref<boolean | null>(null)
 const userAnswer = ref('')
 const remaining = ref<Word[]>([])
 const likedRemaining = ref<Word[]>([])
+const history = ref<Word[]>([])
+const future = ref<Word[]>([])
 
 const fileInput = ref<HTMLInputElement | null>(null)
 
@@ -185,6 +189,8 @@ const onFileChange = async (e: Event): Promise<void> => {
     isCorrect.value = null
     userAnswer.value = ''
     options.value = []
+    history.value = []
+    future.value = []
 
     remaining.value = shuffle([...list.value])
 
@@ -212,6 +218,28 @@ const getActivePool = (): typeof remaining => {
 }
 
 /**
+ * Формирует варианты ответа и состояние для выбранного слова.
+ * @param word Слово, которое нужно показать пользователю.
+ */
+const setupQuestionForWord = (word: Word): void => {
+  const listForMode = getActiveList()
+  const others = listForMode.filter((w) => w !== word)
+  const distractors = shuffle(others)
+    .slice(0, Math.min(3, others.length))
+    .map((w) => w.translation)
+  const allOptions = mode.value === 'test' ? shuffle([...distractors, word.translation]) : []
+
+  current.value = word
+  options.value = allOptions
+  selected.value = null
+  isCorrect.value = null
+
+  if (mode.value === 'write') {
+    userAnswer.value = ''
+  }
+}
+
+/**
  * Формирует новый вопрос и подставляет варианты ответа.
  */
 const generateQuestion = (): void => {
@@ -233,31 +261,46 @@ const generateQuestion = (): void => {
   const word = pool.value.pop()
   if (!word) return
 
-  current.value = word
-
-  const others = listForMode.filter((w) => w !== word)
-  const distractors = shuffle(others)
-    .slice(0, Math.min(3, others.length))
-    .map((w) => w.translation)
-  const allOptions = mode.value === 'test' ? shuffle([...distractors, word.translation]) : []
-
-  options.value = allOptions
-  selected.value = null
-  isCorrect.value = null
-
-  if (mode.value !== 'write') {
-    isCorrect.value = null
-  }
+  setupQuestionForWord(word)
 }
 
 /**
  * Переходит к следующему слову, очищая пользовательский ввод при необходимости.
  */
 const next = (): void => {
-  if (mode.value === 'write') {
-    userAnswer.value = ''
+  if (future.value.length) {
+    const word = future.value.pop()
+
+    if (word) {
+      if (current.value) {
+        history.value = [...history.value, current.value]
+      }
+
+      setupQuestionForWord(word)
+      return
+    }
   }
+
+  if (current.value) {
+    history.value = [...history.value, current.value]
+  }
+
+  future.value = []
   generateQuestion()
+}
+
+/**
+ * Возвращает предыдущее показанное слово.
+ */
+const prev = (): void => {
+  const word = history.value.pop()
+  if (!word) return
+
+  if (current.value) {
+    future.value = [...future.value, current.value]
+  }
+
+  setupQuestionForWord(word)
 }
 
 /**
@@ -326,6 +369,8 @@ const updateMode = (nextMode: 'test' | 'learn' | 'write'): void => {
   isCorrect.value = null
   userAnswer.value = ''
   selected.value = null
+  history.value = []
+  future.value = []
   if (nextMode !== 'test') {
     options.value = []
   }
@@ -371,6 +416,8 @@ const resetAfterSourceChange = (): void => {
   isCorrect.value = null
   userAnswer.value = ''
   selected.value = null
+  history.value = []
+  future.value = []
 
   if (mode.value !== 'test') {
     options.value = []
