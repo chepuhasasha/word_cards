@@ -76,11 +76,16 @@ const cleanupAudio = (): void => {
  * @param text Текст, который нужно озвучить.
  */
 const buildTtsUrl = (text: string): string => {
+  const trimmed = text.trim()
+
   const params = new URLSearchParams({
     ie: 'UTF-8',
-    q: text,
+    q: trimmed,
     tl: TTS_LANG,
     client: 'tw-ob',
+    total: '1',
+    idx: '0',
+    textlen: String(trimmed.length),
   })
 
   return `${TTS_ENDPOINT}?${params.toString()}`
