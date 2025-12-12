@@ -22,8 +22,8 @@ main
     )
     WordDisplay(:word="displayedWord" :word-key="wordKey" :help='mode != "write" ? current?.translation : current?.word')
     AudioPlayer(
-      v-if="mode !== 'write' && current?.audio"
-      :audio-src="current?.audio || ''"
+      v-if="mode !== 'write' && current?.word"
+      :audio-src="current?.word || ''"
       :transcription="current?.transcription || ''"
       :autoplay="mode !== 'write'"
     )
@@ -180,17 +180,13 @@ const onFileChange = async (e: Event): Promise<void> => {
 
     const parsed: Word[] = data
       .filter(
-        (item) =>
-          item &&
-          typeof item.word === 'string' &&
-          typeof item.translation === 'string' &&
-          typeof item.audio === 'string',
+        (item) => item && typeof item.word === 'string' && typeof item.translation === 'string',
       )
       .map((item) => ({
         word: String(item.word),
         translation: String(item.translation),
         transcription: item.transcription ? String(item.transcription) : '',
-        audio: String(item.audio),
+        audio: typeof item.audio === 'string' ? String(item.audio) : null,
         description: item.description,
       }))
 

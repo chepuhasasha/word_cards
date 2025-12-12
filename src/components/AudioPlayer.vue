@@ -1,7 +1,21 @@
 <template lang="pug">
 .audio(v-if="audioSrc")
-  button(v-if="audioSrc !== 'error'" @click="togglePlayback" :class="{ audio__play: isPlaying }")
-    svg(width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg")
+  button(
+    v-if="audioSrc !== 'error'"
+    @click="togglePlayback"
+    :class="{ audio__play: isPlaying }"
+    :disabled="isLoading"
+  )
+    .audio__spinner(v-if="isLoading")
+      span
+    svg(
+      v-else
+      width="16"
+      height="18"
+      viewBox="0 0 16 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    )
       path(
         d="M14.2451 4.79289C15.036 5.92672 15.4998 7.30566 15.4998 8.79286C15.4998 10.2802 15.036 11.6591 14.2451 12.7929M8.1343 1.15857L4.96863 4.32426C4.79568 4.49721 4.7092 4.58369 4.60828 4.64553C4.51881 4.70036 4.42127 4.74076 4.31923 4.76526C4.20414 4.79289 4.08185 4.79289 3.83726 4.79289H2.1C1.53995 4.79289 1.25992 4.79289 1.04601 4.90188C0.85785 4.99775 0.70487 5.15073 0.60899 5.3389C0.5 5.55281 0.5 5.83283 0.5 6.39289V11.1929C0.5 11.753 0.5 12.033 0.60899 12.2469C0.70487 12.4351 0.85785 12.5881 1.04601 12.6839C1.25992 12.7929 1.53995 12.7929 2.1 12.7929H3.83726C4.08185 12.7929 4.20414 12.7929 4.31923 12.8206C4.42127 12.8451 4.51881 12.8855 4.60828 12.9403C4.7092 13.0021 4.79568 13.0886 4.96863 13.2616L8.1343 16.4272C8.5627 16.8556 8.7769 17.0698 8.9608 17.0843C9.1203 17.0968 9.2763 17.0322 9.3802 16.9105C9.5 16.7703 9.5 16.4674 9.5 15.8616V1.72426C9.5 1.11844 9.5 0.815534 9.3802 0.675274C9.2763 0.553574 9.1203 0.488985 8.9608 0.501545C8.7769 0.516015 8.5627 0.730205 8.1343 1.15857Z"
         stroke="var(--c4)"
@@ -15,10 +29,28 @@
 <script setup lang="ts">
 import { onBeforeUnmount, ref, watch } from 'vue'
 
+const TTS_ENDPOINT = 'https://translate.google.com/translate_tts'
+const TTS_LANG = 'ko'
+
 const props = defineProps<{ audioSrc: string; transcription: string; autoplay?: boolean }>()
 
 const isPlaying = ref(false)
+const isLoading = ref(false)
 const audioElement = ref<HTMLAudioElement | null>(null)
+const currentAudioKey = ref<string | null>(null)
+const audioCache = new Map<string, string>()
+
+/**
+ * Создает аудиоэлемент и вешает обработчик завершения воспроизведения.
+ */
+const ensureAudioElement = (): void => {
+  if (!audioElement.value) {
+    audioElement.value = new Audio()
+    audioElement.value.addEventListener('ended', () => {
+      isPlaying.value = false
+    })
+  }
+}
 
 /**
  * Останавливает текущее воспроизведение и очищает ресурсы аудио.
@@ -30,24 +62,92 @@ const cleanupAudio = (): void => {
     audioElement.value.load()
   }
   isPlaying.value = false
+  currentAudioKey.value = null
+}
+
+/**
+ * Загружает аудио через Google TTS или возвращает кешированный результат.
+ * @param text Текст, который нужно озвучить.
+ */
+const getAudioUrl = async (text: string): Promise<string> => {
+  if (audioCache.has(text)) {
+    return audioCache.get(text) as string
+  }
+
+  isLoading.value = true
+
+  try {
+    const params = new URLSearchParams({
+      ie: 'UTF-8',
+      q: text,
+      tl: TTS_LANG,
+      client: 'tw-ob',
+    })
+
+    const response = await fetch(`${TTS_ENDPOINT}?${params.toString()}`, {
+      headers: {
+        'User-Agent':
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        Referer: 'https://translate.google.com/',
+      },
+    })
+
+    if (!response.ok) {
+      throw new Error('Не удалось загрузить аудио')
+    }
+
+    const blob = await response.blob()
+    const objectUrl = URL.createObjectURL(blob)
+    audioCache.set(text, objectUrl)
+
+    return objectUrl
+  } finally {
+    isLoading.value = false
+  }
+}
+
+/**
+ * Подготавливает аудиоэлемент к воспроизведению указанного текста.
+ * @param text Текст, который необходимо озвучить.
+ */
+const prepareAudio = async (text: string): Promise<void> => {
+  ensureAudioElement()
+
+  if (!text || !audioElement.value) return
+
+  if (currentAudioKey.value === text && audioElement.value.src) {
+    return
+  }
+
+  const source = await getAudioUrl(text)
+  currentAudioKey.value = text
+  audioElement.value.src = source
+}
+
+/**
+ * Запускает воспроизведение уже подготовленного аудио.
+ */
+const playPreparedAudio = async (): Promise<void> => {
+  if (!audioElement.value) return
+
+  try {
+    await audioElement.value.play()
+    isPlaying.value = true
+  } catch (error) {
+    console.error('Не удалось воспроизвести аудио', error)
+    isPlaying.value = false
+  }
 }
 
 /**
  * Запускает или приостанавливает воспроизведение аудио.
  */
-const togglePlayback = (): void => {
-  if (!props.audioSrc || props.audioSrc === 'error') return
+const togglePlayback = async (): Promise<void> => {
+  if (!props.audioSrc || props.audioSrc === 'error' || isLoading.value) return
 
-  if (!audioElement.value) {
-    audioElement.value = new Audio(props.audioSrc)
-    audioElement.value.addEventListener('ended', () => {
-      isPlaying.value = false
-    })
-  }
+  ensureAudioElement()
 
-  if (audioElement.value.src !== props.audioSrc) {
-    audioElement.value.src = props.audioSrc
-  }
+  if (!audioElement.value) return
 
   if (isPlaying.value) {
     audioElement.value.pause()
@@ -55,45 +155,23 @@ const togglePlayback = (): void => {
     return
   }
 
-  audioElement.value
-    .play()
-    .then(() => {
-      isPlaying.value = true
-    })
-    .catch(() => {
-      isPlaying.value = false
-    })
+  await prepareAudio(props.audioSrc)
+  await playPreparedAudio()
 }
 
 watch(
   () => props.audioSrc,
-  (next) => {
+  async (next) => {
     if (!next || next === 'error') {
       cleanupAudio()
       return
     }
 
-    if (!audioElement.value) {
-      audioElement.value = new Audio(next)
-      audioElement.value.addEventListener('ended', () => {
-        isPlaying.value = false
-      })
-    } else {
-      audioElement.value.pause()
-      audioElement.value.currentTime = 0
-    }
-
-    audioElement.value.src = next
+    isPlaying.value = false
+    await prepareAudio(next)
 
     if (props.autoplay !== false) {
-      audioElement.value
-        .play()
-        .then(() => {
-          isPlaying.value = true
-        })
-        .catch(() => {
-          isPlaying.value = false
-        })
+      await playPreparedAudio()
     }
   },
   { immediate: true },
@@ -129,6 +207,14 @@ onBeforeUnmount(() => {
     path
       stroke: var(--accent)
 
+  &__spinner
+    width: 32px
+    height: 32px
+    border-radius: 50%
+    border: 3px solid var(--c4)
+    border-top-color: transparent
+    animation: audio-spin 1s linear infinite
+
   span
     color: var(--c4)
     font-size: 12px
@@ -144,6 +230,11 @@ onBeforeUnmount(() => {
     max-width: 80px
     height: 80px
     border-radius: 20px
+    transition: background 0.3s ease, color 0.3s ease, opacity 0.3s ease
+
+    &:disabled
+      opacity: 0.7
+      cursor: wait
 
     &:hover
       background: var(--accent)
@@ -151,4 +242,10 @@ onBeforeUnmount(() => {
 
       path
         stroke: var(--c1)
+
+@keyframes audio-spin
+  from
+    transform: rotate(0deg)
+  to
+    transform: rotate(360deg)
 </style>
