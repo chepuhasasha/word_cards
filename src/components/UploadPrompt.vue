@@ -9,7 +9,7 @@
         stroke-linecap="round"
         stroke-linejoin="round"
       )
-  span.upload-prompt__text Загрузите словарь
+  span.upload-prompt__text Выберите набор слов
 </template>
 
 <script setup lang="ts">

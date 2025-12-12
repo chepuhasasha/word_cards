@@ -1,6 +1,6 @@
 <template lang="pug">
 main
-  UploadPrompt(v-if="!current" @open="open")
+  UploadPrompt(v-if="!current" @open="openSelector")
   template(v-else)
     ModeBar(
       :mode="mode"
@@ -8,7 +8,7 @@ main
       :has-favorites="hasFavorites"
       @update:mode="updateMode"
       @toggle:favorites="toggleFavorites"
-      @open="open"
+      @open="openSelector"
     )
     WordCounter(
       :passed="passedCount"
@@ -39,7 +39,12 @@ main
       @update:userAnswer="updateUserAnswer"
     )
     KeyboardHints(:active-key="activeKey")
-  input(type="file" ref="fileInput" accept="application/json" @change="onFileChange" style="display: none")
+  SetSelectorModal(
+    :is-open="isSelectorOpen"
+    :sets="availableSets"
+    @close="closeSelector"
+    @select="selectSet"
+  )
 </template>
 
 <script setup lang="ts">
@@ -53,7 +58,8 @@ import ModeBar from '@/components/ModeBar.vue'
 import UploadPrompt from '@/components/UploadPrompt.vue'
 import WordCounter from '@/components/WordCounter.vue'
 import WordDisplay from '@/components/WordDisplay.vue'
-import { useDictionaryUpload } from '@/composables/useDictionaryUpload'
+import SetSelectorModal from '@/components/SetSelectorModal.vue'
+import { useEmbeddedSets } from '@/composables/useEmbeddedSets'
 import { useKeyboardShortcuts } from '@/composables/useKeyboardShortcuts'
 import { useWordsStore } from '@/stores/useWordsStore'
 
@@ -87,7 +93,9 @@ const {
   updateUserAnswer,
 } = wordStore
 
-const { fileInput, open, onFileChange } = useDictionaryUpload(wordStore.setWords)
+const { availableSets, isSelectorOpen, openSelector, closeSelector, selectSet } = useEmbeddedSets(
+  wordStore.setWords,
+)
 const { activeKey } = useKeyboardShortcuts({ store: wordStore })
 
 const helpText = computed(() =>
