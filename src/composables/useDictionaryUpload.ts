@@ -20,6 +20,35 @@ export const useDictionaryUpload = (onApply: ReturnType<typeof useWordsStore>['s
   }
 
   /**
+   * Проверяет структуру данных словаря и нормализует валидные записи.
+   * @param data Данные, прочитанные из JSON-файла.
+   * @returns Массив слов или null, если формат некорректен.
+   */
+  const normalizeDictionary = (data: unknown): Word[] | null => {
+    if (!Array.isArray(data)) {
+      return null
+    }
+
+    const parsed: Word[] = data
+      .filter(
+        (item) =>
+          item &&
+          typeof item.word === 'string' &&
+          typeof item.translation === 'string' &&
+          typeof item.audio === 'string',
+      )
+      .map((item) => ({
+        word: String(item.word),
+        translation: String(item.translation),
+        transcription: item.transcription ? String(item.transcription) : '',
+        audio: String(item.audio),
+        description: item.description,
+      }))
+
+    return parsed.length ? parsed : null
+  }
+
+  /**
    * Разбирает выбранный пользователем JSON-файл и инициализирует словарь.
    * @param event Событие изменения значения input type="file".
    */
@@ -31,34 +60,16 @@ export const useDictionaryUpload = (onApply: ReturnType<typeof useWordsStore>['s
     try {
       const text = await file.text()
       const data = JSON.parse(text)
+      const parsed = normalizeDictionary(data)
 
-      if (!Array.isArray(data)) {
-        throw new Error('Invalid format')
-      }
-
-      const parsed: Word[] = data
-        .filter(
-          (item) =>
-            item &&
-            typeof item.word === 'string' &&
-            typeof item.translation === 'string' &&
-            typeof item.audio === 'string',
-        )
-        .map((item) => ({
-          word: String(item.word),
-          translation: String(item.translation),
-          transcription: item.transcription ? String(item.transcription) : '',
-          audio: String(item.audio),
-          description: item.description,
-        }))
-
-      if (!parsed.length) {
-        throw new Error('Empty list')
+      if (!parsed) {
+        alert('Ошибка при чтении файла словаря. Проверьте формат JSON.')
+        return
       }
 
       onApply(parsed)
     } catch (error) {
-      console.error(error)
+      console.error('Не удалось обработать файл словаря', error)
       alert('Ошибка при чтении файла словаря. Проверьте формат JSON.')
     } finally {
       target.value = ''
