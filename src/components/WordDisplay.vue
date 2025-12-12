@@ -10,11 +10,15 @@
 <script setup lang="ts">
 import { nextTick, onBeforeUnmount, onMounted, ref, watch, type PropType } from 'vue'
 
+import { useSwipeNavigation } from '@/composables/useSwipeNavigation'
+
 const props = defineProps({
   word: { type: Object as PropType<{ text: string; description: string }>, required: true },
   wordKey: { type: String as PropType<string>, required: true },
   help: { type: String as PropType<string>, required: true },
 })
+
+const emit = defineEmits<{ (e: 'next'): void; (e: 'prev'): void }>()
 
 const MAX_FONT_SIZE = 100
 const MIN_FONT_SIZE = 30
@@ -26,6 +30,20 @@ const headingRef = ref<HTMLHeadingElement | null>(null)
 const wrapperRef = ref<HTMLElement | null>(null)
 
 const headingStyle = ref({ fontSize: `${fontSize.value}px` })
+
+/**
+ * Вызывает переход к следующему слову при свайпе влево.
+ */
+const handleSwipeLeft = (): void => {
+  emit('next')
+}
+
+/**
+ * Возвращает предыдущее слово при свайпе вправо.
+ */
+const handleSwipeRight = (): void => {
+  emit('prev')
+}
 
 /**
  * Переключает отображение подсказки или исходного слова.
@@ -73,6 +91,11 @@ onMounted(() => {
 
 onBeforeUnmount(() => {
   window.removeEventListener('resize', adjustFontSize)
+})
+
+useSwipeNavigation(wrapperRef, {
+  onSwipeLeft: handleSwipeLeft,
+  onSwipeRight: handleSwipeRight,
 })
 </script>
 
