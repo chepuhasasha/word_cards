@@ -20,7 +20,13 @@ main
       @remove-like="removeLike"
       @like="likeCurrentWord"
     )
-    WordDisplay(:word="displayedWord" :word-key="wordKey" :help="helpText")
+    WordDisplay(
+      :word="displayedWord"
+      :word-key="wordKey"
+      :help="helpText"
+      @next="next"
+      @prev="prev"
+    )
     AudioPlayer(
       v-if="mode !== 'write' && current?.audio"
       :audio-src="current?.audio || ''"
@@ -38,7 +44,7 @@ main
       @submit-write="checkWrite"
       @update:userAnswer="updateUserAnswer"
     )
-    KeyboardHints(:active-key="activeKey")
+    KeyboardHints(v-if="isDesktop" :active-key="activeKey")
   SetSelectorModal(
     :is-open="isSelectorOpen"
     :sets="availableSets"
@@ -61,6 +67,7 @@ import WordDisplay from '@/components/WordDisplay.vue'
 import SetSelectorModal from '@/components/SetSelectorModal.vue'
 import { useEmbeddedSets } from '@/composables/useEmbeddedSets'
 import { useKeyboardShortcuts } from '@/composables/useKeyboardShortcuts'
+import { useDeviceType } from '@/composables/useDeviceType'
 import { useWordsStore } from '@/stores/useWordsStore'
 
 const wordStore = useWordsStore()
@@ -97,6 +104,7 @@ const { availableSets, isSelectorOpen, openSelector, closeSelector, selectSet } 
   wordStore.setWords,
 )
 const { activeKey } = useKeyboardShortcuts({ store: wordStore })
+const { isDesktop } = useDeviceType()
 
 const helpText = computed(() =>
   mode.value !== 'write' ? current.value?.translation || '' : current.value?.word || '',

@@ -31,10 +31,10 @@
 }
 
 @mixin text($size, $color: var(--c5), $weight: 400) {
+  text-align: center;
   color: $color;
   font-size: $size;
   font-weight: $weight;
-  text-align: center;
 }
 
 @mixin control-surface($size: 60px, $radius: 20px, $bg: var(--c2)) {
