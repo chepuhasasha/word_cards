@@ -3,120 +3,140 @@
     "word": "적다",
     "translation": "мало",
     "transcription": "jeokda",
-    "description": "иметь небольшое количество"
+    "description": "иметь небольшое количество",
+    "audio": "audio/적다_tts.mp3"
   },
   {
     "word": "전",
     "translation": "до; перед",
     "transcription": "jeon",
-    "description": "ранее по времени или расположению"
+    "description": "ранее по времени или расположению",
+    "audio": "audio/전_tts.mp3"
   },
   {
     "word": "전공",
     "translation": "специализация",
     "transcription": "jeongong",
-    "description": "основное направление учёбы"
+    "description": "основное направление учёбы",
+    "audio": "audio/전공_tts.mp3"
   },
   {
     "word": "전기자동차",
     "translation": "электромобиль",
     "transcription": "jeongi jadongcha",
-    "description": "автомобиль, движимый электрическим мотором"
+    "description": "автомобиль, движимый электрическим мотором",
+    "audio": "audio/전기자동차_tts.mp3"
   },
   {
     "word": "전자사전",
     "translation": "электронный словарь",
     "transcription": "jeonja sajeon",
-    "description": "устройство или приложение для поиска слов"
+    "description": "устройство или приложение для поиска слов",
+    "audio": "audio/전자사전_tts.mp3"
   },
   {
     "word": "전하다",
     "translation": "передавать; сообщать",
     "transcription": "jeonhada",
-    "description": "донести информацию или предмет другому"
+    "description": "донести информацию или предмет другому",
+    "audio": "audio/전하다_tts.mp3"
   },
   {
     "word": "전혀",
     "translation": "совсем не",
     "transcription": "jeonhyeo",
-    "description": "полное отрицание без исключений"
+    "description": "полное отрицание без исключений",
+    "audio": "audio/전혀_tts.mp3"
   },
   {
     "word": "전화",
     "translation": "телефонный звонок",
     "transcription": "jeonhwa",
-    "description": "связь по телефону"
+    "description": "связь по телефону",
+    "audio": "audio/전화_tts.mp3"
   },
   {
     "word": "전화기",
     "translation": "телефонный аппарат",
     "transcription": "jeonhwagi",
-    "description": "устройство для совершения звонков"
+    "description": "устройство для совершения звонков",
+    "audio": "audio/전화기_tts.mp3"
   },
   {
     "word": "전화번호",
     "translation": "телефонный номер",
     "transcription": "jeonhwabeonho",
-    "description": "цифры для связи с абонентом"
+    "description": "цифры для связи с абонентом",
+    "audio": "audio/전화번호_tts.mp3"
   },
   {
     "word": "절",
     "translation": "буддийский храм",
     "transcription": "jeol",
-    "description": "место поклонения в буддизме"
+    "description": "место поклонения в буддизме",
+    "audio": "audio/절_tts.mp3"
   },
   {
     "word": "절대",
     "translation": "ни в коем случае; абсолютно",
     "transcription": "jeoldae",
-    "description": "категорически, без исключений"
+    "description": "категорически, без исключений",
+    "audio": "audio/절대_tts.mp3"
   },
   {
     "word": "젊다",
     "translation": "молодой",
     "transcription": "jeolmda",
-    "description": "находящийся в молодом возрасте"
+    "description": "находящийся в молодом возрасте",
+    "audio": "audio/젊다_tts.mp3"
   },
   {
     "word": "점",
     "translation": "точка; пятно",
     "transcription": "jeom",
-    "description": "маленькая отметка или деталь"
+    "description": "маленькая отметка или деталь",
+    "audio": "audio/점_tts.mp3"
   },
   {
     "word": "점수",
     "translation": "оценка; балл",
     "transcription": "jeomsu",
-    "description": "число, выражающее результат"
+    "description": "число, выражающее результат",
+    "audio": "audio/점수_tts.mp3"
   },
   {
     "word": "점심",
     "translation": "обед",
     "transcription": "jeomsim",
-    "description": "приём пищи в середине дня"
+    "description": "приём пищи в середине дня",
+    "audio": "audio/점심_tts.mp3"
   },
   {
     "word": "점심시간",
     "translation": "обеденное время",
     "transcription": "jeomsim sigan",
-    "description": "период, отведённый для обеда"
+    "description": "период, отведённый для обеда",
+    "audio": "audio/점심시간_tts.mp3"
   },
   {
     "word": "점심식사",
     "translation": "обеденная трапеза",
     "transcription": "jeomsim siksa",
-    "description": "приём пищи в полдень"
+    "description": "приём пищи в полдень",
+    "audio": "audio/점심식사_tts.mp3"
   },
   {
     "word": "점원",
     "translation": "продавец",
     "transcription": "jeomwon",
-    "description": "сотрудник торгового заведения"
+    "description": "сотрудник торгового заведения",
+    "audio": "audio/점원_tts.mp3"
   },
   {
     "word": "점퍼",
     "translation": "джемпер; куртка",
     "transcription": "jeompeo",
-    "description": "лёгкая верхняя одежда"
+    "description": "лёгкая верхняя одежда",
+    "audio": "audio/점퍼_tts.mp3"
   }
 ]

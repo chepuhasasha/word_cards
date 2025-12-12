@@ -3,120 +3,140 @@
     "word": "중국어",
     "translation": "китайский язык",
     "transcription": "junggugo",
-    "description": "язык, на котором говорят в Китае"
+    "description": "язык, на котором говорят в Китае",
+    "audio": "audio/중국어_tts.mp3"
   },
   {
     "word": "중국집",
     "translation": "китайский ресторан",
     "transcription": "junggukjip",
-    "description": "заведение, где подают китайскую кухню"
+    "description": "заведение, где подают китайскую кухню",
+    "audio": "audio/중국집_tts.mp3"
   },
   {
     "word": "중식",
     "translation": "китайская кухня",
     "transcription": "jungsik",
-    "description": "блюда, приготовленные в китайском стиле"
+    "description": "блюда, приготовленные в китайском стиле",
+    "audio": "audio/중식_tts.mp3"
   },
   {
     "word": "중심",
     "translation": "центр; середина",
     "transcription": "jungsim",
-    "description": "главная часть или ядро чего-либо"
+    "description": "главная часть или ядро чего-либо",
+    "audio": "audio/중심_tts.mp3"
   },
   {
     "word": "중요",
     "translation": "важность",
     "transcription": "jungyo",
-    "description": "значимость какого-либо дела"
+    "description": "значимость какого-либо дела",
+    "audio": "audio/중요_tts.mp3"
   },
   {
     "word": "중요하다",
     "translation": "быть важным",
     "transcription": "jungyohada",
-    "description": "иметь большое значение"
+    "description": "иметь большое значение",
+    "audio": "audio/중요하다_tts.mp3"
   },
   {
     "word": "중학교",
     "translation": "средняя школа",
     "transcription": "junghakgyo",
-    "description": "учебное заведение для подростков"
+    "description": "учебное заведение для подростков",
+    "audio": "audio/중학교_tts.mp3"
   },
   {
     "word": "중학생",
     "translation": "ученик средней школы",
     "transcription": "junghaksaeng",
-    "description": "учащийся среднего звена"
+    "description": "учащийся среднего звена",
+    "audio": "audio/중학생_tts.mp3"
   },
   {
     "word": "즐거워하다",
     "translation": "радоваться",
     "transcription": "jeulgeowohada",
-    "description": "испытывать радость и веселье"
+    "description": "испытывать радость и веселье",
+    "audio": "audio/즐거워하다_tts.mp3"
   },
   {
     "word": "즐겁다",
     "translation": "радостный",
     "transcription": "jeulgeopda",
-    "description": "приносящий удовольствие и веселье"
+    "description": "приносящий удовольствие и веселье",
+    "audio": "audio/즐겁다_tts.mp3"
   },
   {
     "word": "즐기다",
     "translation": "наслаждаться",
     "transcription": "jeulgida",
-    "description": "получать удовольствие от занятия"
+    "description": "получать удовольствие от занятия",
+    "audio": "audio/즐기다_tts.mp3"
   },
   {
     "word": "증세",
     "translation": "симптом",
     "transcription": "jeungse",
-    "description": "проявление болезни или недомогания"
+    "description": "проявление болезни или недомогания",
+    "audio": "audio/증세_tts.mp3"
   },
   {
     "word": "지각",
     "translation": "опоздание",
     "transcription": "jigak",
-    "description": "задержка на работу или учёбу"
+    "description": "задержка на работу или учёбу",
+    "audio": "audio/지각_tts.mp3"
   },
   {
     "word": "지갑",
     "translation": "кошелёк",
     "transcription": "jigap",
-    "description": "небольшой чехол для денег и карт"
+    "description": "небольшой чехол для денег и карт",
+    "audio": "audio/지갑_tts.mp3"
   },
   {
     "word": "지금",
     "translation": "сейчас",
     "transcription": "jigeum",
-    "description": "данный момент времени"
+    "description": "данный момент времени",
+    "audio": "audio/지금_tts.mp3"
   },
   {
     "word": "지나다",
     "translation": "проходить; миновать",
     "transcription": "jinada",
-    "description": "пересекать место или период"
+    "description": "пересекать место или период",
+    "audio": "audio/지나다_tts.mp3"
   },
   {
     "word": "지난달",
     "translation": "прошлый месяц",
     "transcription": "jinandal",
-    "description": "месяц, который был перед текущим"
+    "description": "месяц, который был перед текущим",
+    "audio": "audio/지난달_tts.mp3"
   },
   {
     "word": "지난번",
     "translation": "прошлый раз",
     "transcription": "jinanbeon",
-    "description": "предыдущий случай"
+    "description": "предыдущий случай",
+    "audio": "audio/지난번_tts.mp3"
   },
   {
     "word": "지난주",
     "translation": "прошлая неделя",
     "transcription": "jinanju",
-    "description": "неделя, предшествующая текущей"
+    "description": "неделя, предшествующая текущей",
+    "audio": "audio/지난주_tts.mp3"
   },
   {
     "word": "지내다",
     "translation": "проводить время; жить",
     "transcription": "jinaeda",
-    "description": "вести образ жизни или переживать период"
+    "description": "вести образ жизни или переживать период",
+    "audio": "audio/지내다_tts.mp3"
   }
 ]

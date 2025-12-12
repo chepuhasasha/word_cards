@@ -3,120 +3,140 @@
     "word": "이해하다",
     "translation": "понимать",
     "transcription": "ihaehada",
-    "description": "осознавать смысл или содержание чего-либо"
+    "description": "осознавать смысл или содержание чего-либо",
+    "audio": "audio/이해하다_tts.mp3"
   },
   {
     "word": "인",
     "translation": "человек",
     "transcription": "in",
-    "description": "обозначение человека или суффикс для лица"
+    "description": "обозначение человека или суффикс для лица",
+    "audio": "audio/인_tts.mp3"
   },
   {
     "word": "인구",
     "translation": "население",
     "transcription": "ingu",
-    "description": "численность жителей страны или региона"
+    "description": "численность жителей страны или региона",
+    "audio": "audio/인구_tts.mp3"
   },
   {
     "word": "인기",
     "translation": "популярность",
     "transcription": "ingi",
-    "description": "широкая любовь и интерес со стороны людей"
+    "description": "широкая любовь и интерес со стороны людей",
+    "audio": "audio/인기_tts.mp3"
   },
   {
     "word": "인기스타",
     "translation": "популярная звезда",
     "transcription": "ingiseuta",
-    "description": "артист или знаменитость, пользующийся большим успехом"
+    "description": "артист или знаменитость, пользующийся большим успехом",
+    "audio": "audio/인기스타_tts.mp3"
   },
   {
     "word": "인도",
     "translation": "Индия",
     "transcription": "indo",
-    "description": "государство в Южной Азии"
+    "description": "государство в Южной Азии",
+    "audio": "audio/인도_tts.mp3"
   },
   {
     "word": "인사",
     "translation": "приветствие",
     "transcription": "insa",
-    "description": "обмен приветственными словами или поклоном"
+    "description": "обмен приветственными словами или поклоном",
+    "audio": "audio/인사_tts.mp3"
   },
   {
     "word": "인사하다",
     "translation": "приветствовать",
     "transcription": "insahada",
-    "description": "здороваясь, выражать приветствие или уважение"
+    "description": "здороваясь, выражать приветствие или уважение",
+    "audio": "audio/인사하다_tts.mp3"
   },
   {
     "word": "인삼",
     "translation": "женьшень",
     "transcription": "insam",
-    "description": "лекарственное растение с ценным корнем"
+    "description": "лекарственное растение с ценным корнем",
+    "audio": "audio/인삼_tts.mp3"
   },
   {
     "word": "인상",
     "translation": "впечатление",
     "transcription": "insang",
-    "description": "ощущение или образ, полученный от кого-либо"
+    "description": "ощущение или образ, полученный от кого-либо",
+    "audio": "audio/인상_tts.mp3"
   },
   {
     "word": "인천",
     "translation": "Инчхон",
     "transcription": "incheon",
-    "description": "крупный портовый город в Южной Корее"
+    "description": "крупный портовый город в Южной Корее",
+    "audio": "audio/인천_tts.mp3"
   },
   {
     "word": "인터넷",
     "translation": "интернет",
     "transcription": "inteonet",
-    "description": "глобальная сеть передачи данных"
+    "description": "глобальная сеть передачи данных",
+    "audio": "audio/인터넷_tts.mp3"
   },
   {
     "word": "인터뷰하다",
     "translation": "брать интервью",
     "transcription": "inteobyu hada",
-    "description": "вести беседу для публикации или эфира"
+    "description": "вести беседу для публикации или эфира",
+    "audio": "audio/인터뷰하다_tts.mp3"
   },
   {
     "word": "인형",
     "translation": "кукла",
     "transcription": "inhyeong",
-    "description": "игрушка в виде человека или животного"
+    "description": "игрушка в виде человека или животного",
+    "audio": "audio/인형_tts.mp3"
   },
   {
     "word": "일",
     "translation": "дело; работа",
     "transcription": "il",
-    "description": "занятие, событие или обязанность"
+    "description": "занятие, событие или обязанность",
+    "audio": "audio/일_tts.mp3"
   },
   {
     "word": "일곱",
     "translation": "семь",
     "transcription": "ilgop",
-    "description": "число семь или количество семь"
+    "description": "число семь или количество семь",
+    "audio": "audio/일곱_tts.mp3"
   },
   {
     "word": "일기",
     "translation": "дневник",
     "transcription": "ilgi",
-    "description": "записи о событиях и впечатлениях дня"
+    "description": "записи о событиях и впечатлениях дня",
+    "audio": "audio/일기_tts.mp3"
   },
   {
     "word": "일기예보",
     "translation": "прогноз погоды",
     "transcription": "ilgiyebo",
-    "description": "сообщение о ожидаемых погодных условиях"
+    "description": "сообщение о ожидаемых погодных условиях",
+    "audio": "audio/일기예보_tts.mp3"
   },
   {
     "word": "일본",
     "translation": "Япония",
     "transcription": "ilbon",
-    "description": "островное государство в Восточной Азии"
+    "description": "островное государство в Восточной Азии",
+    "audio": "audio/일본_tts.mp3"
   },
   {
     "word": "일본드라마",
     "translation": "японская драма",
     "transcription": "ilbon deurama",
-    "description": "сериал или теледрама, снятые в Японии"
+    "description": "сериал или теледрама, снятые в Японии",
+    "audio": "audio/일본드라마_tts.mp3"
   }
 ]

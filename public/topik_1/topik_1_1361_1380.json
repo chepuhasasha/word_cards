@@ -3,120 +3,140 @@
     "word": "주무시다",
     "translation": "спать (вежл.)",
     "transcription": "jumusida",
-    "description": "уважительная форма глагола \"спать\""
+    "description": "уважительная форма глагола \"спать\"",
+    "audio": "audio/주무시다_tts.mp3"
   },
   {
     "word": "주문하다",
     "translation": "заказывать",
     "transcription": "jumunhada",
-    "description": "делать заказ на товар или блюдо"
+    "description": "делать заказ на товар или блюдо",
+    "audio": "audio/주문하다_tts.mp3"
   },
   {
     "word": "주변",
     "translation": "окрестности",
     "transcription": "jubyeon",
-    "description": "пространство вокруг какого-либо места"
+    "description": "пространство вокруг какого-либо места",
+    "audio": "audio/주변_tts.mp3"
   },
   {
     "word": "주부",
     "translation": "домохозяйка",
     "transcription": "jubu",
-    "description": "женщина, ведущая домашнее хозяйство"
+    "description": "женщина, ведущая домашнее хозяйство",
+    "audio": "audio/주부_tts.mp3"
   },
   {
     "word": "주사",
     "translation": "укол; инъекция",
     "transcription": "jusa",
-    "description": "введение лекарства шприцем"
+    "description": "введение лекарства шприцем",
+    "audio": "audio/주사_tts.mp3"
   },
   {
     "word": "주소",
     "translation": "адрес",
     "transcription": "juso",
-    "description": "местонахождение, записанное для связи"
+    "description": "местонахождение, записанное для связи",
+    "audio": "audio/주소_tts.mp3"
   },
   {
     "word": "주스",
     "translation": "сок",
     "transcription": "juseu",
-    "description": "напиток из фруктов или овощей"
+    "description": "напиток из фруктов или овощей",
+    "audio": "audio/주스_tts.mp3"
   },
   {
     "word": "주위",
     "translation": "окружающая среда; вокруг",
     "transcription": "juwi",
-    "description": "пространство вокруг человека или предмета"
+    "description": "пространство вокруг человека или предмета",
+    "audio": "audio/주위_tts.mp3"
   },
   {
     "word": "주인",
     "translation": "хозяин; владелец",
     "transcription": "juin",
-    "description": "человек, которому принадлежит имущество"
+    "description": "человек, которому принадлежит имущество",
+    "audio": "audio/주인_tts.mp3"
   },
   {
     "word": "주차장",
     "translation": "парковка",
     "transcription": "juchajang",
-    "description": "площадка для стоянки автомобилей"
+    "description": "площадка для стоянки автомобилей",
+    "audio": "audio/주차장_tts.mp3"
   },
   {
     "word": "주차하다",
     "translation": "парковать",
     "transcription": "juchahada",
-    "description": "ставить машину на место стоянки"
+    "description": "ставить машину на место стоянки",
+    "audio": "audio/주차하다_tts.mp3"
   },
   {
     "word": "주황색",
     "translation": "оранжевый цвет",
     "transcription": "juhwangsaek",
-    "description": "цвет между красным и жёлтым"
+    "description": "цвет между красным и жёлтым",
+    "audio": "audio/주황색_tts.mp3"
   },
   {
     "word": "죽",
     "translation": "рисовая каша",
     "transcription": "juk",
-    "description": "густая каша из варёного риса"
+    "description": "густая каша из варёного риса",
+    "audio": "audio/죽_tts.mp3"
   },
   {
     "word": "죽다",
     "translation": "умирать",
     "transcription": "jukda",
-    "description": "прекращать жить"
+    "description": "прекращать жить",
+    "audio": "audio/죽다_tts.mp3"
   },
   {
     "word": "준비",
     "translation": "подготовка",
     "transcription": "junbi",
-    "description": "процесс приготовления к делу"
+    "description": "процесс приготовления к делу",
+    "audio": "audio/준비_tts.mp3"
   },
   {
     "word": "준비하다",
     "translation": "готовить; подготавливать",
     "transcription": "junbihada",
-    "description": "делать необходимые приготовления"
+    "description": "делать необходимые приготовления",
+    "audio": "audio/준비하다_tts.mp3"
   },
   {
     "word": "줄",
     "translation": "верёвка; линия",
     "transcription": "jul",
-    "description": "длинный вытянутый предмет или очередь"
+    "description": "длинный вытянутый предмет или очередь",
+    "audio": "audio/줄_tts.mp3"
   },
   {
     "word": "줄다",
     "translation": "уменьшаться",
     "transcription": "julda",
-    "description": "становиться меньше по размеру или количеству"
+    "description": "становиться меньше по размеру или количеству",
+    "audio": "audio/줄다_tts.mp3"
   },
   {
     "word": "중",
     "translation": "середина; среди",
     "transcription": "jung",
-    "description": "центр или нахождение внутри чего-либо"
+    "description": "центр или нахождение внутри чего-либо",
+    "audio": "audio/중_tts.mp3"
   },
   {
     "word": "중국",
     "translation": "Китай",
     "transcription": "jungguk",
-    "description": "государство в Восточной Азии"
+    "description": "государство в Восточной Азии",
+    "audio": "audio/중국_tts.mp3"
   }
 ]

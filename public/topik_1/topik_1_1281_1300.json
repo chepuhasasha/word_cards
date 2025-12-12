@@ -3,120 +3,140 @@
     "word": "장마철",
     "translation": "пора дождей",
     "transcription": "jangmacheol",
-    "description": "сезон, когда идут затяжные дожди"
+    "description": "сезон, когда идут затяжные дожди",
+    "audio": "audio/장마철_tts.mp3"
   },
   {
     "word": "장미",
     "translation": "роза",
     "transcription": "jangmi",
-    "description": "цветок с ароматными бутонами и шипами"
+    "description": "цветок с ароматными бутонами и шипами",
+    "audio": "audio/장미_tts.mp3"
   },
   {
     "word": "장소",
     "translation": "место",
     "transcription": "jangso",
-    "description": "определённый пункт или локация"
+    "description": "определённый пункт или локация",
+    "audio": "audio/장소_tts.mp3"
   },
   {
     "word": "장점",
     "translation": "достоинство; плюс",
     "transcription": "jangjeom",
-    "description": "сильная сторона или преимущество"
+    "description": "сильная сторона или преимущество",
+    "audio": "audio/장점_tts.mp3"
   },
   {
     "word": "재료",
     "translation": "ингредиент; материал",
     "transcription": "jaeryo",
-    "description": "вещество для изготовления или готовки"
+    "description": "вещество для изготовления или готовки",
+    "audio": "audio/재료_tts.mp3"
   },
   {
     "word": "재미없다",
     "translation": "неинтересно",
     "transcription": "jaemieoptta",
-    "description": "вызывать скуку, без удовольствия"
+    "description": "вызывать скуку, без удовольствия",
+    "audio": "audio/재미없다_tts.mp3"
   },
   {
     "word": "재미있다",
     "translation": "интересно",
     "transcription": "jaemiitda",
-    "description": "приносить удовольствие и увлекательность"
+    "description": "приносить удовольствие и увлекательность",
+    "audio": "audio/재미있다_tts.mp3"
   },
   {
     "word": "재킷",
     "translation": "пиджак; куртка",
     "transcription": "jaekit",
-    "description": "лёгкая верхняя одежда"
+    "description": "лёгкая верхняя одежда",
+    "audio": "audio/재킷_tts.mp3"
   },
   {
     "word": "저",
     "translation": "вон тот",
     "transcription": "jeo",
-    "description": "указание на предмет, находящийся вдали"
+    "description": "указание на предмет, находящийся вдали",
+    "audio": "audio/저_tts.mp3"
   },
   {
     "word": "저거",
     "translation": "вон та вещь",
     "transcription": "jeoge",
-    "description": "предмет, расположенный далеко от говорящих"
+    "description": "предмет, расположенный далеко от говорящих",
+    "audio": "audio/저거_tts.mp3"
   },
   {
     "word": "저것",
     "translation": "вон то",
     "transcription": "jeogeot",
-    "description": "то, что находится на удалении"
+    "description": "то, что находится на удалении",
+    "audio": "audio/저것_tts.mp3"
   },
   {
     "word": "저곳",
     "translation": "вон то место",
     "transcription": "jeogot",
-    "description": "место, расположенное вдали"
+    "description": "место, расположенное вдали",
+    "audio": "audio/저곳_tts.mp3"
   },
   {
     "word": "저기",
     "translation": "вон там",
     "transcription": "jeogi",
-    "description": "указание на удалённое место"
+    "description": "указание на удалённое место",
+    "audio": "audio/저기_tts.mp3"
   },
   {
     "word": "저녁",
     "translation": "вечер",
     "transcription": "jeonyeok",
-    "description": "время суток после заката"
+    "description": "время суток после заката",
+    "audio": "audio/저녁_tts.mp3"
   },
   {
     "word": "저녁식사",
     "translation": "ужин",
     "transcription": "jeonyeok siksa",
-    "description": "приём пищи вечером"
+    "description": "приём пищи вечером",
+    "audio": "audio/저녁식사_tts.mp3"
   },
   {
     "word": "저렇게",
     "translation": "так, вон так",
     "transcription": "jeoreoke",
-    "description": "образ действия, показанный вдали"
+    "description": "образ действия, показанный вдали",
+    "audio": "audio/저렇게_tts.mp3"
   },
   {
     "word": "저분",
     "translation": "вон тот человек (уваж.)",
     "transcription": "jeobun",
-    "description": "вежливое указание на человека вдали"
+    "description": "вежливое указание на человека вдали",
+    "audio": "audio/저분_tts.mp3"
   },
   {
     "word": "저쪽",
     "translation": "та сторона",
     "transcription": "jeojjok",
-    "description": "направление или участок, удалённые от говорящего"
+    "description": "направление или участок, удалённые от говорящего",
+    "audio": "audio/저쪽_tts.mp3"
   },
   {
     "word": "저희",
     "translation": "мы (скромн.)",
     "transcription": "jeohui",
-    "description": "самоуничижительное местоимение для группы говорящего"
+    "description": "самоуничижительное местоимение для группы говорящего",
+    "audio": "audio/저희_tts.mp3"
   },
   {
     "word": "적",
     "translation": "враг",
     "transcription": "jeok",
-    "description": "противник или враждебная сторона"
+    "description": "противник или враждебная сторона",
+    "audio": "audio/적_tts.mp3"
   }
 ]

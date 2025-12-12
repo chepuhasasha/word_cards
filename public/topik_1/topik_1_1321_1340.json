@@ -3,120 +3,140 @@
     "word": "젓가락",
     "translation": "палочки для еды",
     "transcription": "jeotgarak",
-    "description": "пара тонких палочек для приёма пищи"
+    "description": "пара тонких палочек для приёма пищи",
+    "audio": "audio/젓가락_tts.mp3"
   },
   {
     "word": "정거장",
     "translation": "остановка",
     "transcription": "jeonggeojang",
-    "description": "место, где останавливается транспорт"
+    "description": "место, где останавливается транспорт",
+    "audio": "audio/정거장_tts.mp3"
   },
   {
     "word": "정도",
     "translation": "степень; примерно",
     "transcription": "jeongdo",
-    "description": "уровень величины или примерное количество"
+    "description": "уровень величины или примерное количество",
+    "audio": "audio/정도_tts.mp3"
   },
   {
     "word": "정류장",
     "translation": "автобусная остановка",
     "transcription": "jeongnyujang",
-    "description": "пункт посадки и высадки пассажиров автобуса"
+    "description": "пункт посадки и высадки пассажиров автобуса",
+    "audio": "audio/정류장_tts.mp3"
   },
   {
     "word": "정리하다",
     "translation": "убирать; приводить в порядок",
     "transcription": "jeongrihada",
-    "description": "систематизировать или раскладывать аккуратно"
+    "description": "систематизировать или раскладывать аккуратно",
+    "audio": "audio/정리하다_tts.mp3"
   },
   {
     "word": "정말",
     "translation": "действительно",
     "transcription": "jeongmal",
-    "description": "выражает искреннее подтверждение"
+    "description": "выражает искреннее подтверждение",
+    "audio": "audio/정말_tts.mp3"
   },
   {
     "word": "정문",
     "translation": "главные ворота",
     "transcription": "jeongmun",
-    "description": "основной вход в учреждение"
+    "description": "основной вход в учреждение",
+    "audio": "audio/정문_tts.mp3"
   },
   {
     "word": "정보",
     "translation": "информация",
     "transcription": "jeongbo",
-    "description": "сведения о фактах или событиях"
+    "description": "сведения о фактах или событиях",
+    "audio": "audio/정보_tts.mp3"
   },
   {
     "word": "정하다",
     "translation": "решать; устанавливать",
     "transcription": "jeonghada",
-    "description": "принимать решение или определять правило"
+    "description": "принимать решение или определять правило",
+    "audio": "audio/정하다_tts.mp3"
   },
   {
     "word": "제가",
     "translation": "я (вежл., подлеж.)",
     "transcription": "jega",
-    "description": "форма местоимения \"я\" в роли подлежащего"
+    "description": "форма местоимения \"я\" в роли подлежащего",
+    "audio": "audio/제가_tts.mp3"
   },
   {
     "word": "제목",
     "translation": "заголовок",
     "transcription": "jemok",
-    "description": "название текста или произведения"
+    "description": "название текста или произведения",
+    "audio": "audio/제목_tts.mp3"
   },
   {
     "word": "제일",
     "translation": "самый; лучший",
     "transcription": "jeil",
-    "description": "наивысшая степень среди других"
+    "description": "наивысшая степень среди других",
+    "audio": "audio/제일_tts.mp3"
   },
   {
     "word": "제주도",
     "translation": "о. Чеджу",
     "transcription": "jejudo",
-    "description": "южнокорейский остров-курорт"
+    "description": "южнокорейский остров-курорт",
+    "audio": "audio/제주도_tts.mp3"
   },
   {
     "word": "조금",
     "translation": "немного",
     "transcription": "jogeum",
-    "description": "небольшое количество или степень"
+    "description": "небольшое количество или степень",
+    "audio": "audio/조금_tts.mp3"
   },
   {
     "word": "조사하다",
     "translation": "исследовать; изучать",
     "transcription": "josahada",
-    "description": "проводить анализ или опрос"
+    "description": "проводить анализ или опрос",
+    "audio": "audio/조사하다_tts.mp3"
   },
   {
     "word": "조선",
     "translation": "Чосон",
     "transcription": "joseon",
-    "description": "историческое корейское государство"
+    "description": "историческое корейское государство",
+    "audio": "audio/조선_tts.mp3"
   },
   {
     "word": "조선말",
     "translation": "корейский язык (чосон)",
     "transcription": "joseonmal",
-    "description": "название корейского языка в Северной Корее"
+    "description": "название корейского языка в Северной Корее",
+    "audio": "audio/조선말_tts.mp3"
   },
   {
     "word": "조선어",
     "translation": "чосон-о (корейский язык)",
     "transcription": "joseoneo",
-    "description": "другое обозначение корейского языка в КНДР"
+    "description": "другое обозначение корейского языка в КНДР",
+    "audio": "audio/조선어_tts.mp3"
   },
   {
     "word": "조심하다",
     "translation": "быть осторожным",
     "transcription": "josimhada",
-    "description": "действовать осмотрительно, избегая опасности"
+    "description": "действовать осмотрительно, избегая опасности",
+    "audio": "audio/조심하다_tts.mp3"
   },
   {
     "word": "조용하다",
     "translation": "тихий; спокойный",
     "transcription": "joyonghada",
-    "description": "с низким уровнем шума и движений"
+    "description": "с низким уровнем шума и движений",
+    "audio": "audio/조용하다_tts.mp3"
   }
 ]
