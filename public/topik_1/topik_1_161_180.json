@@ -1,0 +1,122 @@
+[
+  {
+    "word": "구월",
+    "translation": "сентябрь",
+    "transcription": "гу-вол",
+    "description": "Девятый месяц года."
+  },
+  {
+    "word": "구하다",
+    "translation": "искать",
+    "transcription": "гу-ха-да",
+    "description": "Стараться найти, добыть или спасти что-либо."
+  },
+  {
+    "word": "국",
+    "translation": "суп",
+    "transcription": "гук",
+    "description": "Жидкое блюдо на бульоне."
+  },
+  {
+    "word": "국내",
+    "translation": "внутренний",
+    "transcription": "гун-нэ",
+    "description": "Относящийся к территории своей страны."
+  },
+  {
+    "word": "국립",
+    "translation": "государственный",
+    "transcription": "гун-нип",
+    "description": "Основанный государством, национальный."
+  },
+  {
+    "word": "국수",
+    "translation": "лапша",
+    "transcription": "гук-су",
+    "description": "Тонкие полоски теста, подаваемые как блюдо."
+  },
+  {
+    "word": "국어",
+    "translation": "корейский язык",
+    "transcription": "гу-о",
+    "description": "Национальный язык Кореи."
+  },
+  {
+    "word": "국적",
+    "translation": "гражданство",
+    "transcription": "гук-чок",
+    "description": "Принадлежность человека к определённой стране."
+  },
+  {
+    "word": "국제",
+    "translation": "международный",
+    "transcription": "гук-че",
+    "description": "Связанный с отношениями между государствами."
+  },
+  {
+    "word": "군인",
+    "translation": "солдат",
+    "transcription": "гу-нин",
+    "description": "Служащий в армии."
+  },
+  {
+    "word": "굽다",
+    "translation": "запекать",
+    "transcription": "куп-та",
+    "description": "Готовить пищу жарением или запеканием."
+  },
+  {
+    "word": "권",
+    "translation": "том",
+    "transcription": "квон",
+    "description": "Счётное слово для книг."
+  },
+  {
+    "word": "귀",
+    "translation": "ухо",
+    "transcription": "кви",
+    "description": "Орган слуха человека или животного."
+  },
+  {
+    "word": "귀엽다",
+    "translation": "милый",
+    "transcription": "кви-ёп-та",
+    "description": "Вызывать умиление или нежность."
+  },
+  {
+    "word": "규칙",
+    "translation": "правило",
+    "transcription": "кю-чик",
+    "description": "Установленная норма поведения или порядка."
+  },
+  {
+    "word": "귤",
+    "translation": "мандарин",
+    "transcription": "кюль",
+    "description": "Небольшой цитрус с оранжевой кожурой."
+  },
+  {
+    "word": "그",
+    "translation": "тот",
+    "transcription": "кы",
+    "description": "Местоимение о ранее упомянутом объекте."
+  },
+  {
+    "word": "그거",
+    "translation": "то",
+    "transcription": "кы-го",
+    "description": "Разговорное указание на предмет там."
+  },
+  {
+    "word": "그것",
+    "translation": "тот предмет",
+    "transcription": "кы-гот",
+    "description": "То, о чём говорили ранее."
+  },
+  {
+    "word": "그곳",
+    "translation": "то место",
+    "transcription": "кы-гос",
+    "description": "Указание на ранее упомянутое место."
+  }
+]

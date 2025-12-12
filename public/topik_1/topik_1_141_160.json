@@ -1,0 +1,122 @@
+[
+  {
+    "word": "과자",
+    "translation": "сладости",
+    "transcription": "ква-джа",
+    "description": "Лёгкие снеки вроде печенья или крекеров."
+  },
+  {
+    "word": "과학",
+    "translation": "наука",
+    "transcription": "ква-хак",
+    "description": "Сфера изучения природы и её закономерностей."
+  },
+  {
+    "word": "관계",
+    "translation": "отношение",
+    "transcription": "кван-ге",
+    "description": "Связь или взаимное влияние между людьми или вещами."
+  },
+  {
+    "word": "관광하다",
+    "translation": "путешествовать",
+    "transcription": "кван-гуан-ха-да",
+    "description": "Ездить ради отдыха и осмотра достопримечательностей."
+  },
+  {
+    "word": "관심",
+    "translation": "интерес",
+    "transcription": "кван-сим",
+    "description": "Внимание и забота к чему-либо."
+  },
+  {
+    "word": "광고",
+    "translation": "реклама",
+    "transcription": "кван-го",
+    "description": "Объявление, продвигающее товар или услугу."
+  },
+  {
+    "word": "괜찮다",
+    "translation": "быть в порядке",
+    "transcription": "квэн-чан-та",
+    "description": "Состояние нормальности, отсутствие проблемы."
+  },
+  {
+    "word": "괜찮습니다",
+    "translation": "всё в порядке",
+    "transcription": "квэн-чан-сым-ни-да",
+    "description": "Вежливый ответ, что беспокоиться не нужно."
+  },
+  {
+    "word": "교과서",
+    "translation": "учебник",
+    "transcription": "кё-гва-со",
+    "description": "Книга с основным учебным материалом."
+  },
+  {
+    "word": "교수",
+    "translation": "профессор",
+    "transcription": "кё-су",
+    "description": "Преподаватель высшего учебного заведения."
+  },
+  {
+    "word": "교실",
+    "translation": "класс",
+    "transcription": "кё-силь",
+    "description": "Аудитория, где проходят занятия."
+  },
+  {
+    "word": "교체",
+    "translation": "замена",
+    "transcription": "кё-че",
+    "description": "Процесс смены одного предмета или человека на другой."
+  },
+  {
+    "word": "교통",
+    "translation": "транспорт",
+    "transcription": "кё-тхон",
+    "description": "Система дорожного движения и перевозок."
+  },
+  {
+    "word": "교통사고",
+    "translation": "дорожная авария",
+    "transcription": "кё-тхон-са-го",
+    "description": "Происшествие или столкновение на дороге."
+  },
+  {
+    "word": "교회",
+    "translation": "церковь",
+    "transcription": "кё-хве",
+    "description": "Христианский храм и община верующих."
+  },
+  {
+    "word": "구",
+    "translation": "девять",
+    "transcription": "гу",
+    "description": "Число 9 в счёте."
+  },
+  {
+    "word": "구경하다",
+    "translation": "осматривать",
+    "transcription": "гу-гён-ха-да",
+    "description": "С интересом смотреть или любоваться чем-либо."
+  },
+  {
+    "word": "구두",
+    "translation": "туфли",
+    "transcription": "гу-ду",
+    "description": "Пара классической кожаной обуви."
+  },
+  {
+    "word": "구름",
+    "translation": "облако",
+    "transcription": "гу-рым",
+    "description": "Скопление водяного пара в небе."
+  },
+  {
+    "word": "구십",
+    "translation": "девяносто",
+    "transcription": "гу-сим",
+    "description": "Число 90 при счёте."
+  }
+]

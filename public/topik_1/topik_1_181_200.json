@@ -1,0 +1,122 @@
+[
+  {
+    "word": "그날",
+    "translation": "тот день",
+    "transcription": "кы-нал",
+    "description": "Определённая дата, о которой идёт речь."
+  },
+  {
+    "word": "그냥",
+    "translation": "просто",
+    "transcription": "кын-ян",
+    "description": "Без причины или особой цели, как есть."
+  },
+  {
+    "word": "그동안",
+    "translation": "за это время",
+    "transcription": "кы-дон-ан",
+    "description": "Период, прошедший до данного момента."
+  },
+  {
+    "word": "그들",
+    "translation": "они",
+    "transcription": "кы-дыль",
+    "description": "Эти люди, третье лицо множественного числа."
+  },
+  {
+    "word": "그때",
+    "translation": "тогда",
+    "transcription": "кыт-тэ",
+    "description": "В тот самый момент или период."
+  },
+  {
+    "word": "그래",
+    "translation": "да",
+    "transcription": "кы-рэ",
+    "description": "Разговорное подтверждение или согласие."
+  },
+  {
+    "word": "그래서",
+    "translation": "поэтому",
+    "transcription": "кы-рэ-со",
+    "description": "Указывает на следствие из сказанного ранее."
+  },
+  {
+    "word": "그램",
+    "translation": "грамм",
+    "transcription": "кырэм",
+    "description": "Единица массы в метрической системе."
+  },
+  {
+    "word": "그러나",
+    "translation": "однако",
+    "transcription": "кы-ро-на",
+    "description": "Союз для противопоставления сказанному."
+  },
+  {
+    "word": "그러니까",
+    "translation": "значит",
+    "transcription": "кы-ро-ни-ка",
+    "description": "Слова для вывода или пояснения причины."
+  },
+  {
+    "word": "그러면",
+    "translation": "тогда",
+    "transcription": "кы-ро-мён",
+    "description": "Используется при условии: если так, то что дальше."
+  },
+  {
+    "word": "그런",
+    "translation": "такой",
+    "transcription": "кы-рон",
+    "description": "Обладающий указанными ранее свойствами."
+  },
+  {
+    "word": "그런데",
+    "translation": "однако",
+    "transcription": "кы-рон-де",
+    "description": "Союз для смены темы или противопоставления."
+  },
+  {
+    "word": "그럼",
+    "translation": "тогда",
+    "transcription": "кыром",
+    "description": "Согласие перейти к действию или выводу."
+  },
+  {
+    "word": "그렇게",
+    "translation": "так",
+    "transcription": "кы-ро-кэ",
+    "description": "Подобным образом или в таком виде."
+  },
+  {
+    "word": "그렇구나",
+    "translation": "вот как",
+    "transcription": "кырот-ку-на",
+    "description": "Выражение понимания услышанного."
+  },
+  {
+    "word": "그렇다",
+    "translation": "таков",
+    "transcription": "кырот-та",
+    "description": "Подтверждение, что дело обстоит именно так."
+  },
+  {
+    "word": "그렇습니다",
+    "translation": "верно",
+    "transcription": "кырот-сым-ни-да",
+    "description": "Вежливое подтверждение согласия."
+  },
+  {
+    "word": "그렇지만",
+    "translation": "но всё же",
+    "transcription": "кырот-чи-ман",
+    "description": "Уступка с последующим противопоставлением."
+  },
+  {
+    "word": "그릇",
+    "translation": "миска",
+    "transcription": "кы-рыс",
+    "description": "Посуда или ёмкость для еды."
+  }
+]
