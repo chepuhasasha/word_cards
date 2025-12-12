@@ -2,7 +2,13 @@
 main
   UploadPrompt(v-if="!current" @open="open")
   template(v-else)
-    ModeBar(:mode="mode" @update:mode="updateMode" @open="open")
+    ModeBar(
+      :mode="mode"
+      :use-favorites="useFavorites"
+      @update:mode="updateMode"
+      @toggle:favorites="toggleFavorites"
+      @open="open"
+    )
     WordCounter(
       :passed="passedCount"
       :total="totalCount"
@@ -49,7 +55,8 @@ export interface Word {
   description: string
 }
 
-const mode = ref<'test' | 'learn' | 'write' | 'liked'>('learn')
+const mode = ref<'test' | 'learn' | 'write'>('learn')
+const useFavorites = ref(false)
 const list = ref<Word[]>([])
 const favorites = ref<Word[]>([])
 const current = ref<Word | null>(null)
@@ -62,13 +69,11 @@ const likedRemaining = ref<Word[]>([])
 
 const fileInput = ref<HTMLInputElement | null>(null)
 
-const totalCount = computed(() =>
-  mode.value === 'liked' ? favorites.value.length : list.value.length,
-)
+const totalCount = computed(() => (useFavorites.value ? favorites.value.length : list.value.length))
 
 const passedCount = computed(() => {
-  const pool = mode.value === 'liked' ? likedRemaining.value : remaining.value
-  const listForMode = mode.value === 'liked' ? favorites.value : list.value
+  const pool = useFavorites.value ? likedRemaining.value : remaining.value
+  const listForMode = useFavorites.value ? favorites.value : list.value
 
   if (!listForMode.length || !current.value) return 0
   return listForMode.length - pool.length
@@ -89,7 +94,7 @@ const displayedWord = computed(() => {
 
 const wordKey = computed(() => {
   if (!current.value) return ''
-  return `${current.value.word}-${mode.value}`
+  return `${current.value.word}-${mode.value}-${useFavorites.value ? 'liked' : 'regular'}`
 })
 
 const FAVORITES_KEY = 'word-cards.favorites'
@@ -190,11 +195,25 @@ const onFileChange = async (e: Event): Promise<void> => {
 }
 
 /**
+ * Возвращает актуальный список слов в зависимости от выбранного источника.
+ */
+const getActiveList = (): Word[] => {
+  return useFavorites.value ? favorites.value : list.value
+}
+
+/**
+ * Возвращает пул оставшихся слов для текущего источника.
+ */
+const getActivePool = (): typeof remaining => {
+  return useFavorites.value ? likedRemaining : remaining
+}
+
+/**
  * Формирует новый вопрос и подставляет варианты ответа.
  */
 const generateQuestion = (): void => {
-  const listForMode = mode.value === 'liked' ? favorites.value : list.value
-  const pool = mode.value === 'liked' ? likedRemaining : remaining
+  const listForMode = getActiveList()
+  const pool = getActivePool()
 
   if (!listForMode.length) {
     current.value = null
@@ -286,7 +305,7 @@ const checkWrite = (): void => {
 const handleKeydown = (e: KeyboardEvent): void => {
   if (e.key !== 'Enter') return
 
-  if (mode.value === 'learn' || mode.value === 'liked') {
+  if (mode.value === 'learn') {
     e.preventDefault()
     next()
   } else if (mode.value === 'write') {
@@ -299,7 +318,7 @@ const handleKeydown = (e: KeyboardEvent): void => {
  * Устанавливает новый режим обучения и сбрасывает состояние ввода.
  * @param nextMode Режим, выбранный пользователем.
  */
-const updateMode = (nextMode: 'test' | 'learn' | 'write' | 'liked'): void => {
+const updateMode = (nextMode: 'test' | 'learn' | 'write'): void => {
   mode.value = nextMode
   isCorrect.value = null
   userAnswer.value = ''
@@ -307,9 +326,7 @@ const updateMode = (nextMode: 'test' | 'learn' | 'write' | 'liked'): void => {
   if (nextMode !== 'test') {
     options.value = []
   }
-  if (current.value) {
-    generateQuestion()
-  }
+  generateQuestion()
 }
 
 /**
@@ -334,9 +351,30 @@ const removeLike = (): void => {
   likedRemaining.value = likedRemaining.value.filter((word) => word.word !== current.value?.word)
   persistFavorites()
 
-  if (mode.value === 'liked') {
+  if (useFavorites.value) {
     generateQuestion()
   }
+}
+
+/**
+ * Переключает источник слов между избранными и загруженным списком.
+ */
+const toggleFavorites = (): void => {
+  useFavorites.value = !useFavorites.value
+  if (useFavorites.value) {
+    likedRemaining.value = []
+  } else {
+    remaining.value = []
+  }
+  isCorrect.value = null
+  userAnswer.value = ''
+  selected.value = null
+
+  if (mode.value !== 'test') {
+    options.value = []
+  }
+
+  generateQuestion()
 }
 
 onMounted(() => {
