@@ -1,0 +1,122 @@
+[
+  {
+    "word": "킬로그램",
+    "translation": "килограмм",
+    "transcription": "killogeuraem",
+    "description": "единица массы, равная тысяче граммов"
+  },
+  {
+    "word": "킬로미터",
+    "translation": "километр",
+    "transcription": "killomiteo",
+    "description": "единица длины, равная тысяче метров"
+  },
+  {
+    "word": "타다",
+    "translation": "ехать",
+    "transcription": "tada",
+    "description": "пользоваться транспортом или кататься"
+  },
+  {
+    "word": "타월",
+    "translation": "полотенце",
+    "transcription": "tawol",
+    "description": "ткань для вытирания тела или рук"
+  },
+  {
+    "word": "탁구",
+    "translation": "настольный теннис",
+    "transcription": "takgu",
+    "description": "спорт с мячом на маленьком столе"
+  },
+  {
+    "word": "태국",
+    "translation": "Таиланд",
+    "transcription": "taeguk",
+    "description": "государство в Юго-Восточной Азии"
+  },
+  {
+    "word": "태권도",
+    "translation": "тхэквондо",
+    "transcription": "taegwondo",
+    "description": "корейское боевое искусство"
+  },
+  {
+    "word": "태어나다",
+    "translation": "рождаться",
+    "transcription": "taeeonada",
+    "description": "появляться на свет"
+  },
+  {
+    "word": "태풍",
+    "translation": "тайфун",
+    "transcription": "taepung",
+    "description": "сильный тропический шторм"
+  },
+  {
+    "word": "택시",
+    "translation": "такси",
+    "transcription": "taegsi",
+    "description": "пассажирский автомобиль с оплатой за поездку"
+  },
+  {
+    "word": "탤런트",
+    "translation": "актёр телевидения",
+    "transcription": "taelleonteu",
+    "description": "исполнитель телесериалов или шоу"
+  },
+  {
+    "word": "터미널",
+    "translation": "терминал",
+    "transcription": "teomineol",
+    "description": "конечная станция или автовокзал"
+  },
+  {
+    "word": "테니스",
+    "translation": "теннис",
+    "transcription": "teniseu",
+    "description": "спорт с ракетками и мячом на корте"
+  },
+  {
+    "word": "테이블",
+    "translation": "стол",
+    "transcription": "teibeul",
+    "description": "поверхность на ножках для размещения предметов"
+  },
+  {
+    "word": "텔레비전",
+    "translation": "телевизор",
+    "transcription": "tellebijeon",
+    "description": "прибор для просмотра телепередач"
+  },
+  {
+    "word": "토마토",
+    "translation": "помидор",
+    "transcription": "tomato",
+    "description": "красный сочный плод овощного растения"
+  },
+  {
+    "word": "토요일",
+    "translation": "суббота",
+    "transcription": "toyoil",
+    "description": "шестой день недели"
+  },
+  {
+    "word": "통",
+    "translation": "ёмкость",
+    "transcription": "tong",
+    "description": "большой сосуд или контейнер"
+  },
+  {
+    "word": "통장",
+    "translation": "сберкнижка",
+    "transcription": "tongjang",
+    "description": "книжка с записью банковских операций"
+  },
+  {
+    "word": "통하다",
+    "translation": "сообщаться",
+    "transcription": "tonghada",
+    "description": "проходить или иметь связь друг с другом"
+  }
+]

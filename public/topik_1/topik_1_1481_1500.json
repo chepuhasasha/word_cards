@@ -1,0 +1,122 @@
+[
+  {
+    "word": "층",
+    "translation": "этаж",
+    "transcription": "cheung",
+    "description": "уровень здания между перекрытиями"
+  },
+  {
+    "word": "치과",
+    "translation": "стоматология",
+    "transcription": "chigwa",
+    "description": "клиника или отделение для лечения зубов"
+  },
+  {
+    "word": "치료하다",
+    "translation": "лечить",
+    "transcription": "chiryohada",
+    "description": "проводить медицинское лечение"
+  },
+  {
+    "word": "치마",
+    "translation": "юбка",
+    "transcription": "chima",
+    "description": "женская одежда, покрывающая ноги до колен или ниже"
+  },
+  {
+    "word": "치약",
+    "translation": "зубная паста",
+    "transcription": "chiyak",
+    "description": "средство для чистки зубов"
+  },
+  {
+    "word": "친구",
+    "translation": "друг",
+    "transcription": "chingu",
+    "description": "близкий знакомый, с которым поддерживают дружбу"
+  },
+  {
+    "word": "친절하다",
+    "translation": "вежливый",
+    "transcription": "chinjolhada",
+    "description": "отзывчивый и внимательный к другим"
+  },
+  {
+    "word": "친척",
+    "translation": "родственник",
+    "transcription": "chincheok",
+    "description": "член расширенной семьи"
+  },
+  {
+    "word": "친하다",
+    "translation": "близкий",
+    "transcription": "chinhada",
+    "description": "находиться в дружеских отношениях"
+  },
+  {
+    "word": "칠",
+    "translation": "семь",
+    "transcription": "chil",
+    "description": "число 7"
+  },
+  {
+    "word": "칠십",
+    "translation": "семьдесят",
+    "transcription": "chilsip",
+    "description": "число 70"
+  },
+  {
+    "word": "칠월",
+    "translation": "июль",
+    "transcription": "chilwol",
+    "description": "седьмой месяц года"
+  },
+  {
+    "word": "칠판",
+    "translation": "доска",
+    "transcription": "chilpan",
+    "description": "поверхность для записи мелом или маркером"
+  },
+  {
+    "word": "침대",
+    "translation": "кровать",
+    "transcription": "chimdae",
+    "description": "мебель для сна"
+  },
+  {
+    "word": "칫솔",
+    "translation": "зубная щётка",
+    "transcription": "chitsol",
+    "description": "щётка для ухода за зубами"
+  },
+  {
+    "word": "카드",
+    "translation": "карта",
+    "transcription": "kadeu",
+    "description": "пластиковая платёжная карта или открытка"
+  },
+  {
+    "word": "카레",
+    "translation": "карри",
+    "transcription": "kare",
+    "description": "пряное блюдо или соус индийского происхождения"
+  },
+  {
+    "word": "카메라",
+    "translation": "камера",
+    "transcription": "kamera",
+    "description": "устройство для фотографирования или видеосъёмки"
+  },
+  {
+    "word": "카페",
+    "translation": "кафе",
+    "transcription": "kape",
+    "description": "небольшое заведение, где подают кофе и закуски"
+  },
+  {
+    "word": "칼",
+    "translation": "нож",
+    "transcription": "kal",
+    "description": "инструмент с лезвием для резки"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "word": "캐나다",
+    "translation": "Канада",
+    "transcription": "kaenada",
+    "description": "государство в Северной Америке"
+  },
+  {
+    "word": "커피",
+    "translation": "кофе",
+    "transcription": "keopi",
+    "description": "напиток из обжаренных кофейных зёрен"
+  },
+  {
+    "word": "커피숍",
+    "translation": "кофейня",
+    "transcription": "keopisyop",
+    "description": "заведение, где подают кофе и десерты"
+  },
+  {
+    "word": "컴퓨터",
+    "translation": "компьютер",
+    "transcription": "keompyuteo",
+    "description": "электронное устройство для обработки данных"
+  },
+  {
+    "word": "컵",
+    "translation": "чашка",
+    "transcription": "keop",
+    "description": "сосуд с ручкой для напитков"
+  },
+  {
+    "word": "케이크",
+    "translation": "торт",
+    "transcription": "keikeu",
+    "description": "сладкая выпечка с кремом или начинкой"
+  },
+  {
+    "word": "켜다",
+    "translation": "включать",
+    "transcription": "kyeoda",
+    "description": "подавать питание прибору или зажигать свет"
+  },
+  {
+    "word": "코",
+    "translation": "нос",
+    "transcription": "ko",
+    "description": "орган обоняния на лице"
+  },
+  {
+    "word": "코트",
+    "translation": "пальто",
+    "transcription": "koteu",
+    "description": "верхняя одежда до колен"
+  },
+  {
+    "word": "코피",
+    "translation": "носовое кровотечение",
+    "transcription": "kopi",
+    "description": "кровь, идущая из носа"
+  },
+  {
+    "word": "콜라",
+    "translation": "кола",
+    "transcription": "kolla",
+    "description": "сладкий газированный напиток"
+  },
+  {
+    "word": "콧노래",
+    "translation": "насвистывание",
+    "transcription": "kotnorae",
+    "description": "лёгкое напевание с закрытым ртом"
+  },
+  {
+    "word": "콧물",
+    "translation": "насморк",
+    "transcription": "kotmul",
+    "description": "выделения из носа при простуде"
+  },
+  {
+    "word": "콩",
+    "translation": "боб",
+    "transcription": "kong",
+    "description": "семя бобовых растений"
+  },
+  {
+    "word": "크기",
+    "translation": "размер",
+    "transcription": "keugi",
+    "description": "величина или объём предмета"
+  },
+  {
+    "word": "크다",
+    "translation": "большой",
+    "transcription": "keuda",
+    "description": "имеющий значительные размеры"
+  },
+  {
+    "word": "크리스마스",
+    "translation": "Рождество",
+    "transcription": "keuriseumaseu",
+    "description": "христианский праздник 25 декабря"
+  },
+  {
+    "word": "큰아버지",
+    "translation": "старший дядя",
+    "transcription": "keunabeoji",
+    "description": "старший брат отца"
+  },
+  {
+    "word": "큰어머니",
+    "translation": "тетя",
+    "transcription": "keuneomeoni",
+    "description": "жена старшего брата отца"
+  },
+  {
+    "word": "키",
+    "translation": "рост",
+    "transcription": "ki",
+    "description": "высота человека или предмета"
+  }
+]

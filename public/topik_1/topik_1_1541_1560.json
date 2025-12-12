@@ -1,0 +1,122 @@
+[
+  {
+    "word": "퇴근하다",
+    "translation": "уходить с работы",
+    "transcription": "toegeunhada",
+    "description": "заканчивать рабочий день и возвращаться домой"
+  },
+  {
+    "word": "특별히",
+    "translation": "особенно",
+    "transcription": "teukbyeolhi",
+    "description": "в особой степени, по-особенному"
+  },
+  {
+    "word": "특징",
+    "translation": "особенность",
+    "transcription": "teukjing",
+    "description": "характерная черта, отличающее свойство"
+  },
+  {
+    "word": "특히",
+    "translation": "в особенности",
+    "transcription": "teukhi",
+    "description": "выделяя что-то среди остального"
+  },
+  {
+    "word": "틀다",
+    "translation": "включать",
+    "transcription": "teulda",
+    "description": "запускать устройство, например музыку"
+  },
+  {
+    "word": "틀리다",
+    "translation": "ошибаться",
+    "transcription": "teullida",
+    "description": "быть неверным или допустить ошибку"
+  },
+  {
+    "word": "티셔츠",
+    "translation": "футболка",
+    "transcription": "tisyeocheu",
+    "description": "повседневная рубашка с короткими рукавами"
+  },
+  {
+    "word": "팀",
+    "translation": "команда",
+    "transcription": "tim",
+    "description": "группа людей, объединённых для совместной цели"
+  },
+  {
+    "word": "파",
+    "translation": "лук-перо",
+    "transcription": "pa",
+    "description": "зелёный лук, используемый в кулинарии"
+  },
+  {
+    "word": "파란색",
+    "translation": "синий цвет",
+    "transcription": "paransaek",
+    "description": "насыщенный голубой оттенок"
+  },
+  {
+    "word": "파랗다",
+    "translation": "быть синим",
+    "transcription": "parata",
+    "description": "иметь синий или голубой цвет"
+  },
+  {
+    "word": "파티",
+    "translation": "вечеринка",
+    "transcription": "pati",
+    "description": "дружеское праздничное собрание"
+  },
+  {
+    "word": "팔",
+    "translation": "рука",
+    "transcription": "pal",
+    "description": "конечность от плеча до кисти"
+  },
+  {
+    "word": "팔다",
+    "translation": "продавать",
+    "transcription": "palda",
+    "description": "реализовывать товар за деньги"
+  },
+  {
+    "word": "팔리다",
+    "translation": "продаваться",
+    "transcription": "pallida",
+    "description": "находить покупателя, быть реализованным"
+  },
+  {
+    "word": "팔십",
+    "translation": "восемьдесят",
+    "transcription": "palsip",
+    "description": "число 80"
+  },
+  {
+    "word": "팔월",
+    "translation": "август",
+    "transcription": "palwol",
+    "description": "восьмой месяц года"
+  },
+  {
+    "word": "패션",
+    "translation": "мода",
+    "transcription": "paesyeon",
+    "description": "текущие тенденции в одежде и стиле"
+  },
+  {
+    "word": "퍼센트",
+    "translation": "процент",
+    "transcription": "peosenteu",
+    "description": "одна сотая часть целого"
+  },
+  {
+    "word": "페이지",
+    "translation": "страница",
+    "transcription": "peiji",
+    "description": "лист или часть текста в книге или документе"
+  }
+]
