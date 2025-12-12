@@ -499,6 +499,13 @@ onBeforeUnmount(() => {
 
 <style scoped lang="sass">
 .keyboard
+  position: absolute
+  bottom: 10px
+  width: 100vw
+  padding: 0 40px
+  flex-wrap: wrap
+  align-items: center
+  justify-content: center
   display: flex
   gap: 10px
   &_key
