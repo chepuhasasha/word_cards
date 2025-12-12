@@ -18,7 +18,7 @@ main
       @remove-like="removeLike"
       @like="likeCurrentWord"
     )
-    WordDisplay(:word="displayedWord" :word-key="wordKey")
+    WordDisplay(:word="displayedWord" :word-key="wordKey" :help='mode != "write" ? current?.translation : current?.word')
     AudioPlayer(
       v-if="mode !== 'write' && current?.audio"
       :audio-src="current?.audio || ''"

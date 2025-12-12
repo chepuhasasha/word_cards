@@ -3,18 +3,23 @@
   transition(name="word")
     .word(:key="wordKey")
       span {{ word.description }}
-      h1(@click='isHelp = !isHelp') {{ isHelp ? "help" : word.text }}
+      h1(@click='isHelp = !isHelp') {{ isHelp ? help : word.text }}
 </template>
 
 <script setup lang="ts">
-import { computed, ref, type PropType } from 'vue'
+import { ref, watch, type PropType } from 'vue'
 
 const props = defineProps({
   word: { type: Object as PropType<{ text: string; description: string }>, required: true },
   wordKey: { type: String as PropType<string>, required: true },
+  help: { type: String as PropType<string>, required: true },
 })
 
 const isHelp = ref(false)
+watch(
+  () => props.word.text,
+  () => (isHelp.value = false),
+)
 </script>
 
 <style scoped lang="sass">
