@@ -10,6 +10,7 @@ main
       @toggle:favorites="toggleFavorites"
       @open="open"
     )
+    p.keyboard-hint Управление: 1–4 — выбрать ответ (в тесте), ←/→ — навигация по словам, Space — лайк, Enter — подтвердить или перейти
     WordCounter(
       :passed="passedCount"
       :total="totalCount"
@@ -308,10 +309,40 @@ const checkWrite = (): void => {
 }
 
 /**
- * Обрабатывает нажатия Enter в разных режимах обучения.
+ * Обрабатывает нажатия клавиш для навигации и выбора ответов.
  * @param e Событие клавиатуры.
  */
 const handleKeydown = (e: KeyboardEvent): void => {
+  const target = e.target as HTMLElement | null
+  const isTextInput =
+    target instanceof HTMLInputElement ||
+    target instanceof HTMLTextAreaElement ||
+    Boolean(target?.isContentEditable)
+
+  if (mode.value === 'test' && ['1', '2', '3', '4'].includes(e.key)) {
+    e.preventDefault()
+    handleDigitSelection(e.key)
+    return
+  }
+
+  if (e.key === 'ArrowLeft' && !isTextInput) {
+    e.preventDefault()
+    prev()
+    return
+  }
+
+  if (e.key === 'ArrowRight' && !isTextInput) {
+    e.preventDefault()
+    next()
+    return
+  }
+
+  if (e.key === ' ' && !isTextInput) {
+    e.preventDefault()
+    toggleLike()
+    return
+  }
+
   if (e.key !== 'Enter') return
 
   if (mode.value === 'learn') {
@@ -321,6 +352,21 @@ const handleKeydown = (e: KeyboardEvent): void => {
     e.preventDefault()
     checkWrite()
   }
+}
+
+/**
+ * Обрабатывает выбор варианта ответа при нажатии цифровых клавиш.
+ * @param keyPressed Нажатая пользователем клавиша (1–4).
+ */
+const handleDigitSelection = (keyPressed: string): void => {
+  if (mode.value !== 'test') return
+
+  const index = Number(keyPressed) - 1
+  const option = options.value[index]
+
+  if (!option) return
+
+  check(option)
 }
 
 /**
@@ -373,6 +419,19 @@ const removeLike = (): void => {
 }
 
 /**
+ * Переключает статус избранного для текущего слова.
+ */
+const toggleLike = (): void => {
+  if (!current.value) return
+
+  if (isCurrentLiked.value) {
+    removeLike()
+  } else {
+    likeCurrentWord()
+  }
+}
+
+/**
  * Сбрасывает состояние после смены источника слов.
  */
 const resetAfterSourceChange = (): void => {
@@ -416,3 +475,10 @@ onBeforeUnmount(() => {
   window.removeEventListener('keydown', handleKeydown)
 })
 </script>
+
+<style scoped lang="sass">
+.keyboard-hint
+  margin: 10px 0
+  color: var(--c4)
+  text-align: center
+</style>
