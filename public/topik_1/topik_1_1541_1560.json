@@ -3,120 +3,140 @@
     "word": "퇴근하다",
     "translation": "уходить с работы",
     "transcription": "toegeunhada",
-    "description": "заканчивать рабочий день и возвращаться домой"
+    "description": "заканчивать рабочий день и возвращаться домой",
+    "audio": "audio/퇴근하다_tts.mp3"
   },
   {
     "word": "특별히",
     "translation": "особенно",
     "transcription": "teukbyeolhi",
-    "description": "в особой степени, по-особенному"
+    "description": "в особой степени, по-особенному",
+    "audio": "audio/특별히_tts.mp3"
   },
   {
     "word": "특징",
     "translation": "особенность",
     "transcription": "teukjing",
-    "description": "характерная черта, отличающее свойство"
+    "description": "характерная черта, отличающее свойство",
+    "audio": "audio/특징_tts.mp3"
   },
   {
     "word": "특히",
     "translation": "в особенности",
     "transcription": "teukhi",
-    "description": "выделяя что-то среди остального"
+    "description": "выделяя что-то среди остального",
+    "audio": "audio/특히_tts.mp3"
   },
   {
     "word": "틀다",
     "translation": "включать",
     "transcription": "teulda",
-    "description": "запускать устройство, например музыку"
+    "description": "запускать устройство, например музыку",
+    "audio": "audio/틀다_tts.mp3"
   },
   {
     "word": "틀리다",
     "translation": "ошибаться",
     "transcription": "teullida",
-    "description": "быть неверным или допустить ошибку"
+    "description": "быть неверным или допустить ошибку",
+    "audio": "audio/틀리다_tts.mp3"
   },
   {
     "word": "티셔츠",
     "translation": "футболка",
     "transcription": "tisyeocheu",
-    "description": "повседневная рубашка с короткими рукавами"
+    "description": "повседневная рубашка с короткими рукавами",
+    "audio": "audio/티셔츠_tts.mp3"
   },
   {
     "word": "팀",
     "translation": "команда",
     "transcription": "tim",
-    "description": "группа людей, объединённых для совместной цели"
+    "description": "группа людей, объединённых для совместной цели",
+    "audio": "audio/팀_tts.mp3"
   },
   {
     "word": "파",
     "translation": "лук-перо",
     "transcription": "pa",
-    "description": "зелёный лук, используемый в кулинарии"
+    "description": "зелёный лук, используемый в кулинарии",
+    "audio": "audio/파_tts.mp3"
   },
   {
     "word": "파란색",
     "translation": "синий цвет",
     "transcription": "paransaek",
-    "description": "насыщенный голубой оттенок"
+    "description": "насыщенный голубой оттенок",
+    "audio": "audio/파란색_tts.mp3"
   },
   {
     "word": "파랗다",
     "translation": "быть синим",
     "transcription": "parata",
-    "description": "иметь синий или голубой цвет"
+    "description": "иметь синий или голубой цвет",
+    "audio": "audio/파랗다_tts.mp3"
   },
   {
     "word": "파티",
     "translation": "вечеринка",
     "transcription": "pati",
-    "description": "дружеское праздничное собрание"
+    "description": "дружеское праздничное собрание",
+    "audio": "audio/파티_tts.mp3"
   },
   {
     "word": "팔",
     "translation": "рука",
     "transcription": "pal",
-    "description": "конечность от плеча до кисти"
+    "description": "конечность от плеча до кисти",
+    "audio": "audio/팔_tts.mp3"
   },
   {
     "word": "팔다",
     "translation": "продавать",
     "transcription": "palda",
-    "description": "реализовывать товар за деньги"
+    "description": "реализовывать товар за деньги",
+    "audio": "audio/팔다_tts.mp3"
   },
   {
     "word": "팔리다",
     "translation": "продаваться",
     "transcription": "pallida",
-    "description": "находить покупателя, быть реализованным"
+    "description": "находить покупателя, быть реализованным",
+    "audio": "audio/팔리다_tts.mp3"
   },
   {
     "word": "팔십",
     "translation": "восемьдесят",
     "transcription": "palsip",
-    "description": "число 80"
+    "description": "число 80",
+    "audio": "audio/팔십_tts.mp3"
   },
   {
     "word": "팔월",
     "translation": "август",
     "transcription": "palwol",
-    "description": "восьмой месяц года"
+    "description": "восьмой месяц года",
+    "audio": "audio/팔월_tts.mp3"
   },
   {
     "word": "패션",
     "translation": "мода",
     "transcription": "paesyeon",
-    "description": "текущие тенденции в одежде и стиле"
+    "description": "текущие тенденции в одежде и стиле",
+    "audio": "audio/패션_tts.mp3"
   },
   {
     "word": "퍼센트",
     "translation": "процент",
     "transcription": "peosenteu",
-    "description": "одна сотая часть целого"
+    "description": "одна сотая часть целого",
+    "audio": "audio/퍼센트_tts.mp3"
   },
   {
     "word": "페이지",
     "translation": "страница",
     "transcription": "peiji",
-    "description": "лист или часть текста в книге или документе"
+    "description": "лист или часть текста в книге или документе",
+    "audio": "audio/페이지_tts.mp3"
   }
 ]

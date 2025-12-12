@@ -3,120 +3,140 @@
     "word": "킬로그램",
     "translation": "килограмм",
     "transcription": "killogeuraem",
-    "description": "единица массы, равная тысяче граммов"
+    "description": "единица массы, равная тысяче граммов",
+    "audio": "audio/킬로그램_tts.mp3"
   },
   {
     "word": "킬로미터",
     "translation": "километр",
     "transcription": "killomiteo",
-    "description": "единица длины, равная тысяче метров"
+    "description": "единица длины, равная тысяче метров",
+    "audio": "audio/킬로미터_tts.mp3"
   },
   {
     "word": "타다",
     "translation": "ехать",
     "transcription": "tada",
-    "description": "пользоваться транспортом или кататься"
+    "description": "пользоваться транспортом или кататься",
+    "audio": "audio/타다_tts.mp3"
   },
   {
     "word": "타월",
     "translation": "полотенце",
     "transcription": "tawol",
-    "description": "ткань для вытирания тела или рук"
+    "description": "ткань для вытирания тела или рук",
+    "audio": "audio/타월_tts.mp3"
   },
   {
     "word": "탁구",
     "translation": "настольный теннис",
     "transcription": "takgu",
-    "description": "спорт с мячом на маленьком столе"
+    "description": "спорт с мячом на маленьком столе",
+    "audio": "audio/탁구_tts.mp3"
   },
   {
     "word": "태국",
     "translation": "Таиланд",
     "transcription": "taeguk",
-    "description": "государство в Юго-Восточной Азии"
+    "description": "государство в Юго-Восточной Азии",
+    "audio": "audio/태국_tts.mp3"
   },
   {
     "word": "태권도",
     "translation": "тхэквондо",
     "transcription": "taegwondo",
-    "description": "корейское боевое искусство"
+    "description": "корейское боевое искусство",
+    "audio": "audio/태권도_tts.mp3"
   },
   {
     "word": "태어나다",
     "translation": "рождаться",
     "transcription": "taeeonada",
-    "description": "появляться на свет"
+    "description": "появляться на свет",
+    "audio": "audio/태어나다_tts.mp3"
   },
   {
     "word": "태풍",
     "translation": "тайфун",
     "transcription": "taepung",
-    "description": "сильный тропический шторм"
+    "description": "сильный тропический шторм",
+    "audio": "audio/태풍_tts.mp3"
   },
   {
     "word": "택시",
     "translation": "такси",
     "transcription": "taegsi",
-    "description": "пассажирский автомобиль с оплатой за поездку"
+    "description": "пассажирский автомобиль с оплатой за поездку",
+    "audio": "audio/택시_tts.mp3"
   },
   {
     "word": "탤런트",
     "translation": "актёр телевидения",
     "transcription": "taelleonteu",
-    "description": "исполнитель телесериалов или шоу"
+    "description": "исполнитель телесериалов или шоу",
+    "audio": "audio/탤런트_tts.mp3"
   },
   {
     "word": "터미널",
     "translation": "терминал",
     "transcription": "teomineol",
-    "description": "конечная станция или автовокзал"
+    "description": "конечная станция или автовокзал",
+    "audio": "audio/터미널_tts.mp3"
   },
   {
     "word": "테니스",
     "translation": "теннис",
     "transcription": "teniseu",
-    "description": "спорт с ракетками и мячом на корте"
+    "description": "спорт с ракетками и мячом на корте",
+    "audio": "audio/테니스_tts.mp3"
   },
   {
     "word": "테이블",
     "translation": "стол",
     "transcription": "teibeul",
-    "description": "поверхность на ножках для размещения предметов"
+    "description": "поверхность на ножках для размещения предметов",
+    "audio": "audio/테이블_tts.mp3"
   },
   {
     "word": "텔레비전",
     "translation": "телевизор",
     "transcription": "tellebijeon",
-    "description": "прибор для просмотра телепередач"
+    "description": "прибор для просмотра телепередач",
+    "audio": "audio/텔레비전_tts.mp3"
   },
   {
     "word": "토마토",
     "translation": "помидор",
     "transcription": "tomato",
-    "description": "красный сочный плод овощного растения"
+    "description": "красный сочный плод овощного растения",
+    "audio": "audio/토마토_tts.mp3"
   },
   {
     "word": "토요일",
     "translation": "суббота",
     "transcription": "toyoil",
-    "description": "шестой день недели"
+    "description": "шестой день недели",
+    "audio": "audio/토요일_tts.mp3"
   },
   {
     "word": "통",
     "translation": "ёмкость",
     "transcription": "tong",
-    "description": "большой сосуд или контейнер"
+    "description": "большой сосуд или контейнер",
+    "audio": "audio/통_tts.mp3"
   },
   {
     "word": "통장",
     "translation": "сберкнижка",
     "transcription": "tongjang",
-    "description": "книжка с записью банковских операций"
+    "description": "книжка с записью банковских операций",
+    "audio": "audio/통장_tts.mp3"
   },
   {
     "word": "통하다",
     "translation": "сообщаться",
     "transcription": "tonghada",
-    "description": "проходить или иметь связь друг с другом"
+    "description": "проходить или иметь связь друг с другом",
+    "audio": "audio/통하다_tts.mp3"
   }
 ]

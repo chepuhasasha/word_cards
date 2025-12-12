@@ -3,120 +3,140 @@
     "word": "펜",
     "translation": "ручка",
     "transcription": "pen",
-    "description": "прибор для письма чернилами"
+    "description": "прибор для письма чернилами",
+    "audio": "audio/펜_tts.mp3"
   },
   {
     "word": "펴다",
     "translation": "раскрывать",
     "transcription": "pyeoda",
-    "description": "расправлять или открывать что-либо"
+    "description": "расправлять или открывать что-либо",
+    "audio": "audio/펴다_tts.mp3"
   },
   {
     "word": "편",
     "translation": "сторона",
     "transcription": "pyeon",
-    "description": "часть или позиция относительно чего-то"
+    "description": "часть или позиция относительно чего-то",
+    "audio": "audio/편_tts.mp3"
   },
   {
     "word": "편지",
     "translation": "письмо",
     "transcription": "pyeonji",
-    "description": "письменное сообщение, отправленное кому-то"
+    "description": "письменное сообщение, отправленное кому-то",
+    "audio": "audio/편지_tts.mp3"
   },
   {
     "word": "편하다",
     "translation": "удобный",
     "transcription": "pyeonhada",
-    "description": "комфортный и лёгкий в использовании"
+    "description": "комфортный и лёгкий в использовании",
+    "audio": "audio/편하다_tts.mp3"
   },
   {
     "word": "평양",
     "translation": "Пхеньян",
     "transcription": "pyeongyang",
-    "description": "столица Северной Кореи"
+    "description": "столица Северной Кореи",
+    "audio": "audio/평양_tts.mp3"
   },
   {
     "word": "평일",
     "translation": "будний день",
     "transcription": "pyeongil",
-    "description": "день недели кроме выходных"
+    "description": "день недели кроме выходных",
+    "audio": "audio/평일_tts.mp3"
   },
   {
     "word": "포도",
     "translation": "виноград",
     "transcription": "podo",
-    "description": "ягоды лозы, используемые в еде и вине"
+    "description": "ягоды лозы, используемые в еде и вине",
+    "audio": "audio/포도_tts.mp3"
   },
   {
     "word": "포장",
     "translation": "упаковка",
     "transcription": "pojang",
-    "description": "оборачивание товара для хранения или перевозки"
+    "description": "оборачивание товара для хранения или перевозки",
+    "audio": "audio/포장_tts.mp3"
   },
   {
     "word": "표",
     "translation": "билет",
     "transcription": "pyo",
-    "description": "документ для проезда или входа"
+    "description": "документ для проезда или входа",
+    "audio": "audio/표_tts.mp3"
   },
   {
     "word": "표현",
     "translation": "выражение",
     "transcription": "pyohyeon",
-    "description": "способ передачи мыслей или чувств"
+    "description": "способ передачи мыслей или чувств",
+    "audio": "audio/표현_tts.mp3"
   },
   {
     "word": "푹",
     "translation": "глубоко",
     "transcription": "puk",
-    "description": "очень сильно или полностью погружаясь"
+    "description": "очень сильно или полностью погружаясь",
+    "audio": "audio/푹_tts.mp3"
   },
   {
     "word": "풀",
     "translation": "клей",
     "transcription": "pul",
-    "description": "вязкое вещество для склеивания"
+    "description": "вязкое вещество для склеивания",
+    "audio": "audio/풀_tts.mp3"
   },
   {
     "word": "풀다",
     "translation": "развязывать",
     "transcription": "pulda",
-    "description": "снимать узел или решать задачу"
+    "description": "снимать узел или решать задачу",
+    "audio": "audio/풀다_tts.mp3"
   },
   {
     "word": "프랑스",
     "translation": "Франция",
     "transcription": "peurangseu",
-    "description": "государство в Западной Европе"
+    "description": "государство в Западной Европе",
+    "audio": "audio/프랑스_tts.mp3"
   },
   {
     "word": "프로그램",
     "translation": "программа",
     "transcription": "peurogeuraem",
-    "description": "план мероприятий или программное обеспечение"
+    "description": "план мероприятий или программное обеспечение",
+    "audio": "audio/프로그램_tts.mp3"
   },
   {
     "word": "프린트",
     "translation": "принтер",
     "transcription": "peurinteu",
-    "description": "устройство для печати документов"
+    "description": "устройство для печати документов",
+    "audio": "audio/프린트_tts.mp3"
   },
   {
     "word": "피",
     "translation": "кровь",
     "transcription": "pi",
-    "description": "жидкость, циркулирующая по сосудам организма"
+    "description": "жидкость, циркулирующая по сосудам организма",
+    "audio": "audio/피_tts.mp3"
   },
   {
     "word": "피곤하다",
     "translation": "уставать",
     "transcription": "pigonhada",
-    "description": "чувствовать сильную усталость"
+    "description": "чувствовать сильную усталость",
+    "audio": "audio/피곤하다_tts.mp3"
   },
   {
     "word": "피다",
     "translation": "цвести",
     "transcription": "pida",
-    "description": "раскрываться цветком или дымом"
+    "description": "раскрываться цветком или дымом",
+    "audio": "audio/피다_tts.mp3"
   }
 ]

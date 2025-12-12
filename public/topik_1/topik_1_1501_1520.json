@@ -3,120 +3,140 @@
     "word": "캐나다",
     "translation": "Канада",
     "transcription": "kaenada",
-    "description": "государство в Северной Америке"
+    "description": "государство в Северной Америке",
+    "audio": "audio/캐나다_tts.mp3"
   },
   {
     "word": "커피",
     "translation": "кофе",
     "transcription": "keopi",
-    "description": "напиток из обжаренных кофейных зёрен"
+    "description": "напиток из обжаренных кофейных зёрен",
+    "audio": "audio/커피_tts.mp3"
   },
   {
     "word": "커피숍",
     "translation": "кофейня",
     "transcription": "keopisyop",
-    "description": "заведение, где подают кофе и десерты"
+    "description": "заведение, где подают кофе и десерты",
+    "audio": "audio/커피숍_tts.mp3"
   },
   {
     "word": "컴퓨터",
     "translation": "компьютер",
     "transcription": "keompyuteo",
-    "description": "электронное устройство для обработки данных"
+    "description": "электронное устройство для обработки данных",
+    "audio": "audio/컴퓨터_tts.mp3"
   },
   {
     "word": "컵",
     "translation": "чашка",
     "transcription": "keop",
-    "description": "сосуд с ручкой для напитков"
+    "description": "сосуд с ручкой для напитков",
+    "audio": "audio/컵_tts.mp3"
   },
   {
     "word": "케이크",
     "translation": "торт",
     "transcription": "keikeu",
-    "description": "сладкая выпечка с кремом или начинкой"
+    "description": "сладкая выпечка с кремом или начинкой",
+    "audio": "audio/케이크_tts.mp3"
   },
   {
     "word": "켜다",
     "translation": "включать",
     "transcription": "kyeoda",
-    "description": "подавать питание прибору или зажигать свет"
+    "description": "подавать питание прибору или зажигать свет",
+    "audio": "audio/켜다_tts.mp3"
   },
   {
     "word": "코",
     "translation": "нос",
     "transcription": "ko",
-    "description": "орган обоняния на лице"
+    "description": "орган обоняния на лице",
+    "audio": "audio/코_tts.mp3"
   },
   {
     "word": "코트",
     "translation": "пальто",
     "transcription": "koteu",
-    "description": "верхняя одежда до колен"
+    "description": "верхняя одежда до колен",
+    "audio": "audio/코트_tts.mp3"
   },
   {
     "word": "코피",
     "translation": "носовое кровотечение",
     "transcription": "kopi",
-    "description": "кровь, идущая из носа"
+    "description": "кровь, идущая из носа",
+    "audio": "audio/코피_tts.mp3"
   },
   {
     "word": "콜라",
     "translation": "кола",
     "transcription": "kolla",
-    "description": "сладкий газированный напиток"
+    "description": "сладкий газированный напиток",
+    "audio": "audio/콜라_tts.mp3"
   },
   {
     "word": "콧노래",
     "translation": "насвистывание",
     "transcription": "kotnorae",
-    "description": "лёгкое напевание с закрытым ртом"
+    "description": "лёгкое напевание с закрытым ртом",
+    "audio": "audio/콧노래_tts.mp3"
   },
   {
     "word": "콧물",
     "translation": "насморк",
     "transcription": "kotmul",
-    "description": "выделения из носа при простуде"
+    "description": "выделения из носа при простуде",
+    "audio": "audio/콧물_tts.mp3"
   },
   {
     "word": "콩",
     "translation": "боб",
     "transcription": "kong",
-    "description": "семя бобовых растений"
+    "description": "семя бобовых растений",
+    "audio": "audio/콩_tts.mp3"
   },
   {
     "word": "크기",
     "translation": "размер",
     "transcription": "keugi",
-    "description": "величина или объём предмета"
+    "description": "величина или объём предмета",
+    "audio": "audio/크기_tts.mp3"
   },
   {
     "word": "크다",
     "translation": "большой",
     "transcription": "keuda",
-    "description": "имеющий значительные размеры"
+    "description": "имеющий значительные размеры",
+    "audio": "audio/크다_tts.mp3"
   },
   {
     "word": "크리스마스",
     "translation": "Рождество",
     "transcription": "keuriseumaseu",
-    "description": "христианский праздник 25 декабря"
+    "description": "христианский праздник 25 декабря",
+    "audio": "audio/크리스마스_tts.mp3"
   },
   {
     "word": "큰아버지",
     "translation": "старший дядя",
     "transcription": "keunabeoji",
-    "description": "старший брат отца"
+    "description": "старший брат отца",
+    "audio": "audio/큰아버지_tts.mp3"
   },
   {
     "word": "큰어머니",
     "translation": "тетя",
     "transcription": "keuneomeoni",
-    "description": "жена старшего брата отца"
+    "description": "жена старшего брата отца",
+    "audio": "audio/큰어머니_tts.mp3"
   },
   {
     "word": "키",
     "translation": "рост",
     "transcription": "ki",
-    "description": "высота человека или предмета"
+    "description": "высота человека или предмета",
+    "audio": "audio/키_tts.mp3"
   }
 ]
