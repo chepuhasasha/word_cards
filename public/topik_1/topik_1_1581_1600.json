@@ -1,0 +1,122 @@
+[
+  {
+    "word": "피아노",
+    "translation": "пианино",
+    "transcription": "piano",
+    "description": "клавишный музыкальный инструмент"
+  },
+  {
+    "word": "피우다",
+    "translation": "курить",
+    "transcription": "piuda",
+    "description": "выдыхать дым, используя сигарету"
+  },
+  {
+    "word": "피자",
+    "translation": "пицца",
+    "transcription": "pija",
+    "description": "итальянская лепёшка с начинкой"
+  },
+  {
+    "word": "필름",
+    "translation": "плёнка",
+    "transcription": "pilleum",
+    "description": "тонкий материал для съёмки"
+  },
+  {
+    "word": "필요",
+    "translation": "необходимость",
+    "transcription": "pilyo",
+    "description": "то, без чего нельзя обойтись"
+  },
+  {
+    "word": "필요하다",
+    "translation": "быть нужным",
+    "transcription": "pilyohada",
+    "description": "являться необходимым или обязательным"
+  },
+  {
+    "word": "필통",
+    "translation": "пенал",
+    "transcription": "piltong",
+    "description": "футляр для письменных принадлежностей"
+  },
+  {
+    "word": "하나",
+    "translation": "один",
+    "transcription": "hana",
+    "description": "число 1 в корейском счёте"
+  },
+  {
+    "word": "하늘",
+    "translation": "небо",
+    "transcription": "haneul",
+    "description": "воздушное пространство над землёй"
+  },
+  {
+    "word": "하늘색",
+    "translation": "голубой",
+    "transcription": "haneulsaek",
+    "description": "цвет ясного неба"
+  },
+  {
+    "word": "하다",
+    "translation": "делать",
+    "transcription": "hada",
+    "description": "совершать действие или занятие"
+  },
+  {
+    "word": "하루",
+    "translation": "день",
+    "transcription": "haru",
+    "description": "сутки или один календарный день"
+  },
+  {
+    "word": "하숙",
+    "translation": "пансион",
+    "transcription": "hasuk",
+    "description": "проживание с питанием за плату"
+  },
+  {
+    "word": "하숙집",
+    "translation": "гостевой дом",
+    "transcription": "hasukjip",
+    "description": "жильё, где предоставляют комнату и питание"
+  },
+  {
+    "word": "하얀색",
+    "translation": "белый цвет",
+    "transcription": "hayansaek",
+    "description": "окрас, похожий на снег"
+  },
+  {
+    "word": "하얗다",
+    "translation": "быть белым",
+    "transcription": "hayata",
+    "description": "иметь белый оттенок"
+  },
+  {
+    "word": "하지만",
+    "translation": "однако",
+    "transcription": "hajiman",
+    "description": "союз, вводящий противопоставление"
+  },
+  {
+    "word": "학",
+    "translation": "учёба",
+    "transcription": "hak",
+    "description": "наука или учебный процесс"
+  },
+  {
+    "word": "학교",
+    "translation": "школа",
+    "transcription": "hakgyo",
+    "description": "учебное заведение для детей"
+  },
+  {
+    "word": "학기",
+    "translation": "семестр",
+    "transcription": "hakgi",
+    "description": "учебный период в году"
+  }
+]

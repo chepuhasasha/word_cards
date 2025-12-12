@@ -1,0 +1,122 @@
+[
+  {
+    "word": "책상",
+    "translation": "письменный стол",
+    "transcription": "chaeksang",
+    "description": "стол для работы и учёбы"
+  },
+  {
+    "word": "책임",
+    "translation": "ответственность",
+    "transcription": "chaegim",
+    "description": "обязанность отвечать за результат"
+  },
+  {
+    "word": "책장",
+    "translation": "книжный шкаф",
+    "transcription": "chaekjang",
+    "description": "мебель для хранения книг"
+  },
+  {
+    "word": "처음",
+    "translation": "первый раз",
+    "transcription": "cheoeum",
+    "description": "самое начало какого-либо опыта"
+  },
+  {
+    "word": "처음",
+    "translation": "начало",
+    "transcription": "cheoeum",
+    "description": "стартовая часть процесса или периода"
+  },
+  {
+    "word": "천",
+    "translation": "тысяча",
+    "transcription": "cheon",
+    "description": "число 1000"
+  },
+  {
+    "word": "천천히",
+    "translation": "медленно",
+    "transcription": "cheoncheonhi",
+    "description": "без спешки, неторопливо"
+  },
+  {
+    "word": "철",
+    "translation": "сезон",
+    "transcription": "cheol",
+    "description": "пора года с характерной погодой"
+  },
+  {
+    "word": "첫",
+    "translation": "первый",
+    "transcription": "cheot",
+    "description": "располагающийся в самом начале"
+  },
+  {
+    "word": "첫째",
+    "translation": "первый; старший",
+    "transcription": "cheotjae",
+    "description": "первый по порядку или старший ребёнок"
+  },
+  {
+    "word": "청바지",
+    "translation": "джинсы",
+    "transcription": "cheongbaji",
+    "description": "штаны из плотной джинсовой ткани"
+  },
+  {
+    "word": "청소기",
+    "translation": "пылесос",
+    "transcription": "cheongsogi",
+    "description": "электроприбор для уборки пыли"
+  },
+  {
+    "word": "청소하다",
+    "translation": "убирать",
+    "transcription": "cheongsohada",
+    "description": "приводить помещение в порядок"
+  },
+  {
+    "word": "초",
+    "translation": "секунда",
+    "transcription": "cho",
+    "description": "единица измерения времени"
+  },
+  {
+    "word": "초대하다",
+    "translation": "приглашать",
+    "transcription": "chodaehada",
+    "description": "звать к себе на мероприятие или в гости"
+  },
+  {
+    "word": "초등학교",
+    "translation": "начальная школа",
+    "transcription": "chodeunghakgyo",
+    "description": "учебное заведение для младших классов"
+  },
+  {
+    "word": "초등학생",
+    "translation": "ученик начальной школы",
+    "transcription": "chodeunghaksaeng",
+    "description": "ребёнок, обучающийся в младших классах"
+  },
+  {
+    "word": "초록색",
+    "translation": "зелёный цвет",
+    "transcription": "choroksaek",
+    "description": "цвет молодой травы"
+  },
+  {
+    "word": "초콜릿",
+    "translation": "шоколад",
+    "transcription": "chokollit",
+    "description": "сладость из какао и сахара"
+  },
+  {
+    "word": "촬영하다",
+    "translation": "снимать",
+    "transcription": "chwaryeonghada",
+    "description": "делать фото или видеозапись"
+  }
+]

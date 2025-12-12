@@ -1,0 +1,122 @@
+[
+  {
+    "word": "지다",
+    "translation": "проигрывать",
+    "transcription": "jida",
+    "description": "терпеть поражение или уступать в соревновании"
+  },
+  {
+    "word": "지도",
+    "translation": "карта",
+    "transcription": "jido",
+    "description": "изображение местности с обозначением объектов"
+  },
+  {
+    "word": "지방",
+    "translation": "регион",
+    "transcription": "jibang",
+    "description": "административная область или местность"
+  },
+  {
+    "word": "지우개",
+    "translation": "ластик",
+    "transcription": "jiugae",
+    "description": "предмет для стирания карандаша"
+  },
+  {
+    "word": "지키다",
+    "translation": "охранять",
+    "transcription": "jikida",
+    "description": "беречь, защищать или соблюдать"
+  },
+  {
+    "word": "지하",
+    "translation": "подземный этаж",
+    "transcription": "jiha",
+    "description": "пространство, расположенное ниже уровня земли"
+  },
+  {
+    "word": "지하도",
+    "translation": "подземный переход",
+    "transcription": "jihado",
+    "description": "тоннель для перехода улицы под землёй"
+  },
+  {
+    "word": "지하철",
+    "translation": "метро",
+    "transcription": "jihacheol",
+    "description": "городской подземный поезд"
+  },
+  {
+    "word": "지하철역",
+    "translation": "станция метро",
+    "transcription": "jihacheol-yeok",
+    "description": "остановка, где останавливаются поезда метро"
+  },
+  {
+    "word": "직업",
+    "translation": "профессия",
+    "transcription": "jigeop",
+    "description": "род деятельности, которым человек зарабатывает"
+  },
+  {
+    "word": "직원",
+    "translation": "сотрудник",
+    "transcription": "jigwon",
+    "description": "работник организации или фирмы"
+  },
+  {
+    "word": "직장",
+    "translation": "работа",
+    "transcription": "jikjang",
+    "description": "место службы или офис"
+  },
+  {
+    "word": "직접",
+    "translation": "лично",
+    "transcription": "jikjeop",
+    "description": "самостоятельно, без посредников"
+  },
+  {
+    "word": "진달래",
+    "translation": "азалия",
+    "transcription": "jindallae",
+    "description": "весенний кустарник с яркими цветами"
+  },
+  {
+    "word": "질",
+    "translation": "качество",
+    "transcription": "jil",
+    "description": "уровень свойств или состояние материала"
+  },
+  {
+    "word": "질문",
+    "translation": "вопрос",
+    "transcription": "jilmun",
+    "description": "формулировка для получения информации"
+  },
+  {
+    "word": "질문하다",
+    "translation": "задавать вопрос",
+    "transcription": "jilmunhada",
+    "description": "обращаться к кому-либо с просьбой разъяснить"
+  },
+  {
+    "word": "짐",
+    "translation": "багаж",
+    "transcription": "jim",
+    "description": "упакованные вещи для перевозки"
+  },
+  {
+    "word": "집",
+    "translation": "дом",
+    "transcription": "jip",
+    "description": "место, где живёт человек или семья"
+  },
+  {
+    "word": "짓다",
+    "translation": "строить",
+    "transcription": "jitda",
+    "description": "возводить здание или создавать что-либо"
+  }
+]
