@@ -1,0 +1,142 @@
+[
+  {
+    "word": "그날",
+    "translation": "тот день",
+    "transcription": "кы-нал",
+    "description": "Определённая дата, о которой идёт речь.",
+    "audio": "audio/그날_tts.mp3"
+  },
+  {
+    "word": "그냥",
+    "translation": "просто",
+    "transcription": "кын-ян",
+    "description": "Без причины или особой цели, как есть.",
+    "audio": "audio/그냥_tts.mp3"
+  },
+  {
+    "word": "그동안",
+    "translation": "за это время",
+    "transcription": "кы-дон-ан",
+    "description": "Период, прошедший до данного момента.",
+    "audio": "audio/그동안_tts.mp3"
+  },
+  {
+    "word": "그들",
+    "translation": "они",
+    "transcription": "кы-дыль",
+    "description": "Эти люди, третье лицо множественного числа.",
+    "audio": "audio/그들_tts.mp3"
+  },
+  {
+    "word": "그때",
+    "translation": "тогда",
+    "transcription": "кыт-тэ",
+    "description": "В тот самый момент или период.",
+    "audio": "audio/그때_tts.mp3"
+  },
+  {
+    "word": "그래",
+    "translation": "да",
+    "transcription": "кы-рэ",
+    "description": "Разговорное подтверждение или согласие.",
+    "audio": "audio/그래_tts.mp3"
+  },
+  {
+    "word": "그래서",
+    "translation": "поэтому",
+    "transcription": "кы-рэ-со",
+    "description": "Указывает на следствие из сказанного ранее.",
+    "audio": "audio/그래서_tts.mp3"
+  },
+  {
+    "word": "그램",
+    "translation": "грамм",
+    "transcription": "кырэм",
+    "description": "Единица массы в метрической системе.",
+    "audio": "audio/그램_tts.mp3"
+  },
+  {
+    "word": "그러나",
+    "translation": "однако",
+    "transcription": "кы-ро-на",
+    "description": "Союз для противопоставления сказанному.",
+    "audio": "audio/그러나_tts.mp3"
+  },
+  {
+    "word": "그러니까",
+    "translation": "значит",
+    "transcription": "кы-ро-ни-ка",
+    "description": "Слова для вывода или пояснения причины.",
+    "audio": "audio/그러니까_tts.mp3"
+  },
+  {
+    "word": "그러면",
+    "translation": "тогда",
+    "transcription": "кы-ро-мён",
+    "description": "Используется при условии: если так, то что дальше.",
+    "audio": "audio/그러면_tts.mp3"
+  },
+  {
+    "word": "그런",
+    "translation": "такой",
+    "transcription": "кы-рон",
+    "description": "Обладающий указанными ранее свойствами.",
+    "audio": "audio/그런_tts.mp3"
+  },
+  {
+    "word": "그런데",
+    "translation": "однако",
+    "transcription": "кы-рон-де",
+    "description": "Союз для смены темы или противопоставления.",
+    "audio": "audio/그런데_tts.mp3"
+  },
+  {
+    "word": "그럼",
+    "translation": "тогда",
+    "transcription": "кыром",
+    "description": "Согласие перейти к действию или выводу.",
+    "audio": "audio/그럼_tts.mp3"
+  },
+  {
+    "word": "그렇게",
+    "translation": "так",
+    "transcription": "кы-ро-кэ",
+    "description": "Подобным образом или в таком виде.",
+    "audio": "audio/그렇게_tts.mp3"
+  },
+  {
+    "word": "그렇구나",
+    "translation": "вот как",
+    "transcription": "кырот-ку-на",
+    "description": "Выражение понимания услышанного.",
+    "audio": "audio/그렇구나_tts.mp3"
+  },
+  {
+    "word": "그렇다",
+    "translation": "таков",
+    "transcription": "кырот-та",
+    "description": "Подтверждение, что дело обстоит именно так.",
+    "audio": "audio/그렇다_tts.mp3"
+  },
+  {
+    "word": "그렇습니다",
+    "translation": "верно",
+    "transcription": "кырот-сым-ни-да",
+    "description": "Вежливое подтверждение согласия.",
+    "audio": "audio/그렇습니다_tts.mp3"
+  },
+  {
+    "word": "그렇지만",
+    "translation": "но всё же",
+    "transcription": "кырот-чи-ман",
+    "description": "Уступка с последующим противопоставлением.",
+    "audio": "audio/그렇지만_tts.mp3"
+  },
+  {
+    "word": "그릇",
+    "translation": "миска",
+    "transcription": "кы-рыс",
+    "description": "Посуда или ёмкость для еды.",
+    "audio": "audio/그릇_tts.mp3"
+  }
+]

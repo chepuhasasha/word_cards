@@ -1,0 +1,142 @@
+[
+  {
+    "word": "설렁탕",
+    "translation": "соллонгтан (говяжий суп)",
+    "transcription": "seolleongtang",
+    "description": "традиционный молочно-белый говяжий бульон",
+    "audio": "audio/설렁탕_tts.mp3"
+  },
+  {
+    "word": "설명",
+    "translation": "объяснение",
+    "transcription": "seolmyeong",
+    "description": "разъяснение сути или смысла",
+    "audio": "audio/설명_tts.mp3"
+  },
+  {
+    "word": "설명하다",
+    "translation": "объяснять",
+    "transcription": "seolmyeonghada",
+    "description": "давать разъяснения, пояснять",
+    "audio": "audio/설명하다_tts.mp3"
+  },
+  {
+    "word": "설악산",
+    "translation": "гора Сораксан",
+    "transcription": "seoraksan",
+    "description": "национальный парк и хребет в провинции Канвондо",
+    "audio": "audio/설악산_tts.mp3"
+  },
+  {
+    "word": "설탕",
+    "translation": "сахар",
+    "transcription": "seoltang",
+    "description": "кристаллический сладкий продукт",
+    "audio": "audio/설탕_tts.mp3"
+  },
+  {
+    "word": "섬",
+    "translation": "остров",
+    "transcription": "seom",
+    "description": "участок суши, окружённый водой",
+    "audio": "audio/섬_tts.mp3"
+  },
+  {
+    "word": "성",
+    "translation": "замок; фамилия",
+    "transcription": "seong",
+    "description": "крепость или родовая фамилия",
+    "audio": "audio/성_tts.mp3"
+  },
+  {
+    "word": "성격",
+    "translation": "характер",
+    "transcription": "seonggyeok",
+    "description": "совокупность личных качеств человека",
+    "audio": "audio/성격_tts.mp3"
+  },
+  {
+    "word": "성함",
+    "translation": "имя (вежл.)",
+    "transcription": "seongham",
+    "description": "уважительное обращение к имени собеседника",
+    "audio": "audio/성함_tts.mp3"
+  },
+  {
+    "word": "세계",
+    "translation": "мир",
+    "transcription": "segye",
+    "description": "планета и все страны, окружающий мир",
+    "audio": "audio/세계_tts.mp3"
+  },
+  {
+    "word": "세수하다",
+    "translation": "умывать(ся)",
+    "transcription": "sesuhada",
+    "description": "мыть лицо и руки водой",
+    "audio": "audio/세수하다_tts.mp3"
+  },
+  {
+    "word": "세우다",
+    "translation": "ставить; основывать",
+    "transcription": "seuda",
+    "description": "поднимать вертикально или создавать план",
+    "audio": "audio/세우다_tts.mp3"
+  },
+  {
+    "word": "세일하다",
+    "translation": "проводить распродажу",
+    "transcription": "seilhada",
+    "description": "продавать товары со скидкой",
+    "audio": "audio/세일하다_tts.mp3"
+  },
+  {
+    "word": "세탁기",
+    "translation": "стиральная машина",
+    "transcription": "setakgi",
+    "description": "бытовой прибор для стирки одежды",
+    "audio": "audio/세탁기_tts.mp3"
+  },
+  {
+    "word": "세탁소",
+    "translation": "прачечная",
+    "transcription": "setakso",
+    "description": "место, где оказывают услуги стирки и химчистки",
+    "audio": "audio/세탁소_tts.mp3"
+  },
+  {
+    "word": "센터",
+    "translation": "центр",
+    "transcription": "senteo",
+    "description": "специализированное учреждение или ядро района",
+    "audio": "audio/센터_tts.mp3"
+  },
+  {
+    "word": "센티미터",
+    "translation": "сантиметр",
+    "transcription": "sentimiteo",
+    "description": "единица длины, равная одной сотой метра",
+    "audio": "audio/센티미터_tts.mp3"
+  },
+  {
+    "word": "셋",
+    "translation": "три",
+    "transcription": "set",
+    "description": "числительное 3 в корейской форме",
+    "audio": "audio/셋_tts.mp3"
+  },
+  {
+    "word": "셋째",
+    "translation": "третий; третий ребёнок",
+    "transcription": "setjjae",
+    "description": "порядковый номер три или третьё дитя",
+    "audio": "audio/셋째_tts.mp3"
+  },
+  {
+    "word": "소",
+    "translation": "корова; маленький",
+    "transcription": "so",
+    "description": "домашний скот крупного рогатого; показатель малого размера",
+    "audio": "audio/소_tts.mp3"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "word": "이메일",
+    "translation": "электронная почта",
+    "transcription": "imeil",
+    "description": "сообщение, отправляемое через интернет",
+    "audio": "audio/이메일_tts.mp3"
+  },
+  {
+    "word": "이모",
+    "translation": "тётя (сестра матери)",
+    "transcription": "imo",
+    "description": "родная сестра матери",
+    "audio": "audio/이모_tts.mp3"
+  },
+  {
+    "word": "이모부",
+    "translation": "дядя (муж тёти по маме)",
+    "transcription": "imobu",
+    "description": "муж сестры матери",
+    "audio": "audio/이모부_tts.mp3"
+  },
+  {
+    "word": "이번",
+    "translation": "на этот раз",
+    "transcription": "ibeon",
+    "description": "данный раз или случай",
+    "audio": "audio/이번_tts.mp3"
+  },
+  {
+    "word": "이분",
+    "translation": "этот человек (уваж.)",
+    "transcription": "ibun",
+    "description": "вежливое указание на человека рядом",
+    "audio": "audio/이분_tts.mp3"
+  },
+  {
+    "word": "이사",
+    "translation": "переезд",
+    "transcription": "isa",
+    "description": "смена места жительства или офиса",
+    "audio": "audio/이사_tts.mp3"
+  },
+  {
+    "word": "이상",
+    "translation": "больше; странный",
+    "transcription": "isang",
+    "description": "превышение нормы или необычное состояние",
+    "audio": "audio/이상_tts.mp3"
+  },
+  {
+    "word": "이상하다",
+    "translation": "странный",
+    "transcription": "isanghada",
+    "description": "выглядеть необычно или непонятно",
+    "audio": "audio/이상하다_tts.mp3"
+  },
+  {
+    "word": "이십",
+    "translation": "двадцать",
+    "transcription": "isip",
+    "description": "число 20",
+    "audio": "audio/이십_tts.mp3"
+  },
+  {
+    "word": "이야기",
+    "translation": "рассказ",
+    "transcription": "iyagi",
+    "description": "история или повествование о событиях",
+    "audio": "audio/이야기_tts.mp3"
+  },
+  {
+    "word": "이야기하다",
+    "translation": "разговаривать",
+    "transcription": "iyagihada",
+    "description": "вести беседу или рассказывать",
+    "audio": "audio/이야기하다_tts.mp3"
+  },
+  {
+    "word": "이용",
+    "translation": "использование",
+    "transcription": "iyong",
+    "description": "применение чего-либо",
+    "audio": "audio/이용_tts.mp3"
+  },
+  {
+    "word": "이용하다",
+    "translation": "пользоваться",
+    "transcription": "iyonghada",
+    "description": "использовать на практике",
+    "audio": "audio/이용하다_tts.mp3"
+  },
+  {
+    "word": "이월",
+    "translation": "февраль",
+    "transcription": "iwol",
+    "description": "второй месяц года",
+    "audio": "audio/이월_tts.mp3"
+  },
+  {
+    "word": "이유",
+    "translation": "причина",
+    "transcription": "iyu",
+    "description": "основание, почему что-то происходит",
+    "audio": "audio/이유_tts.mp3"
+  },
+  {
+    "word": "이제",
+    "translation": "теперь",
+    "transcription": "ije",
+    "description": "настоящий момент",
+    "audio": "audio/이제_tts.mp3"
+  },
+  {
+    "word": "이집트",
+    "translation": "Египет",
+    "transcription": "ijipteu",
+    "description": "государство в северо-восточной Африке",
+    "audio": "audio/이집트_tts.mp3"
+  },
+  {
+    "word": "이쪽",
+    "translation": "сюда",
+    "transcription": "ijjok",
+    "description": "направление к говорящему или эта сторона",
+    "audio": "audio/이쪽_tts.mp3"
+  },
+  {
+    "word": "이틀",
+    "translation": "двое суток",
+    "transcription": "iteul",
+    "description": "период в два дня",
+    "audio": "audio/이틀_tts.mp3"
+  },
+  {
+    "word": "이해",
+    "translation": "понимание",
+    "transcription": "ihae",
+    "description": "способность осознавать смысл",
+    "audio": "audio/이해_tts.mp3"
+  }
+]

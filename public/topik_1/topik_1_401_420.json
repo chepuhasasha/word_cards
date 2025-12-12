@@ -1,0 +1,142 @@
+[
+  {
+    "word": "더운물",
+    "translation": "горячая вода",
+    "transcription": "до-ун-муль",
+    "description": "Вода повышенной температуры для умывания или приготовления.",
+    "audio": "audio/더운물_tts.mp3"
+  },
+  {
+    "word": "덕분",
+    "translation": "благодаря (кому-то)",
+    "transcription": "док-пун",
+    "description": "Выражение признательности за чью-то помощь.",
+    "audio": "audio/덕분_tts.mp3"
+  },
+  {
+    "word": "덥다",
+    "translation": "жаркий",
+    "transcription": "доп-та",
+    "description": "О высокой температуре воздуха или предмета.",
+    "audio": "audio/덥다_tts.mp3"
+  },
+  {
+    "word": "덮다",
+    "translation": "накрывать; покрывать",
+    "transcription": "доп-та",
+    "description": "Класть что-то сверху, чтобы закрыть или защитить.",
+    "audio": "audio/덮다_tts.mp3"
+  },
+  {
+    "word": "데리다",
+    "translation": "брать с собой; приводить",
+    "transcription": "дэ-ри-да",
+    "description": "Вести или сопровождать кого-то куда-либо.",
+    "audio": "audio/데리다_tts.mp3"
+  },
+  {
+    "word": "데이트",
+    "translation": "свидание",
+    "transcription": "дэ-и-ты",
+    "description": "Встреча двух людей романтического характера.",
+    "audio": "audio/데이트_tts.mp3"
+  },
+  {
+    "word": "도로",
+    "translation": "дорога",
+    "transcription": "до-ро",
+    "description": "Автомобильная трасса или путь для движения транспорта.",
+    "audio": "audio/도로_tts.mp3"
+  },
+  {
+    "word": "도서관",
+    "translation": "библиотека",
+    "transcription": "до-со-гван",
+    "description": "Учреждение, где можно брать и читать книги.",
+    "audio": "audio/도서관_tts.mp3"
+  },
+  {
+    "word": "도시",
+    "translation": "город",
+    "transcription": "до-си",
+    "description": "Крупный населённый пункт с развитой инфраструктурой.",
+    "audio": "audio/도시_tts.mp3"
+  },
+  {
+    "word": "도와주다",
+    "translation": "помогать",
+    "transcription": "до-ва-чу-да",
+    "description": "Оказывать помощь или поддержку кому-либо.",
+    "audio": "audio/도와주다_tts.mp3"
+  },
+  {
+    "word": "도움",
+    "translation": "помощь",
+    "transcription": "до-ум",
+    "description": "Действие поддержки или содействия.",
+    "audio": "audio/도움_tts.mp3"
+  },
+  {
+    "word": "도착",
+    "translation": "прибытие",
+    "transcription": "до-чхак",
+    "description": "Момент, когда кто-то или что-то прибывает в пункт назначения.",
+    "audio": "audio/도착_tts.mp3"
+  },
+  {
+    "word": "도착하다",
+    "translation": "прибывать",
+    "transcription": "до-чха-ка-да",
+    "description": "Достигать нужного места или конечного пункта.",
+    "audio": "audio/도착하다_tts.mp3"
+  },
+  {
+    "word": "도쿄",
+    "translation": "Токио",
+    "transcription": "то-кё",
+    "description": "Столица Японии, город Токио.",
+    "audio": "audio/도쿄_tts.mp3"
+  },
+  {
+    "word": "독서",
+    "translation": "чтение книг",
+    "transcription": "ток-со",
+    "description": "Процесс чтения литературы для удовольствия или учебы.",
+    "audio": "audio/독서_tts.mp3"
+  },
+  {
+    "word": "독서실",
+    "translation": "читальный зал",
+    "transcription": "ток-со-силь",
+    "description": "Тихое помещение, предназначенное для чтения и учебы.",
+    "audio": "audio/독서실_tts.mp3"
+  },
+  {
+    "word": "독서하다",
+    "translation": "читать книги",
+    "transcription": "ток-со-ха-да",
+    "description": "Заниматься чтением литературы.",
+    "audio": "audio/독서하다_tts.mp3"
+  },
+  {
+    "word": "독일",
+    "translation": "Германия",
+    "transcription": "то-гиль",
+    "description": "Европейское государство Германия.",
+    "audio": "audio/독일_tts.mp3"
+  },
+  {
+    "word": "돈",
+    "translation": "деньги",
+    "transcription": "тон",
+    "description": "Средство оплаты товаров и услуг.",
+    "audio": "audio/돈_tts.mp3"
+  },
+  {
+    "word": "돌아가다",
+    "translation": "возвращаться; уходить обратно",
+    "transcription": "то-ра-га-да",
+    "description": "Двигаться назад к прежнему месту.",
+    "audio": "audio/돌아가다_tts.mp3"
+  }
+]

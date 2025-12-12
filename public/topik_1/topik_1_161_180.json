@@ -1,0 +1,142 @@
+[
+  {
+    "word": "구월",
+    "translation": "сентябрь",
+    "transcription": "гу-вол",
+    "description": "Девятый месяц года.",
+    "audio": "audio/구월_tts.mp3"
+  },
+  {
+    "word": "구하다",
+    "translation": "искать",
+    "transcription": "гу-ха-да",
+    "description": "Стараться найти, добыть или спасти что-либо.",
+    "audio": "audio/구하다_tts.mp3"
+  },
+  {
+    "word": "국",
+    "translation": "суп",
+    "transcription": "гук",
+    "description": "Жидкое блюдо на бульоне.",
+    "audio": "audio/국_tts.mp3"
+  },
+  {
+    "word": "국내",
+    "translation": "внутренний",
+    "transcription": "гун-нэ",
+    "description": "Относящийся к территории своей страны.",
+    "audio": "audio/국내_tts.mp3"
+  },
+  {
+    "word": "국립",
+    "translation": "государственный",
+    "transcription": "гун-нип",
+    "description": "Основанный государством, национальный.",
+    "audio": "audio/국립_tts.mp3"
+  },
+  {
+    "word": "국수",
+    "translation": "лапша",
+    "transcription": "гук-су",
+    "description": "Тонкие полоски теста, подаваемые как блюдо.",
+    "audio": "audio/국수_tts.mp3"
+  },
+  {
+    "word": "국어",
+    "translation": "корейский язык",
+    "transcription": "гу-о",
+    "description": "Национальный язык Кореи.",
+    "audio": "audio/국어_tts.mp3"
+  },
+  {
+    "word": "국적",
+    "translation": "гражданство",
+    "transcription": "гук-чок",
+    "description": "Принадлежность человека к определённой стране.",
+    "audio": "audio/국적_tts.mp3"
+  },
+  {
+    "word": "국제",
+    "translation": "международный",
+    "transcription": "гук-че",
+    "description": "Связанный с отношениями между государствами.",
+    "audio": "audio/국제_tts.mp3"
+  },
+  {
+    "word": "군인",
+    "translation": "солдат",
+    "transcription": "гу-нин",
+    "description": "Служащий в армии.",
+    "audio": "audio/군인_tts.mp3"
+  },
+  {
+    "word": "굽다",
+    "translation": "запекать",
+    "transcription": "куп-та",
+    "description": "Готовить пищу жарением или запеканием.",
+    "audio": "audio/굽다_tts.mp3"
+  },
+  {
+    "word": "권",
+    "translation": "том",
+    "transcription": "квон",
+    "description": "Счётное слово для книг.",
+    "audio": "audio/권_tts.mp3"
+  },
+  {
+    "word": "귀",
+    "translation": "ухо",
+    "transcription": "кви",
+    "description": "Орган слуха человека или животного.",
+    "audio": "audio/귀_tts.mp3"
+  },
+  {
+    "word": "귀엽다",
+    "translation": "милый",
+    "transcription": "кви-ёп-та",
+    "description": "Вызывать умиление или нежность.",
+    "audio": "audio/귀엽다_tts.mp3"
+  },
+  {
+    "word": "규칙",
+    "translation": "правило",
+    "transcription": "кю-чик",
+    "description": "Установленная норма поведения или порядка.",
+    "audio": "audio/규칙_tts.mp3"
+  },
+  {
+    "word": "귤",
+    "translation": "мандарин",
+    "transcription": "кюль",
+    "description": "Небольшой цитрус с оранжевой кожурой.",
+    "audio": "audio/귤_tts.mp3"
+  },
+  {
+    "word": "그",
+    "translation": "тот",
+    "transcription": "кы",
+    "description": "Местоимение о ранее упомянутом объекте.",
+    "audio": "audio/그_tts.mp3"
+  },
+  {
+    "word": "그거",
+    "translation": "то",
+    "transcription": "кы-го",
+    "description": "Разговорное указание на предмет там.",
+    "audio": "audio/그거_tts.mp3"
+  },
+  {
+    "word": "그것",
+    "translation": "тот предмет",
+    "transcription": "кы-гот",
+    "description": "То, о чём говорили ранее.",
+    "audio": "audio/그것_tts.mp3"
+  },
+  {
+    "word": "그곳",
+    "translation": "то место",
+    "transcription": "кы-гос",
+    "description": "Указание на ранее упомянутое место.",
+    "audio": "audio/그곳_tts.mp3"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "word": "끝내다",
+    "translation": "заканчивать",
+    "transcription": "ккыт-нэ-да",
+    "description": "Доводить дело до завершения.",
+    "audio": "audio/끝내다_tts.mp3"
+  },
+  {
+    "word": "끼다",
+    "translation": "надевать; сгущаться",
+    "transcription": "кки-да",
+    "description": "Надевать кольцо, очки или клубиться, как туман.",
+    "audio": "audio/끼다_tts.mp3"
+  },
+  {
+    "word": "나",
+    "translation": "я",
+    "transcription": "на",
+    "description": "Местоимение первого лица.",
+    "audio": "audio/나_tts.mp3"
+  },
+  {
+    "word": "나가다",
+    "translation": "выходить",
+    "transcription": "на-га-да",
+    "description": "Покидать помещение или двигаться наружу.",
+    "audio": "audio/나가다_tts.mp3"
+  },
+  {
+    "word": "나누다",
+    "translation": "делить; делиться",
+    "transcription": "на-ну-да",
+    "description": "Разделять на части или обмениваться чем-то.",
+    "audio": "audio/나누다_tts.mp3"
+  },
+  {
+    "word": "나다",
+    "translation": "возникать; появляться",
+    "transcription": "на-да",
+    "description": "Самопроизвольно происходить или проявляться.",
+    "audio": "audio/나다_tts.mp3"
+  },
+  {
+    "word": "나라",
+    "translation": "страна",
+    "transcription": "на-ра",
+    "description": "Государство или территория народа.",
+    "audio": "audio/나라_tts.mp3"
+  },
+  {
+    "word": "나무",
+    "translation": "дерево",
+    "transcription": "на-му",
+    "description": "Многолетнее растение с древесным стволом.",
+    "audio": "audio/나무_tts.mp3"
+  },
+  {
+    "word": "나빠지다",
+    "translation": "ухудшаться",
+    "transcription": "на-ппа-джи-да",
+    "description": "Становиться хуже по качеству или состоянию.",
+    "audio": "audio/나빠지다_tts.mp3"
+  },
+  {
+    "word": "나쁘다",
+    "translation": "плохой",
+    "transcription": "на-ппы-да",
+    "description": "Обладать отрицательными свойствами.",
+    "audio": "audio/나쁘다_tts.mp3"
+  },
+  {
+    "word": "나오다",
+    "translation": "выходить; появляться",
+    "transcription": "на-о-да",
+    "description": "Покидать место или возникать на виду.",
+    "audio": "audio/나오다_tts.mp3"
+  },
+  {
+    "word": "나이",
+    "translation": "возраст",
+    "transcription": "на-и",
+    "description": "Количество прожитых лет.",
+    "audio": "audio/나이_tts.mp3"
+  },
+  {
+    "word": "나중",
+    "translation": "потом; позже",
+    "transcription": "на-джунг",
+    "description": "Более позднее время по сравнению с настоящим.",
+    "audio": "audio/나중_tts.mp3"
+  },
+  {
+    "word": "나타나다",
+    "translation": "появляться; проявляться",
+    "transcription": "на-та-на-да",
+    "description": "Становиться видимым или выявляться наружу.",
+    "audio": "audio/나타나다_tts.mp3"
+  },
+  {
+    "word": "나흘",
+    "translation": "четыре дня",
+    "transcription": "на-хыль",
+    "description": "Период, равный четырём суткам.",
+    "audio": "audio/나흘_tts.mp3"
+  },
+  {
+    "word": "낚시",
+    "translation": "рыбалка",
+    "transcription": "нак-щи",
+    "description": "Добыча рыбы с удочкой или снастями.",
+    "audio": "audio/낚시_tts.mp3"
+  },
+  {
+    "word": "날",
+    "translation": "день",
+    "transcription": "наль",
+    "description": "Отрезок времени от рассвета до вечера.",
+    "audio": "audio/날_tts.mp3"
+  },
+  {
+    "word": "날씨",
+    "translation": "погода",
+    "transcription": "наль-щи",
+    "description": "Текущие атмосферные условия.",
+    "audio": "audio/날씨_tts.mp3"
+  },
+  {
+    "word": "날짜",
+    "translation": "дата",
+    "transcription": "наль-джа",
+    "description": "Число и месяц календаря.",
+    "audio": "audio/날짜_tts.mp3"
+  },
+  {
+    "word": "남",
+    "translation": "юг; мужчина",
+    "transcription": "нам",
+    "description": "Направление на юг или представитель мужского пола.",
+    "audio": "audio/남_tts.mp3"
+  }
+]

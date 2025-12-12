@@ -1,0 +1,142 @@
+[
+  {
+    "word": "다음달",
+    "translation": "следующий месяц",
+    "transcription": "да-ым-даль",
+    "description": "Месяц, наступающий после текущего.",
+    "audio": "audio/다음달_tts.mp3"
+  },
+  {
+    "word": "다음주",
+    "translation": "следующая неделя",
+    "transcription": "да-ым-чу",
+    "description": "Неделя, которая будет после этой.",
+    "audio": "audio/다음주_tts.mp3"
+  },
+  {
+    "word": "다음해",
+    "translation": "следующий год",
+    "transcription": "да-ым-хэ",
+    "description": "Год, наступающий после нынешнего.",
+    "audio": "audio/다음해_tts.mp3"
+  },
+  {
+    "word": "다이어트",
+    "translation": "диета",
+    "transcription": "да-и-о-ты",
+    "description": "Контролируемый режим питания ради здоровья или фигуры.",
+    "audio": "audio/다이어트_tts.mp3"
+  },
+  {
+    "word": "다치다",
+    "translation": "пораниться",
+    "transcription": "да-чи-да",
+    "description": "Получить травму или повреждение.",
+    "audio": "audio/다치다_tts.mp3"
+  },
+  {
+    "word": "닦다",
+    "translation": "вытирать; чистить",
+    "transcription": "так-та",
+    "description": "Протирать или полировать поверхность до чистоты.",
+    "audio": "audio/닦다_tts.mp3"
+  },
+  {
+    "word": "단어",
+    "translation": "слово",
+    "transcription": "да-но",
+    "description": "Минимальная единица языка с самостоятельным значением.",
+    "audio": "audio/단어_tts.mp3"
+  },
+  {
+    "word": "단점",
+    "translation": "недостаток",
+    "transcription": "дан-чом",
+    "description": "Слабая сторона или минус предмета или человека.",
+    "audio": "audio/단점_tts.mp3"
+  },
+  {
+    "word": "닫다",
+    "translation": "закрывать",
+    "transcription": "дат-та",
+    "description": "Приводить дверь, крышку или окно в закрытое положение.",
+    "audio": "audio/닫다_tts.mp3"
+  },
+  {
+    "word": "닫히다",
+    "translation": "закрываться",
+    "transcription": "да-чи-да",
+    "description": "О двери или объекте, который сам приходит в закрытое состояние.",
+    "audio": "audio/닫히다_tts.mp3"
+  },
+  {
+    "word": "달",
+    "translation": "месяц; луна",
+    "transcription": "даль",
+    "description": "Единица времени в календаре или небесное тело.",
+    "audio": "audio/달_tts.mp3"
+  },
+  {
+    "word": "달걀",
+    "translation": "куриное яйцо",
+    "transcription": "даль-гяль",
+    "description": "Яйцо курицы, используемое в еде.",
+    "audio": "audio/달걀_tts.mp3"
+  },
+  {
+    "word": "달다",
+    "translation": "сладкий",
+    "transcription": "даль-да",
+    "description": "Имеющий сладкий вкус как сахар или мёд.",
+    "audio": "audio/달다_tts.mp3"
+  },
+  {
+    "word": "달러",
+    "translation": "доллар",
+    "transcription": "даль-ло",
+    "description": "Валюта некоторых стран, например США.",
+    "audio": "audio/달러_tts.mp3"
+  },
+  {
+    "word": "달력",
+    "translation": "календарь",
+    "transcription": "даль-лёк",
+    "description": "Сетка дат по месяцам для планирования времени.",
+    "audio": "audio/달력_tts.mp3"
+  },
+  {
+    "word": "달리다",
+    "translation": "бежать",
+    "transcription": "даль-ли-да",
+    "description": "Двигаться быстро, опираясь на ноги.",
+    "audio": "audio/달리다_tts.mp3"
+  },
+  {
+    "word": "닭",
+    "translation": "курица; петух",
+    "transcription": "так",
+    "description": "Домашняя птица, дающая мясо и яйца.",
+    "audio": "audio/닭_tts.mp3"
+  },
+  {
+    "word": "닭고기",
+    "translation": "куриное мясо",
+    "transcription": "так-коги",
+    "description": "Мясо курицы, используемое в блюдах.",
+    "audio": "audio/닭고기_tts.mp3"
+  },
+  {
+    "word": "닮다",
+    "translation": "походить; быть похожим",
+    "transcription": "там-та",
+    "description": "Иметь внешнее или характерное сходство с кем-то.",
+    "audio": "audio/닮다_tts.mp3"
+  },
+  {
+    "word": "담그다",
+    "translation": "замачивать; квасить",
+    "transcription": "там-гы-да",
+    "description": "Опускать в жидкость или готовить маринад/кимчи.",
+    "audio": "audio/담그다_tts.mp3"
+  }
+]

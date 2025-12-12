@@ -1,0 +1,142 @@
+[
+  {
+    "word": "사이",
+    "translation": "между",
+    "transcription": "sai",
+    "description": "Промежуток или отношения между людьми.",
+    "audio": "audio/사이_tts.mp3"
+  },
+  {
+    "word": "사이다",
+    "translation": "сидр",
+    "transcription": "saida",
+    "description": "Газированный напиток типа лимонада.",
+    "audio": "audio/사이다_tts.mp3"
+  },
+  {
+    "word": "사이즈",
+    "translation": "размер",
+    "transcription": "saijeu",
+    "description": "Величина или номер одежды и обуви.",
+    "audio": "audio/사이즈_tts.mp3"
+  },
+  {
+    "word": "사인하다",
+    "translation": "ставить подпись",
+    "transcription": "sainhada",
+    "description": "Подписывать документ или автограф.",
+    "audio": "audio/사인하다_tts.mp3"
+  },
+  {
+    "word": "사장",
+    "translation": "директор",
+    "transcription": "sajang",
+    "description": "Глава компании или заведующий.",
+    "audio": "audio/사장_tts.mp3"
+  },
+  {
+    "word": "사전",
+    "translation": "словарь",
+    "transcription": "sajeon",
+    "description": "Справочник со словами и их значениями.",
+    "audio": "audio/사전_tts.mp3"
+  },
+  {
+    "word": "사진",
+    "translation": "фотография",
+    "transcription": "sajin",
+    "description": "Изображение, полученное с помощью камеры.",
+    "audio": "audio/사진_tts.mp3"
+  },
+  {
+    "word": "사진기",
+    "translation": "фотоаппарат",
+    "transcription": "sajingi",
+    "description": "Устройство для съёмки фотографий.",
+    "audio": "audio/사진기_tts.mp3"
+  },
+  {
+    "word": "사촌",
+    "translation": "двоюродный брат",
+    "transcription": "sachon",
+    "description": "Двоюродный брат или сестра.",
+    "audio": "audio/사촌_tts.mp3"
+  },
+  {
+    "word": "사탕",
+    "translation": "конфета",
+    "transcription": "satang",
+    "description": "Сладость в твёрдом или карамельном виде.",
+    "audio": "audio/사탕_tts.mp3"
+  },
+  {
+    "word": "사흘",
+    "translation": "три дня",
+    "transcription": "saheul",
+    "description": "Период продолжительностью три суток.",
+    "audio": "audio/사흘_tts.mp3"
+  },
+  {
+    "word": "산",
+    "translation": "гора",
+    "transcription": "san",
+    "description": "Высокий подъём рельефа с вершиной.",
+    "audio": "audio/산_tts.mp3"
+  },
+  {
+    "word": "산책",
+    "translation": "прогулка",
+    "transcription": "sanchaek",
+    "description": "Неспешное хождение для отдыха.",
+    "audio": "audio/산책_tts.mp3"
+  },
+  {
+    "word": "살",
+    "translation": "год жизни",
+    "transcription": "sal",
+    "description": "Счёт лет возраста; также плоть.",
+    "audio": "audio/살_tts.mp3"
+  },
+  {
+    "word": "살다",
+    "translation": "жить",
+    "transcription": "salda",
+    "description": "Пребывать где-то и вести жизнь.",
+    "audio": "audio/살다_tts.mp3"
+  },
+  {
+    "word": "삼",
+    "translation": "три",
+    "transcription": "sam",
+    "description": "Число 3.",
+    "audio": "audio/삼_tts.mp3"
+  },
+  {
+    "word": "삼거리",
+    "translation": "т-образный перекрёсток",
+    "transcription": "samgeori",
+    "description": "Перекрёсток трёх дорог.",
+    "audio": "audio/삼거리_tts.mp3"
+  },
+  {
+    "word": "삼계탕",
+    "translation": "самгетхан",
+    "transcription": "samgyetang",
+    "description": "Корейский суп из курицы с женьшенем и рисом.",
+    "audio": "audio/삼계탕_tts.mp3"
+  },
+  {
+    "word": "삼십",
+    "translation": "тридцать",
+    "transcription": "samsip",
+    "description": "Число 30.",
+    "audio": "audio/삼십_tts.mp3"
+  },
+  {
+    "word": "삼월",
+    "translation": "март",
+    "transcription": "samwol",
+    "description": "Третий месяц года.",
+    "audio": "audio/삼월_tts.mp3"
+  }
+]

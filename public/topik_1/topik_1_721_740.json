@@ -1,0 +1,142 @@
+[
+  {
+    "word": "빵집",
+    "translation": "пекарня",
+    "transcription": "ppangjip",
+    "description": "Магазин, где выпекают и продают хлеб.",
+    "audio": "audio/빵집_tts.mp3"
+  },
+  {
+    "word": "빼다",
+    "translation": "вынимать",
+    "transcription": "ppaeda",
+    "description": "Убирать что-то изнутри или уменьшать количество.",
+    "audio": "audio/빼다_tts.mp3"
+  },
+  {
+    "word": "뿐",
+    "translation": "только",
+    "transcription": "ppun",
+    "description": "Выражает ограничение лишь этим.",
+    "audio": "audio/뿐_tts.mp3"
+  },
+  {
+    "word": "사",
+    "translation": "четыре",
+    "transcription": "sa",
+    "description": "Число 4.",
+    "audio": "audio/사_tts.mp3"
+  },
+  {
+    "word": "사거리",
+    "translation": "перекрёсток",
+    "transcription": "sageori",
+    "description": "Место пересечения четырёх дорог.",
+    "audio": "audio/사거리_tts.mp3"
+  },
+  {
+    "word": "사계절",
+    "translation": "четыре сезона",
+    "transcription": "sagyejeol",
+    "description": "Весна, лето, осень и зима.",
+    "audio": "audio/사계절_tts.mp3"
+  },
+  {
+    "word": "사고",
+    "translation": "авария",
+    "transcription": "sago",
+    "description": "Несчастный случай или происшествие.",
+    "audio": "audio/사고_tts.mp3"
+  },
+  {
+    "word": "사과",
+    "translation": "яблоко",
+    "transcription": "sagwa",
+    "description": "Фрукт с сочной мякотью; также «извинение».",
+    "audio": "audio/사과_tts.mp3"
+  },
+  {
+    "word": "사다",
+    "translation": "покупать",
+    "transcription": "sada",
+    "description": "Приобретать товар за деньги.",
+    "audio": "audio/사다_tts.mp3"
+  },
+  {
+    "word": "사람",
+    "translation": "человек",
+    "transcription": "saram",
+    "description": "Мужчина или женщина, представитель рода людей.",
+    "audio": "audio/사람_tts.mp3"
+  },
+  {
+    "word": "사랑",
+    "translation": "любовь",
+    "transcription": "sarang",
+    "description": "Глубокое чувство привязанности.",
+    "audio": "audio/사랑_tts.mp3"
+  },
+  {
+    "word": "사랑하다",
+    "translation": "любить",
+    "transcription": "saranghada",
+    "description": "Испытывать сильную симпатию и привязанность.",
+    "audio": "audio/사랑하다_tts.mp3"
+  },
+  {
+    "word": "사례",
+    "translation": "пример",
+    "transcription": "sarye",
+    "description": "Конкретный случай для иллюстрации.",
+    "audio": "audio/사례_tts.mp3"
+  },
+  {
+    "word": "사무실",
+    "translation": "офис",
+    "transcription": "samusil",
+    "description": "Помещение для работы сотрудников.",
+    "audio": "audio/사무실_tts.mp3"
+  },
+  {
+    "word": "사물",
+    "translation": "предмет",
+    "transcription": "samul",
+    "description": "Вещь материального мира.",
+    "audio": "audio/사물_tts.mp3"
+  },
+  {
+    "word": "사십",
+    "translation": "сорок",
+    "transcription": "sasip",
+    "description": "Число 40.",
+    "audio": "audio/사십_tts.mp3"
+  },
+  {
+    "word": "사업가",
+    "translation": "бизнесмен",
+    "transcription": "saeopga",
+    "description": "Человек, ведущий собственное дело.",
+    "audio": "audio/사업가_tts.mp3"
+  },
+  {
+    "word": "사용하다",
+    "translation": "использовать",
+    "transcription": "sayonghada",
+    "description": "Применять что-то для нужной цели.",
+    "audio": "audio/사용하다_tts.mp3"
+  },
+  {
+    "word": "사원",
+    "translation": "сотрудник",
+    "transcription": "sawon",
+    "description": "Работник компании или храма; также буддийский храм.",
+    "audio": "audio/사원_tts.mp3"
+  },
+  {
+    "word": "사월",
+    "translation": "апрель",
+    "transcription": "sawol",
+    "description": "Четвёртый месяц года.",
+    "audio": "audio/사월_tts.mp3"
+  }
+]

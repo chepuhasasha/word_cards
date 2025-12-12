@@ -1,0 +1,142 @@
+[
+  {
+    "word": "바뀌다",
+    "translation": "меняться",
+    "transcription": "bakkwida",
+    "description": "Становиться другим или заменяться чем-то новым.",
+    "audio": "audio/바뀌다_tts.mp3"
+  },
+  {
+    "word": "바나나",
+    "translation": "банан",
+    "transcription": "banana",
+    "description": "Тропический фрукт с мягкой сладкой мякотью.",
+    "audio": "audio/바나나_tts.mp3"
+  },
+  {
+    "word": "바다",
+    "translation": "море",
+    "transcription": "bada",
+    "description": "Большое солёное водное пространство.",
+    "audio": "audio/바다_tts.mp3"
+  },
+  {
+    "word": "바닷가",
+    "translation": "морской берег",
+    "transcription": "badatga",
+    "description": "Полоса суши у моря, пляж или побережье.",
+    "audio": "audio/바닷가_tts.mp3"
+  },
+  {
+    "word": "바라다",
+    "translation": "желать",
+    "transcription": "barada",
+    "description": "Иметь надежду или желание о чём-либо.",
+    "audio": "audio/바라다_tts.mp3"
+  },
+  {
+    "word": "바람",
+    "translation": "ветер",
+    "transcription": "baram",
+    "description": "Движение воздуха, ощутимый поток.",
+    "audio": "audio/바람_tts.mp3"
+  },
+  {
+    "word": "바로",
+    "translation": "сразу",
+    "transcription": "baro",
+    "description": "Немедленно, без задержки или точно.",
+    "audio": "audio/바로_tts.mp3"
+  },
+  {
+    "word": "바르다",
+    "translation": "мазать",
+    "transcription": "bareuda",
+    "description": "Наносить что-то на поверхность; также быть правильным.",
+    "audio": "audio/바르다_tts.mp3"
+  },
+  {
+    "word": "바쁘다",
+    "translation": "быть занятым",
+    "transcription": "bappeuda",
+    "description": "Иметь много дел и мало свободного времени.",
+    "audio": "audio/바쁘다_tts.mp3"
+  },
+  {
+    "word": "바이올린",
+    "translation": "скрипка",
+    "transcription": "baiollin",
+    "description": "Смычковый струнный музыкальный инструмент.",
+    "audio": "audio/바이올린_tts.mp3"
+  },
+  {
+    "word": "바지",
+    "translation": "брюки",
+    "transcription": "baji",
+    "description": "Длинные штаны, одежда для ног.",
+    "audio": "audio/바지_tts.mp3"
+  },
+  {
+    "word": "박물관",
+    "translation": "музей",
+    "transcription": "bangmulgwan",
+    "description": "Учреждение, где хранят и показывают экспонаты.",
+    "audio": "audio/박물관_tts.mp3"
+  },
+  {
+    "word": "박수",
+    "translation": "аплодисменты",
+    "transcription": "baksu",
+    "description": "Хлопки в ладоши в знак одобрения.",
+    "audio": "audio/박수_tts.mp3"
+  },
+  {
+    "word": "밖",
+    "translation": "снаружи",
+    "transcription": "bak",
+    "description": "Внешняя сторона, не внутри помещения.",
+    "audio": "audio/밖_tts.mp3"
+  },
+  {
+    "word": "반",
+    "translation": "половина",
+    "transcription": "ban",
+    "description": "Одна из двух равных частей; также класс или группа.",
+    "audio": "audio/반_tts.mp3"
+  },
+  {
+    "word": "반갑다",
+    "translation": "радоваться встрече",
+    "transcription": "bangapda",
+    "description": "Испытывать приятные эмоции при встрече.",
+    "audio": "audio/반갑다_tts.mp3"
+  },
+  {
+    "word": "반갑습니다",
+    "translation": "рад познакомиться",
+    "transcription": "bangapseumnida",
+    "description": "Вежливое приветствие при знакомстве.",
+    "audio": "audio/반갑습니다_tts.mp3"
+  },
+  {
+    "word": "반년",
+    "translation": "полгода",
+    "transcription": "bannyeon",
+    "description": "Срок длительностью шесть месяцев.",
+    "audio": "audio/반년_tts.mp3"
+  },
+  {
+    "word": "반달",
+    "translation": "полумесяц",
+    "transcription": "bandal",
+    "description": "Фаза луны в виде половины диска.",
+    "audio": "audio/반달_tts.mp3"
+  },
+  {
+    "word": "반바지",
+    "translation": "шорты",
+    "transcription": "banbaji",
+    "description": "Короткие штаны выше колен.",
+    "audio": "audio/반바지_tts.mp3"
+  }
+]

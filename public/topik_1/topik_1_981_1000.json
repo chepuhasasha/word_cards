@@ -1,0 +1,142 @@
+[
+  {
+    "word": "약간",
+    "translation": "немного; слегка",
+    "transcription": "yakgan",
+    "description": "небольшая степень или количество",
+    "audio": "audio/약간_tts.mp3"
+  },
+  {
+    "word": "약국",
+    "translation": "аптека",
+    "transcription": "yakkuk",
+    "description": "магазин лекарственных средств",
+    "audio": "audio/약국_tts.mp3"
+  },
+  {
+    "word": "약사",
+    "translation": "фармацевт",
+    "transcription": "yaksa",
+    "description": "специалист, отпускающий лекарства",
+    "audio": "audio/약사_tts.mp3"
+  },
+  {
+    "word": "약속",
+    "translation": "обещание; встреча",
+    "transcription": "yaksok",
+    "description": "договорённость или обещание встретиться",
+    "audio": "audio/약속_tts.mp3"
+  },
+  {
+    "word": "얇다",
+    "translation": "тонкий",
+    "transcription": "yalpda",
+    "description": "имеющий малую толщину",
+    "audio": "audio/얇다_tts.mp3"
+  },
+  {
+    "word": "양",
+    "translation": "количество; овца",
+    "transcription": "yang",
+    "description": "объём чего-либо или животное овца",
+    "audio": "audio/양_tts.mp3"
+  },
+  {
+    "word": "양말",
+    "translation": "носки",
+    "transcription": "yangmal",
+    "description": "пара текстильных изделий для ступней",
+    "audio": "audio/양말_tts.mp3"
+  },
+  {
+    "word": "양복",
+    "translation": "костюм",
+    "transcription": "yangbok",
+    "description": "деловой мужской костюм с пиджаком",
+    "audio": "audio/양복_tts.mp3"
+  },
+  {
+    "word": "양식",
+    "translation": "форма; западная кухня",
+    "transcription": "yangsik",
+    "description": "бланк для заполнения или блюда западного стиля",
+    "audio": "audio/양식_tts.mp3"
+  },
+  {
+    "word": "양파",
+    "translation": "лук репчатый",
+    "transcription": "yangpa",
+    "description": "овощ с характерным острым вкусом",
+    "audio": "audio/양파_tts.mp3"
+  },
+  {
+    "word": "얘기하다",
+    "translation": "разговаривать",
+    "transcription": "yaegihada",
+    "description": "общаться устно, беседовать",
+    "audio": "audio/얘기하다_tts.mp3"
+  },
+  {
+    "word": "어깨",
+    "translation": "плечо",
+    "transcription": "eokkae",
+    "description": "часть тела между рукой и шеей",
+    "audio": "audio/어깨_tts.mp3"
+  },
+  {
+    "word": "어느",
+    "translation": "какой; который",
+    "transcription": "eoneu",
+    "description": "вопрос о выборе из ряда предметов",
+    "audio": "audio/어느_tts.mp3"
+  },
+  {
+    "word": "어둡다",
+    "translation": "тёмный",
+    "transcription": "eodupda",
+    "description": "с низкой освещённостью",
+    "audio": "audio/어둡다_tts.mp3"
+  },
+  {
+    "word": "어디",
+    "translation": "где",
+    "transcription": "eodi",
+    "description": "вопросительное слово о месте",
+    "audio": "audio/어디_tts.mp3"
+  },
+  {
+    "word": "어떤",
+    "translation": "какой; какой-то",
+    "transcription": "eotteon",
+    "description": "спрашивает или указывает на качество предмета",
+    "audio": "audio/어떤_tts.mp3"
+  },
+  {
+    "word": "어떻게",
+    "translation": "как",
+    "transcription": "eotteoke",
+    "description": "вопрос о способе действия",
+    "audio": "audio/어떻게_tts.mp3"
+  },
+  {
+    "word": "어떻다",
+    "translation": "каков; какой",
+    "transcription": "eotteota",
+    "description": "просить охарактеризовать состояние или качество",
+    "audio": "audio/어떻다_tts.mp3"
+  },
+  {
+    "word": "어떻습니까",
+    "translation": "как вам?",
+    "transcription": "eotteosseumnikka",
+    "description": "вежливый вопрос о впечатлении или мнении",
+    "audio": "audio/어떻습니까_tts.mp3"
+  },
+  {
+    "word": "어렵다",
+    "translation": "трудный",
+    "transcription": "eoryeopda",
+    "description": "требующий усилий или сложный для понимания",
+    "audio": "audio/어렵다_tts.mp3"
+  }
+]

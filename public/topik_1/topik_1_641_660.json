@@ -1,0 +1,142 @@
+[
+  {
+    "word": "배부르다",
+    "translation": "сыт быть",
+    "transcription": "baebureuda",
+    "description": "Чувствовать наполненный желудок после еды.",
+    "audio": "audio/배부르다_tts.mp3"
+  },
+  {
+    "word": "배우",
+    "translation": "актёр",
+    "transcription": "baeu",
+    "description": "Человек, играющий роли в фильмах или на сцене.",
+    "audio": "audio/배우_tts.mp3"
+  },
+  {
+    "word": "배우다",
+    "translation": "учить",
+    "transcription": "baeuda",
+    "description": "Получать знания или навыки через обучение.",
+    "audio": "audio/배우다_tts.mp3"
+  },
+  {
+    "word": "배탈",
+    "translation": "расстройство желудка",
+    "transcription": "baetal",
+    "description": "Боль или дискомфорт в животе из-за пищеварения.",
+    "audio": "audio/배탈_tts.mp3"
+  },
+  {
+    "word": "백",
+    "translation": "сто",
+    "transcription": "baek",
+    "description": "Число 100.",
+    "audio": "audio/백_tts.mp3"
+  },
+  {
+    "word": "백화점",
+    "translation": "универмаг",
+    "transcription": "baekhwajeom",
+    "description": "Большой магазин с множеством отделов.",
+    "audio": "audio/백화점_tts.mp3"
+  },
+  {
+    "word": "버리다",
+    "translation": "выбрасывать",
+    "transcription": "beorida",
+    "description": "Избавляться от ненужного, оставлять.",
+    "audio": "audio/버리다_tts.mp3"
+  },
+  {
+    "word": "버스",
+    "translation": "автобус",
+    "transcription": "beoseu",
+    "description": "Общественный транспорт на колёсах по маршруту.",
+    "audio": "audio/버스_tts.mp3"
+  },
+  {
+    "word": "번",
+    "translation": "раз",
+    "transcription": "beon",
+    "description": "Счётное слово для количества повторений.",
+    "audio": "audio/번_tts.mp3"
+  },
+  {
+    "word": "번호",
+    "translation": "номер",
+    "transcription": "beonho",
+    "description": "Обозначение в виде цифр для идентификации.",
+    "audio": "audio/번호_tts.mp3"
+  },
+  {
+    "word": "벌다",
+    "translation": "зарабатывать",
+    "transcription": "beolda",
+    "description": "Получать деньги трудом или делом.",
+    "audio": "audio/벌다_tts.mp3"
+  },
+  {
+    "word": "벌써",
+    "translation": "уже",
+    "transcription": "beolsseo",
+    "description": "О чём-то, что произошло раньше ожидаемого.",
+    "audio": "audio/벌써_tts.mp3"
+  },
+  {
+    "word": "벗다",
+    "translation": "снимать",
+    "transcription": "beotda",
+    "description": "Убирать с себя одежду или обувь.",
+    "audio": "audio/벗다_tts.mp3"
+  },
+  {
+    "word": "벚꽃",
+    "translation": "сакура",
+    "transcription": "beotkkot",
+    "description": "Цветок вишни, весенний розовый цвет.",
+    "audio": "audio/벚꽃_tts.mp3"
+  },
+  {
+    "word": "베이징",
+    "translation": "Пекин",
+    "transcription": "beijing",
+    "description": "Столица Китая.",
+    "audio": "audio/베이징_tts.mp3"
+  },
+  {
+    "word": "베트남",
+    "translation": "Вьетнам",
+    "transcription": "beteunam",
+    "description": "Государство в Юго-Восточной Азии.",
+    "audio": "audio/베트남_tts.mp3"
+  },
+  {
+    "word": "벽",
+    "translation": "стена",
+    "transcription": "byeok",
+    "description": "Вертикальная поверхность, ограждающая пространство.",
+    "audio": "audio/벽_tts.mp3"
+  },
+  {
+    "word": "변호사",
+    "translation": "адвокат",
+    "transcription": "byeonhosa",
+    "description": "Юрист, представляющий интересы в суде.",
+    "audio": "audio/변호사_tts.mp3"
+  },
+  {
+    "word": "별",
+    "translation": "звезда",
+    "transcription": "byeol",
+    "description": "Светящееся небесное тело на ночном небе.",
+    "audio": "audio/별_tts.mp3"
+  },
+  {
+    "word": "별로",
+    "translation": "не особенно",
+    "transcription": "byeollo",
+    "description": "Небольшая степень, не слишком нравится или важно.",
+    "audio": "audio/별로_tts.mp3"
+  }
+]

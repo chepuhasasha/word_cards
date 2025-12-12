@@ -1,0 +1,142 @@
+[
+  {
+    "word": "매다",
+    "translation": "завязывать",
+    "transcription": "maeda",
+    "description": "Связывать узлом или застёгивать.",
+    "audio": "audio/매다_tts.mp3"
+  },
+  {
+    "word": "매우",
+    "translation": "очень",
+    "transcription": "maeu",
+    "description": "В высшей степени, сильно.",
+    "audio": "audio/매우_tts.mp3"
+  },
+  {
+    "word": "매일",
+    "translation": "каждый день",
+    "transcription": "maeil",
+    "description": "Происходящее ежедневно без пропусков.",
+    "audio": "audio/매일_tts.mp3"
+  },
+  {
+    "word": "매주",
+    "translation": "каждую неделю",
+    "transcription": "maeju",
+    "description": "Повторяющееся еженедельно.",
+    "audio": "audio/매주_tts.mp3"
+  },
+  {
+    "word": "맥주",
+    "translation": "пиво",
+    "transcription": "maekju",
+    "description": "Слабоалкогольный напиток из солода и хмеля.",
+    "audio": "audio/맥주_tts.mp3"
+  },
+  {
+    "word": "맵다",
+    "translation": "острый",
+    "transcription": "maepda",
+    "description": "Иметь жгучий вкус.",
+    "audio": "audio/맵다_tts.mp3"
+  },
+  {
+    "word": "머리",
+    "translation": "голова",
+    "transcription": "meori",
+    "description": "Верхняя часть тела; волосы.",
+    "audio": "audio/머리_tts.mp3"
+  },
+  {
+    "word": "먹다",
+    "translation": "есть",
+    "transcription": "meokda",
+    "description": "Употреблять пищу.",
+    "audio": "audio/먹다_tts.mp3"
+  },
+  {
+    "word": "먼저",
+    "translation": "сначала",
+    "transcription": "meonjeo",
+    "description": "В первую очередь, перед другими.",
+    "audio": "audio/먼저_tts.mp3"
+  },
+  {
+    "word": "멀다",
+    "translation": "далёкий",
+    "transcription": "meolda",
+    "description": "Находящийся на большом расстоянии.",
+    "audio": "audio/멀다_tts.mp3"
+  },
+  {
+    "word": "멋있다",
+    "translation": "классный",
+    "transcription": "meositda",
+    "description": "Производящий приятное, стильное впечатление.",
+    "audio": "audio/멋있다_tts.mp3"
+  },
+  {
+    "word": "메뉴",
+    "translation": "меню",
+    "transcription": "menyu",
+    "description": "Список блюд или команд для выбора.",
+    "audio": "audio/메뉴_tts.mp3"
+  },
+  {
+    "word": "메다",
+    "translation": "нести на плече",
+    "transcription": "meda",
+    "description": "Подхватывать и размещать на плече.",
+    "audio": "audio/메다_tts.mp3"
+  },
+  {
+    "word": "메모",
+    "translation": "заметка",
+    "transcription": "memo",
+    "description": "Короткая запись для напоминания.",
+    "audio": "audio/메모_tts.mp3"
+  },
+  {
+    "word": "메시지",
+    "translation": "сообщение",
+    "transcription": "mesiji",
+    "description": "Текст или устная информация, передаваемая кому-то.",
+    "audio": "audio/메시지_tts.mp3"
+  },
+  {
+    "word": "멕시코",
+    "translation": "Мексика",
+    "transcription": "meksiko",
+    "description": "Страна Мексика.",
+    "audio": "audio/멕시코_tts.mp3"
+  },
+  {
+    "word": "며칠",
+    "translation": "несколько дней",
+    "transcription": "myeochil",
+    "description": "Малое количество дней; какой день месяца.",
+    "audio": "audio/며칠_tts.mp3"
+  },
+  {
+    "word": "면도",
+    "translation": "бритьё",
+    "transcription": "myeondo",
+    "description": "Процесс удаления волос бритвой.",
+    "audio": "audio/면도_tts.mp3"
+  },
+  {
+    "word": "명",
+    "translation": "человек (счёт)",
+    "transcription": "myeong",
+    "description": "Счётное слово для людей.",
+    "audio": "audio/명_tts.mp3"
+  },
+  {
+    "word": "명절",
+    "translation": "праздник",
+    "transcription": "myeongjeol",
+    "description": "Традиционный праздничный день.",
+    "audio": "audio/명절_tts.mp3"
+  }
+]

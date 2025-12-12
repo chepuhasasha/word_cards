@@ -1,0 +1,142 @@
+[
+  {
+    "word": "병",
+    "translation": "болезнь",
+    "transcription": "byeong",
+    "description": "Недуг или состояние нездоровья; также счётчик бутылок.",
+    "audio": "audio/병_tts.mp3"
+  },
+  {
+    "word": "병원",
+    "translation": "больница",
+    "transcription": "byeongwon",
+    "description": "Медицинское учреждение для лечения пациентов.",
+    "audio": "audio/병원_tts.mp3"
+  },
+  {
+    "word": "보내다",
+    "translation": "отправлять",
+    "transcription": "bonaeda",
+    "description": "Посылать что-то или проводить время определённым образом.",
+    "audio": "audio/보내다_tts.mp3"
+  },
+  {
+    "word": "보다",
+    "translation": "смотреть",
+    "transcription": "boda",
+    "description": "Наблюдать глазами или пробовать.",
+    "audio": "audio/보다_tts.mp3"
+  },
+  {
+    "word": "보도",
+    "translation": "тротуар",
+    "transcription": "bodo",
+    "description": "Дорожка для пешеходов; также новостной репортаж.",
+    "audio": "audio/보도_tts.mp3"
+  },
+  {
+    "word": "보이다",
+    "translation": "показывать",
+    "transcription": "boida",
+    "description": "Делать видимым или казаться каким-то.",
+    "audio": "audio/보이다_tts.mp3"
+  },
+  {
+    "word": "보통",
+    "translation": "обычно",
+    "transcription": "botong",
+    "description": "Как правило, в большинстве случаев.",
+    "audio": "audio/보통_tts.mp3"
+  },
+  {
+    "word": "복숭아",
+    "translation": "персик",
+    "transcription": "boksunga",
+    "description": "Сочный фрукт с мягким пушистым кожурой.",
+    "audio": "audio/복숭아_tts.mp3"
+  },
+  {
+    "word": "복잡하다",
+    "translation": "сложный",
+    "transcription": "bokjapada",
+    "description": "Имеющий много элементов или хаотичный.",
+    "audio": "audio/복잡하다_tts.mp3"
+  },
+  {
+    "word": "볶다",
+    "translation": "жарить",
+    "transcription": "bokda",
+    "description": "Готовить пищу на сковороде, помешивая.",
+    "audio": "audio/볶다_tts.mp3"
+  },
+  {
+    "word": "볶음밥",
+    "translation": "жареный рис",
+    "transcription": "bokkeumbap",
+    "description": "Рис, обжаренный с начинкой и приправами.",
+    "audio": "audio/볶음밥_tts.mp3"
+  },
+  {
+    "word": "볼펜",
+    "translation": "ручка",
+    "transcription": "bolpen",
+    "description": "Пишущий прибор с шариковым стержнем.",
+    "audio": "audio/볼펜_tts.mp3"
+  },
+  {
+    "word": "봄",
+    "translation": "весна",
+    "transcription": "bom",
+    "description": "Время года после зимы с тёплой погодой.",
+    "audio": "audio/봄_tts.mp3"
+  },
+  {
+    "word": "봉지",
+    "translation": "пакет",
+    "transcription": "bongji",
+    "description": "Мешочек или пакет для мелких покупок.",
+    "audio": "audio/봉지_tts.mp3"
+  },
+  {
+    "word": "봉투",
+    "translation": "конверт",
+    "transcription": "bongtu",
+    "description": "Бумажный пакет для писем или денег.",
+    "audio": "audio/봉투_tts.mp3"
+  },
+  {
+    "word": "뵙다",
+    "translation": "встретиться",
+    "transcription": "boepda",
+    "description": "Смиренная форма глагола «встречать» старших.",
+    "audio": "audio/뵙다_tts.mp3"
+  },
+  {
+    "word": "부동산",
+    "translation": "недвижимость",
+    "transcription": "budongsan",
+    "description": "Земля, дома и помещения, которые можно купить или сдать.",
+    "audio": "audio/부동산_tts.mp3"
+  },
+  {
+    "word": "부드럽다",
+    "translation": "мягкий",
+    "transcription": "budeureopda",
+    "description": "Имеющий гладкую, нежную текстуру или характер.",
+    "audio": "audio/부드럽다_tts.mp3"
+  },
+  {
+    "word": "부르다",
+    "translation": "звать",
+    "transcription": "bureuda",
+    "description": "Называть по имени или петь песню.",
+    "audio": "audio/부르다_tts.mp3"
+  },
+  {
+    "word": "부모",
+    "translation": "родители",
+    "transcription": "bumo",
+    "description": "Отец и мать, воспитатели ребёнка.",
+    "audio": "audio/부모_tts.mp3"
+  }
+]

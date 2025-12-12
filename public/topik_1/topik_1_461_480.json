@@ -1,0 +1,142 @@
+[
+  {
+    "word": "디자인",
+    "translation": "дизайн",
+    "transcription": "dijain",
+    "description": "Оформление или художественное проектирование предметов.",
+    "audio": "audio/디자인_tts.mp3"
+  },
+  {
+    "word": "따뜻하다",
+    "translation": "тёплый",
+    "transcription": "ttatteuthada",
+    "description": "Иметь приятную умеренную температуру или атмосферу.",
+    "audio": "audio/따뜻하다_tts.mp3"
+  },
+  {
+    "word": "따라가다",
+    "translation": "следовать",
+    "transcription": "ttaragada",
+    "description": "Идти за кем-то или чем-то в одном направлении.",
+    "audio": "audio/따라가다_tts.mp3"
+  },
+  {
+    "word": "따라오다",
+    "translation": "приходить вслед",
+    "transcription": "ttaraoda",
+    "description": "Двигаться за кем-то и прибывать вместе с ним.",
+    "audio": "audio/따라오다_tts.mp3"
+  },
+  {
+    "word": "따로",
+    "translation": "отдельно",
+    "transcription": "ttaro",
+    "description": "Раздельно от других, не вместе.",
+    "audio": "audio/따로_tts.mp3"
+  },
+  {
+    "word": "따르다",
+    "translation": "следовать",
+    "transcription": "ttareuda",
+    "description": "Соблюдать правила или идти за человеком.",
+    "audio": "audio/따르다_tts.mp3"
+  },
+  {
+    "word": "딸",
+    "translation": "дочь",
+    "transcription": "ttal",
+    "description": "Женский ребёнок по отношению к родителям.",
+    "audio": "audio/딸_tts.mp3"
+  },
+  {
+    "word": "딸기",
+    "translation": "клубника",
+    "transcription": "ttalgi",
+    "description": "Красная сладкая ягода с семенами на поверхности.",
+    "audio": "audio/딸기_tts.mp3"
+  },
+  {
+    "word": "땀",
+    "translation": "пот",
+    "transcription": "ttam",
+    "description": "Выделяемая жидкость на коже при жаре или нагрузке.",
+    "audio": "audio/땀_tts.mp3"
+  },
+  {
+    "word": "때",
+    "translation": "время",
+    "transcription": "ttae",
+    "description": "Определённый момент или период.",
+    "audio": "audio/때_tts.mp3"
+  },
+  {
+    "word": "때문",
+    "translation": "причина",
+    "transcription": "ttaemun",
+    "description": "То, что вызывает какое-либо последствие.",
+    "audio": "audio/때문_tts.mp3"
+  },
+  {
+    "word": "떠나다",
+    "translation": "уезжать",
+    "transcription": "tteonada",
+    "description": "Покидать место или отправляться куда-то.",
+    "audio": "audio/떠나다_tts.mp3"
+  },
+  {
+    "word": "떠들다",
+    "translation": "шуметь",
+    "transcription": "tteodeulda",
+    "description": "Громко болтать или создавать шум.",
+    "audio": "audio/떠들다_tts.mp3"
+  },
+  {
+    "word": "떡",
+    "translation": "тток",
+    "transcription": "tteok",
+    "description": "Клейкий рисовый пирог традиционной кухни.",
+    "audio": "audio/떡_tts.mp3"
+  },
+  {
+    "word": "떡국",
+    "translation": "суп с ттоком",
+    "transcription": "tteokguk",
+    "description": "Традиционный суп с ломтиками рисовых лепёшек.",
+    "audio": "audio/떡국_tts.mp3"
+  },
+  {
+    "word": "떡볶이",
+    "translation": "ттокпокки",
+    "transcription": "tteokbokki",
+    "description": "Острые тушёные рисовые палочки со специями.",
+    "audio": "audio/떡볶이_tts.mp3"
+  },
+  {
+    "word": "떨어지다",
+    "translation": "падать",
+    "transcription": "tteoreojida",
+    "description": "Опускаться вниз, отрываться и падать.",
+    "audio": "audio/떨어지다_tts.mp3"
+  },
+  {
+    "word": "또",
+    "translation": "снова",
+    "transcription": "tto",
+    "description": "Ещё раз или в дополнение к чему-либо.",
+    "audio": "audio/또_tts.mp3"
+  },
+  {
+    "word": "또는",
+    "translation": "или",
+    "transcription": "ttoneun",
+    "description": "Соединяет два варианта как выбор.",
+    "audio": "audio/또는_tts.mp3"
+  },
+  {
+    "word": "똑같다",
+    "translation": "одинаковый",
+    "transcription": "ttokkatda",
+    "description": "Совершенно такой же, без отличий.",
+    "audio": "audio/똑같다_tts.mp3"
+  }
+]

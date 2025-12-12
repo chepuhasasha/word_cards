@@ -1,0 +1,142 @@
+[
+  {
+    "word": "반지",
+    "translation": "кольцо",
+    "transcription": "banji",
+    "description": "Ювелирное украшение на палец.",
+    "audio": "audio/반지_tts.mp3"
+  },
+  {
+    "word": "반찬",
+    "translation": "закуски",
+    "transcription": "banchan",
+    "description": "Небольшие корейские блюда, подаваемые к рису.",
+    "audio": "audio/반찬_tts.mp3"
+  },
+  {
+    "word": "받다",
+    "translation": "получать",
+    "transcription": "batda",
+    "description": "Принимать что-либо от кого-то.",
+    "audio": "audio/받다_tts.mp3"
+  },
+  {
+    "word": "발",
+    "translation": "нога",
+    "transcription": "bal",
+    "description": "Ступня или весь низ ноги.",
+    "audio": "audio/발_tts.mp3"
+  },
+  {
+    "word": "발가락",
+    "translation": "палец ноги",
+    "transcription": "balkkarak",
+    "description": "Один из пальцев на стопе.",
+    "audio": "audio/발가락_tts.mp3"
+  },
+  {
+    "word": "발음",
+    "translation": "произношение",
+    "transcription": "bareum",
+    "description": "Способ звучания слов и звуков.",
+    "audio": "audio/발음_tts.mp3"
+  },
+  {
+    "word": "발전",
+    "translation": "развитие",
+    "transcription": "baljeon",
+    "description": "Движение вперёд, прогресс в каком-то деле.",
+    "audio": "audio/발전_tts.mp3"
+  },
+  {
+    "word": "발표",
+    "translation": "презентация",
+    "transcription": "balpyo",
+    "description": "Объявление или публичное выступление с сообщением.",
+    "audio": "audio/발표_tts.mp3"
+  },
+  {
+    "word": "밝다",
+    "translation": "светлый",
+    "transcription": "bakda",
+    "description": "Ярко освещённый или радостный по настроению.",
+    "audio": "audio/밝다_tts.mp3"
+  },
+  {
+    "word": "밤",
+    "translation": "ночь",
+    "transcription": "bam",
+    "description": "Время суток после заката и до рассвета.",
+    "audio": "audio/밤_tts.mp3"
+  },
+  {
+    "word": "밥",
+    "translation": "варёный рис",
+    "transcription": "bap",
+    "description": "Основное блюдо из отваренного риса, еда.",
+    "audio": "audio/밥_tts.mp3"
+  },
+  {
+    "word": "방",
+    "translation": "комната",
+    "transcription": "bang",
+    "description": "Отдельное помещение в доме или здании.",
+    "audio": "audio/방_tts.mp3"
+  },
+  {
+    "word": "방법",
+    "translation": "способ",
+    "transcription": "bangbeop",
+    "description": "Путь или метод для достижения цели.",
+    "audio": "audio/방법_tts.mp3"
+  },
+  {
+    "word": "방송",
+    "translation": "трансляция",
+    "transcription": "bangsong",
+    "description": "Передача аудио или видео по радио, ТВ или онлайн.",
+    "audio": "audio/방송_tts.mp3"
+  },
+  {
+    "word": "방송국",
+    "translation": "вещательная станция",
+    "transcription": "bangsongguk",
+    "description": "Организация, которая делает и передаёт программы.",
+    "audio": "audio/방송국_tts.mp3"
+  },
+  {
+    "word": "방학",
+    "translation": "каникулы",
+    "transcription": "banghak",
+    "description": "Учебные свободные дни между семестрами.",
+    "audio": "audio/방학_tts.mp3"
+  },
+  {
+    "word": "배",
+    "translation": "живот",
+    "transcription": "bae",
+    "description": "Живот, также слово может означать лодку или грушу.",
+    "audio": "audio/배_tts.mp3"
+  },
+  {
+    "word": "배고프다",
+    "translation": "быть голодным",
+    "transcription": "baegopeuda",
+    "description": "Чувствовать сильное желание поесть.",
+    "audio": "audio/배고프다_tts.mp3"
+  },
+  {
+    "word": "배구",
+    "translation": "волейбол",
+    "transcription": "baegu",
+    "description": "Командная спортивная игра с мячом через сетку.",
+    "audio": "audio/배구_tts.mp3"
+  },
+  {
+    "word": "배달",
+    "translation": "доставка",
+    "transcription": "baedal",
+    "description": "Перевозка и вручение заказа до клиента.",
+    "audio": "audio/배달_tts.mp3"
+  }
+]

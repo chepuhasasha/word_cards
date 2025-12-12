@@ -1,0 +1,142 @@
+[
+  {
+    "word": "신발",
+    "translation": "обувь",
+    "transcription": "sinbal",
+    "description": "любая повседневная или спортивная обувь",
+    "audio": "audio/신발_tts.mp3"
+  },
+  {
+    "word": "신청서",
+    "translation": "заявление; бланк",
+    "transcription": "sincheongseo",
+    "description": "письменная форма для подачи заявки",
+    "audio": "audio/신청서_tts.mp3"
+  },
+  {
+    "word": "신청하다",
+    "translation": "подавать заявку",
+    "transcription": "sincheonghada",
+    "description": "официально просить или регистрироваться",
+    "audio": "audio/신청하다_tts.mp3"
+  },
+  {
+    "word": "실례",
+    "translation": "извините; невежливость",
+    "transcription": "sillye",
+    "description": "выражение извинения за беспокойство",
+    "audio": "audio/실례_tts.mp3"
+  },
+  {
+    "word": "실례하다",
+    "translation": "простите (побеспокоить)",
+    "transcription": "sillyehada",
+    "description": "обращаться с просьбой извинить за неудобство",
+    "audio": "audio/실례하다_tts.mp3"
+  },
+  {
+    "word": "실수",
+    "translation": "ошибка",
+    "transcription": "silsu",
+    "description": "неверное действие или промах",
+    "audio": "audio/실수_tts.mp3"
+  },
+  {
+    "word": "싫다",
+    "translation": "не нравиться",
+    "transcription": "silta",
+    "description": "испытывать неприязнь",
+    "audio": "audio/싫다_tts.mp3"
+  },
+  {
+    "word": "싫어하다",
+    "translation": "не любить; ненавидеть",
+    "transcription": "silheohada",
+    "description": "открыто проявлять неприязнь",
+    "audio": "audio/싫어하다_tts.mp3"
+  },
+  {
+    "word": "심하다",
+    "translation": "сильный; серьёзный",
+    "transcription": "simhada",
+    "description": "выраженный, чрезмерный по степени",
+    "audio": "audio/심하다_tts.mp3"
+  },
+  {
+    "word": "십",
+    "translation": "десять",
+    "transcription": "sip",
+    "description": "китайско-корейское числительное 10",
+    "audio": "audio/십_tts.mp3"
+  },
+  {
+    "word": "십이월",
+    "translation": "декабрь",
+    "transcription": "sipiwol",
+    "description": "двенадцатый месяц года",
+    "audio": "audio/십이월_tts.mp3"
+  },
+  {
+    "word": "십일월",
+    "translation": "ноябрь",
+    "transcription": "sibirwol",
+    "description": "одиннадцатый месяц года",
+    "audio": "audio/십일월_tts.mp3"
+  },
+  {
+    "word": "싱겁다",
+    "translation": "пресный",
+    "transcription": "singgeopda",
+    "description": "недостаточно солёный или безвкусный",
+    "audio": "audio/싱겁다_tts.mp3"
+  },
+  {
+    "word": "싶다",
+    "translation": "хотеть",
+    "transcription": "sipda",
+    "description": "испытывать желание сделать что-либо",
+    "audio": "audio/싶다_tts.mp3"
+  },
+  {
+    "word": "싸다",
+    "translation": "дешёвый; заворачивать",
+    "transcription": "ssada",
+    "description": "иметь низкую цену или упаковывать вещи",
+    "audio": "audio/싸다_tts.mp3"
+  },
+  {
+    "word": "싸우다",
+    "translation": "драться; ссориться",
+    "transcription": "ssaunda",
+    "description": "вступать в конфликт или бой",
+    "audio": "audio/싸우다_tts.mp3"
+  },
+  {
+    "word": "쌀",
+    "translation": "рис (крупа)",
+    "transcription": "ssal",
+    "description": "необработанное зерно риса",
+    "audio": "audio/쌀_tts.mp3"
+  },
+  {
+    "word": "쌀밥",
+    "translation": "варёный рис",
+    "transcription": "ssalbap",
+    "description": "готовый рис, сваренный на пару",
+    "audio": "audio/쌀밥_tts.mp3"
+  },
+  {
+    "word": "쌓이다",
+    "translation": "накопляться; складываться",
+    "transcription": "ssahida",
+    "description": "образовывать кучу или накапливаться со временем",
+    "audio": "audio/쌓이다_tts.mp3"
+  },
+  {
+    "word": "썰다",
+    "translation": "резать ломтиками",
+    "transcription": "sseolda",
+    "description": "нарезать продукты на кусочки",
+    "audio": "audio/썰다_tts.mp3"
+  }
+]
