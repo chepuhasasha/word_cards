@@ -1,13 +1,11 @@
 <template lang="pug">
-.word-wrapper(
-    @mouseenter="hovered = true"
-    @mouseleave="hovered = false")
+.word-wrapper(@click='like')
   transition(name="word")
-    .word(:key="wordKey")
+    .word(:key="wordKey" title='Добавить в избранное')
       span {{ word.description }}
-      |{{ word.text }}
+      h1(:style='{opacity: liked ? 0.5 : 1}') {{ word.text }}
   transition(name="bounce")
-    .word-like(v-if='hovered')
+    .word-like(v-if='liked')
       svg(width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg")
         path(d="M16.1111 3C19.6333 3 22 6.3525 22 9.48C22 15.8138 12.1778 21 12 21C11.8222 21 2 15.8138 2 9.48C2 6.3525 4.36667 3 7.88889 3C9.91111 3 11.2333 4.02375 12 4.92375C12.7667 4.02375 14.0889 3 16.1111 3Z"
           fill='var(--error)')
@@ -22,7 +20,13 @@ defineProps({
   wordKey: { type: String as PropType<string>, required: true },
 })
 
-const hovered = ref(false)
+const liked = ref(false)
+const like = () => {
+  liked.value = true
+  setTimeout(() => {
+    liked.value = false
+  }, 1000)
+}
 </script>
 
 <style scoped lang="sass">
@@ -33,10 +37,12 @@ const hovered = ref(false)
   display: flex
   align-items: center
   justify-content: center
-  font-size: 100px
-  font-weight: 500
-  text-align: center
   flex-direction: column
+  transition: all 0.3s ease
+  h1
+    font-size: 100px
+    font-weight: 500
+    text-align: center
   span
     font-size: 12px
     color: var(--c4)

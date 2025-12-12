@@ -43,7 +43,7 @@ export interface Word {
   description: string
 }
 
-const mode = ref<'test' | 'learn' | 'write'>('learn')
+const mode = ref<'test' | 'learn' | 'write' | 'liked'>('learn')
 const list = ref<Word[]>([])
 const current = ref<Word | null>(null)
 const options = ref<string[]>([])
