@@ -29,7 +29,7 @@
 <script setup lang="ts">
 import { onBeforeUnmount, ref, watch } from 'vue'
 
-const TTS_ENDPOINT = 'https://translate.google.com/translate_tts'
+const TTS_ENDPOINT = 'https://translate.googleapis.com/translate_tts'
 const TTS_LANG = 'ko'
 
 const props = defineProps<{ audioSrc: string; transcription: string; autoplay?: boolean }>()
@@ -78,12 +78,6 @@ const cleanupAudio = (): void => {
 const normalizeText = (text: string): string => text.trim()
 
 /**
- * Вычисляет длину строки в байтах для передачи параметра textlen.
- * @param text Строка для подсчета длины.
- */
-const getTextByteLength = (text: string): number => new TextEncoder().encode(text).length
-
-/**
  * Формирует URL для запроса озвучки через Google Translate TTS.
  * @param text Текст, который нужно озвучить.
  */
@@ -94,10 +88,7 @@ const buildTtsUrl = (text: string): string => {
     ie: 'UTF-8',
     q: normalized,
     tl: TTS_LANG,
-    client: 'tw-ob',
-    total: '1',
-    idx: '0',
-    textlen: String(getTextByteLength(normalized)),
+    client: 'gtx',
   })
 
   return `${TTS_ENDPOINT}?${params.toString()}`
