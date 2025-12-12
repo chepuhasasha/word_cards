@@ -1,0 +1,122 @@
+[
+  {
+    "word": "이해하다",
+    "translation": "понимать",
+    "transcription": "ihaehada",
+    "description": "осознавать смысл или содержание чего-либо"
+  },
+  {
+    "word": "인",
+    "translation": "человек",
+    "transcription": "in",
+    "description": "обозначение человека или суффикс для лица"
+  },
+  {
+    "word": "인구",
+    "translation": "население",
+    "transcription": "ingu",
+    "description": "численность жителей страны или региона"
+  },
+  {
+    "word": "인기",
+    "translation": "популярность",
+    "transcription": "ingi",
+    "description": "широкая любовь и интерес со стороны людей"
+  },
+  {
+    "word": "인기스타",
+    "translation": "популярная звезда",
+    "transcription": "ingiseuta",
+    "description": "артист или знаменитость, пользующийся большим успехом"
+  },
+  {
+    "word": "인도",
+    "translation": "Индия",
+    "transcription": "indo",
+    "description": "государство в Южной Азии"
+  },
+  {
+    "word": "인사",
+    "translation": "приветствие",
+    "transcription": "insa",
+    "description": "обмен приветственными словами или поклоном"
+  },
+  {
+    "word": "인사하다",
+    "translation": "приветствовать",
+    "transcription": "insahada",
+    "description": "здороваясь, выражать приветствие или уважение"
+  },
+  {
+    "word": "인삼",
+    "translation": "женьшень",
+    "transcription": "insam",
+    "description": "лекарственное растение с ценным корнем"
+  },
+  {
+    "word": "인상",
+    "translation": "впечатление",
+    "transcription": "insang",
+    "description": "ощущение или образ, полученный от кого-либо"
+  },
+  {
+    "word": "인천",
+    "translation": "Инчхон",
+    "transcription": "incheon",
+    "description": "крупный портовый город в Южной Корее"
+  },
+  {
+    "word": "인터넷",
+    "translation": "интернет",
+    "transcription": "inteonet",
+    "description": "глобальная сеть передачи данных"
+  },
+  {
+    "word": "인터뷰하다",
+    "translation": "брать интервью",
+    "transcription": "inteobyu hada",
+    "description": "вести беседу для публикации или эфира"
+  },
+  {
+    "word": "인형",
+    "translation": "кукла",
+    "transcription": "inhyeong",
+    "description": "игрушка в виде человека или животного"
+  },
+  {
+    "word": "일",
+    "translation": "дело; работа",
+    "transcription": "il",
+    "description": "занятие, событие или обязанность"
+  },
+  {
+    "word": "일곱",
+    "translation": "семь",
+    "transcription": "ilgop",
+    "description": "число семь или количество семь"
+  },
+  {
+    "word": "일기",
+    "translation": "дневник",
+    "transcription": "ilgi",
+    "description": "записи о событиях и впечатлениях дня"
+  },
+  {
+    "word": "일기예보",
+    "translation": "прогноз погоды",
+    "transcription": "ilgiyebo",
+    "description": "сообщение о ожидаемых погодных условиях"
+  },
+  {
+    "word": "일본",
+    "translation": "Япония",
+    "transcription": "ilbon",
+    "description": "островное государство в Восточной Азии"
+  },
+  {
+    "word": "일본드라마",
+    "translation": "японская драма",
+    "transcription": "ilbon deurama",
+    "description": "сериал или теледрама, снятые в Японии"
+  }
+]

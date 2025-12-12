@@ -1,0 +1,122 @@
+[
+  {
+    "word": "적다",
+    "translation": "мало",
+    "transcription": "jeokda",
+    "description": "иметь небольшое количество"
+  },
+  {
+    "word": "전",
+    "translation": "до; перед",
+    "transcription": "jeon",
+    "description": "ранее по времени или расположению"
+  },
+  {
+    "word": "전공",
+    "translation": "специализация",
+    "transcription": "jeongong",
+    "description": "основное направление учёбы"
+  },
+  {
+    "word": "전기자동차",
+    "translation": "электромобиль",
+    "transcription": "jeongi jadongcha",
+    "description": "автомобиль, движимый электрическим мотором"
+  },
+  {
+    "word": "전자사전",
+    "translation": "электронный словарь",
+    "transcription": "jeonja sajeon",
+    "description": "устройство или приложение для поиска слов"
+  },
+  {
+    "word": "전하다",
+    "translation": "передавать; сообщать",
+    "transcription": "jeonhada",
+    "description": "донести информацию или предмет другому"
+  },
+  {
+    "word": "전혀",
+    "translation": "совсем не",
+    "transcription": "jeonhyeo",
+    "description": "полное отрицание без исключений"
+  },
+  {
+    "word": "전화",
+    "translation": "телефонный звонок",
+    "transcription": "jeonhwa",
+    "description": "связь по телефону"
+  },
+  {
+    "word": "전화기",
+    "translation": "телефонный аппарат",
+    "transcription": "jeonhwagi",
+    "description": "устройство для совершения звонков"
+  },
+  {
+    "word": "전화번호",
+    "translation": "телефонный номер",
+    "transcription": "jeonhwabeonho",
+    "description": "цифры для связи с абонентом"
+  },
+  {
+    "word": "절",
+    "translation": "буддийский храм",
+    "transcription": "jeol",
+    "description": "место поклонения в буддизме"
+  },
+  {
+    "word": "절대",
+    "translation": "ни в коем случае; абсолютно",
+    "transcription": "jeoldae",
+    "description": "категорически, без исключений"
+  },
+  {
+    "word": "젊다",
+    "translation": "молодой",
+    "transcription": "jeolmda",
+    "description": "находящийся в молодом возрасте"
+  },
+  {
+    "word": "점",
+    "translation": "точка; пятно",
+    "transcription": "jeom",
+    "description": "маленькая отметка или деталь"
+  },
+  {
+    "word": "점수",
+    "translation": "оценка; балл",
+    "transcription": "jeomsu",
+    "description": "число, выражающее результат"
+  },
+  {
+    "word": "점심",
+    "translation": "обед",
+    "transcription": "jeomsim",
+    "description": "приём пищи в середине дня"
+  },
+  {
+    "word": "점심시간",
+    "translation": "обеденное время",
+    "transcription": "jeomsim sigan",
+    "description": "период, отведённый для обеда"
+  },
+  {
+    "word": "점심식사",
+    "translation": "обеденная трапеза",
+    "transcription": "jeomsim siksa",
+    "description": "приём пищи в полдень"
+  },
+  {
+    "word": "점원",
+    "translation": "продавец",
+    "transcription": "jeomwon",
+    "description": "сотрудник торгового заведения"
+  },
+  {
+    "word": "점퍼",
+    "translation": "джемпер; куртка",
+    "transcription": "jeompeo",
+    "description": "лёгкая верхняя одежда"
+  }
+]
