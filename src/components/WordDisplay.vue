@@ -1,13 +1,13 @@
 <template lang="pug">
-.word-wrapper
+.word-wrapper(ref="wrapperRef")
   transition(name="word")
     .word(:key="wordKey")
-      h1(@click='isHelp = !isHelp') {{ isHelp ? help : word.text }}
+      h1(@click="toggleHelp" ref="headingRef" :style="headingStyle") {{ isHelp ? help : word.text }}
       span {{ word.description }}
 </template>
 
 <script setup lang="ts">
-import { ref, watch, type PropType } from 'vue'
+import { nextTick, onBeforeUnmount, onMounted, ref, watch, type PropType } from 'vue'
 
 const props = defineProps({
   word: { type: Object as PropType<{ text: string; description: string }>, required: true },
@@ -15,11 +15,64 @@ const props = defineProps({
   help: { type: String as PropType<string>, required: true },
 })
 
+const MAX_FONT_SIZE = 100
+const MIN_FONT_SIZE = 30
+const FONT_STEP = 2
+
 const isHelp = ref(false)
+const fontSize = ref(MAX_FONT_SIZE)
+const headingRef = ref<HTMLHeadingElement | null>(null)
+const wrapperRef = ref<HTMLElement | null>(null)
+
+const headingStyle = ref({ fontSize: `${fontSize.value}px` })
+
+/**
+ * Переключает отображение подсказки или исходного слова.
+ */
+const toggleHelp = (): void => {
+  isHelp.value = !isHelp.value
+  nextTick(adjustFontSize)
+}
+
+/**
+ * Подбирает размер шрифта заголовка так, чтобы текст помещался по высоте контейнера.
+ */
+const adjustFontSize = (): void => {
+  const heading = headingRef.value
+  const wrapper = wrapperRef.value
+
+  if (!heading || !wrapper) return
+
+  const availableHeight = wrapper.clientHeight
+  let currentSize = MAX_FONT_SIZE
+
+  heading.style.fontSize = `${currentSize}px`
+
+  while (heading.scrollHeight > availableHeight && currentSize > MIN_FONT_SIZE) {
+    currentSize -= FONT_STEP
+    heading.style.fontSize = `${currentSize}px`
+  }
+
+  fontSize.value = currentSize
+  headingStyle.value = { fontSize: `${currentSize}px` }
+}
+
 watch(
   () => props.word.text,
-  () => (isHelp.value = false),
+  () => {
+    isHelp.value = false
+    nextTick(adjustFontSize)
+  },
 )
+
+onMounted(() => {
+  nextTick(adjustFontSize)
+  window.addEventListener('resize', adjustFontSize)
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', adjustFontSize)
+})
 </script>
 
 <style scoped lang="sass">
@@ -37,7 +90,9 @@ watch(
     font-size: 100px
     font-weight: 500
     text-align: center
-    min-height: 130px
+    max-height: 100%
+    line-height: 1.1
+    word-break: break-word
   span
     font-size: 12px
     color: var(--c4)
