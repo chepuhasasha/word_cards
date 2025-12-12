@@ -210,6 +210,7 @@ async function createTtsAudio(word, filePath) {
     q: word,
     tl: TTS_LANG,
     client: 'tw-ob',
+    ttsspeed: '0.24',
   }).toString()
 
   const ttsUrl = `${TTS_ENDPOINT}?${params}`
