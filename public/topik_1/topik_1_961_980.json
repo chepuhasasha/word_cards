@@ -3,120 +3,140 @@
     "word": "아흔",
     "translation": "девяносто",
     "transcription": "aheun",
-    "description": "корейское числительное 90"
+    "description": "корейское числительное 90",
+    "audio": "audio/아흔_tts.mp3"
   },
   {
     "word": "악기",
     "translation": "музыкальный инструмент",
     "transcription": "akgi",
-    "description": "прибор или устройство для извлечения звуков"
+    "description": "прибор или устройство для извлечения звуков",
+    "audio": "audio/악기_tts.mp3"
   },
   {
     "word": "안",
     "translation": "внутри; не (частица отрицания)",
     "transcription": "an",
-    "description": "внутреннее пространство или частица отрицания"
+    "description": "внутреннее пространство или частица отрицания",
+    "audio": "audio/안_tts.mp3"
   },
   {
     "word": "안경",
     "translation": "очки",
     "transcription": "angyeong",
-    "description": "оправа со стеклами для коррекции зрения"
+    "description": "оправа со стеклами для коррекции зрения",
+    "audio": "audio/안경_tts.mp3"
   },
   {
     "word": "안내하다",
     "translation": "информировать; сопровождать",
     "transcription": "annaehada",
-    "description": "показывать дорогу или давать справку"
+    "description": "показывать дорогу или давать справку",
+    "audio": "audio/안내하다_tts.mp3"
   },
   {
     "word": "안녕하세요",
     "translation": "здравствуйте",
     "transcription": "annyeonghaseyo",
-    "description": "вежливое приветствие"
+    "description": "вежливое приветствие",
+    "audio": "audio/안녕하세요_tts.mp3"
   },
   {
     "word": "안녕하십니까",
     "translation": "здравствуйте (очень вежл.)",
     "transcription": "annyeonghasimnikka",
-    "description": "формальное приветствие"
+    "description": "формальное приветствие",
+    "audio": "audio/안녕하십니까_tts.mp3"
   },
   {
     "word": "안다",
     "translation": "обнимать",
     "transcription": "anda",
-    "description": "заключать в объятия"
+    "description": "заключать в объятия",
+    "audio": "audio/안다_tts.mp3"
   },
   {
     "word": "안전하다",
     "translation": "безопасный",
     "transcription": "anjeonhada",
-    "description": "не представляющий опасности"
+    "description": "не представляющий опасности",
+    "audio": "audio/안전하다_tts.mp3"
   },
   {
     "word": "앉다",
     "translation": "сидеть; садиться",
     "transcription": "anjda",
-    "description": "располагаться на стуле или полу"
+    "description": "располагаться на стуле или полу",
+    "audio": "audio/앉다_tts.mp3"
   },
   {
     "word": "알다",
     "translation": "знать",
     "transcription": "alda",
-    "description": "обладать знаниями о факте"
+    "description": "обладать знаниями о факте",
+    "audio": "audio/알다_tts.mp3"
   },
   {
     "word": "알리다",
     "translation": "сообщать",
     "transcription": "allida",
-    "description": "доводить информацию до кого-то"
+    "description": "доводить информацию до кого-то",
+    "audio": "audio/알리다_tts.mp3"
   },
   {
     "word": "알맞다",
     "translation": "подходящий",
     "transcription": "almatda",
-    "description": "соответствующий нужным условиям"
+    "description": "соответствующий нужным условиям",
+    "audio": "audio/알맞다_tts.mp3"
   },
   {
     "word": "알았습니다",
     "translation": "понял; понял(а)",
     "transcription": "arasseumnida",
-    "description": "вежливое подтверждение понимания"
+    "description": "вежливое подтверждение понимания",
+    "audio": "audio/알았습니다_tts.mp3"
   },
   {
     "word": "앞",
     "translation": "перед; впереди",
     "transcription": "ap",
-    "description": "пространство спереди или будущее время"
+    "description": "пространство спереди или будущее время",
+    "audio": "audio/앞_tts.mp3"
   },
   {
     "word": "애",
     "translation": "ребёнок",
     "transcription": "ae",
-    "description": "разговорное обозначение ребёнка"
+    "description": "разговорное обозначение ребёнка",
+    "audio": "audio/애_tts.mp3"
   },
   {
     "word": "액세서리",
     "translation": "аксессуар",
     "transcription": "aekseseori",
-    "description": "украшение или дополнительный элемент одежды"
+    "description": "украшение или дополнительный элемент одежды",
+    "audio": "audio/액세서리_tts.mp3"
   },
   {
     "word": "야구",
     "translation": "бейсбол",
     "transcription": "yagu",
-    "description": "командная игра с битой и мячом"
+    "description": "командная игра с битой и мячом",
+    "audio": "audio/야구_tts.mp3"
   },
   {
     "word": "야채",
     "translation": "овощи",
     "transcription": "yachae",
-    "description": "съедобные части растений"
+    "description": "съедобные части растений",
+    "audio": "audio/야채_tts.mp3"
   },
   {
     "word": "약",
     "translation": "лекарство; примерно",
     "transcription": "yak",
-    "description": "медицинское средство или приблизительное количество"
+    "description": "медицинское средство или приблизительное количество",
+    "audio": "audio/약_tts.mp3"
   }
 ]

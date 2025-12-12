@@ -3,120 +3,140 @@
     "word": "시다",
     "translation": "кислый",
     "transcription": "sida",
-    "description": "имеющий кислый вкус"
+    "description": "имеющий кислый вкус",
+    "audio": "audio/시다_tts.mp3"
   },
   {
     "word": "시디",
     "translation": "CD-диск",
     "transcription": "sidi",
-    "description": "оптический носитель компакт-диск"
+    "description": "оптический носитель компакт-диск",
+    "audio": "audio/시디_tts.mp3"
   },
   {
     "word": "시민",
     "translation": "гражданин",
     "transcription": "simin",
-    "description": "житель города или страны с правами"
+    "description": "житель города или страны с правами",
+    "audio": "audio/시민_tts.mp3"
   },
   {
     "word": "시설",
     "translation": "объект; сооружение",
     "transcription": "siseol",
-    "description": "инфраструктура или оборудование"
+    "description": "инфраструктура или оборудование",
+    "audio": "audio/시설_tts.mp3"
   },
   {
     "word": "시외",
     "translation": "пригород; загород",
     "transcription": "sioe",
-    "description": "территория за пределами города"
+    "description": "территория за пределами города",
+    "audio": "audio/시외_tts.mp3"
   },
   {
     "word": "시원하다",
     "translation": "прохладный; освежающий",
     "transcription": "siwonhada",
-    "description": "приятно прохладный или дающий облегчение"
+    "description": "приятно прохладный или дающий облегчение",
+    "audio": "audio/시원하다_tts.mp3"
   },
   {
     "word": "시월",
     "translation": "октябрь",
     "transcription": "siwol",
-    "description": "десятый месяц года"
+    "description": "десятый месяц года",
+    "audio": "audio/시월_tts.mp3"
   },
   {
     "word": "시작",
     "translation": "начало",
     "transcription": "sijak",
-    "description": "момент, когда что-то начинается"
+    "description": "момент, когда что-то начинается",
+    "audio": "audio/시작_tts.mp3"
   },
   {
     "word": "시작되다",
     "translation": "начинаться",
     "transcription": "sijakdoeda",
-    "description": "приходить к старту само по себе"
+    "description": "приходить к старту само по себе",
+    "audio": "audio/시작되다_tts.mp3"
   },
   {
     "word": "시작하다",
     "translation": "начинать",
     "transcription": "sijakhada",
-    "description": "приступать к делу, открывать процесс"
+    "description": "приступать к делу, открывать процесс",
+    "audio": "audio/시작하다_tts.mp3"
   },
   {
     "word": "시장",
     "translation": "рынок",
     "transcription": "sijang",
-    "description": "место торговли товарами"
+    "description": "место торговли товарами",
+    "audio": "audio/시장_tts.mp3"
   },
   {
     "word": "시청",
     "translation": "мэрия",
     "transcription": "sicheong",
-    "description": "городская администрация"
+    "description": "городская администрация",
+    "audio": "audio/시청_tts.mp3"
   },
   {
     "word": "시키다",
     "translation": "заставлять; заказывать",
     "transcription": "sikida",
-    "description": "поручать действие или заказывать еду"
+    "description": "поручать действие или заказывать еду",
+    "audio": "audio/시키다_tts.mp3"
   },
   {
     "word": "시험",
     "translation": "экзамен",
     "transcription": "siheom",
-    "description": "проверка знаний"
+    "description": "проверка знаний",
+    "audio": "audio/시험_tts.mp3"
   },
   {
     "word": "식당",
     "translation": "столовая; ресторан",
     "transcription": "sikdang",
-    "description": "место, где готовят и подают еду"
+    "description": "место, где готовят и подают еду",
+    "audio": "audio/식당_tts.mp3"
   },
   {
     "word": "식사",
     "translation": "приём пищи",
     "transcription": "siksa",
-    "description": "процесс еды — завтрак, обед или ужин"
+    "description": "процесс еды — завтрак, обед или ужин",
+    "audio": "audio/식사_tts.mp3"
   },
   {
     "word": "식탁",
     "translation": "обеденный стол",
     "transcription": "siktak",
-    "description": "стол, за которым едят"
+    "description": "стол, за которым едят",
+    "audio": "audio/식탁_tts.mp3"
   },
   {
     "word": "신",
     "translation": "бог; новый",
     "transcription": "sin",
-    "description": "божество или приставка к слову «новый»"
+    "description": "божество или приставка к слову «новый»",
+    "audio": "audio/신_tts.mp3"
   },
   {
     "word": "신다",
     "translation": "обувать; носить (обувь)",
     "transcription": "sinda",
-    "description": "надевать на ноги обувь"
+    "description": "надевать на ноги обувь",
+    "audio": "audio/신다_tts.mp3"
   },
   {
     "word": "신문",
     "translation": "газета",
     "transcription": "sinmun",
-    "description": "периодическое печатное издание"
+    "description": "периодическое печатное издание",
+    "audio": "audio/신문_tts.mp3"
   }
 ]

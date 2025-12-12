@@ -3,120 +3,140 @@
     "word": "수도",
     "translation": "столица; водопровод",
     "transcription": "sudo",
-    "description": "главный город страны или система подачи воды"
+    "description": "главный город страны или система подачи воды",
+    "audio": "audio/수도_tts.mp3"
   },
   {
     "word": "수돗물",
     "translation": "водопроводная вода",
     "transcription": "sudonmul",
-    "description": "питьевая вода из крана"
+    "description": "питьевая вода из крана",
+    "audio": "audio/수돗물_tts.mp3"
   },
   {
     "word": "수박",
     "translation": "арбуз",
     "transcription": "subak",
-    "description": "крупная сладкая ягода с красной мякотью"
+    "description": "крупная сладкая ягода с красной мякотью",
+    "audio": "audio/수박_tts.mp3"
   },
   {
     "word": "수술하다",
     "translation": "оперировать",
     "transcription": "susulhada",
-    "description": "проводить хирургическое вмешательство"
+    "description": "проводить хирургическое вмешательство",
+    "audio": "audio/수술하다_tts.mp3"
   },
   {
     "word": "수업",
     "translation": "урок; занятие",
     "transcription": "sueop",
-    "description": "учебное занятие в школе или вузе"
+    "description": "учебное занятие в школе или вузе",
+    "audio": "audio/수업_tts.mp3"
   },
   {
     "word": "수영",
     "translation": "плавание",
     "transcription": "suyeong",
-    "description": "спорт или умение держаться на воде"
+    "description": "спорт или умение держаться на воде",
+    "audio": "audio/수영_tts.mp3"
   },
   {
     "word": "수영복",
     "translation": "купальник",
     "transcription": "suyeongbok",
-    "description": "одежда для плавания"
+    "description": "одежда для плавания",
+    "audio": "audio/수영복_tts.mp3"
   },
   {
     "word": "수영장",
     "translation": "бассейн",
     "transcription": "suyeongjang",
-    "description": "искусственный водоём для плавания"
+    "description": "искусственный водоём для плавания",
+    "audio": "audio/수영장_tts.mp3"
   },
   {
     "word": "수요일",
     "translation": "среда",
     "transcription": "suyoil",
-    "description": "день недели между вторником и четвергом"
+    "description": "день недели между вторником и четвергом",
+    "audio": "audio/수요일_tts.mp3"
   },
   {
     "word": "수저",
     "translation": "палочки и ложка",
     "transcription": "sujeo",
-    "description": "комплект столовых приборов для корейской еды"
+    "description": "комплект столовых приборов для корейской еды",
+    "audio": "audio/수저_tts.mp3"
   },
   {
     "word": "수첩",
     "translation": "блокнот",
     "transcription": "sucheop",
-    "description": "небольшая записная книжка"
+    "description": "небольшая записная книжка",
+    "audio": "audio/수첩_tts.mp3"
   },
   {
     "word": "수학",
     "translation": "математика",
     "transcription": "suhak",
-    "description": "наука о числах и формах"
+    "description": "наука о числах и формах",
+    "audio": "audio/수학_tts.mp3"
   },
   {
     "word": "숙제",
     "translation": "домашнее задание",
     "transcription": "sukje",
-    "description": "учебные задачи для выполнения дома"
+    "description": "учебные задачи для выполнения дома",
+    "audio": "audio/숙제_tts.mp3"
   },
   {
     "word": "순서",
     "translation": "порядок; очередь",
     "transcription": "sunseo",
-    "description": "последовательность действий или позиция в очереди"
+    "description": "последовательность действий или позиция в очереди",
+    "audio": "audio/순서_tts.mp3"
   },
   {
     "word": "숟가락",
     "translation": "ложка",
     "transcription": "sutgarak",
-    "description": "столовый прибор для жидкой пищи"
+    "description": "столовый прибор для жидкой пищи",
+    "audio": "audio/숟가락_tts.mp3"
   },
   {
     "word": "술",
     "translation": "алкоголь; спиртное",
     "transcription": "sul",
-    "description": "напитки с содержанием алкоголя"
+    "description": "напитки с содержанием алкоголя",
+    "audio": "audio/술_tts.mp3"
   },
   {
     "word": "쉬다",
     "translation": "отдыхать",
     "transcription": "swida",
-    "description": "делать перерыв для восстановления сил"
+    "description": "делать перерыв для восстановления сил",
+    "audio": "audio/쉬다_tts.mp3"
   },
   {
     "word": "쉰",
     "translation": "пятьдесят",
     "transcription": "swin",
-    "description": "корейское числительное 50"
+    "description": "корейское числительное 50",
+    "audio": "audio/쉰_tts.mp3"
   },
   {
     "word": "쉽다",
     "translation": "лёгкий; простой",
     "transcription": "swipda",
-    "description": "не требующий больших усилий"
+    "description": "не требующий больших усилий",
+    "audio": "audio/쉽다_tts.mp3"
   },
   {
     "word": "슈퍼마켓",
     "translation": "супермаркет",
     "transcription": "syupeomaket",
-    "description": "крупный магазин самообслуживания"
+    "description": "крупный магазин самообслуживания",
+    "audio": "audio/슈퍼마켓_tts.mp3"
   }
 ]

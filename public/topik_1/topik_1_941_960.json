@@ -3,120 +3,140 @@
     "word": "아마",
     "translation": "наверное; возможно",
     "transcription": "ama",
-    "description": "предположение с небольшой уверенностью"
+    "description": "предположение с небольшой уверенностью",
+    "audio": "audio/아마_tts.mp3"
   },
   {
     "word": "아무",
     "translation": "любой; никто",
     "transcription": "amu",
-    "description": "неопределённое лицо или предмет"
+    "description": "неопределённое лицо или предмет",
+    "audio": "audio/아무_tts.mp3"
   },
   {
     "word": "아버님",
     "translation": "отец (вежл.)",
     "transcription": "abeonim",
-    "description": "уважительное обращение к чужому отцу"
+    "description": "уважительное обращение к чужому отцу",
+    "audio": "audio/아버님_tts.mp3"
   },
   {
     "word": "아버지",
     "translation": "отец",
     "transcription": "abeoji",
-    "description": "папа, родитель мужского пола"
+    "description": "папа, родитель мужского пола",
+    "audio": "audio/아버지_tts.mp3"
   },
   {
     "word": "아빠",
     "translation": "папа",
     "transcription": "appa",
-    "description": "разговорное ласковое обращение к отцу"
+    "description": "разговорное ласковое обращение к отцу",
+    "audio": "audio/아빠_tts.mp3"
   },
   {
     "word": "아시아",
     "translation": "Азия",
     "transcription": "asia",
-    "description": "континент, включающий Восточную и Южную Азию"
+    "description": "континент, включающий Восточную и Южную Азию",
+    "audio": "audio/아시아_tts.mp3"
   },
   {
     "word": "아이",
     "translation": "ребёнок",
     "transcription": "ai",
-    "description": "девочка или мальчик дошкольного возраста"
+    "description": "девочка или мальчик дошкольного возраста",
+    "audio": "audio/아이_tts.mp3"
   },
   {
     "word": "아이스크림",
     "translation": "мороженое",
     "transcription": "aiseukeurim",
-    "description": "холодный десерт из замороженных сливок"
+    "description": "холодный десерт из замороженных сливок",
+    "audio": "audio/아이스크림_tts.mp3"
   },
   {
     "word": "아저씨",
     "translation": "дядя; мужчина средних лет",
     "transcription": "ajeossi",
-    "description": "обращение к незнакомому мужчине постарше"
+    "description": "обращение к незнакомому мужчине постарше",
+    "audio": "audio/아저씨_tts.mp3"
   },
   {
     "word": "아주",
     "translation": "очень",
     "transcription": "aju",
-    "description": "в высокой степени"
+    "description": "в высокой степени",
+    "audio": "audio/아주_tts.mp3"
   },
   {
     "word": "아주머니",
     "translation": "тётя; мадам",
     "transcription": "ajumeoni",
-    "description": "уважительное обращение к женщине среднего возраста"
+    "description": "уважительное обращение к женщине среднего возраста",
+    "audio": "audio/아주머니_tts.mp3"
   },
   {
     "word": "아줌마",
     "translation": "тетя (разг.)",
     "transcription": "ajumma",
-    "description": "разговорное обращение к взрослой женщине"
+    "description": "разговорное обращение к взрослой женщине",
+    "audio": "audio/아줌마_tts.mp3"
   },
   {
     "word": "아직",
     "translation": "ещё; пока",
     "transcription": "ajik",
-    "description": "действие или состояние продолжается до сих пор"
+    "description": "действие или состояние продолжается до сих пор",
+    "audio": "audio/아직_tts.mp3"
   },
   {
     "word": "아침",
     "translation": "утро; завтрак",
     "transcription": "achim",
-    "description": "ранняя часть дня или утренний приём пищи"
+    "description": "ранняя часть дня или утренний приём пищи",
+    "audio": "audio/아침_tts.mp3"
   },
   {
     "word": "아침밥",
     "translation": "завтрак",
     "transcription": "achimbap",
-    "description": "утренний приём пищи, приготовленный дома"
+    "description": "утренний приём пищи, приготовленный дома",
+    "audio": "audio/아침밥_tts.mp3"
   },
   {
     "word": "아침식사",
     "translation": "завтрак (приём пищи)",
     "transcription": "achim siksa",
-    "description": "приём еды в утреннее время"
+    "description": "приём еды в утреннее время",
+    "audio": "audio/아침식사_tts.mp3"
   },
   {
     "word": "아파트",
     "translation": "квартира; многоквартирный дом",
     "transcription": "apateu",
-    "description": "жилое помещение в многоэтажке"
+    "description": "жилое помещение в многоэтажке",
+    "audio": "audio/아파트_tts.mp3"
   },
   {
     "word": "아프다",
     "translation": "болеть; больной",
     "transcription": "apeuda",
-    "description": "испытывать боль или недомогание"
+    "description": "испытывать боль или недомогание",
+    "audio": "audio/아프다_tts.mp3"
   },
   {
     "word": "아프리카",
     "translation": "Африка",
     "transcription": "apeurika",
-    "description": "континент к югу от Средиземноморья"
+    "description": "континент к югу от Средиземноморья",
+    "audio": "audio/아프리카_tts.mp3"
   },
   {
     "word": "아홉",
     "translation": "девять",
     "transcription": "ahop",
-    "description": "корейское числительное 9"
+    "description": "корейское числительное 9",
+    "audio": "audio/아홉_tts.mp3"
   }
 ]
