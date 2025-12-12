@@ -26,7 +26,7 @@ const emit = defineEmits<{
 
 const likedEffect = ref(false)
 
-const heartVisible = computed(() => likedEffect.value || props.liked)
+const heartVisible = computed(() => likedEffect.value)
 
 /**
  * Добавляет слово в избранное и запускает анимацию сердечка.
