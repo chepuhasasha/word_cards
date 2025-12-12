@@ -364,6 +364,10 @@ const handleKeydown = (e: KeyboardEvent): void => {
     return
   }
 
+  if (isTextInput && mode.value === 'write' && e.key === 'Enter') {
+    return
+  }
+
   if (e.key !== 'Enter') return
 
   if (mode.value === 'learn') {
