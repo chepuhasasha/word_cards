@@ -3,120 +3,140 @@
     "word": "뉴스",
     "translation": "новости",
     "transcription": "ню-ссы",
-    "description": "Сводки актуальных событий в СМИ или интернете."
+    "description": "Сводки актуальных событий в СМИ или интернете.",
+    "audio": "audio/뉴스_tts.mp3"
   },
   {
     "word": "뉴욕",
     "translation": "Нью-Йорк",
     "transcription": "ню-йок",
-    "description": "Американский город Нью-Йорк."
+    "description": "Американский город Нью-Йорк.",
+    "audio": "audio/뉴욕_tts.mp3"
   },
   {
     "word": "느끼다",
     "translation": "чувствовать",
     "transcription": "нык-ки-да",
-    "description": "Испытывать эмоции или физические ощущения."
+    "description": "Испытывать эмоции или физические ощущения.",
+    "audio": "audio/느끼다_tts.mp3"
   },
   {
     "word": "느낌",
     "translation": "чувство; ощущение",
     "transcription": "нык-ким",
-    "description": "Внутреннее ощущение или интуитивное восприятие."
+    "description": "Внутреннее ощущение или интуитивное восприятие.",
+    "audio": "audio/느낌_tts.mp3"
   },
   {
     "word": "느리다",
     "translation": "медленный",
     "transcription": "ны-ри-да",
-    "description": "Движущийся или происходящий без спешки."
+    "description": "Движущийся или происходящий без спешки.",
+    "audio": "audio/느리다_tts.mp3"
   },
   {
     "word": "늘",
     "translation": "всегда; постоянно",
     "transcription": "нын",
-    "description": "О чем-то, что происходит в любое время без исключений."
+    "description": "О чем-то, что происходит в любое время без исключений.",
+    "audio": "audio/늘_tts.mp3"
   },
   {
     "word": "늘다",
     "translation": "увеличиваться; расти",
     "transcription": "ныль-да",
-    "description": "Становиться больше по количеству или уровню."
+    "description": "Становиться больше по количеству или уровню.",
+    "audio": "audio/늘다_tts.mp3"
   },
   {
     "word": "능력",
     "translation": "способность; умение",
     "transcription": "нынг-нёк",
-    "description": "Навык или потенциал выполнять что-либо."
+    "description": "Навык или потенциал выполнять что-либо.",
+    "audio": "audio/능력_tts.mp3"
   },
   {
     "word": "늦다",
     "translation": "опаздывать; поздний",
     "transcription": "ныт-та",
-    "description": "Приходить позже запланированного времени."
+    "description": "Приходить позже запланированного времени.",
+    "audio": "audio/늦다_tts.mp3"
   },
   {
     "word": "늦잠",
     "translation": "поздний сон; проспание",
     "transcription": "ныт-чам",
-    "description": "Ситуация, когда просыпаются позже обычного."
+    "description": "Ситуация, когда просыпаются позже обычного.",
+    "audio": "audio/늦잠_tts.mp3"
   },
   {
     "word": "님",
     "translation": "господин; госпожа",
     "transcription": "ним",
-    "description": "Почетный суффикс обращения к человеку."
+    "description": "Почетный суффикс обращения к человеку.",
+    "audio": "audio/님_tts.mp3"
   },
   {
     "word": "다",
     "translation": "всё; полностью",
     "transcription": "да",
-    "description": "Указывает на полноту или охват всех элементов."
+    "description": "Указывает на полноту или охват всех элементов.",
+    "audio": "audio/다_tts.mp3"
   },
   {
     "word": "다녀오다",
     "translation": "сходить и вернуться",
     "transcription": "да-нё-о-да",
-    "description": "Кратко посетить место и вернуться обратно."
+    "description": "Кратко посетить место и вернуться обратно.",
+    "audio": "audio/다녀오다_tts.mp3"
   },
   {
     "word": "다니다",
     "translation": "ходить; посещать регулярно",
     "transcription": "да-ни-да",
-    "description": "Регулярно бывать где-либо, например в школе или на работе."
+    "description": "Регулярно бывать где-либо, например в школе или на работе.",
+    "audio": "audio/다니다_tts.mp3"
   },
   {
     "word": "다르다",
     "translation": "отличаться",
     "transcription": "да-ры-да",
-    "description": "Иметь другие свойства или быть не таким, как что-то другое."
+    "description": "Иметь другие свойства или быть не таким, как что-то другое.",
+    "audio": "audio/다르다_tts.mp3"
   },
   {
     "word": "다른",
     "translation": "другой; иной",
     "transcription": "да-рын",
-    "description": "Указывает на предмет, отличающийся от упомянутого ранее."
+    "description": "Указывает на предмет, отличающийся от упомянутого ранее.",
+    "audio": "audio/다른_tts.mp3"
   },
   {
     "word": "다리",
     "translation": "нога; мост",
     "transcription": "да-ри",
-    "description": "Часть тела для ходьбы или сооружение для перехода через препятствие."
+    "description": "Часть тела для ходьбы или сооружение для перехода через препятствие.",
+    "audio": "audio/다리_tts.mp3"
   },
   {
     "word": "다섯",
     "translation": "пять",
     "transcription": "да-сот",
-    "description": "Число 5 в корейском счёте."
+    "description": "Число 5 в корейском счёте.",
+    "audio": "audio/다섯_tts.mp3"
   },
   {
     "word": "다시",
     "translation": "снова; опять",
     "transcription": "да-щи",
-    "description": "Повторение действия после паузы."
+    "description": "Повторение действия после паузы.",
+    "audio": "audio/다시_tts.mp3"
   },
   {
     "word": "다음",
     "translation": "следующий; потом",
     "transcription": "да-ым",
-    "description": "То, что идёт после текущего момента или пункта."
+    "description": "То, что идёт после текущего момента или пункта.",
+    "audio": "audio/다음_tts.mp3"
   }
 ]

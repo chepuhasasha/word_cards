@@ -3,120 +3,140 @@
     "word": "두부",
     "translation": "тофу",
     "transcription": "ту-бу",
-    "description": "Соевый творог, используемый в разных блюдах."
+    "description": "Соевый творог, используемый в разных блюдах.",
+    "audio": "audio/두부_tts.mp3"
   },
   {
     "word": "두부찌개",
     "translation": "рагу с тофу",
     "transcription": "ту-бу-ччи-гэ",
-    "description": "Острый тушёный суп с тофу и овощами."
+    "description": "Острый тушёный суп с тофу и овощами.",
+    "audio": "audio/두부찌개_tts.mp3"
   },
   {
     "word": "둘",
     "translation": "два",
     "transcription": "туль",
-    "description": "Корейское числительное 2 в независимой форме."
+    "description": "Корейское числительное 2 в независимой форме.",
+    "audio": "audio/둘_tts.mp3"
   },
   {
     "word": "둘째",
     "translation": "второй; второе дитя",
     "transcription": "туль-че",
-    "description": "Второй по счёту среди детей или пунктов."
+    "description": "Второй по счёту среди детей или пунктов.",
+    "audio": "audio/둘째_tts.mp3"
   },
   {
     "word": "뒤",
     "translation": "сзади; зад",
     "transcription": "тви",
-    "description": "Пространство позади объекта или человека."
+    "description": "Пространство позади объекта или человека.",
+    "audio": "audio/뒤_tts.mp3"
   },
   {
     "word": "뒤쪽",
     "translation": "задняя сторона",
     "transcription": "тви-ччок",
-    "description": "Область, находящаяся позади чего-либо."
+    "description": "Область, находящаяся позади чего-либо.",
+    "audio": "audio/뒤쪽_tts.mp3"
   },
   {
     "word": "드라마",
     "translation": "дорама; сериал",
     "transcription": "ды-ра-ма",
-    "description": "Телевизионный или онлайн-сериал, часто корейский."
+    "description": "Телевизионный или онлайн-сериал, часто корейский.",
+    "audio": "audio/드라마_tts.mp3"
   },
   {
     "word": "드리다",
     "translation": "давать (вежл.)",
     "transcription": "ды-ри-да",
-    "description": "Вежливо вручать или передавать что-то адресату."
+    "description": "Вежливо вручать или передавать что-то адресату.",
+    "audio": "audio/드리다_tts.mp3"
   },
   {
     "word": "드시다",
     "translation": "есть (вежл.)",
     "transcription": "ды-си-да",
-    "description": "Уважительное слово для приёма пищи."
+    "description": "Уважительное слово для приёма пищи.",
+    "audio": "audio/드시다_tts.mp3"
   },
   {
     "word": "듣기",
     "translation": "аудирование",
     "transcription": "тыт-ки",
-    "description": "Вид деятельности по восприятию информации на слух."
+    "description": "Вид деятельности по восприятию информации на слух.",
+    "audio": "audio/듣기_tts.mp3"
   },
   {
     "word": "듣다",
     "translation": "слушать",
     "transcription": "тыт-та",
-    "description": "Воспринимать звуки или речь ушами."
+    "description": "Воспринимать звуки или речь ушами.",
+    "audio": "audio/듣다_tts.mp3"
   },
   {
     "word": "들",
     "translation": "поля; суффикс множественного числа",
     "transcription": "тыль",
-    "description": "Либо равнинные поля, либо показатель множественности в речи."
+    "description": "Либо равнинные поля, либо показатель множественности в речи.",
+    "audio": "audio/들_tts.mp3"
   },
   {
     "word": "들다",
     "translation": "поднимать; входить",
     "transcription": "тыль-да",
-    "description": "Брать в руки или заходить внутрь помещения."
+    "description": "Брать в руки или заходить внутрь помещения.",
+    "audio": "audio/들다_tts.mp3"
   },
   {
     "word": "들어가다",
     "translation": "заходить внутрь",
     "transcription": "ты-ро-га-да",
-    "description": "Двигаться внутрь здания или комнаты."
+    "description": "Двигаться внутрь здания или комнаты.",
+    "audio": "audio/들어가다_tts.mp3"
   },
   {
     "word": "들어오다",
     "translation": "входить; заходить",
     "transcription": "ты-ро-о-да",
-    "description": "Появляться внутри, переходя через вход."
+    "description": "Появляться внутри, переходя через вход.",
+    "audio": "audio/들어오다_tts.mp3"
   },
   {
     "word": "등",
     "translation": "спина; и так далее",
     "transcription": "тынг",
-    "description": "Часть тела сзади туловища или обозначение перечисления."
+    "description": "Часть тела сзади туловища или обозначение перечисления.",
+    "audio": "audio/등_tts.mp3"
   },
   {
     "word": "등산",
     "translation": "восхождение на гору",
     "transcription": "тынг-сан",
-    "description": "Поход или прогулка по горам."
+    "description": "Поход или прогулка по горам.",
+    "audio": "audio/등산_tts.mp3"
   },
   {
     "word": "등산복",
     "translation": "одежда для хайкинга",
     "transcription": "тынг-сан-бок",
-    "description": "Спортивная одежда, подходящая для походов в горы."
+    "description": "Спортивная одежда, подходящая для походов в горы.",
+    "audio": "audio/등산복_tts.mp3"
   },
   {
     "word": "등산화",
     "translation": "ботинки для гор",
     "transcription": "тынг-сан-хва",
-    "description": "Обувь с хорошим сцеплением для подъёмов и походов."
+    "description": "Обувь с хорошим сцеплением для подъёмов и походов.",
+    "audio": "audio/등산화_tts.mp3"
   },
   {
     "word": "디브이디",
     "translation": "DVD-диск",
     "transcription": "ди-бы-и-ди",
-    "description": "Оптический диск для хранения видео и данных."
+    "description": "Оптический диск для хранения видео и данных.",
+    "audio": "audio/디브이디_tts.mp3"
   }
 ]
