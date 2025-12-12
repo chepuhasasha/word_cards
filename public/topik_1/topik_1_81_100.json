@@ -10,7 +10,8 @@
     "word": "결정",
     "translation": "решение",
     "transcription": "gyeoljeong",
-    "description": "Принятое решение или выбор после обдумывания."
+    "description": "Принятое решение или выбор после обдумывания.",
+    "audio": "audio/결정_tts.mp3"
   },
   {
     "word": "결정하다",
