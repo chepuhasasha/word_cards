@@ -3,120 +3,140 @@
     "word": "목욕하다",
     "translation": "купаться",
     "transcription": "mokyokhada",
-    "description": "Принимать ванну или мыться."
+    "description": "Принимать ванну или мыться.",
+    "audio": "audio/목욕하다_tts.mp3"
   },
   {
     "word": "목적",
     "translation": "цель",
     "transcription": "mokjeok",
-    "description": "Намерение или итог, к которому стремятся."
+    "description": "Намерение или итог, к которому стремятся.",
+    "audio": "audio/목적_tts.mp3"
   },
   {
     "word": "몸",
     "translation": "тело",
     "transcription": "mom",
-    "description": "Физическая оболочка человека или животного."
+    "description": "Физическая оболочка человека или животного.",
+    "audio": "audio/몸_tts.mp3"
   },
   {
     "word": "몸살",
     "translation": "озноб с ломотой",
     "transcription": "momsal",
-    "description": "Болезненное состояние с ломотой от усталости."
+    "description": "Болезненное состояние с ломотой от усталости.",
+    "audio": "audio/몸살_tts.mp3"
   },
   {
     "word": "못하다",
     "translation": "не мочь",
     "transcription": "mothada",
-    "description": "Не иметь возможности или умения сделать."
+    "description": "Не иметь возможности или умения сделать.",
+    "audio": "audio/못하다_tts.mp3"
   },
   {
     "word": "몽골",
     "translation": "Монголия",
     "transcription": "monggol",
-    "description": "Страна Монголия."
+    "description": "Страна Монголия.",
+    "audio": "audio/몽골_tts.mp3"
   },
   {
     "word": "무",
     "translation": "редька",
     "transcription": "mu",
-    "description": "Белая корейская редька."
+    "description": "Белая корейская редька.",
+    "audio": "audio/무_tts.mp3"
   },
   {
     "word": "무겁다",
     "translation": "тяжёлый",
     "transcription": "mugeopda",
-    "description": "Иметь большой вес."
+    "description": "Иметь большой вес.",
+    "audio": "audio/무겁다_tts.mp3"
   },
   {
     "word": "무궁화",
     "translation": "гибискус",
     "transcription": "mugunghwa",
-    "description": "Национальный цветок Кореи — алтея."
+    "description": "Национальный цветок Кореи — алтея.",
+    "audio": "audio/무궁화_tts.mp3"
   },
   {
     "word": "무료",
     "translation": "бесплатно",
     "transcription": "muryo",
-    "description": "Без оплаты, даром."
+    "description": "Без оплаты, даром.",
+    "audio": "audio/무료_tts.mp3"
   },
   {
     "word": "무릎",
     "translation": "колено",
     "transcription": "mureup",
-    "description": "Сустав между бедром и голенью."
+    "description": "Сустав между бедром и голенью.",
+    "audio": "audio/무릎_tts.mp3"
   },
   {
     "word": "무리",
     "translation": "чрезмерность",
     "transcription": "muri",
-    "description": "Перегрузка или чрезмерное усилие; также группа."
+    "description": "Перегрузка или чрезмерное усилие; также группа.",
+    "audio": "audio/무리_tts.mp3"
   },
   {
     "word": "무섭다",
     "translation": "страшный",
     "transcription": "museopda",
-    "description": "Вызывающий страх или пугающий."
+    "description": "Вызывающий страх или пугающий.",
+    "audio": "audio/무섭다_tts.mp3"
   },
   {
     "word": "무슨",
     "translation": "какой",
     "transcription": "museun",
-    "description": "Вопросительное слово о виде или типе."
+    "description": "Вопросительное слово о виде или типе.",
+    "audio": "audio/무슨_tts.mp3"
   },
   {
     "word": "무엇",
     "translation": "что",
     "transcription": "mueot",
-    "description": "Вопросительное слово о предмете или явлении."
+    "description": "Вопросительное слово о предмете или явлении.",
+    "audio": "audio/무엇_tts.mp3"
   },
   {
     "word": "무엇이",
     "translation": "что (именит.)",
     "transcription": "mueosi",
-    "description": "Форма слова «что» в роли подлежащего."
+    "description": "Форма слова «что» в роли подлежащего.",
+    "audio": "audio/무엇이_tts.mp3"
   },
   {
     "word": "무역",
     "translation": "торговля",
     "transcription": "muyeok",
-    "description": "Обмен товарами между странами или регионами."
+    "description": "Обмен товарами между странами или регионами.",
+    "audio": "audio/무역_tts.mp3"
   },
   {
     "word": "무용",
     "translation": "танец",
     "transcription": "muyong",
-    "description": "Искусство танцевального выражения."
+    "description": "Искусство танцевального выражения.",
+    "audio": "audio/무용_tts.mp3"
   },
   {
     "word": "무척",
     "translation": "очень сильно",
     "transcription": "mucheok",
-    "description": "В высшей степени, чрезвычайно."
+    "description": "В высшей степени, чрезвычайно.",
+    "audio": "audio/무척_tts.mp3"
   },
   {
     "word": "문",
     "translation": "дверь",
     "transcription": "mun",
-    "description": "Проём или створка для входа и выхода."
+    "description": "Проём или створка для входа и выхода.",
+    "audio": "audio/문_tts.mp3"
   }
 ]

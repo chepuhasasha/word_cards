@@ -3,120 +3,140 @@
     "word": "맞다",
     "translation": "быть верным",
     "transcription": "matda",
-    "description": "Соответствовать истине или подходить."
+    "description": "Соответствовать истине или подходить.",
+    "audio": "audio/맞다_tts.mp3"
   },
   {
     "word": "맞습니다",
     "translation": "верно",
     "transcription": "matsseumnida",
-    "description": "Вежливое подтверждение правильности."
+    "description": "Вежливое подтверждение правильности.",
+    "audio": "audio/맞습니다_tts.mp3"
   },
   {
     "word": "맞아요",
     "translation": "правильно",
     "transcription": "majayo",
-    "description": "Согласие с утверждением в разговоре."
+    "description": "Согласие с утверждением в разговоре.",
+    "audio": "audio/맞아요_tts.mp3"
   },
   {
     "word": "맞은편",
     "translation": "напротив",
     "transcription": "majeunpyeon",
-    "description": "Расположенный с другой стороны."
+    "description": "Расположенный с другой стороны.",
+    "audio": "audio/맞은편_tts.mp3"
   },
   {
     "word": "매다",
     "translation": "завязывать",
     "transcription": "maeda",
-    "description": "Связывать узлом или застёгивать."
+    "description": "Связывать узлом или застёгивать.",
+    "audio": "audio/매다_tts.mp3"
   },
   {
     "word": "매우",
     "translation": "очень",
     "transcription": "maeu",
-    "description": "В высшей степени, сильно."
+    "description": "В высшей степени, сильно.",
+    "audio": "audio/매우_tts.mp3"
   },
   {
     "word": "매일",
     "translation": "каждый день",
     "transcription": "maeil",
-    "description": "Происходящее ежедневно без пропусков."
+    "description": "Происходящее ежедневно без пропусков.",
+    "audio": "audio/매일_tts.mp3"
   },
   {
     "word": "매주",
     "translation": "каждую неделю",
     "transcription": "maeju",
-    "description": "Повторяющееся еженедельно."
+    "description": "Повторяющееся еженедельно.",
+    "audio": "audio/매주_tts.mp3"
   },
   {
     "word": "맥주",
     "translation": "пиво",
     "transcription": "maekju",
-    "description": "Слабоалкогольный напиток из солода и хмеля."
+    "description": "Слабоалкогольный напиток из солода и хмеля.",
+    "audio": "audio/맥주_tts.mp3"
   },
   {
     "word": "맵다",
     "translation": "острый",
     "transcription": "maepda",
-    "description": "Иметь жгучий вкус."
+    "description": "Иметь жгучий вкус.",
+    "audio": "audio/맵다_tts.mp3"
   },
   {
     "word": "머리",
     "translation": "голова",
     "transcription": "meori",
-    "description": "Верхняя часть тела; волосы."
+    "description": "Верхняя часть тела; волосы.",
+    "audio": "audio/머리_tts.mp3"
   },
   {
     "word": "먹다",
     "translation": "есть",
     "transcription": "meokda",
-    "description": "Употреблять пищу."
+    "description": "Употреблять пищу.",
+    "audio": "audio/먹다_tts.mp3"
   },
   {
     "word": "먼저",
     "translation": "сначала",
     "transcription": "meonjeo",
-    "description": "В первую очередь, перед другими."
+    "description": "В первую очередь, перед другими.",
+    "audio": "audio/먼저_tts.mp3"
   },
   {
     "word": "멀다",
     "translation": "далёкий",
     "transcription": "meolda",
-    "description": "Находящийся на большом расстоянии."
+    "description": "Находящийся на большом расстоянии.",
+    "audio": "audio/멀다_tts.mp3"
   },
   {
     "word": "멋있다",
     "translation": "классный",
     "transcription": "meositda",
-    "description": "Производящий приятное, стильное впечатление."
+    "description": "Производящий приятное, стильное впечатление.",
+    "audio": "audio/멋있다_tts.mp3"
   },
   {
     "word": "메뉴",
     "translation": "меню",
     "transcription": "menyu",
-    "description": "Список блюд или команд для выбора."
+    "description": "Список блюд или команд для выбора.",
+    "audio": "audio/메뉴_tts.mp3"
   },
   {
     "word": "메다",
     "translation": "нести на плече",
     "transcription": "meda",
-    "description": "Подхватывать и размещать на плече."
+    "description": "Подхватывать и размещать на плече.",
+    "audio": "audio/메다_tts.mp3"
   },
   {
     "word": "메모",
     "translation": "заметка",
     "transcription": "memo",
-    "description": "Короткая запись для напоминания."
+    "description": "Короткая запись для напоминания.",
+    "audio": "audio/메모_tts.mp3"
   },
   {
     "word": "메시지",
     "translation": "сообщение",
     "transcription": "mesiji",
-    "description": "Текст или устная информация, передаваемая кому-то."
+    "description": "Текст или устная информация, передаваемая кому-то.",
+    "audio": "audio/메시지_tts.mp3"
   },
   {
     "word": "멕시코",
     "translation": "Мексика",
     "transcription": "meksiko",
-    "description": "Страна Мексика."
+    "description": "Страна Мексика.",
+    "audio": "audio/멕시코_tts.mp3"
   }
 ]
