@@ -1,0 +1,122 @@
+[
+  {
+    "word": "노래방",
+    "translation": "караоке-клуб",
+    "transcription": "но-рэ-бан",
+    "description": "Заведение, где поют песни под минус."
+  },
+  {
+    "word": "노래하다",
+    "translation": "петь",
+    "transcription": "но-рэ-ха-да",
+    "description": "Исполнять песню голосом."
+  },
+  {
+    "word": "노력하다",
+    "translation": "стараться",
+    "transcription": "но-рёк-ха-да",
+    "description": "Прилагать усилия для достижения цели."
+  },
+  {
+    "word": "노트",
+    "translation": "тетрадь; блокнот",
+    "transcription": "но-ты",
+    "description": "Тетрадь или записная книжка для заметок."
+  },
+  {
+    "word": "녹색",
+    "translation": "зелёный цвет",
+    "transcription": "нок-сэк",
+    "description": "Оттенок, обозначающий зелёный цвет."
+  },
+  {
+    "word": "녹차",
+    "translation": "зелёный чай",
+    "transcription": "нок-ча",
+    "description": "Чайный напиток из неферментированных листьев."
+  },
+  {
+    "word": "놀다",
+    "translation": "играть; отдыхать",
+    "transcription": "ноль-да",
+    "description": "Развлекаться или проводить свободное время."
+  },
+  {
+    "word": "놀라다",
+    "translation": "удивляться",
+    "transcription": "нол-ла-да",
+    "description": "Испытывать неожиданное удивление или испуг."
+  },
+  {
+    "word": "농구",
+    "translation": "баскетбол",
+    "transcription": "нон-гу",
+    "description": "Командная игра с мячом и кольцами."
+  },
+  {
+    "word": "높다",
+    "translation": "высокий",
+    "transcription": "ноп-та",
+    "description": "Иметь большую высоту или уровень."
+  },
+  {
+    "word": "놓다",
+    "translation": "класть; ставить",
+    "transcription": "нот-та",
+    "description": "Помещать предмет куда-либо."
+  },
+  {
+    "word": "누가",
+    "translation": "кто (именит.)",
+    "transcription": "ну-га",
+    "description": "Форма вопросительного местоимения «кто»."
+  },
+  {
+    "word": "누구",
+    "translation": "кто",
+    "transcription": "ну-гу",
+    "description": "Вопросительное слово о личности."
+  },
+  {
+    "word": "누나",
+    "translation": "старшая сестра (для брата)",
+    "transcription": "ну-на",
+    "description": "Старшая сестра по отношению к брату."
+  },
+  {
+    "word": "누르다",
+    "translation": "нажимать",
+    "transcription": "ну-ры-да",
+    "description": "Прилагать давление пальцем или рукой."
+  },
+  {
+    "word": "눈",
+    "translation": "глаз; снег",
+    "transcription": "нун",
+    "description": "Орган зрения или выпадающие снежинки."
+  },
+  {
+    "word": "눈물",
+    "translation": "слеза",
+    "transcription": "нун-муль",
+    "description": "Жидкость, выделяемая глазами."
+  },
+  {
+    "word": "눈사람",
+    "translation": "снеговик",
+    "transcription": "нун-са-рам",
+    "description": "Фигура из снега в виде человека."
+  },
+  {
+    "word": "눈싸움",
+    "translation": "битва снежками; гляделки",
+    "transcription": "нун-сса-ум",
+    "description": "Игра в снежки или соревнование в пристальном взгляде."
+  },
+  {
+    "word": "눕다",
+    "translation": "ложиться",
+    "transcription": "нуп-та",
+    "description": "Принимать горизонтальное положение тела."
+  }
+]

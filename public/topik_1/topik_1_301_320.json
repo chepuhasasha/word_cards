@@ -1,0 +1,122 @@
+[
+  {
+    "word": "내용",
+    "translation": "содержание",
+    "transcription": "нэ-ён",
+    "description": "Основной смысл или наполнение текста."
+  },
+  {
+    "word": "내일",
+    "translation": "завтра",
+    "transcription": "нэ-иль",
+    "description": "Следующий день после сегодняшнего."
+  },
+  {
+    "word": "냄비",
+    "translation": "кастрюля",
+    "transcription": "нэм-би",
+    "description": "Глубокая посуда для варки."
+  },
+  {
+    "word": "냄새",
+    "translation": "запах",
+    "transcription": "нэм-сэ",
+    "description": "Аромат или запах, ощущаемый носом."
+  },
+  {
+    "word": "냉면",
+    "translation": "нэнмён",
+    "transcription": "нэн-мён",
+    "description": "Холодная лапша в бульоне или соусе."
+  },
+  {
+    "word": "냉장고",
+    "translation": "холодильник",
+    "transcription": "нэн-джан-го",
+    "description": "Прибор для хранения продуктов в холоде."
+  },
+  {
+    "word": "너",
+    "translation": "ты",
+    "transcription": "но",
+    "description": "Обращение ко второму лицу единственного числа."
+  },
+  {
+    "word": "너무",
+    "translation": "слишком; очень",
+    "transcription": "но-му",
+    "description": "Подчёркивает избыточность или высокую степень."
+  },
+  {
+    "word": "넓다",
+    "translation": "широкий",
+    "transcription": "нол-та",
+    "description": "Иметь большую площадь или простор."
+  },
+  {
+    "word": "넘다",
+    "translation": "превышать; переходить",
+    "transcription": "ном-та",
+    "description": "Переступать предел или границу."
+  },
+  {
+    "word": "넘어지다",
+    "translation": "падать",
+    "transcription": "но-мо-джи-да",
+    "description": "Терять равновесие и оказываться на земле."
+  },
+  {
+    "word": "넣다",
+    "translation": "класть внутрь",
+    "transcription": "нот-ха",
+    "description": "Помещать предмет во что-либо."
+  },
+  {
+    "word": "네",
+    "translation": "да; четыре",
+    "transcription": "не",
+    "description": "Утвердительный ответ или числительное 4."
+  },
+  {
+    "word": "넥타이",
+    "translation": "галстук",
+    "transcription": "нек-та-и",
+    "description": "Лента ткани, надеваемая на шею с рубашкой."
+  },
+  {
+    "word": "넷",
+    "translation": "четыре",
+    "transcription": "нет",
+    "description": "Число 4 в счётной форме."
+  },
+  {
+    "word": "넷째",
+    "translation": "четвёртый",
+    "transcription": "нет-чэ",
+    "description": "Занимающий четвёртую позицию."
+  },
+  {
+    "word": "년",
+    "translation": "год",
+    "transcription": "ньон",
+    "description": "Единица измерения времени в 12 месяцев."
+  },
+  {
+    "word": "노란색",
+    "translation": "жёлтый цвет",
+    "transcription": "но-ран-сэк",
+    "description": "Оттенок, обозначающий жёлтый цвет."
+  },
+  {
+    "word": "노랗다",
+    "translation": "быть жёлтым",
+    "transcription": "но-ра-та",
+    "description": "Иметь ярко-жёлтый оттенок."
+  },
+  {
+    "word": "노래",
+    "translation": "песня",
+    "transcription": "но-рэ",
+    "description": "Музыкальная композиция, которую поют."
+  }
+]
