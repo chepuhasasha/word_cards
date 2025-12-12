@@ -3,7 +3,28 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
+const repository = process.env.GITHUB_REPOSITORY ?? ''
+const repositoryName = repository.split('/')[1] ?? ''
+
+/**
+ * Определяет базовый путь сборки для GitHub Pages.
+ *
+ * Если репозиторий является пользовательским/организационным сайтом
+ * (`<user>.github.io`), то базовый путь — корень. Для проектных страниц
+ * используется поддиректория с именем репозитория.
+ *
+ * @returns {string} Базовый префикс для Vite.
+ */
+function resolveBasePath(): string {
+  if (!repositoryName || repositoryName.endsWith('.github.io')) {
+    return '/'
+  }
+
+  return `/${repositoryName}/`
+}
+
 export default defineConfig({
+  base: resolveBasePath(),
   plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {
@@ -13,19 +34,5 @@ export default defineConfig({
   define: {
     'process.env.NODE_ENV': '"production"',
     'process.env': '{}',
-  },
-  build: {
-    lib: {
-      entry: fileURLToPath(new URL('./src/main.ts', import.meta.url)), // или main.js
-      name: 'WordCards',
-      formats: ['iife'],
-      fileName: () => 'index.js',
-    },
-    cssCodeSplit: true,
-    rollupOptions: {
-      output: {
-        inlineDynamicImports: true,
-      },
-    },
   },
 })
