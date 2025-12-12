@@ -68,10 +68,8 @@ const options = ref<string[]>([])
 const selected = ref<string | null>(null)
 const isCorrect = ref<boolean | null>(null)
 const userAnswer = ref('')
-const remaining = ref<Word[]>([])
-const likedRemaining = ref<Word[]>([])
-const history = ref<Word[]>([])
-const future = ref<Word[]>([])
+const order = ref<Word[]>([])
+const currentIndex = ref(0)
 
 const fileInput = ref<HTMLInputElement | null>(null)
 
@@ -79,11 +77,9 @@ const hasFavorites = computed(() => favorites.value.length > 0)
 const totalCount = computed(() => (useFavorites.value ? favorites.value.length : list.value.length))
 
 const passedCount = computed(() => {
-  const pool = useFavorites.value ? likedRemaining.value : remaining.value
-  const listForMode = useFavorites.value ? favorites.value : list.value
+  if (!order.value.length || !current.value) return 0
 
-  if (!listForMode.length || !current.value) return 0
-  return listForMode.length - pool.length
+  return currentIndex.value + 1
 })
 
 const displayedWord = computed(() => {
@@ -189,10 +185,6 @@ const onFileChange = async (e: Event): Promise<void> => {
     isCorrect.value = null
     userAnswer.value = ''
     options.value = []
-    history.value = []
-    future.value = []
-
-    remaining.value = shuffle([...list.value])
 
     generateQuestion()
   } catch (err) {
@@ -208,13 +200,6 @@ const onFileChange = async (e: Event): Promise<void> => {
  */
 const getActiveList = (): Word[] => {
   return useFavorites.value ? favorites.value : list.value
-}
-
-/**
- * Возвращает пул оставшихся слов для текущего источника.
- */
-const getActivePool = (): typeof remaining => {
-  return useFavorites.value ? likedRemaining : remaining
 }
 
 /**
@@ -240,67 +225,45 @@ const setupQuestionForWord = (word: Word): void => {
 }
 
 /**
- * Формирует новый вопрос и подставляет варианты ответа.
+ * Перемешивает активный список и показывает первое слово.
  */
 const generateQuestion = (): void => {
   const listForMode = getActiveList()
-  const pool = getActivePool()
 
   if (!listForMode.length) {
     current.value = null
     options.value = []
     selected.value = null
     isCorrect.value = null
+    order.value = []
     return
   }
 
-  if (!pool.value.length) {
-    pool.value = shuffle([...listForMode])
-  }
+  order.value = shuffle([...listForMode])
+  currentIndex.value = 0
 
-  const word = pool.value.pop()
-  if (!word) return
-
+  const word = order.value[currentIndex.value]
   setupQuestionForWord(word)
 }
 
 /**
- * Переходит к следующему слову, очищая пользовательский ввод при необходимости.
+ * Переходит к следующему слову, учитывая цикличную навигацию.
  */
 const next = (): void => {
-  if (future.value.length) {
-    const word = future.value.pop()
+  if (!order.value.length) return
 
-    if (word) {
-      if (current.value) {
-        history.value = [...history.value, current.value]
-      }
-
-      setupQuestionForWord(word)
-      return
-    }
-  }
-
-  if (current.value) {
-    history.value = [...history.value, current.value]
-  }
-
-  future.value = []
-  generateQuestion()
+  currentIndex.value = (currentIndex.value + 1) % order.value.length
+  setupQuestionForWord(order.value[currentIndex.value])
 }
 
 /**
- * Возвращает предыдущее показанное слово.
+ * Возвращает предыдущее показанное слово с учетом цикличной навигации.
  */
 const prev = (): void => {
-  const word = history.value.pop()
-  if (!word) return
+  if (!order.value.length) return
 
-  if (current.value) {
-    future.value = [...future.value, current.value]
-  }
-
-  setupQuestionForWord(word)
+  currentIndex.value = (currentIndex.value - 1 + order.value.length) % order.value.length
+  setupQuestionForWord(order.value[currentIndex.value])
 }
 
 /**
@@ -316,7 +279,7 @@ const check = (answer: string): void => {
 
   if (isCorrect.value) {
     setTimeout(() => {
-      generateQuestion()
+      next()
     }, 300)
   }
 }
@@ -369,8 +332,6 @@ const updateMode = (nextMode: 'test' | 'learn' | 'write'): void => {
   isCorrect.value = null
   userAnswer.value = ''
   selected.value = null
-  history.value = []
-  future.value = []
   if (nextMode !== 'test') {
     options.value = []
   }
@@ -385,8 +346,11 @@ const likeCurrentWord = (): void => {
   if (isCurrentLiked.value) return
 
   favorites.value = [...favorites.value, current.value]
-  likedRemaining.value = []
   persistFavorites()
+
+  if (useFavorites.value) {
+    generateQuestion()
+  }
 }
 
 /**
@@ -396,7 +360,6 @@ const removeLike = (): void => {
   if (!current.value) return
 
   favorites.value = favorites.value.filter((word) => word.word !== current.value?.word)
-  likedRemaining.value = likedRemaining.value.filter((word) => word.word !== current.value?.word)
   persistFavorites()
 
   if (useFavorites.value) {
@@ -416,8 +379,6 @@ const resetAfterSourceChange = (): void => {
   isCorrect.value = null
   userAnswer.value = ''
   selected.value = null
-  history.value = []
-  future.value = []
 
   if (mode.value !== 'test') {
     options.value = []
@@ -432,12 +393,6 @@ const resetAfterSourceChange = (): void => {
  */
 const setSource = (useFavoriteSource: boolean): void => {
   useFavorites.value = useFavoriteSource
-
-  if (useFavoriteSource) {
-    likedRemaining.value = []
-  } else {
-    remaining.value = []
-  }
 
   resetAfterSourceChange()
 }
