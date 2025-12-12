@@ -1,0 +1,122 @@
+[
+  {
+    "word": "샤워하다",
+    "translation": "принимать душ",
+    "transcription": "syawohada",
+    "description": "Мыться водой из душа."
+  },
+  {
+    "word": "샴푸",
+    "translation": "шампунь",
+    "transcription": "syampu",
+    "description": "Средство для мытья волос."
+  },
+  {
+    "word": "서다",
+    "translation": "стоять",
+    "transcription": "seoda",
+    "description": "Находиться в вертикальном положении на ногах."
+  },
+  {
+    "word": "서로",
+    "translation": "друг друга",
+    "transcription": "seoro",
+    "description": "Взаимно, по отношению один к другому."
+  },
+  {
+    "word": "서류",
+    "translation": "документы",
+    "transcription": "seoryu",
+    "description": "Бумаги с официальной информацией."
+  },
+  {
+    "word": "서른",
+    "translation": "тридцать",
+    "transcription": "seoreun",
+    "description": "Число 30 в разговорной форме."
+  },
+  {
+    "word": "서비스",
+    "translation": "сервис",
+    "transcription": "seobiseu",
+    "description": "Обслуживание или бесплатное дополнение."
+  },
+  {
+    "word": "서양",
+    "translation": "Запад",
+    "transcription": "seoyang",
+    "description": "Западные страны и культура."
+  },
+  {
+    "word": "서울",
+    "translation": "Сеул",
+    "transcription": "seoul",
+    "description": "Столица Республики Корея."
+  },
+  {
+    "word": "서울역",
+    "translation": "Сеульский вокзал",
+    "transcription": "seoul-yeok",
+    "description": "Главная железнодорожная станция в Сеуле."
+  },
+  {
+    "word": "서점",
+    "translation": "книжный магазин",
+    "transcription": "seojeom",
+    "description": "Магазин, где продают книги."
+  },
+  {
+    "word": "서쪽",
+    "translation": "запад",
+    "transcription": "seojjok",
+    "description": "Направление стороны света запад."
+  },
+  {
+    "word": "선물",
+    "translation": "подарок",
+    "transcription": "seonmul",
+    "description": "Вещь, которую дарят в знак внимания."
+  },
+  {
+    "word": "선배",
+    "translation": "старший товарищ",
+    "transcription": "seonbae",
+    "description": "Тот, кто старше по курсу или опыту."
+  },
+  {
+    "word": "선생님",
+    "translation": "учитель",
+    "transcription": "seonsaengnim",
+    "description": "Педагог или наставник."
+  },
+  {
+    "word": "선수",
+    "translation": "спортсмен",
+    "transcription": "seonsu",
+    "description": "Игрок или участник соревнований."
+  },
+  {
+    "word": "선택하다",
+    "translation": "выбирать",
+    "transcription": "seontaekhada",
+    "description": "Делать выбор из нескольких вариантов."
+  },
+  {
+    "word": "선풍기",
+    "translation": "вентилятор",
+    "transcription": "seonpunggi",
+    "description": "Электроприбор, создающий поток воздуха."
+  },
+  {
+    "word": "설거지",
+    "translation": "мытьё посуды",
+    "transcription": "seolgeoji",
+    "description": "Процесс очистки тарелок и кухонной утвари."
+  },
+  {
+    "word": "설날",
+    "translation": "Лунный Новый год",
+    "transcription": "seollal",
+    "description": "Корейский праздник по лунному календарю."
+  }
+]

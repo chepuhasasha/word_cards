@@ -1,0 +1,122 @@
+[
+  {
+    "word": "삼촌",
+    "translation": "дядя",
+    "transcription": "samchon",
+    "description": "Дядя по отцовской линии."
+  },
+  {
+    "word": "상관",
+    "translation": "отношение",
+    "transcription": "sanggwan",
+    "description": "Связь или влияние между явлениями."
+  },
+  {
+    "word": "상자",
+    "translation": "коробка",
+    "transcription": "sangja",
+    "description": "Ёмкость квадратной формы для хранения."
+  },
+  {
+    "word": "상처",
+    "translation": "рана",
+    "transcription": "sangcheo",
+    "description": "Повреждение кожи или души."
+  },
+  {
+    "word": "상품",
+    "translation": "товар",
+    "transcription": "sangpum",
+    "description": "Изделие, предназначенное для продажи."
+  },
+  {
+    "word": "새",
+    "translation": "птица",
+    "transcription": "sae",
+    "description": "Летающее животное; также означает «новый»."
+  },
+  {
+    "word": "새로",
+    "translation": "заново",
+    "transcription": "saero",
+    "description": "Снова или в новом виде."
+  },
+  {
+    "word": "새벽",
+    "translation": "рассвет",
+    "transcription": "saebyeok",
+    "description": "Время ранним утром до восхода солнца."
+  },
+  {
+    "word": "새우",
+    "translation": "креветка",
+    "transcription": "saeu",
+    "description": "Морской ракообразный с нежным мясом."
+  },
+  {
+    "word": "색",
+    "translation": "цвет",
+    "transcription": "saek",
+    "description": "Оттенок или окраска предмета."
+  },
+  {
+    "word": "색깔",
+    "translation": "окраска",
+    "transcription": "saekkkal",
+    "description": "Видимый цвет предмета или явления."
+  },
+  {
+    "word": "샌드위치",
+    "translation": "сэндвич",
+    "transcription": "saendeuwichi",
+    "description": "Закуска из двух ломтиков хлеба с начинкой."
+  },
+  {
+    "word": "생각",
+    "translation": "мысль",
+    "transcription": "saenggak",
+    "description": "То, что приходит в голову, размышления."
+  },
+  {
+    "word": "생각되다",
+    "translation": "казаться",
+    "transcription": "saenggakdoeda",
+    "description": "Представляться каким-то, быть сочтённым."
+  },
+  {
+    "word": "생각하다",
+    "translation": "думать",
+    "transcription": "saenggakhada",
+    "description": "Размышлять или иметь мнение."
+  },
+  {
+    "word": "생기다",
+    "translation": "появляться",
+    "transcription": "saenggida",
+    "description": "Возникать или иметь внешний вид."
+  },
+  {
+    "word": "생선",
+    "translation": "рыба",
+    "transcription": "saengseon",
+    "description": "Рыба как продукт питания."
+  },
+  {
+    "word": "생신",
+    "translation": "день рождения (уваж.)",
+    "transcription": "saengsin",
+    "description": "Вежливая форма слова «день рождения»."
+  },
+  {
+    "word": "생일",
+    "translation": "день рождения",
+    "transcription": "saengil",
+    "description": "Дата рождения человека, праздник."
+  },
+  {
+    "word": "생활",
+    "translation": "жизнь",
+    "transcription": "saenghwal",
+    "description": "Повседневное существование и образ жизни."
+  }
+]

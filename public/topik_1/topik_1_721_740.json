@@ -1,0 +1,122 @@
+[
+  {
+    "word": "빵집",
+    "translation": "пекарня",
+    "transcription": "ppangjip",
+    "description": "Магазин, где выпекают и продают хлеб."
+  },
+  {
+    "word": "빼다",
+    "translation": "вынимать",
+    "transcription": "ppaeda",
+    "description": "Убирать что-то изнутри или уменьшать количество."
+  },
+  {
+    "word": "뿐",
+    "translation": "только",
+    "transcription": "ppun",
+    "description": "Выражает ограничение лишь этим."
+  },
+  {
+    "word": "사",
+    "translation": "четыре",
+    "transcription": "sa",
+    "description": "Число 4."
+  },
+  {
+    "word": "사거리",
+    "translation": "перекрёсток",
+    "transcription": "sageori",
+    "description": "Место пересечения четырёх дорог."
+  },
+  {
+    "word": "사계절",
+    "translation": "четыре сезона",
+    "transcription": "sagyejeol",
+    "description": "Весна, лето, осень и зима."
+  },
+  {
+    "word": "사고",
+    "translation": "авария",
+    "transcription": "sago",
+    "description": "Несчастный случай или происшествие."
+  },
+  {
+    "word": "사과",
+    "translation": "яблоко",
+    "transcription": "sagwa",
+    "description": "Фрукт с сочной мякотью; также «извинение»."
+  },
+  {
+    "word": "사다",
+    "translation": "покупать",
+    "transcription": "sada",
+    "description": "Приобретать товар за деньги."
+  },
+  {
+    "word": "사람",
+    "translation": "человек",
+    "transcription": "saram",
+    "description": "Мужчина или женщина, представитель рода людей."
+  },
+  {
+    "word": "사랑",
+    "translation": "любовь",
+    "transcription": "sarang",
+    "description": "Глубокое чувство привязанности."
+  },
+  {
+    "word": "사랑하다",
+    "translation": "любить",
+    "transcription": "saranghada",
+    "description": "Испытывать сильную симпатию и привязанность."
+  },
+  {
+    "word": "사례",
+    "translation": "пример",
+    "transcription": "sarye",
+    "description": "Конкретный случай для иллюстрации."
+  },
+  {
+    "word": "사무실",
+    "translation": "офис",
+    "transcription": "samusil",
+    "description": "Помещение для работы сотрудников."
+  },
+  {
+    "word": "사물",
+    "translation": "предмет",
+    "transcription": "samul",
+    "description": "Вещь материального мира."
+  },
+  {
+    "word": "사십",
+    "translation": "сорок",
+    "transcription": "sasip",
+    "description": "Число 40."
+  },
+  {
+    "word": "사업가",
+    "translation": "бизнесмен",
+    "transcription": "saeopga",
+    "description": "Человек, ведущий собственное дело."
+  },
+  {
+    "word": "사용하다",
+    "translation": "использовать",
+    "transcription": "sayonghada",
+    "description": "Применять что-то для нужной цели."
+  },
+  {
+    "word": "사원",
+    "translation": "сотрудник",
+    "transcription": "sawon",
+    "description": "Работник компании или храма; также буддийский храм."
+  },
+  {
+    "word": "사월",
+    "translation": "апрель",
+    "transcription": "sawol",
+    "description": "Четвёртый месяц года."
+  }
+]

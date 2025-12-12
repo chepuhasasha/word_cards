@@ -1,0 +1,122 @@
+[
+  {
+    "word": "반지",
+    "translation": "кольцо",
+    "transcription": "banji",
+    "description": "Ювелирное украшение на палец."
+  },
+  {
+    "word": "반찬",
+    "translation": "закуски",
+    "transcription": "banchan",
+    "description": "Небольшие корейские блюда, подаваемые к рису."
+  },
+  {
+    "word": "받다",
+    "translation": "получать",
+    "transcription": "batda",
+    "description": "Принимать что-либо от кого-то."
+  },
+  {
+    "word": "발",
+    "translation": "нога",
+    "transcription": "bal",
+    "description": "Ступня или весь низ ноги."
+  },
+  {
+    "word": "발가락",
+    "translation": "палец ноги",
+    "transcription": "balkkarak",
+    "description": "Один из пальцев на стопе."
+  },
+  {
+    "word": "발음",
+    "translation": "произношение",
+    "transcription": "bareum",
+    "description": "Способ звучания слов и звуков."
+  },
+  {
+    "word": "발전",
+    "translation": "развитие",
+    "transcription": "baljeon",
+    "description": "Движение вперёд, прогресс в каком-то деле."
+  },
+  {
+    "word": "발표",
+    "translation": "презентация",
+    "transcription": "balpyo",
+    "description": "Объявление или публичное выступление с сообщением."
+  },
+  {
+    "word": "밝다",
+    "translation": "светлый",
+    "transcription": "bakda",
+    "description": "Ярко освещённый или радостный по настроению."
+  },
+  {
+    "word": "밤",
+    "translation": "ночь",
+    "transcription": "bam",
+    "description": "Время суток после заката и до рассвета."
+  },
+  {
+    "word": "밥",
+    "translation": "варёный рис",
+    "transcription": "bap",
+    "description": "Основное блюдо из отваренного риса, еда."
+  },
+  {
+    "word": "방",
+    "translation": "комната",
+    "transcription": "bang",
+    "description": "Отдельное помещение в доме или здании."
+  },
+  {
+    "word": "방법",
+    "translation": "способ",
+    "transcription": "bangbeop",
+    "description": "Путь или метод для достижения цели."
+  },
+  {
+    "word": "방송",
+    "translation": "трансляция",
+    "transcription": "bangsong",
+    "description": "Передача аудио или видео по радио, ТВ или онлайн."
+  },
+  {
+    "word": "방송국",
+    "translation": "вещательная станция",
+    "transcription": "bangsongguk",
+    "description": "Организация, которая делает и передаёт программы."
+  },
+  {
+    "word": "방학",
+    "translation": "каникулы",
+    "transcription": "banghak",
+    "description": "Учебные свободные дни между семестрами."
+  },
+  {
+    "word": "배",
+    "translation": "живот",
+    "transcription": "bae",
+    "description": "Живот, также слово может означать лодку или грушу."
+  },
+  {
+    "word": "배고프다",
+    "translation": "быть голодным",
+    "transcription": "baegopeuda",
+    "description": "Чувствовать сильное желание поесть."
+  },
+  {
+    "word": "배구",
+    "translation": "волейбол",
+    "transcription": "baegu",
+    "description": "Командная спортивная игра с мячом через сетку."
+  },
+  {
+    "word": "배달",
+    "translation": "доставка",
+    "transcription": "baedal",
+    "description": "Перевозка и вручение заказа до клиента."
+  }
+]
