@@ -3,120 +3,140 @@
     "word": "기다리다",
     "translation": "ждать",
     "transcription": "ки-да-ри-да",
-    "description": "Оставаться в ожидании наступления события."
+    "description": "Оставаться в ожидании наступления события.",
+    "audio": "audio/기다리다_tts.mp3"
   },
   {
     "word": "기르다",
     "translation": "выращивать",
     "transcription": "ки-ры-да",
-    "description": "Растить растения, животных или навыки."
+    "description": "Растить растения, животных или навыки.",
+    "audio": "audio/기르다_tts.mp3"
   },
   {
     "word": "기름",
     "translation": "масло",
     "transcription": "ки-рым",
-    "description": "Жирная жидкость, иногда топливо."
+    "description": "Жирная жидкость, иногда топливо.",
+    "audio": "audio/기름_tts.mp3"
   },
   {
     "word": "기분",
     "translation": "настроение",
     "transcription": "ки-бун",
-    "description": "Внутреннее эмоциональное состояние."
+    "description": "Внутреннее эмоциональное состояние.",
+    "audio": "audio/기분_tts.mp3"
   },
   {
     "word": "기뻐하다",
     "translation": "радоваться",
     "transcription": "ки-ппо-ха-да",
-    "description": "Испытывать радость или удовольствие."
+    "description": "Испытывать радость или удовольствие.",
+    "audio": "audio/기뻐하다_tts.mp3"
   },
   {
     "word": "기쁘다",
     "translation": "радостный",
     "transcription": "ки-ппы-да",
-    "description": "Находиться в счастливом, приятном настроении."
+    "description": "Находиться в счастливом, приятном настроении.",
+    "audio": "audio/기쁘다_tts.mp3"
   },
   {
     "word": "기사",
     "translation": "статья; водитель",
     "transcription": "ки-са",
-    "description": "Печатный материал или профессия водителя."
+    "description": "Печатный материал или профессия водителя.",
+    "audio": "audio/기사_tts.mp3"
   },
   {
     "word": "기숙사",
     "translation": "общежитие",
     "transcription": "ки-сук-са",
-    "description": "Жилое помещение для студентов или работников."
+    "description": "Жилое помещение для студентов или работников.",
+    "audio": "audio/기숙사_tts.mp3"
   },
   {
     "word": "기억하다",
     "translation": "помнить",
     "transcription": "ки-ок-ха-да",
-    "description": "Сохранять информацию в памяти."
+    "description": "Сохранять информацию в памяти.",
+    "audio": "audio/기억하다_tts.mp3"
   },
   {
     "word": "기온",
     "translation": "температура воздуха",
     "transcription": "ки-он",
-    "description": "Уровень тепла в окружающей среде."
+    "description": "Уровень тепла в окружающей среде.",
+    "audio": "audio/기온_tts.mp3"
   },
   {
     "word": "기자",
     "translation": "журналист",
     "transcription": "ки-джа",
-    "description": "Собиратель и автор новостных материалов."
+    "description": "Собиратель и автор новостных материалов.",
+    "audio": "audio/기자_tts.mp3"
   },
   {
     "word": "기차",
     "translation": "поезд",
     "transcription": "ки-ча",
-    "description": "Железнодорожное транспортное средство."
+    "description": "Железнодорожное транспортное средство.",
+    "audio": "audio/기차_tts.mp3"
   },
   {
     "word": "기침",
     "translation": "кашель",
     "transcription": "ки-чхим",
-    "description": "Резкий выдох из-за раздражения дыхательных путей."
+    "description": "Резкий выдох из-за раздражения дыхательных путей.",
+    "audio": "audio/기침_tts.mp3"
   },
   {
     "word": "기타",
     "translation": "прочее",
     "transcription": "ки-та",
-    "description": "Другие элементы, не входящие в основные пункты."
+    "description": "Другие элементы, не входящие в основные пункты.",
+    "audio": "audio/기타_tts.mp3"
   },
   {
     "word": "긴장되다",
     "translation": "нервничать",
     "transcription": "кин-джан-доэ-да",
-    "description": "Чувствовать напряжение от волнения."
+    "description": "Чувствовать напряжение от волнения.",
+    "audio": "audio/긴장되다_tts.mp3"
   },
   {
     "word": "길",
     "translation": "дорога",
     "transcription": "киль",
-    "description": "Путь или улица для движения."
+    "description": "Путь или улица для движения.",
+    "audio": "audio/길_tts.mp3"
   },
   {
     "word": "길다",
     "translation": "длинный",
     "transcription": "киль-да",
-    "description": "Обладать большой протяжённостью."
+    "description": "Обладать большой протяжённостью.",
+    "audio": "audio/길다_tts.mp3"
   },
   {
     "word": "김",
     "translation": "ким",
     "transcription": "ким",
-    "description": "Тонкие листы сушёных съедобных водорослей."
+    "description": "Тонкие листы сушёных съедобных водорослей.",
+    "audio": "audio/김_tts.mp3"
   },
   {
     "word": "김밥",
     "translation": "кимпаб",
     "transcription": "ким-бап",
-    "description": "Рулет из риса и начинки в листах ким."
+    "description": "Рулет из риса и начинки в листах ким.",
+    "audio": "audio/김밥_tts.mp3"
   },
   {
     "word": "김치",
     "translation": "кимчхи",
     "transcription": "ким-чи",
-    "description": "Острая ферментированная капуста."
+    "description": "Острая ферментированная капуста.",
+    "audio": "audio/김치_tts.mp3"
   }
 ]

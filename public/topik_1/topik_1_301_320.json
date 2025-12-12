@@ -3,120 +3,140 @@
     "word": "내용",
     "translation": "содержание",
     "transcription": "нэ-ён",
-    "description": "Основной смысл или наполнение текста."
+    "description": "Основной смысл или наполнение текста.",
+    "audio": "audio/내용_tts.mp3"
   },
   {
     "word": "내일",
     "translation": "завтра",
     "transcription": "нэ-иль",
-    "description": "Следующий день после сегодняшнего."
+    "description": "Следующий день после сегодняшнего.",
+    "audio": "audio/내일_tts.mp3"
   },
   {
     "word": "냄비",
     "translation": "кастрюля",
     "transcription": "нэм-би",
-    "description": "Глубокая посуда для варки."
+    "description": "Глубокая посуда для варки.",
+    "audio": "audio/냄비_tts.mp3"
   },
   {
     "word": "냄새",
     "translation": "запах",
     "transcription": "нэм-сэ",
-    "description": "Аромат или запах, ощущаемый носом."
+    "description": "Аромат или запах, ощущаемый носом.",
+    "audio": "audio/냄새_tts.mp3"
   },
   {
     "word": "냉면",
     "translation": "нэнмён",
     "transcription": "нэн-мён",
-    "description": "Холодная лапша в бульоне или соусе."
+    "description": "Холодная лапша в бульоне или соусе.",
+    "audio": "audio/냉면_tts.mp3"
   },
   {
     "word": "냉장고",
     "translation": "холодильник",
     "transcription": "нэн-джан-го",
-    "description": "Прибор для хранения продуктов в холоде."
+    "description": "Прибор для хранения продуктов в холоде.",
+    "audio": "audio/냉장고_tts.mp3"
   },
   {
     "word": "너",
     "translation": "ты",
     "transcription": "но",
-    "description": "Обращение ко второму лицу единственного числа."
+    "description": "Обращение ко второму лицу единственного числа.",
+    "audio": "audio/너_tts.mp3"
   },
   {
     "word": "너무",
     "translation": "слишком; очень",
     "transcription": "но-му",
-    "description": "Подчёркивает избыточность или высокую степень."
+    "description": "Подчёркивает избыточность или высокую степень.",
+    "audio": "audio/너무_tts.mp3"
   },
   {
     "word": "넓다",
     "translation": "широкий",
     "transcription": "нол-та",
-    "description": "Иметь большую площадь или простор."
+    "description": "Иметь большую площадь или простор.",
+    "audio": "audio/넓다_tts.mp3"
   },
   {
     "word": "넘다",
     "translation": "превышать; переходить",
     "transcription": "ном-та",
-    "description": "Переступать предел или границу."
+    "description": "Переступать предел или границу.",
+    "audio": "audio/넘다_tts.mp3"
   },
   {
     "word": "넘어지다",
     "translation": "падать",
     "transcription": "но-мо-джи-да",
-    "description": "Терять равновесие и оказываться на земле."
+    "description": "Терять равновесие и оказываться на земле.",
+    "audio": "audio/넘어지다_tts.mp3"
   },
   {
     "word": "넣다",
     "translation": "класть внутрь",
     "transcription": "нот-ха",
-    "description": "Помещать предмет во что-либо."
+    "description": "Помещать предмет во что-либо.",
+    "audio": "audio/넣다_tts.mp3"
   },
   {
     "word": "네",
     "translation": "да; четыре",
     "transcription": "не",
-    "description": "Утвердительный ответ или числительное 4."
+    "description": "Утвердительный ответ или числительное 4.",
+    "audio": "audio/네_tts.mp3"
   },
   {
     "word": "넥타이",
     "translation": "галстук",
     "transcription": "нек-та-и",
-    "description": "Лента ткани, надеваемая на шею с рубашкой."
+    "description": "Лента ткани, надеваемая на шею с рубашкой.",
+    "audio": "audio/넥타이_tts.mp3"
   },
   {
     "word": "넷",
     "translation": "четыре",
     "transcription": "нет",
-    "description": "Число 4 в счётной форме."
+    "description": "Число 4 в счётной форме.",
+    "audio": "audio/넷_tts.mp3"
   },
   {
     "word": "넷째",
     "translation": "четвёртый",
     "transcription": "нет-чэ",
-    "description": "Занимающий четвёртую позицию."
+    "description": "Занимающий четвёртую позицию.",
+    "audio": "audio/넷째_tts.mp3"
   },
   {
     "word": "년",
     "translation": "год",
     "transcription": "ньон",
-    "description": "Единица измерения времени в 12 месяцев."
+    "description": "Единица измерения времени в 12 месяцев.",
+    "audio": "audio/년_tts.mp3"
   },
   {
     "word": "노란색",
     "translation": "жёлтый цвет",
     "transcription": "но-ран-сэк",
-    "description": "Оттенок, обозначающий жёлтый цвет."
+    "description": "Оттенок, обозначающий жёлтый цвет.",
+    "audio": "audio/노란색_tts.mp3"
   },
   {
     "word": "노랗다",
     "translation": "быть жёлтым",
     "transcription": "но-ра-та",
-    "description": "Иметь ярко-жёлтый оттенок."
+    "description": "Иметь ярко-жёлтый оттенок.",
+    "audio": "audio/노랗다_tts.mp3"
   },
   {
     "word": "노래",
     "translation": "песня",
     "transcription": "но-рэ",
-    "description": "Музыкальная композиция, которую поют."
+    "description": "Музыкальная композиция, которую поют.",
+    "audio": "audio/노래_tts.mp3"
   }
 ]

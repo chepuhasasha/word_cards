@@ -3,120 +3,140 @@
     "word": "계절",
     "translation": "время года",
     "transcription": "кье-чоль",
-    "description": "Период года с характерными погодными условиями."
+    "description": "Период года с характерными погодными условиями.",
+    "audio": "audio/계절_tts.mp3"
   },
   {
     "word": "계획",
     "translation": "план",
     "transcription": "кье-хвэк",
-    "description": "Заранее продуманное намерение или схема действий."
+    "description": "Заранее продуманное намерение или схема действий.",
+    "audio": "audio/계획_tts.mp3"
   },
   {
     "word": "고기",
     "translation": "мясо",
     "transcription": "ко-ги",
-    "description": "Пищевой продукт животного происхождения."
+    "description": "Пищевой продукт животного происхождения.",
+    "audio": "audio/고기_tts.mp3"
   },
   {
     "word": "고등학교",
     "translation": "старшая школа",
     "transcription": "ко-дын-хак-кё",
-    "description": "Учебное заведение для учеников старших классов."
+    "description": "Учебное заведение для учеников старших классов.",
+    "audio": "audio/고등학교_tts.mp3"
   },
   {
     "word": "고등학생",
     "translation": "старшеклассник",
     "transcription": "ко-дын-хак-сэн",
-    "description": "Ученик, обучающийся в старшей школе."
+    "description": "Ученик, обучающийся в старшей школе.",
+    "audio": "audio/고등학생_tts.mp3"
   },
   {
     "word": "고르다",
     "translation": "выбирать",
     "transcription": "ко-ры-да",
-    "description": "Делать выбор среди нескольких вариантов."
+    "description": "Делать выбор среди нескольких вариантов.",
+    "audio": "audio/고르다_tts.mp3"
   },
   {
     "word": "고마웠습니다",
     "translation": "был благодарен",
     "transcription": "ко-ма-во-ссым-ни-да",
-    "description": "Вежливое выражение благодарности в прошедшем времени."
+    "description": "Вежливое выражение благодарности в прошедшем времени.",
+    "audio": "audio/고마웠습니다_tts.mp3"
   },
   {
     "word": "고맙다",
     "translation": "быть благодарным",
     "transcription": "ко-мап-да",
-    "description": "Чувствовать благодарность к кому-либо."
+    "description": "Чувствовать благодарность к кому-либо.",
+    "audio": "audio/고맙다_tts.mp3"
   },
   {
     "word": "고맙습니다",
     "translation": "спасибо",
     "transcription": "ко-мап-ссым-ни-да",
-    "description": "Учтивое выражение благодарности."
+    "description": "Учтивое выражение благодарности.",
+    "audio": "audio/고맙습니다_tts.mp3"
   },
   {
     "word": "고모",
     "translation": "тётя по отцу",
     "transcription": "ко-мо",
-    "description": "Сестра отца."
+    "description": "Сестра отца.",
+    "audio": "audio/고모_tts.mp3"
   },
   {
     "word": "고모부",
     "translation": "дядя по тёте",
     "transcription": "ко-мо-бу",
-    "description": "Муж сестры отца."
+    "description": "Муж сестры отца.",
+    "audio": "audio/고모부_tts.mp3"
   },
   {
     "word": "고속버스",
     "translation": "скоростной автобус",
     "transcription": "ко-сок-бо-сы",
-    "description": "Междугородний автобус с высокой скоростью."
+    "description": "Междугородний автобус с высокой скоростью.",
+    "audio": "audio/고속버스_tts.mp3"
   },
   {
     "word": "고양이",
     "translation": "кошка",
     "transcription": "ко-ян-и",
-    "description": "Домашнее животное семейства кошачьих."
+    "description": "Домашнее животное семейства кошачьих.",
+    "audio": "audio/고양이_tts.mp3"
   },
   {
     "word": "고장",
     "translation": "поломка",
     "transcription": "ко-джан",
-    "description": "Состояние неисправности оборудования или механизма."
+    "description": "Состояние неисправности оборудования или механизма.",
+    "audio": "audio/고장_tts.mp3"
   },
   {
     "word": "고추",
     "translation": "острый перец",
     "transcription": "ко-чху",
-    "description": "Красный стручковый перец, используемый как приправа."
+    "description": "Красный стручковый перец, используемый как приправа.",
+    "audio": "audio/고추_tts.mp3"
   },
   {
     "word": "고추장",
     "translation": "кочхуджан",
     "transcription": "ко-чху-джан",
-    "description": "Острая паста из красного перца, ферментированная."
+    "description": "Острая паста из красного перца, ферментированная.",
+    "audio": "audio/고추장_tts.mp3"
   },
   {
     "word": "고치다",
     "translation": "чинить",
     "transcription": "ко-чи-да",
-    "description": "Исправлять поломку или дефект."
+    "description": "Исправлять поломку или дефект.",
+    "audio": "audio/고치다_tts.mp3"
   },
   {
     "word": "고프다",
     "translation": "быть голодным",
     "transcription": "ко-пхы-да",
-    "description": "Испытывать чувство голода."
+    "description": "Испытывать чувство голода.",
+    "audio": "audio/고프다_tts.mp3"
   },
   {
     "word": "고향",
     "translation": "родина",
     "transcription": "ко-хян",
-    "description": "Место, где человек родился или вырос."
+    "description": "Место, где человек родился или вырос.",
+    "audio": "audio/고향_tts.mp3"
   },
   {
     "word": "곧",
     "translation": "скоро",
     "transcription": "кот",
-    "description": "В ближайшее время, без задержки."
+    "description": "В ближайшее время, без задержки.",
+    "audio": "audio/곧_tts.mp3"
   }
 ]

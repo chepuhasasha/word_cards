@@ -3,120 +3,140 @@
     "word": "골목",
     "translation": "переулок",
     "transcription": "коль-мок",
-    "description": "Узкая улица между домами или кварталами."
+    "description": "Узкая улица между домами или кварталами.",
+    "audio": "audio/골목_tts.mp3"
   },
   {
     "word": "골프",
     "translation": "гольф",
     "transcription": "голь-пхы",
-    "description": "Игра, в которой мяч клюшкой забивают в лунки на поле."
+    "description": "Игра, в которой мяч клюшкой забивают в лунки на поле.",
+    "audio": "audio/골프_tts.mp3"
   },
   {
     "word": "곱다",
     "translation": "красивый",
     "transcription": "коп-да",
-    "description": "Отличаться мягкой, приятной красотой."
+    "description": "Отличаться мягкой, приятной красотой.",
+    "audio": "audio/곱다_tts.mp3"
   },
   {
     "word": "곳",
     "translation": "место",
     "transcription": "кот",
-    "description": "Определённая точка или пространство."
+    "description": "Определённая точка или пространство.",
+    "audio": "audio/곳_tts.mp3"
   },
   {
     "word": "공",
     "translation": "мяч",
     "transcription": "конг",
-    "description": "Круглый предмет, используемый в играх или спорте."
+    "description": "Круглый предмет, используемый в играх или спорте.",
+    "audio": "audio/공_tts.mp3"
   },
   {
     "word": "공간",
     "translation": "пространство",
     "transcription": "кон-ган",
-    "description": "Свободное место или объём."
+    "description": "Свободное место или объём.",
+    "audio": "audio/공간_tts.mp3"
   },
   {
     "word": "공기",
     "translation": "воздух",
     "transcription": "кон-ги",
-    "description": "Газовая оболочка, которой дышат живые организмы."
+    "description": "Газовая оболочка, которой дышат живые организмы.",
+    "audio": "audio/공기_tts.mp3"
   },
   {
     "word": "공무원",
     "translation": "госслужащий",
     "transcription": "кон-му-вон",
-    "description": "Сотрудник государственного учреждения."
+    "description": "Сотрудник государственного учреждения.",
+    "audio": "audio/공무원_tts.mp3"
   },
   {
     "word": "공부",
     "translation": "учёба",
     "transcription": "кон-бу",
-    "description": "Процесс освоения знаний."
+    "description": "Процесс освоения знаний.",
+    "audio": "audio/공부_tts.mp3"
   },
   {
     "word": "공부하다",
     "translation": "учиться",
     "transcription": "кон-бу-ха-да",
-    "description": "Заниматься учебой, приобретать знания."
+    "description": "Заниматься учебой, приобретать знания.",
+    "audio": "audio/공부하다_tts.mp3"
   },
   {
     "word": "공연",
     "translation": "выступление",
     "transcription": "кон-ён",
-    "description": "Показ спектакля, концерта или другого номера перед публикой."
+    "description": "Показ спектакля, концерта или другого номера перед публикой.",
+    "audio": "audio/공연_tts.mp3"
   },
   {
     "word": "공원",
     "translation": "парк",
     "transcription": "кон-вон",
-    "description": "Озеленённая территория для отдыха."
+    "description": "Озеленённая территория для отдыха.",
+    "audio": "audio/공원_tts.mp3"
   },
   {
     "word": "공중전화",
     "translation": "таксофон",
     "transcription": "кон-чжун-чон-хва",
-    "description": "Общественный телефонный аппарат."
+    "description": "Общественный телефонный аппарат.",
+    "audio": "audio/공중전화_tts.mp3"
   },
   {
     "word": "공짜",
     "translation": "бесплатно",
     "transcription": "кон-чча",
-    "description": "Без оплаты, даром."
+    "description": "Без оплаты, даром.",
+    "audio": "audio/공짜_tts.mp3"
   },
   {
     "word": "공책",
     "translation": "тетрадь",
     "transcription": "кон-чхэк",
-    "description": "Блок листов для записей или учебных упражнений."
+    "description": "Блок листов для записей или учебных упражнений.",
+    "audio": "audio/공책_tts.mp3"
   },
   {
     "word": "공항",
     "translation": "аэропорт",
     "transcription": "кон-хан",
-    "description": "Комплекс для приёма и отправки самолётов."
+    "description": "Комплекс для приёма и отправки самолётов.",
+    "audio": "audio/공항_tts.mp3"
   },
   {
     "word": "공휴일",
     "translation": "государственный выходной",
     "transcription": "кон-хю-иль",
-    "description": "Официальный нерабочий праздничный день."
+    "description": "Официальный нерабочий праздничный день.",
+    "audio": "audio/공휴일_tts.mp3"
   },
   {
     "word": "과",
     "translation": "отдел",
     "transcription": "ква",
-    "description": "Административное или учебное подразделение."
+    "description": "Административное или учебное подразделение.",
+    "audio": "audio/과_tts.mp3"
   },
   {
     "word": "과거",
     "translation": "прошлое",
     "transcription": "ква-гэо",
-    "description": "Время, которое уже прошло."
+    "description": "Время, которое уже прошло.",
+    "audio": "audio/과거_tts.mp3"
   },
   {
     "word": "과일",
     "translation": "фрукты",
     "transcription": "ква-иль",
-    "description": "Съедобные плоды деревьев и кустарников."
+    "description": "Съедобные плоды деревьев и кустарников.",
+    "audio": "audio/과일_tts.mp3"
   }
 ]

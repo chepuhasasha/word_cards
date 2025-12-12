@@ -3,120 +3,140 @@
     "word": "그리고",
     "translation": "и",
     "transcription": "кы-ри-гу",
-    "description": "Союз для соединения слов или предложений."
+    "description": "Союз для соединения слов или предложений.",
+    "audio": "audio/그리고_tts.mp3"
   },
   {
     "word": "그리다",
     "translation": "рисовать",
     "transcription": "кы-ри-да",
-    "description": "Создавать изображения линиями и красками."
+    "description": "Создавать изображения линиями и красками.",
+    "audio": "audio/그리다_tts.mp3"
   },
   {
     "word": "그림",
     "translation": "картина",
     "transcription": "кы-рым",
-    "description": "Изображение, выполненное рисунком или живописью."
+    "description": "Изображение, выполненное рисунком или живописью.",
+    "audio": "audio/그림_tts.mp3"
   },
   {
     "word": "그만",
     "translation": "хватит",
     "transcription": "кы-ман",
-    "description": "Прекратить действие или не продолжать."
+    "description": "Прекратить действие или не продолжать.",
+    "audio": "audio/그만_tts.mp3"
   },
   {
     "word": "그분",
     "translation": "он (уваж.)",
     "transcription": "кы-бун",
-    "description": "Вежливое обращение к человеку третьего лица."
+    "description": "Вежливое обращение к человеку третьего лица.",
+    "audio": "audio/그분_tts.mp3"
   },
   {
     "word": "그저께",
     "translation": "позавчера",
     "transcription": "кы-джо-ккэ",
-    "description": "День, предшествующий вчерашнему."
+    "description": "День, предшествующий вчерашнему.",
+    "audio": "audio/그저께_tts.mp3"
   },
   {
     "word": "그중",
     "translation": "среди них",
     "transcription": "кы-джун",
-    "description": "Из указанной группы или набора."
+    "description": "Из указанной группы или набора.",
+    "audio": "audio/그중_tts.mp3"
   },
   {
     "word": "그쪽",
     "translation": "та сторона",
     "transcription": "кы-ччок",
-    "description": "Направление или собеседник, к которому обращаются."
+    "description": "Направление или собеседник, к которому обращаются.",
+    "audio": "audio/그쪽_tts.mp3"
   },
   {
     "word": "그치다",
     "translation": "прекращаться",
     "transcription": "кы-чи-да",
-    "description": "Останавливаться, завершаться."
+    "description": "Останавливаться, завершаться.",
+    "audio": "audio/그치다_tts.mp3"
   },
   {
     "word": "극장",
     "translation": "театр",
     "transcription": "ык-чжан",
-    "description": "Здание для показа фильмов или сценических постановок."
+    "description": "Здание для показа фильмов или сценических постановок.",
+    "audio": "audio/극장_tts.mp3"
   },
   {
     "word": "근처",
     "translation": "поблизости",
     "transcription": "гын-чхо",
-    "description": "Окрестности или близкое место."
+    "description": "Окрестности или близкое место.",
+    "audio": "audio/근처_tts.mp3"
   },
   {
     "word": "글",
     "translation": "текст",
     "transcription": "кыль",
-    "description": "Написанное высказывание или письменный знак."
+    "description": "Написанное высказывание или письменный знак.",
+    "audio": "audio/글_tts.mp3"
   },
   {
     "word": "글쎄요",
     "translation": "ну не знаю",
     "transcription": "кыль-ссэ-ё",
-    "description": "Невнятный ответ, выражающий сомнение."
+    "description": "Невнятный ответ, выражающий сомнение.",
+    "audio": "audio/글쎄요_tts.mp3"
   },
   {
     "word": "금방",
     "translation": "скоро",
     "transcription": "кым-бан",
-    "description": "Через мгновение или только что."
+    "description": "Через мгновение или только что.",
+    "audio": "audio/금방_tts.mp3"
   },
   {
     "word": "금연",
     "translation": "некурение",
     "transcription": "кым-ён",
-    "description": "Запрет или отказ от курения."
+    "description": "Запрет или отказ от курения.",
+    "audio": "audio/금연_tts.mp3"
   },
   {
     "word": "금요일",
     "translation": "пятница",
     "transcription": "кым-ё-иль",
-    "description": "Шестой день недели."
+    "description": "Шестой день недели.",
+    "audio": "audio/금요일_tts.mp3"
   },
   {
     "word": "금주",
     "translation": "воздержание от алкоголя",
     "transcription": "кым-джу",
-    "description": "Период отказа от спиртного."
+    "description": "Период отказа от спиртного.",
+    "audio": "audio/금주_tts.mp3"
   },
   {
     "word": "급",
     "translation": "уровень",
     "transcription": "кып",
-    "description": "Степень, разряд или класс квалификации."
+    "description": "Степень, разряд или класс квалификации.",
+    "audio": "audio/급_tts.mp3"
   },
   {
     "word": "급하다",
     "translation": "спешить",
     "transcription": "кып-ха-да",
-    "description": "Быть срочным и требовать быстрого действия."
+    "description": "Быть срочным и требовать быстрого действия.",
+    "audio": "audio/급하다_tts.mp3"
   },
   {
     "word": "기간",
     "translation": "период",
     "transcription": "ки-ган",
-    "description": "Определённый отрезок времени."
+    "description": "Определённый отрезок времени.",
+    "audio": "audio/기간_tts.mp3"
   }
 ]

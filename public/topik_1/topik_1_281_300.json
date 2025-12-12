@@ -3,120 +3,140 @@
     "word": "남기다",
     "translation": "оставлять",
     "transcription": "нам-ги-да",
-    "description": "Не забирать часть и сохранять её."
+    "description": "Не забирать часть и сохранять её.",
+    "audio": "audio/남기다_tts.mp3"
   },
   {
     "word": "남녀",
     "translation": "мужчины и женщины",
     "transcription": "нам-нё",
-    "description": "Представители обоих полов."
+    "description": "Представители обоих полов.",
+    "audio": "audio/남녀_tts.mp3"
   },
   {
     "word": "남대문시장",
     "translation": "рынок Намдэмун",
     "transcription": "нам-де-мун-щи-джан",
-    "description": "Крупный традиционный рынок в Сеуле."
+    "description": "Крупный традиционный рынок в Сеуле.",
+    "audio": "audio/남대문시장_tts.mp3"
   },
   {
     "word": "남동생",
     "translation": "младший брат",
     "transcription": "нам-донг-сэн",
-    "description": "Младший брат по отношению к говорящему."
+    "description": "Младший брат по отношению к говорящему.",
+    "audio": "audio/남동생_tts.mp3"
   },
   {
     "word": "남미",
     "translation": "Южная Америка",
     "transcription": "нам-ми",
-    "description": "Континент, включающий страны южной части Америки."
+    "description": "Континент, включающий страны южной части Америки.",
+    "audio": "audio/남미_tts.mp3"
   },
   {
     "word": "남북",
     "translation": "Север и Юг",
     "transcription": "нам-бук",
-    "description": "Два противоположных направления или регионы."
+    "description": "Два противоположных направления или регионы.",
+    "audio": "audio/남북_tts.mp3"
   },
   {
     "word": "남자",
     "translation": "мужчина",
     "transcription": "нам-джа",
-    "description": "Взрослый представитель мужского пола."
+    "description": "Взрослый представитель мужского пола.",
+    "audio": "audio/남자_tts.mp3"
   },
   {
     "word": "남쪽",
     "translation": "юг (сторона света)",
     "transcription": "нам-ччок",
-    "description": "Направление на юг или южная сторона."
+    "description": "Направление на юг или южная сторона.",
+    "audio": "audio/남쪽_tts.mp3"
   },
   {
     "word": "남편",
     "translation": "муж",
     "transcription": "нам-пхён",
-    "description": "Супруг женщины."
+    "description": "Супруг женщины.",
+    "audio": "audio/남편_tts.mp3"
   },
   {
     "word": "남학생",
     "translation": "студент-юноша",
     "transcription": "нам-хак-сэн",
-    "description": "Ученик или студент мужского пола."
+    "description": "Ученик или студент мужского пола.",
+    "audio": "audio/남학생_tts.mp3"
   },
   {
     "word": "낮",
     "translation": "день; дневное время",
     "transcription": "нач",
-    "description": "Период суток от утра до заката."
+    "description": "Период суток от утра до заката.",
+    "audio": "audio/낮_tts.mp3"
   },
   {
     "word": "낮다",
     "translation": "низкий",
     "transcription": "нат-та",
-    "description": "Обладать небольшой высотой или уровнем."
+    "description": "Обладать небольшой высотой или уровнем.",
+    "audio": "audio/낮다_tts.mp3"
   },
   {
     "word": "내",
     "translation": "мой",
     "transcription": "нэ",
-    "description": "Принадлежащий говорящему."
+    "description": "Принадлежащий говорящему.",
+    "audio": "audio/내_tts.mp3"
   },
   {
     "word": "내가",
     "translation": "я (именит.)",
     "transcription": "нэ-га",
-    "description": "Форма местоимения «я» в именительном падеже."
+    "description": "Форма местоимения «я» в именительном падеже.",
+    "audio": "audio/내가_tts.mp3"
   },
   {
     "word": "내과",
     "translation": "терапия",
     "transcription": "нэ-кква",
-    "description": "Отделение внутренней медицины в клинике."
+    "description": "Отделение внутренней медицины в клинике.",
+    "audio": "audio/내과_tts.mp3"
   },
   {
     "word": "내년",
     "translation": "следующий год",
     "transcription": "нэ-ньон",
-    "description": "Грядущий календарный год."
+    "description": "Грядущий календарный год.",
+    "audio": "audio/내년_tts.mp3"
   },
   {
     "word": "내다",
     "translation": "платить; подавать",
     "transcription": "нэ-да",
-    "description": "Вносить деньги или отправлять документы."
+    "description": "Вносить деньги или отправлять документы.",
+    "audio": "audio/내다_tts.mp3"
   },
   {
     "word": "내려가다",
     "translation": "спускаться",
     "transcription": "нэ-рё-га-да",
-    "description": "Двигаться вниз и удаляться."
+    "description": "Двигаться вниз и удаляться.",
+    "audio": "audio/내려가다_tts.mp3"
   },
   {
     "word": "내려오다",
     "translation": "спускаться сюда",
     "transcription": "нэ-рё-о-да",
-    "description": "Двигаться вниз в сторону говорящего."
+    "description": "Двигаться вниз в сторону говорящего.",
+    "audio": "audio/내려오다_tts.mp3"
   },
   {
     "word": "내리다",
     "translation": "спускаться; идти (о дожде)",
     "transcription": "нэ-ри-да",
-    "description": "Опускаться вниз или выпадать об осадках."
+    "description": "Опускаться вниз или выпадать об осадках.",
+    "audio": "audio/내리다_tts.mp3"
   }
 ]
