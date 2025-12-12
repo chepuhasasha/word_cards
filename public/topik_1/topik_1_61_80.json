@@ -1,0 +1,142 @@
+[
+  {
+    "word": "거짓말",
+    "translation": "ложь",
+    "transcription": "кожджинмаль",
+    "description": "Неправдивое высказывание или обман.",
+    "audio": "audio/거짓말_tts.mp3"
+  },
+  {
+    "word": "걱정",
+    "translation": "беспокойство",
+    "transcription": "кокчжон",
+    "description": "Чувство тревоги или волнения о чем-либо.",
+    "audio": "audio/걱정_tts.mp3"
+  },
+  {
+    "word": "걱정하다",
+    "translation": "волноваться",
+    "transcription": "кокчжонхада",
+    "description": "Испытывать беспокойство или переживать.",
+    "audio": "audio/걱정하다_tts.mp3"
+  },
+  {
+    "word": "건강",
+    "translation": "здоровье",
+    "transcription": "конган",
+    "description": "Состояние физического и психического благополучия.",
+    "audio": "audio/건강_tts.mp3"
+  },
+  {
+    "word": "건강하다",
+    "translation": "быть здоровым",
+    "transcription": "конганхада",
+    "description": "Находиться в хорошем физическом состоянии.",
+    "audio": "audio/건강하다_tts.mp3"
+  },
+  {
+    "word": "건너가다",
+    "translation": "переходить",
+    "transcription": "конногогада",
+    "description": "Пересекать дорогу или другое пространство в направлении от говорящего.",
+    "audio": "audio/건너가다_tts.mp3"
+  },
+  {
+    "word": "건너다",
+    "translation": "пересекать",
+    "transcription": "коннода",
+    "description": "Проходить через что-то с одной стороны на другую.",
+    "audio": "audio/건너다_tts.mp3"
+  },
+  {
+    "word": "건너편",
+    "translation": "противоположная сторона",
+    "transcription": "коннопхён",
+    "description": "Место, находящееся напротив или через дорогу.",
+    "audio": "audio/건너편_tts.mp3"
+  },
+  {
+    "word": "건물",
+    "translation": "здание",
+    "transcription": "конмуль",
+    "description": "Сооружение, предназначенное для проживания или работы.",
+    "audio": "audio/건물_tts.mp3"
+  },
+  {
+    "word": "건배",
+    "translation": "тост",
+    "transcription": "конбе",
+    "description": "Возглас или действие при поднятии бокалов.",
+    "audio": "audio/건배_tts.mp3"
+  },
+  {
+    "word": "걷다",
+    "translation": "ходить пешком",
+    "transcription": "кодта",
+    "description": "Передвигаться шагом без использования транспорта.",
+    "audio": "audio/걷다_tts.mp3"
+  },
+  {
+    "word": "걸다",
+    "translation": "вешать",
+    "transcription": "колда",
+    "description": "Подвешивать предмет на крюк или опору; также ставить ставку.",
+    "audio": "audio/걸다_tts.mp3"
+  },
+  {
+    "word": "걸리다",
+    "translation": "занимать время",
+    "transcription": "коллида",
+    "description": "Требовать определённое количество времени или зацепиться за что-то.",
+    "audio": "audio/걸리다_tts.mp3"
+  },
+  {
+    "word": "걸어가다",
+    "translation": "идти пешком",
+    "transcription": "корогда",
+    "description": "Продвигаться в направлении от говорящего шагом.",
+    "audio": "audio/걸어가다_tts.mp3"
+  },
+  {
+    "word": "걸어오다",
+    "translation": "приходить пешком",
+    "transcription": "короода",
+    "description": "Подходить к месту говорящего шагом.",
+    "audio": "audio/걸어오다_tts.mp3"
+  },
+  {
+    "word": "검은색",
+    "translation": "чёрный цвет",
+    "transcription": "комынсэк",
+    "description": "Цвет темноты; противоположность белому.",
+    "audio": "audio/검은색_tts.mp3"
+  },
+  {
+    "word": "것",
+    "translation": "вещь",
+    "transcription": "кос",
+    "description": "Предмет или понятие, на которое указывает говорящий.",
+    "audio": "audio/것_tts.mp3"
+  },
+  {
+    "word": "게임",
+    "translation": "игра",
+    "transcription": "кеим",
+    "description": "Развлечение или соревнование по установленным правилам.",
+    "audio": "audio/게임_tts.mp3"
+  },
+  {
+    "word": "겨울",
+    "translation": "зима",
+    "transcription": "кёуль",
+    "description": "Холодное время года между осенью и весной.",
+    "audio": "audio/겨울_tts.mp3"
+  },
+  {
+    "word": "겨울방학",
+    "translation": "зимние каникулы",
+    "transcription": "кёульбанхак",
+    "description": "Период отдыха от учёбы зимой.",
+    "audio": "audio/겨울방학_tts.mp3"
+  }
+]
