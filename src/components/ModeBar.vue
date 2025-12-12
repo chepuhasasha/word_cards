@@ -92,7 +92,7 @@ const getModeClass = (targetMode: 'test' | 'learn' | 'write') => [
 
   &__button {
     @include mixins.button-reset;
-    @include mixins.control-surface(80px, 20px, var(--c1));
+    @include mixins.control-surface(60px, 20px, var(--c1));
     @include mixins.focus-ring(var(--accent));
 
     color: var(--c4);

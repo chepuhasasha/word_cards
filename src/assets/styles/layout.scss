@@ -1,7 +1,7 @@
 @use '@/assets/styles/mixins' as mixins;
 
 main {
-  @include mixins.stack(40px);
+  @include mixins.stack(20px);
 
   place-content: center;
   place-items: center;
@@ -14,7 +14,10 @@ button {
   @include mixins.button-reset;
   @include mixins.focus-ring;
 
-  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    color 0.3s ease;
 
   &:active {
     transform: scale(0.7);

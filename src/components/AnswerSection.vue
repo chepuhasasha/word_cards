@@ -90,14 +90,14 @@ const getOptionClass = (option: string): (string | Record<string, boolean>)[] =>
 @use '@/assets/styles/mixins' as mixins;
 
 .answer {
-  @include mixins.flex-center(20px, row, wrap);
+  @include mixins.flex-center(10px, row, wrap);
 
   padding: 0 10vw;
   width: 100vw;
 
   &__option {
     @include mixins.button-reset;
-    @include mixins.text(40px);
+    @include mixins.text(20px);
     @include mixins.focus-ring(var(--accent));
 
     border-radius: 10px;
@@ -152,7 +152,7 @@ const getOptionClass = (option: string): (string | Record<string, boolean>)[] =>
   }
 
   &__text {
-    @include mixins.text(40px);
+    @include mixins.text(20px);
   }
 }
 </style>
