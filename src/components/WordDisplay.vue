@@ -2,8 +2,8 @@
 .word-wrapper
   transition(name="word")
     .word(:key="wordKey")
-      span {{ word.description }}
       h1(@click='isHelp = !isHelp') {{ isHelp ? help : word.text }}
+      span {{ word.description }}
 </template>
 
 <script setup lang="ts">
@@ -31,6 +31,7 @@ watch(
   justify-content: center
   flex-direction: column
   transition: all 0.3s ease
+  padding: 0 100px
   h1
     cursor: pointer
     font-size: 100px
@@ -54,7 +55,8 @@ watch(
   height: 120px
   display: flex
   align-items: center
-  justify-content: center
+  justify-content: space-between
+  padding: 0 100px
 
 .word-enter-active, .word-leave-active
   transition: opacity 0.5s ease, transform 0.5s ease
