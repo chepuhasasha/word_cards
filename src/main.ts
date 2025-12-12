@@ -1,7 +1,7 @@
-import './assets/null.scss'
-import './assets/root.scss'
-import './assets/layout.scss'
-import './assets/animations.scss'
+import './assets/styles/null.scss'
+import './assets/styles/root.scss'
+import './assets/styles/layout.scss'
+import './assets/styles/animations.scss'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
