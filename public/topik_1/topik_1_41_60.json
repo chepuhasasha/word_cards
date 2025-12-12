@@ -1,0 +1,116 @@
+[
+  {
+    "word": "감사합니다",
+    "translation": "спасибо",
+    "transcription": "камсамнида",
+    "description": "Вежливое благодарственное выражение."
+  },
+  {
+    "word": "감자",
+    "translation": "картофель",
+    "transcription": "камджа",
+    "description": "Корнеплод, используемый в пище."
+  },
+  {
+    "word": "감자탕",
+    "translation": "камжатхан",
+    "transcription": "камжатхан",
+    "description": "Пряный суп с картофелем и мясом на косточке."
+  },
+  {
+    "word": "갑자기",
+    "translation": "внезапно",
+    "transcription": "капчаги",
+    "description": "Происходит неожиданно или резко."
+  },
+  {
+    "word": "값",
+    "translation": "цена",
+    "transcription": "кап",
+    "description": "Денежная стоимость предмета или услуги."
+  },
+  {
+    "word": "강",
+    "translation": "река",
+    "transcription": "кан",
+    "description": "Крупный естественный водный поток."
+  },
+  {
+    "word": "강아지",
+    "translation": "щенок",
+    "transcription": "каначжи",
+    "description": "Молодая собака, щенок."
+  },
+  {
+    "word": "강좌",
+    "translation": "курс",
+    "transcription": "канчва",
+    "description": "Учебный курс или цикл лекций."
+  },
+  {
+    "word": "갖다",
+    "translation": "иметь при себе",
+    "transcription": "када",
+    "description": "Держать или приносить что-то с собой."
+  },
+  {
+    "word": "같다",
+    "translation": "одинаковый",
+    "transcription": "катта",
+    "description": "Такой же, не отличающийся."
+  },
+  {
+    "word": "같이",
+    "translation": "вместе",
+    "transcription": "качи",
+    "description": "Совместно с кем-либо, вместе."
+  },
+  {
+    "word": "개",
+    "translation": "собака",
+    "transcription": "кэ",
+    "description": "Домашняя собака; также счётное слово для предметов."
+  },
+  {
+    "word": "개나리",
+    "translation": "форзиция",
+    "transcription": "кэнари",
+    "description": "Куст с ярко-желтыми цветами, цветущий весной."
+  },
+  {
+    "word": "개인",
+    "translation": "личность",
+    "transcription": "кэин",
+    "description": "Отдельный человек, индивидуум."
+  },
+  {
+    "word": "거기",
+    "translation": "там",
+    "transcription": "коги",
+    "description": "То место, о котором идет речь."
+  },
+  {
+    "word": "거리",
+    "translation": "улица",
+    "transcription": "кори",
+    "description": "Улица или расстояние между объектами."
+  },
+  {
+    "word": "거실",
+    "translation": "гостиная",
+    "transcription": "кошиль",
+    "description": "Комната в доме для отдыха и приема гостей."
+  },
+  {
+    "word": "거울",
+    "translation": "зеркало",
+    "transcription": "коуль",
+    "description": "Предмет с отражающей поверхностью."
+  },
+  {
+    "word": "거의",
+    "translation": "почти",
+    "transcription": "коый",
+    "description": "Почти полностью, но не совсем."
+  }
+]
