@@ -3,120 +3,140 @@
     "word": "가게",
     "translation": "магазин",
     "transcription": "гаге",
-    "description": "Место, где продают товары или услуги."
+    "description": "Место, где продают товары или услуги.",
+    "audio": "audio/가게_tts.mp3"
   },
   {
     "word": "가격",
     "translation": "цена",
     "transcription": "кагёк",
-    "description": "Стоимость товара или услуги."
+    "description": "Стоимость товара или услуги.",
+    "audio": "audio/가격_tts.mp3"
   },
   {
     "word": "가구",
     "translation": "мебель",
     "transcription": "кагу",
-    "description": "Предметы обстановки дома или офиса."
+    "description": "Предметы обстановки дома или офиса.",
+    "audio": "audio/가구_tts.mp3"
   },
   {
     "word": "가깝다",
     "translation": "быть близко",
     "transcription": "каккапта",
-    "description": "Находиться на небольшом расстоянии."
+    "description": "Находиться на небольшом расстоянии.",
+    "audio": "audio/가깝다_tts.mp3"
   },
   {
     "word": "가끔",
     "translation": "иногда",
     "transcription": "каккым",
-    "description": "Случается время от времени."
+    "description": "Случается время от времени.",
+    "audio": "audio/가끔_tts.mp3"
   },
   {
     "word": "가다",
     "translation": "идти",
     "transcription": "када",
-    "description": "Перемещаться пешком или направляться куда-либо."
+    "description": "Перемещаться пешком или направляться куда-либо.",
+    "audio": "audio/가다_tts.mp3"
   },
   {
     "word": "가르치다",
     "translation": "преподавать",
     "transcription": "каричхида",
-    "description": "Передавать знания или обучать кого-либо."
+    "description": "Передавать знания или обучать кого-либо.",
+    "audio": "audio/가르치다_tts.mp3"
   },
   {
     "word": "가방",
     "translation": "сумка",
     "transcription": "кабан",
-    "description": "Сумка или портфель для переноски вещей."
+    "description": "Сумка или портфель для переноски вещей.",
+    "audio": "audio/가방_tts.mp3"
   },
   {
     "word": "가볍다",
     "translation": "легкий",
     "transcription": "кабёпта",
-    "description": "Обладать небольшим весом или быть непринужденным."
+    "description": "Обладать небольшим весом или быть непринужденным.",
+    "audio": "audio/가볍다_tts.mp3"
   },
   {
     "word": "가수",
     "translation": "певец",
     "transcription": "касу",
-    "description": "Человек, который профессионально поет."
+    "description": "Человек, который профессионально поет.",
+    "audio": "audio/가수_tts.mp3"
   },
   {
     "word": "가슴",
     "translation": "грудь",
     "transcription": "касым",
-    "description": "Грудная клетка или область груди."
+    "description": "Грудная клетка или область груди.",
+    "audio": "audio/가슴_tts.mp3"
   },
   {
     "word": "가요",
     "translation": "песня",
     "transcription": "каё",
-    "description": "Популярная песня или эстрадная музыка."
+    "description": "Популярная песня или эстрадная музыка.",
+    "audio": "audio/가요_tts.mp3"
   },
   {
     "word": "가운데",
     "translation": "середина",
     "transcription": "каундэ",
-    "description": "Средняя часть пространства или предмета."
+    "description": "Средняя часть пространства или предмета.",
+    "audio": "audio/가운데_tts.mp3"
   },
   {
     "word": "가위",
     "translation": "ножницы",
     "transcription": "кави",
-    "description": "Инструмент с двумя лезвиями для резки."
+    "description": "Инструмент с двумя лезвиями для резки.",
+    "audio": "audio/가위_tts.mp3"
   },
   {
     "word": "가을",
     "translation": "осень",
     "transcription": "каыль",
-    "description": "Время года между летом и зимой."
+    "description": "Время года между летом и зимой.",
+    "audio": "audio/가을_tts.mp3"
   },
   {
     "word": "가장",
     "translation": "самый",
     "transcription": "каджан",
-    "description": "Указывает на высшую степень или степень превосходства."
+    "description": "Указывает на высшую степень или степень превосходства.",
+    "audio": "audio/가장_tts.mp3"
   },
   {
     "word": "가져가다",
     "translation": "забрать",
     "transcription": "каджёгада",
-    "description": "Взять с собой и унести куда-либо."
+    "description": "Взять с собой и унести куда-либо.",
+    "audio": "audio/가져가다_tts.mp3"
   },
   {
     "word": "가져오다",
     "translation": "принести",
     "transcription": "каджёода",
-    "description": "Принести или привезти с собой к месту назначения."
+    "description": "Принести или привезти с собой к месту назначения.",
+    "audio": "audio/가져오다_tts.mp3"
   },
   {
     "word": "가족",
     "translation": "семья",
     "transcription": "каджок",
-    "description": "Группа родных людей, связанных отношениями."
+    "description": "Группа родных людей, связанных отношениями.",
+    "audio": "audio/가족_tts.mp3"
   },
   {
     "word": "가지",
     "translation": "ветка",
     "transcription": "каджи",
-    "description": "Ответвление дерева или линии; также разновидность предмета."
+    "description": "Ответвление дерева или линии; также разновидность предмета.",
+    "audio": "audio/가지_tts.mp3"
   }
 ]
