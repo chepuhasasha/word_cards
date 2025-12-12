@@ -1,0 +1,122 @@
+[
+  {
+    "word": "며칠",
+    "translation": "несколько дней",
+    "transcription": "myeochil",
+    "description": "Малое количество дней; какой день месяца."
+  },
+  {
+    "word": "면도",
+    "translation": "бритьё",
+    "transcription": "myeondo",
+    "description": "Процесс удаления волос бритвой."
+  },
+  {
+    "word": "명",
+    "translation": "человек (счёт)",
+    "transcription": "myeong",
+    "description": "Счётное слово для людей."
+  },
+  {
+    "word": "명절",
+    "translation": "праздник",
+    "transcription": "myeongjeol",
+    "description": "Традиционный праздничный день."
+  },
+  {
+    "word": "몇",
+    "translation": "сколько",
+    "transcription": "myeot",
+    "description": "Вопрос о небольшом количестве."
+  },
+  {
+    "word": "모두",
+    "translation": "все",
+    "transcription": "modu",
+    "description": "Каждый без исключения."
+  },
+  {
+    "word": "모레",
+    "translation": "послезавтра",
+    "transcription": "more",
+    "description": "День после завтрашнего."
+  },
+  {
+    "word": "모르겠습니다",
+    "translation": "не знаю",
+    "transcription": "moreugesseumnida",
+    "description": "Вежливое признание незнания."
+  },
+  {
+    "word": "모르다",
+    "translation": "не знать",
+    "transcription": "moreuda",
+    "description": "Не иметь информации о чём-либо."
+  },
+  {
+    "word": "모시다",
+    "translation": "сопровождать (уваж.)",
+    "transcription": "mosida",
+    "description": "Вежливо сопровождать или обслуживать."
+  },
+  {
+    "word": "모양",
+    "translation": "форма",
+    "transcription": "moyang",
+    "description": "Внешний вид или очертание предмета."
+  },
+  {
+    "word": "모으다",
+    "translation": "собирать",
+    "transcription": "moeuda",
+    "description": "Складировать или копить вместе."
+  },
+  {
+    "word": "모이다",
+    "translation": "собираться",
+    "transcription": "moida",
+    "description": "Сходиться в одно место группой."
+  },
+  {
+    "word": "모임",
+    "translation": "встреча",
+    "transcription": "moim",
+    "description": "Собрание людей по какому-то поводу."
+  },
+  {
+    "word": "모자",
+    "translation": "шапка",
+    "transcription": "moja",
+    "description": "Головной убор для защиты или украшения."
+  },
+  {
+    "word": "목",
+    "translation": "шея",
+    "transcription": "mok",
+    "description": "Часть тела, соединяющая голову и туловище."
+  },
+  {
+    "word": "목걸이",
+    "translation": "ожерелье",
+    "transcription": "mokgeori",
+    "description": "Украшение, надеваемое на шею."
+  },
+  {
+    "word": "목소리",
+    "translation": "голос",
+    "transcription": "moksori",
+    "description": "Звучание, издаваемое при разговоре."
+  },
+  {
+    "word": "목요일",
+    "translation": "четверг",
+    "transcription": "mogyoil",
+    "description": "Четвёртый день недели."
+  },
+  {
+    "word": "목욕",
+    "translation": "купание",
+    "transcription": "mokyok",
+    "description": "Мытьё тела в воде."
+  }
+]

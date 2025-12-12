@@ -1,0 +1,122 @@
+[
+  {
+    "word": "마흔",
+    "translation": "сорок",
+    "transcription": "maheun",
+    "description": "Числительное 40 в корейской системе."
+  },
+  {
+    "word": "막히다",
+    "translation": "быть перекрытым",
+    "transcription": "makkhida",
+    "description": "Оказываться заблокированным или перегороженным."
+  },
+  {
+    "word": "만",
+    "translation": "только",
+    "transcription": "man",
+    "description": "Частица ограничения или число десять тысяч."
+  },
+  {
+    "word": "만나다",
+    "translation": "встречаться",
+    "transcription": "mannada",
+    "description": "Видеться или сталкиваться с кем-либо."
+  },
+  {
+    "word": "만두",
+    "translation": "манду",
+    "transcription": "mandu",
+    "description": "Корейские пельмени с начинкой."
+  },
+  {
+    "word": "만들다",
+    "translation": "делать",
+    "transcription": "mandeulda",
+    "description": "Создавать или изготовлять что-то."
+  },
+  {
+    "word": "만일",
+    "translation": "если",
+    "transcription": "manil",
+    "description": "Выражение предположения или условия."
+  },
+  {
+    "word": "만지다",
+    "translation": "трогать",
+    "transcription": "manjida",
+    "description": "Прикасаться рукой к предмету."
+  },
+  {
+    "word": "만화",
+    "translation": "манхва",
+    "transcription": "manhwa",
+    "description": "Комиксы или анимация корейского происхождения."
+  },
+  {
+    "word": "많다",
+    "translation": "много",
+    "transcription": "manta",
+    "description": "Иметь большое количество или численность."
+  },
+  {
+    "word": "많이",
+    "translation": "много (наречие)",
+    "transcription": "mani",
+    "description": "В большой мере, в большом количестве."
+  },
+  {
+    "word": "말",
+    "translation": "слово",
+    "transcription": "mal",
+    "description": "Речь, высказывание или язык."
+  },
+  {
+    "word": "말씀",
+    "translation": "речь (уваж.)",
+    "transcription": "malsseum",
+    "description": "Вежливое обозначение слов или высказываний."
+  },
+  {
+    "word": "말씀하다",
+    "translation": "говорить (уваж.)",
+    "transcription": "malsseumhada",
+    "description": "Высказывать или сообщать уважительно."
+  },
+  {
+    "word": "말하기",
+    "translation": "говорение",
+    "transcription": "malhagi",
+    "description": "Действие речи или раздел экзамена по устной части."
+  },
+  {
+    "word": "말하다",
+    "translation": "говорить",
+    "transcription": "malhada",
+    "description": "Произносить слова, выражать мысли."
+  },
+  {
+    "word": "맑다",
+    "translation": "ясный",
+    "transcription": "makda",
+    "description": "Чистый и прозрачный, без помех или грязи."
+  },
+  {
+    "word": "맛",
+    "translation": "вкус",
+    "transcription": "mat",
+    "description": "Впечатление от еды или напитка."
+  },
+  {
+    "word": "맛없다",
+    "translation": "невкусный",
+    "transcription": "mateopda",
+    "description": "Не приносить удовольствия на вкус."
+  },
+  {
+    "word": "맛있다",
+    "translation": "вкусный",
+    "transcription": "masitda",
+    "description": "Доставляющий удовольствие вкусом."
+  }
+]

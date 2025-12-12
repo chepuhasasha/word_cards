@@ -1,0 +1,122 @@
+[
+  {
+    "word": "맞다",
+    "translation": "быть верным",
+    "transcription": "matda",
+    "description": "Соответствовать истине или подходить."
+  },
+  {
+    "word": "맞습니다",
+    "translation": "верно",
+    "transcription": "matsseumnida",
+    "description": "Вежливое подтверждение правильности."
+  },
+  {
+    "word": "맞아요",
+    "translation": "правильно",
+    "transcription": "majayo",
+    "description": "Согласие с утверждением в разговоре."
+  },
+  {
+    "word": "맞은편",
+    "translation": "напротив",
+    "transcription": "majeunpyeon",
+    "description": "Расположенный с другой стороны."
+  },
+  {
+    "word": "매다",
+    "translation": "завязывать",
+    "transcription": "maeda",
+    "description": "Связывать узлом или застёгивать."
+  },
+  {
+    "word": "매우",
+    "translation": "очень",
+    "transcription": "maeu",
+    "description": "В высшей степени, сильно."
+  },
+  {
+    "word": "매일",
+    "translation": "каждый день",
+    "transcription": "maeil",
+    "description": "Происходящее ежедневно без пропусков."
+  },
+  {
+    "word": "매주",
+    "translation": "каждую неделю",
+    "transcription": "maeju",
+    "description": "Повторяющееся еженедельно."
+  },
+  {
+    "word": "맥주",
+    "translation": "пиво",
+    "transcription": "maekju",
+    "description": "Слабоалкогольный напиток из солода и хмеля."
+  },
+  {
+    "word": "맵다",
+    "translation": "острый",
+    "transcription": "maepda",
+    "description": "Иметь жгучий вкус."
+  },
+  {
+    "word": "머리",
+    "translation": "голова",
+    "transcription": "meori",
+    "description": "Верхняя часть тела; волосы."
+  },
+  {
+    "word": "먹다",
+    "translation": "есть",
+    "transcription": "meokda",
+    "description": "Употреблять пищу."
+  },
+  {
+    "word": "먼저",
+    "translation": "сначала",
+    "transcription": "meonjeo",
+    "description": "В первую очередь, перед другими."
+  },
+  {
+    "word": "멀다",
+    "translation": "далёкий",
+    "transcription": "meolda",
+    "description": "Находящийся на большом расстоянии."
+  },
+  {
+    "word": "멋있다",
+    "translation": "классный",
+    "transcription": "meositda",
+    "description": "Производящий приятное, стильное впечатление."
+  },
+  {
+    "word": "메뉴",
+    "translation": "меню",
+    "transcription": "menyu",
+    "description": "Список блюд или команд для выбора."
+  },
+  {
+    "word": "메다",
+    "translation": "нести на плече",
+    "transcription": "meda",
+    "description": "Подхватывать и размещать на плече."
+  },
+  {
+    "word": "메모",
+    "translation": "заметка",
+    "transcription": "memo",
+    "description": "Короткая запись для напоминания."
+  },
+  {
+    "word": "메시지",
+    "translation": "сообщение",
+    "transcription": "mesiji",
+    "description": "Текст или устная информация, передаваемая кому-то."
+  },
+  {
+    "word": "멕시코",
+    "translation": "Мексика",
+    "transcription": "meksiko",
+    "description": "Страна Мексика."
+  }
+]

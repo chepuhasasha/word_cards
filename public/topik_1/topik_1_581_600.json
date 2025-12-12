@@ -1,0 +1,122 @@
+[
+  {
+    "word": "문구점",
+    "translation": "канцтовары",
+    "transcription": "mungujeom",
+    "description": "Магазин письменных и офисных принадлежностей."
+  },
+  {
+    "word": "문장",
+    "translation": "предложение",
+    "transcription": "munjang",
+    "description": "Грамматически завершённая фраза."
+  },
+  {
+    "word": "문제",
+    "translation": "проблема",
+    "transcription": "munje",
+    "description": "Вопрос или трудность, требующая решения."
+  },
+  {
+    "word": "문화",
+    "translation": "культура",
+    "transcription": "munhwa",
+    "description": "Совокупность традиций, искусства и быта общества."
+  },
+  {
+    "word": "묻다",
+    "translation": "спрашивать",
+    "transcription": "mutda",
+    "description": "Задавать вопрос, искать информацию."
+  },
+  {
+    "word": "물",
+    "translation": "вода",
+    "transcription": "mul",
+    "description": "Жидкость без цвета и запаха, необходимая для жизни."
+  },
+  {
+    "word": "물건",
+    "translation": "вещь",
+    "transcription": "mulgeon",
+    "description": "Предмет материального мира."
+  },
+  {
+    "word": "물론",
+    "translation": "конечно",
+    "transcription": "mullon",
+    "description": "Выражение уверенного согласия."
+  },
+  {
+    "word": "물어보다",
+    "translation": "спросить",
+    "transcription": "mureoboda",
+    "description": "Задавать вопрос кому-либо."
+  },
+  {
+    "word": "뭐",
+    "translation": "что",
+    "transcription": "mwo",
+    "description": "Разговорная форма вопросительного слова «что»."
+  },
+  {
+    "word": "미국",
+    "translation": "США",
+    "transcription": "miguk",
+    "description": "Соединённые Штаты Америки."
+  },
+  {
+    "word": "미래",
+    "translation": "будущее",
+    "transcription": "mirae",
+    "description": "Предстоящее время, то, что ещё не наступило."
+  },
+  {
+    "word": "미리",
+    "translation": "заранее",
+    "transcription": "miri",
+    "description": "До наступления события, предварительно."
+  },
+  {
+    "word": "미술",
+    "translation": "изобразительное искусство",
+    "transcription": "misul",
+    "description": "Живопись, скульптура и другие визуальные искусства."
+  },
+  {
+    "word": "미술관",
+    "translation": "художественный музей",
+    "transcription": "misulgwan",
+    "description": "Музей или галерея изобразительного искусства."
+  },
+  {
+    "word": "미안하다",
+    "translation": "извиняться",
+    "transcription": "mianhada",
+    "description": "Просить прощения, чувствовать вину."
+  },
+  {
+    "word": "미안합니다",
+    "translation": "извините",
+    "transcription": "mianhamnida",
+    "description": "Вежливая форма извинения."
+  },
+  {
+    "word": "미용실",
+    "translation": "парикмахерская",
+    "transcription": "miyongsil",
+    "description": "Салон, где делают стрижки и укладки."
+  },
+  {
+    "word": "미터",
+    "translation": "метр",
+    "transcription": "miteo",
+    "description": "Единица длины международной системы."
+  },
+  {
+    "word": "민속촌",
+    "translation": "фольклорная деревня",
+    "transcription": "minsokchon",
+    "description": "Этнографический комплекс с традиционными домами."
+  }
+]
