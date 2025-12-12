@@ -1,14 +1,9 @@
 <template lang="pug">
-.word-wrapper(@click='like' :style='{cursor: liked ? "auto" : "pointer"}')
+.word-wrapper
   transition(name="word")
-    .word(:key="wordKey" :title='liked ? null : "Добавить в избранное"')
+    .word(:key="wordKey")
       span {{ word.description }}
-      h1(:style='{opacity: likedEffect ? 0.5 : 1}') {{ word.text }}
-  transition(name="bounce")
-    .word-like(v-if='likedEffect')
-      svg(width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg")
-        path(d="M16.1111 3C19.6333 3 22 6.3525 22 9.48C22 15.8138 12.1778 21 12 21C11.8222 21 2 15.8138 2 9.48C2 6.3525 4.36667 3 7.88889 3C9.91111 3 11.2333 4.02375 12 4.92375C12.7667 4.02375 14.0889 3 16.1111 3Z"
-          fill='var(--error)')
+      h1(@click='isHelp = !isHelp') {{ isHelp ? "help" : word.text }}
 </template>
 
 <script setup lang="ts">
@@ -17,24 +12,9 @@ import { computed, ref, type PropType } from 'vue'
 const props = defineProps({
   word: { type: Object as PropType<{ text: string; description: string }>, required: true },
   wordKey: { type: String as PropType<string>, required: true },
-  liked: { type: Boolean as PropType<boolean>, default: false },
 })
 
-const emit = defineEmits<{
-  (e: 'like'): void
-}>()
-const likedEffect = ref(false)
-/**
- * Добавляет слово в избранное и запускает анимацию сердечка.
- */
-const like = (): void => {
-  if (props.liked) return
-  emit('like')
-  likedEffect.value = true
-  setTimeout(() => {
-    likedEffect.value = false
-  }, 1000)
-}
+const isHelp = ref(false)
 </script>
 
 <style scoped lang="sass">
@@ -47,9 +27,11 @@ const like = (): void => {
   flex-direction: column
   transition: all 0.3s ease
   h1
+    cursor: pointer
     font-size: 100px
     font-weight: 500
     text-align: center
+    min-height: 130px
   span
     font-size: 12px
     color: var(--c4)

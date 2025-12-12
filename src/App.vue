@@ -16,8 +16,9 @@ main
       :current="Boolean(current)"
       :liked="isCurrentLiked"
       @remove-like="removeLike"
+      @like="likeCurrentWord"
     )
-    WordDisplay(:word="displayedWord" :word-key="wordKey" :liked="isCurrentLiked" @like="likeCurrentWord")
+    WordDisplay(:word="displayedWord" :word-key="wordKey")
     AudioPlayer(
       v-if="mode !== 'write' && current?.audio"
       :audio-src="current?.audio || ''"
