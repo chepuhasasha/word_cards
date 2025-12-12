@@ -41,12 +41,18 @@ const currentAudioKey = ref<string | null>(null)
 const audioCache = new Map<string, string>()
 
 /**
- * Создает аудиоэлемент и вешает обработчик завершения воспроизведения.
+ * Создает аудиоэлемент и вешает обработчики событий.
  */
 const ensureAudioElement = (): void => {
   if (!audioElement.value) {
     audioElement.value = new Audio()
     audioElement.value.addEventListener('ended', () => {
+      isPlaying.value = false
+    })
+    audioElement.value.addEventListener('playing', () => {
+      isPlaying.value = true
+    })
+    audioElement.value.addEventListener('pause', () => {
       isPlaying.value = false
     })
   }
@@ -66,7 +72,22 @@ const cleanupAudio = (): void => {
 }
 
 /**
- * Загружает аудио через Google TTS или возвращает кешированный результат.
+ * Формирует URL для запроса озвучки через Google Translate TTS.
+ * @param text Текст, который нужно озвучить.
+ */
+const buildTtsUrl = (text: string): string => {
+  const params = new URLSearchParams({
+    ie: 'UTF-8',
+    q: text,
+    tl: TTS_LANG,
+    client: 'tw-ob',
+  })
+
+  return `${TTS_ENDPOINT}?${params.toString()}`
+}
+
+/**
+ * Возвращает URL для озвучивания текста, кешируя сформированный адрес.
  * @param text Текст, который нужно озвучить.
  */
 const getAudioUrl = async (text: string): Promise<string> => {
@@ -74,37 +95,40 @@ const getAudioUrl = async (text: string): Promise<string> => {
     return audioCache.get(text) as string
   }
 
-  isLoading.value = true
+  const ttsUrl = buildTtsUrl(text)
+  audioCache.set(text, ttsUrl)
+  return ttsUrl
+}
 
-  try {
-    const params = new URLSearchParams({
-      ie: 'UTF-8',
-      q: text,
-      tl: TTS_LANG,
-      client: 'tw-ob',
-    })
-
-    const response = await fetch(`${TTS_ENDPOINT}?${params.toString()}`, {
-      headers: {
-        'User-Agent':
-          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        Referer: 'https://translate.google.com/',
-      },
-    })
-
-    if (!response.ok) {
-      throw new Error('Не удалось загрузить аудио')
+/**
+ * Ожидает полной загрузки источника аудио.
+ * @param element Аудиоэлемент.
+ */
+const waitForCanPlay = (element: HTMLAudioElement): Promise<void> =>
+  new Promise((resolve, reject) => {
+    if (element.readyState >= HTMLMediaElement.HAVE_ENOUGH_DATA) {
+      resolve()
+      return
     }
 
-    const blob = await response.blob()
-    const objectUrl = URL.createObjectURL(blob)
-    audioCache.set(text, objectUrl)
+    const cleanup = (): void => {
+      element.removeEventListener('canplaythrough', onReady)
+      element.removeEventListener('error', onError)
+    }
 
-    return objectUrl
-  } finally {
-    isLoading.value = false
-  }
-}
+    const onReady = (): void => {
+      cleanup()
+      resolve()
+    }
+
+    const onError = (): void => {
+      cleanup()
+      reject(new Error('Не удалось загрузить аудио'))
+    }
+
+    element.addEventListener('canplaythrough', onReady, { once: true })
+    element.addEventListener('error', onError, { once: true })
+  })
 
 /**
  * Подготавливает аудиоэлемент к воспроизведению указанного текста.
@@ -119,9 +143,16 @@ const prepareAudio = async (text: string): Promise<void> => {
     return
   }
 
-  const source = await getAudioUrl(text)
-  currentAudioKey.value = text
-  audioElement.value.src = source
+  isLoading.value = true
+  try {
+    const source = await getAudioUrl(text)
+    currentAudioKey.value = text
+    audioElement.value.src = source
+    audioElement.value.load()
+    await waitForCanPlay(audioElement.value)
+  } finally {
+    isLoading.value = false
+  }
 }
 
 /**
