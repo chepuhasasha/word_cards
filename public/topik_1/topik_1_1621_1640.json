@@ -3,120 +3,140 @@
     "word": "함께",
     "translation": "вместе",
     "transcription": "хамкке",
-    "description": "Совместно, сообща с кем-то."
+    "description": "Совместно, сообща с кем-то.",
+    "audio": "audio/함께_tts.mp3"
   },
   {
     "word": "합격",
     "translation": "успех на экзамене",
     "transcription": "хапккёк",
-    "description": "Поступление или прохождение отбора благодаря успешной сдаче испытаний."
+    "description": "Поступление или прохождение отбора благодаря успешной сдаче испытаний.",
+    "audio": "audio/합격_tts.mp3"
   },
   {
     "word": "항상",
     "translation": "всегда",
     "transcription": "хансанг",
-    "description": "Непрерывно, постоянно в любое время."
+    "description": "Непрерывно, постоянно в любое время.",
+    "audio": "audio/항상_tts.mp3"
   },
   {
     "word": "해",
     "translation": "море",
     "transcription": "хэ",
-    "description": "Большое скопление солёной воды; морское пространство."
+    "description": "Большое скопление солёной воды; морское пространство.",
+    "audio": "audio/해_tts.mp3"
   },
   {
     "word": "해외",
     "translation": "зарубежье",
     "transcription": "хэве",
-    "description": "Иностранные страны, находящиеся за границей."
+    "description": "Иностранные страны, находящиеся за границей.",
+    "audio": "audio/해외_tts.mp3"
   },
   {
     "word": "해외여행",
     "translation": "путешествие за границу",
     "transcription": "хэве ёхэн",
-    "description": "Поездка в другие страны с туристическими или деловыми целями."
+    "description": "Поездка в другие страны с туристическими или деловыми целями.",
+    "audio": "audio/해외여행_tts.mp3"
   },
   {
     "word": "핸드폰",
     "translation": "мобильный телефон",
     "transcription": "хэндыпон",
-    "description": "Переносной телефонный аппарат для связи."
+    "description": "Переносной телефонный аппарат для связи.",
+    "audio": "audio/핸드폰_tts.mp3"
   },
   {
     "word": "햄버거",
     "translation": "гамбургер",
     "transcription": "хэмбого",
-    "description": "Булочка с котлетой и начинкой, популярный фастфуд."
+    "description": "Булочка с котлетой и начинкой, популярный фастфуд.",
+    "audio": "audio/햄버거_tts.mp3"
   },
   {
     "word": "햇빛",
     "translation": "солнечный свет",
     "transcription": "хетпич",
-    "description": "Лучистое свечение от солнца."
+    "description": "Лучистое свечение от солнца.",
+    "audio": "audio/햇빛_tts.mp3"
   },
   {
     "word": "행복",
     "translation": "счастье",
     "transcription": "хэнбок",
-    "description": "Состояние радости и удовлетворения жизнью."
+    "description": "Состояние радости и удовлетворения жизнью.",
+    "audio": "audio/행복_tts.mp3"
   },
   {
     "word": "행복하다",
     "translation": "быть счастливым",
     "transcription": "хэнбокхада",
-    "description": "Испытывать чувство счастья и довольства."
+    "description": "Испытывать чувство счастья и довольства.",
+    "audio": "audio/행복하다_tts.mp3"
   },
   {
     "word": "행사",
     "translation": "мероприятие",
     "transcription": "хэнса",
-    "description": "Запланированное событие или акция с участием людей."
+    "description": "Запланированное событие или акция с участием людей.",
+    "audio": "audio/행사_tts.mp3"
   },
   {
     "word": "허리",
     "translation": "поясница",
     "transcription": "хори",
-    "description": "Часть тела между грудной клеткой и тазом."
+    "description": "Часть тела между грудной клеткой и тазом.",
+    "audio": "audio/허리_tts.mp3"
   },
   {
     "word": "현금",
     "translation": "наличные",
     "transcription": "хёнгым",
-    "description": "Деньги в виде купюр или монет, а не на счёте."
+    "description": "Деньги в виде купюр или монет, а не на счёте.",
+    "audio": "audio/현금_tts.mp3"
   },
   {
     "word": "현재",
     "translation": "настоящее время",
     "transcription": "хёнчжэ",
-    "description": "Текущий момент или существующая ситуация."
+    "description": "Текущий момент или существующая ситуация.",
+    "audio": "audio/현재_tts.mp3"
   },
   {
     "word": "형",
     "translation": "старший брат",
     "transcription": "хён",
-    "description": "Старший брат по отношению к мужчине."
+    "description": "Старший брат по отношению к мужчине.",
+    "audio": "audio/형_tts.mp3"
   },
   {
     "word": "형님",
     "translation": "уважаемый старший брат",
     "transcription": "хённим",
-    "description": "Почтительное обращение к старшему брату или старшему мужчине."
+    "description": "Почтительное обращение к старшему брату или старшему мужчине.",
+    "audio": "audio/형님_tts.mp3"
   },
   {
     "word": "형제",
     "translation": "братья",
     "transcription": "хёнчже",
-    "description": "Родные братья, иногда братья и сестры в общем."
+    "description": "Родные братья, иногда братья и сестры в общем.",
+    "audio": "audio/형제_tts.mp3"
   },
   {
     "word": "호",
     "translation": "номер комнаты",
     "transcription": "хо",
-    "description": "Счётное слово для номеров квартир, комнат или классов."
+    "description": "Счётное слово для номеров квартир, комнат или классов.",
+    "audio": "audio/호_tts.mp3"
   },
   {
     "word": "호랑이",
     "translation": "тигр",
     "transcription": "хорани",
-    "description": "Крупный хищный зверь с полосатой шерстью."
+    "description": "Крупный хищный зверь с полосатой шерстью.",
+    "audio": "audio/호랑이_tts.mp3"
   }
 ]

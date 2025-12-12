@@ -3,120 +3,140 @@
     "word": "호주",
     "translation": "Австралия",
     "transcription": "ходжу",
-    "description": "Государство Австралия, расположенное на одноимённом континенте."
+    "description": "Государство Австралия, расположенное на одноимённом континенте.",
+    "audio": "audio/호주_tts.mp3"
   },
   {
     "word": "호텔",
     "translation": "отель",
     "transcription": "хотхель",
-    "description": "Гостиница, предоставляющая проживание и сервис."
+    "description": "Гостиница, предоставляющая проживание и сервис.",
+    "audio": "audio/호텔_tts.mp3"
   },
   {
     "word": "혼자",
     "translation": "в одиночку",
     "transcription": "хонджа",
-    "description": "Без сопровождения, самостоятельно."
+    "description": "Без сопровождения, самостоятельно.",
+    "audio": "audio/혼자_tts.mp3"
   },
   {
     "word": "홈페이지",
     "translation": "домашняя страница",
     "transcription": "хомпхейджи",
-    "description": "Главная страница веб-сайта."
+    "description": "Главная страница веб-сайта.",
+    "audio": "audio/홈페이지_tts.mp3"
   },
   {
     "word": "홍차",
     "translation": "черный чай",
     "transcription": "хончха",
-    "description": "Ферментированный чай тёмного цвета."
+    "description": "Ферментированный чай тёмного цвета.",
+    "audio": "audio/홍차_tts.mp3"
   },
   {
     "word": "화",
     "translation": "гнев",
     "transcription": "хва",
-    "description": "Сильное чувство раздражения или злости."
+    "description": "Сильное чувство раздражения или злости.",
+    "audio": "audio/화_tts.mp3"
   },
   {
     "word": "화가",
     "translation": "художник",
     "transcription": "хвага",
-    "description": "Человек, профессионально занимающийся живописью."
+    "description": "Человек, профессионально занимающийся живописью.",
+    "audio": "audio/화가_tts.mp3"
   },
   {
     "word": "화나다",
     "translation": "сердиться",
     "transcription": "хванада",
-    "description": "Испытывать гнев или раздражение."
+    "description": "Испытывать гнев или раздражение.",
+    "audio": "audio/화나다_tts.mp3"
   },
   {
     "word": "화내다",
     "translation": "злиться",
     "transcription": "хванэда",
-    "description": "Проявлять раздражение или гнев наружу."
+    "description": "Проявлять раздражение или гнев наружу.",
+    "audio": "audio/화내다_tts.mp3"
   },
   {
     "word": "화요일",
     "translation": "вторник",
     "transcription": "хваёиль",
-    "description": "Второй день недели по корейскому календарю."
+    "description": "Второй день недели по корейскому календарю.",
+    "audio": "audio/화요일_tts.mp3"
   },
   {
     "word": "화장실",
     "translation": "туалет",
     "transcription": "хваджанщиль",
-    "description": "Помещение с унитазом и умывальником."
+    "description": "Помещение с унитазом и умывальником.",
+    "audio": "audio/화장실_tts.mp3"
   },
   {
     "word": "화장품",
     "translation": "косметика",
     "transcription": "хваджанпхум",
-    "description": "Средства для макияжа и ухода за кожей."
+    "description": "Средства для макияжа и ухода за кожей.",
+    "audio": "audio/화장품_tts.mp3"
   },
   {
     "word": "화장하다",
     "translation": "краситься",
     "transcription": "хваджанхада",
-    "description": "Наносить макияж или украшать лицо."
+    "description": "Наносить макияж или украшать лицо.",
+    "audio": "audio/화장하다_tts.mp3"
   },
   {
     "word": "확인하다",
     "translation": "проверять",
     "transcription": "хвагинхада",
-    "description": "Убедиться в правильности, удостовериться."
+    "description": "Убедиться в правильности, удостовериться.",
+    "audio": "audio/확인하다_tts.mp3"
   },
   {
     "word": "환영하다",
     "translation": "приветствовать",
     "transcription": "хванёнхада",
-    "description": "Радушно встречать и выражать одобрение приходу кого-либо."
+    "description": "Радушно встречать и выражать одобрение приходу кого-либо.",
+    "audio": "audio/환영하다_tts.mp3"
   },
   {
     "word": "환자",
     "translation": "пациент",
     "transcription": "хванджа",
-    "description": "Человек, проходящий лечение или наблюдение у врача."
+    "description": "Человек, проходящий лечение или наблюдение у врача.",
+    "audio": "audio/환자_tts.mp3"
   },
   {
     "word": "회사",
     "translation": "компания",
     "transcription": "хвеса",
-    "description": "Организация или фирма, занимающаяся бизнесом."
+    "description": "Организация или фирма, занимающаяся бизнесом.",
+    "audio": "audio/회사_tts.mp3"
   },
   {
     "word": "회사원",
     "translation": "офисный работник",
     "transcription": "хвесавон",
-    "description": "Сотрудник компании, работающий в офисе."
+    "description": "Сотрудник компании, работающий в офисе.",
+    "audio": "audio/회사원_tts.mp3"
   },
   {
     "word": "회색",
     "translation": "серый",
     "transcription": "хвесэк",
-    "description": "Цвет между белым и чёрным."
+    "description": "Цвет между белым и чёрным.",
+    "audio": "audio/회색_tts.mp3"
   },
   {
     "word": "회의",
     "translation": "совещание",
     "transcription": "хвыйи",
-    "description": "Собрание для обсуждения и принятия решений."
+    "description": "Собрание для обсуждения и принятия решений.",
+    "audio": "audio/회의_tts.mp3"
   }
 ]
