@@ -3,120 +3,140 @@
     "word": "부부",
     "translation": "супруги",
     "transcription": "bubu",
-    "description": "Муж и жена, состоящие в браке."
+    "description": "Муж и жена, состоящие в браке.",
+    "audio": "audio/부부_tts.mp3"
   },
   {
     "word": "부산",
     "translation": "Пусан",
     "transcription": "busan",
-    "description": "Крупный портовый город на юге Кореи."
+    "description": "Крупный портовый город на юге Кореи.",
+    "audio": "audio/부산_tts.mp3"
   },
   {
     "word": "부업",
     "translation": "подработка",
     "transcription": "bueop",
-    "description": "Дополнительная работа помимо основной."
+    "description": "Дополнительная работа помимо основной.",
+    "audio": "audio/부업_tts.mp3"
   },
   {
     "word": "부엌",
     "translation": "кухня",
     "transcription": "bueok",
-    "description": "Помещение для приготовления еды."
+    "description": "Помещение для приготовления еды.",
+    "audio": "audio/부엌_tts.mp3"
   },
   {
     "word": "부인",
     "translation": "жена",
     "transcription": "buin",
-    "description": "Вежливое обращение к супруге, также миссис."
+    "description": "Вежливое обращение к супруге, также миссис.",
+    "audio": "audio/부인_tts.mp3"
   },
   {
     "word": "부장",
     "translation": "директор",
     "transcription": "bujang",
-    "description": "Руководитель отдела или подразделения."
+    "description": "Руководитель отдела или подразделения.",
+    "audio": "audio/부장_tts.mp3"
   },
   {
     "word": "부지런하다",
     "translation": "прилежный",
     "transcription": "bujireonhada",
-    "description": "Трудолюбивый и постоянно занятый делом."
+    "description": "Трудолюбивый и постоянно занятый делом.",
+    "audio": "audio/부지런하다_tts.mp3"
   },
   {
     "word": "부치다",
     "translation": "отправлять",
     "transcription": "buchida",
-    "description": "Посылать письмо или посылку; также жарить на масле."
+    "description": "Посылать письмо или посылку; также жарить на масле.",
+    "audio": "audio/부치다_tts.mp3"
   },
   {
     "word": "부탁",
     "translation": "просьба",
     "transcription": "butak",
-    "description": "Обращение к кому-то с просьбой о помощи."
+    "description": "Обращение к кому-то с просьбой о помощи.",
+    "audio": "audio/부탁_tts.mp3"
   },
   {
     "word": "부탁하다",
     "translation": "просить",
     "transcription": "butakada",
-    "description": "Обращаться с просьбой, умолять."
+    "description": "Обращаться с просьбой, умолять.",
+    "audio": "audio/부탁하다_tts.mp3"
   },
   {
     "word": "북쪽",
     "translation": "север",
     "transcription": "bukjjok",
-    "description": "Направление стороны света север."
+    "description": "Направление стороны света север.",
+    "audio": "audio/북쪽_tts.mp3"
   },
   {
     "word": "분",
     "translation": "минута",
     "transcription": "bun",
-    "description": "Единица времени, также счётное слово для людей."
+    "description": "Единица времени, также счётное слово для людей.",
+    "audio": "audio/분_tts.mp3"
   },
   {
     "word": "분위기",
     "translation": "атмосфера",
     "transcription": "bunwiggi",
-    "description": "Общее настроение или обстановка места."
+    "description": "Общее настроение или обстановка места.",
+    "audio": "audio/분위기_tts.mp3"
   },
   {
     "word": "불",
     "translation": "огонь",
     "transcription": "bul",
-    "description": "Пламя или включённый свет."
+    "description": "Пламя или включённый свет.",
+    "audio": "audio/불_tts.mp3"
   },
   {
     "word": "불고기",
     "translation": "пульгоги",
     "transcription": "bulgogi",
-    "description": "Корейское блюдо из маринованного жареного мяса."
+    "description": "Корейское блюдо из маринованного жареного мяса.",
+    "audio": "audio/불고기_tts.mp3"
   },
   {
     "word": "불다",
     "translation": "дуть",
     "transcription": "bulda",
-    "description": "Направлять воздух ртом или когда ветер движется."
+    "description": "Направлять воздух ртом или когда ветер движется.",
+    "audio": "audio/불다_tts.mp3"
   },
   {
     "word": "불편하다",
     "translation": "неудобный",
     "transcription": "bulpyeonhada",
-    "description": "Вызывать дискомфорт или затруднение."
+    "description": "Вызывать дискомфорт или затруднение.",
+    "audio": "audio/불편하다_tts.mp3"
   },
   {
     "word": "붓다",
     "translation": "лить",
     "transcription": "butda",
-    "description": "Наливать жидкость; также отекать."
+    "description": "Наливать жидкость; также отекать.",
+    "audio": "audio/붓다_tts.mp3"
   },
   {
     "word": "붙다",
     "translation": "прилипать",
     "transcription": "butda",
-    "description": "Крепиться к поверхности или сдавать экзамен."
+    "description": "Крепиться к поверхности или сдавать экзамен.",
+    "audio": "audio/붙다_tts.mp3"
   },
   {
     "word": "붙이다",
     "translation": "приклеивать",
     "transcription": "butida",
-    "description": "Прикреплять что-то к другой поверхности."
+    "description": "Прикреплять что-то к другой поверхности.",
+    "audio": "audio/붙이다_tts.mp3"
   }
 ]
