@@ -1,0 +1,142 @@
+[
+  {
+    "word": "가위",
+    "translation": "ножницы",
+    "transcription": "кави",
+    "description": "Инструмент с двумя лезвиями для резки.",
+    "audio": "audio/가위_tts.mp3"
+  },
+  {
+    "word": "머리",
+    "translation": "голова",
+    "transcription": "meori",
+    "description": "Верхняя часть тела; волосы.",
+    "audio": "audio/머리_tts.mp3"
+  },
+  {
+    "word": "벽",
+    "translation": "стена",
+    "transcription": "byeok",
+    "description": "Вертикальная поверхность, ограждающая пространство.",
+    "audio": "audio/벽_tts.mp3"
+  },
+  {
+    "word": "왜냐하면",
+    "translation": "потому что",
+    "transcription": "waenyahamyeon",
+    "description": "вводит объяснение причины",
+    "audio": "audio/왜냐하면_tts.mp3"
+  },
+  {
+    "word": "색",
+    "translation": "цвет",
+    "transcription": "saek",
+    "description": "Оттенок или окраска предмета.",
+    "audio": "audio/색_tts.mp3"
+  },
+  {
+    "word": "입",
+    "translation": "рот",
+    "transcription": "ip",
+    "description": "отверстие для еды и речи",
+    "audio": "audio/입_tts.mp3"
+  },
+  {
+    "word": "동쪽",
+    "translation": "восток",
+    "transcription": "тонг-ччок",
+    "description": "Направление стороны света на восток.",
+    "audio": "audio/동쪽_tts.mp3"
+  },
+  {
+    "word": "안녕하십니까",
+    "translation": "здравствуйте (очень вежл.)",
+    "transcription": "annyeonghasimnikka",
+    "description": "формальное приветствие",
+    "audio": "audio/안녕하십니까_tts.mp3"
+  },
+  {
+    "word": "화가",
+    "translation": "художник",
+    "transcription": "хвага",
+    "description": "Человек, профессионально занимающийся живописью.",
+    "audio": "audio/화가_tts.mp3"
+  },
+  {
+    "word": "성",
+    "translation": "замок; фамилия",
+    "transcription": "seong",
+    "description": "крепость или родовая фамилия",
+    "audio": "audio/성_tts.mp3"
+  },
+  {
+    "word": "책상",
+    "translation": "письменный стол",
+    "transcription": "chaeksang",
+    "description": "стол для работы и учёбы",
+    "audio": "audio/책상_tts.mp3"
+  },
+  {
+    "word": "자장면",
+    "translation": "чачжанмён",
+    "transcription": "jajangmyeon",
+    "description": "лапша с густым чёрным соусом",
+    "audio": "audio/자장면_tts.mp3"
+  },
+  {
+    "word": "뉴스",
+    "translation": "новости",
+    "transcription": "ню-ссы",
+    "description": "Сводки актуальных событий в СМИ или интернете.",
+    "audio": "audio/뉴스_tts.mp3"
+  },
+  {
+    "word": "오래간만입니다",
+    "translation": "давно не виделись (вежл.)",
+    "transcription": "oraeganmanimnida",
+    "description": "приветствие после длительного расставания",
+    "audio": "audio/오래간만입니다_tts.mp3"
+  },
+  {
+    "word": "호주",
+    "translation": "Австралия",
+    "transcription": "ходжу",
+    "description": "Государство Австралия, расположенное на одноимённом континенте.",
+    "audio": "audio/호주_tts.mp3"
+  },
+  {
+    "word": "절",
+    "translation": "буддийский храм",
+    "transcription": "jeol",
+    "description": "место поклонения в буддизме",
+    "audio": "audio/절_tts.mp3"
+  },
+  {
+    "word": "발음",
+    "translation": "произношение",
+    "transcription": "bareum",
+    "description": "Способ звучания слов и звуков.",
+    "audio": "audio/발음_tts.mp3"
+  },
+  {
+    "word": "같이",
+    "translation": "вместе",
+    "transcription": "качи",
+    "description": "Совместно с кем-либо, вместе.",
+    "audio": "audio/같이_tts.mp3"
+  },
+  {
+    "word": "감자",
+    "translation": "картофель",
+    "transcription": "камджа",
+    "description": "Корнеплод, используемый в пище.",
+    "audio": "audio/감자_tts.mp3"
+  },
+  {
+    "word": "유학",
+    "translation": "учёба за границей",
+    "transcription": "yuhak",
+    "description": "обучение в иностранной стране",
+    "audio": "audio/유학_tts.mp3"
+  }
+]

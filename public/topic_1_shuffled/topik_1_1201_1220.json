@@ -1,0 +1,142 @@
+[
+  {
+    "word": "전공",
+    "translation": "специализация",
+    "transcription": "jeongong",
+    "description": "основное направление учёбы",
+    "audio": "audio/전공_tts.mp3"
+  },
+  {
+    "word": "과",
+    "translation": "отдел",
+    "transcription": "ква",
+    "description": "Административное или учебное подразделение.",
+    "audio": "audio/과_tts.mp3"
+  },
+  {
+    "word": "오후",
+    "translation": "после полудня",
+    "transcription": "ohu",
+    "description": "время дня после 12 часов",
+    "audio": "audio/오후_tts.mp3"
+  },
+  {
+    "word": "필름",
+    "translation": "плёнка",
+    "transcription": "pilleum",
+    "description": "тонкий материал для съёмки",
+    "audio": "audio/필름_tts.mp3"
+  },
+  {
+    "word": "커피숍",
+    "translation": "кофейня",
+    "transcription": "keopisyop",
+    "description": "заведение, где подают кофе и десерты",
+    "audio": "audio/커피숍_tts.mp3"
+  },
+  {
+    "word": "합격",
+    "translation": "успех на экзамене",
+    "transcription": "хапккёк",
+    "description": "Поступление или прохождение отбора благодаря успешной сдаче испытаний.",
+    "audio": "audio/합격_tts.mp3"
+  },
+  {
+    "word": "매다",
+    "translation": "завязывать",
+    "transcription": "maeda",
+    "description": "Связывать узлом или застёгивать.",
+    "audio": "audio/매다_tts.mp3"
+  },
+  {
+    "word": "경찰관",
+    "translation": "полицейский",
+    "transcription": "кёнчхальгван",
+    "description": "Сотрудник полиции.",
+    "audio": "audio/경찰관_tts.mp3"
+  },
+  {
+    "word": "남동생",
+    "translation": "младший брат",
+    "transcription": "нам-донг-сэн",
+    "description": "Младший брат по отношению к говорящему.",
+    "audio": "audio/남동생_tts.mp3"
+  },
+  {
+    "word": "요금",
+    "translation": "плата",
+    "transcription": "yogeum",
+    "description": "денежный сбор за услугу",
+    "audio": "audio/요금_tts.mp3"
+  },
+  {
+    "word": "채소",
+    "translation": "овощи",
+    "transcription": "chaeso",
+    "description": "съедобные части травянистых растений",
+    "audio": "audio/채소_tts.mp3"
+  },
+  {
+    "word": "떡",
+    "translation": "тток",
+    "transcription": "tteok",
+    "description": "Клейкий рисовый пирог традиционной кухни.",
+    "audio": "audio/떡_tts.mp3"
+  },
+  {
+    "word": "쓰이다",
+    "translation": "быть написанным; использоваться",
+    "transcription": "sseuida",
+    "description": "находиться в употреблении или быть записанным",
+    "audio": "audio/쓰이다_tts.mp3"
+  },
+  {
+    "word": "글쎄요",
+    "translation": "ну не знаю",
+    "transcription": "кыль-ссэ-ё",
+    "description": "Невнятный ответ, выражающий сомнение.",
+    "audio": "audio/글쎄요_tts.mp3"
+  },
+  {
+    "word": "자연",
+    "translation": "природа",
+    "transcription": "jayeon",
+    "description": "естественный мир, не созданный человеком",
+    "audio": "audio/자연_tts.mp3"
+  },
+  {
+    "word": "저분",
+    "translation": "вон тот человек (уваж.)",
+    "transcription": "jeobun",
+    "description": "вежливое указание на человека вдали",
+    "audio": "audio/저분_tts.mp3"
+  },
+  {
+    "word": "가요",
+    "translation": "песня",
+    "transcription": "каё",
+    "description": "Популярная песня или эстрадная музыка.",
+    "audio": "audio/가요_tts.mp3"
+  },
+  {
+    "word": "하나",
+    "translation": "один",
+    "transcription": "hana",
+    "description": "число 1 в корейском счёте",
+    "audio": "audio/하나_tts.mp3"
+  },
+  {
+    "word": "일식",
+    "translation": "японская еда",
+    "transcription": "ilshik",
+    "description": "блюдо или кухня в японском стиле",
+    "audio": "audio/일식_tts.mp3"
+  },
+  {
+    "word": "등산화",
+    "translation": "ботинки для гор",
+    "transcription": "тынг-сан-хва",
+    "description": "Обувь с хорошим сцеплением для подъёмов и походов.",
+    "audio": "audio/등산화_tts.mp3"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "word": "돕다",
+    "translation": "помогать",
+    "transcription": "топ-та",
+    "description": "Содействовать или поддерживать кого-либо.",
+    "audio": "audio/돕다_tts.mp3"
+  },
+  {
+    "word": "올라오다",
+    "translation": "подниматься сюда",
+    "transcription": "ollaoda",
+    "description": "подниматься вверх к говорящему",
+    "audio": "audio/올라오다_tts.mp3"
+  },
+  {
+    "word": "눈사람",
+    "translation": "снеговик",
+    "transcription": "нун-са-рам",
+    "description": "Фигура из снега в виде человека.",
+    "audio": "audio/눈사람_tts.mp3"
+  },
+  {
+    "word": "설날",
+    "translation": "Лунный Новый год",
+    "transcription": "seollal",
+    "description": "Корейский праздник по лунному календарю.",
+    "audio": "audio/설날_tts.mp3"
+  },
+  {
+    "word": "라디오",
+    "translation": "радио",
+    "transcription": "radio",
+    "description": "Устройство или передача звука по радиоволнам.",
+    "audio": "audio/라디오_tts.mp3"
+  },
+  {
+    "word": "사이",
+    "translation": "между",
+    "transcription": "sai",
+    "description": "Промежуток или отношения между людьми.",
+    "audio": "audio/사이_tts.mp3"
+  },
+  {
+    "word": "후배",
+    "translation": "младший товарищ",
+    "transcription": "хубэ",
+    "description": "Человек, поступивший позже или младше по положению.",
+    "audio": "audio/후배_tts.mp3"
+  },
+  {
+    "word": "초등학생",
+    "translation": "ученик начальной школы",
+    "transcription": "chodeunghaksaeng",
+    "description": "ребёнок, обучающийся в младших классах",
+    "audio": "audio/초등학생_tts.mp3"
+  },
+  {
+    "word": "일하다",
+    "translation": "работать",
+    "transcription": "ilhada",
+    "description": "выполнять труд или обязанности",
+    "audio": "audio/일하다_tts.mp3"
+  },
+  {
+    "word": "하늘색",
+    "translation": "голубой",
+    "transcription": "haneulsaek",
+    "description": "цвет ясного неба",
+    "audio": "audio/하늘색_tts.mp3"
+  },
+  {
+    "word": "부장",
+    "translation": "директор",
+    "transcription": "bujang",
+    "description": "Руководитель отдела или подразделения.",
+    "audio": "audio/부장_tts.mp3"
+  },
+  {
+    "word": "살다",
+    "translation": "жить",
+    "transcription": "salda",
+    "description": "Пребывать где-то и вести жизнь.",
+    "audio": "audio/살다_tts.mp3"
+  },
+  {
+    "word": "교수",
+    "translation": "профессор",
+    "transcription": "кё-су",
+    "description": "Преподаватель высшего учебного заведения.",
+    "audio": "audio/교수_tts.mp3"
+  },
+  {
+    "word": "지금",
+    "translation": "сейчас",
+    "transcription": "jigeum",
+    "description": "данный момент времени",
+    "audio": "audio/지금_tts.mp3"
+  },
+  {
+    "word": "가지다",
+    "translation": "иметь",
+    "transcription": "каджида",
+    "description": "Обладать чем-либо или удерживать предмет.",
+    "audio": "audio/가지다_tts.mp3"
+  },
+  {
+    "word": "성격",
+    "translation": "характер",
+    "transcription": "seonggyeok",
+    "description": "совокупность личных качеств человека",
+    "audio": "audio/성격_tts.mp3"
+  },
+  {
+    "word": "풀",
+    "translation": "клей",
+    "transcription": "pul",
+    "description": "вязкое вещество для склеивания",
+    "audio": "audio/풀_tts.mp3"
+  },
+  {
+    "word": "일기",
+    "translation": "дневник",
+    "transcription": "ilgi",
+    "description": "записи о событиях и впечатлениях дня",
+    "audio": "audio/일기_tts.mp3"
+  },
+  {
+    "word": "사랑",
+    "translation": "любовь",
+    "transcription": "sarang",
+    "description": "Глубокое чувство привязанности.",
+    "audio": "audio/사랑_tts.mp3"
+  },
+  {
+    "word": "고등학생",
+    "translation": "старшеклассник",
+    "transcription": "ко-дын-хак-сэн",
+    "description": "Ученик, обучающийся в старшей школе.",
+    "audio": "audio/고등학생_tts.mp3"
+  }
+]

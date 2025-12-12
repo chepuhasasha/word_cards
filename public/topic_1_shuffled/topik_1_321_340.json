@@ -1,0 +1,142 @@
+[
+  {
+    "word": "주스",
+    "translation": "сок",
+    "transcription": "juseu",
+    "description": "напиток из фруктов или овощей",
+    "audio": "audio/주스_tts.mp3"
+  },
+  {
+    "word": "동네",
+    "translation": "район; окрестности",
+    "transcription": "тон-нэ",
+    "description": "Местность вокруг дома, микрорайон проживания.",
+    "audio": "audio/동네_tts.mp3"
+  },
+  {
+    "word": "마르다",
+    "translation": "сохнуть",
+    "transcription": "mareuda",
+    "description": "Терять влагу и становиться сухим.",
+    "audio": "audio/마르다_tts.mp3"
+  },
+  {
+    "word": "태권도",
+    "translation": "тхэквондо",
+    "transcription": "taegwondo",
+    "description": "корейское боевое искусство",
+    "audio": "audio/태권도_tts.mp3"
+  },
+  {
+    "word": "바뀌다",
+    "translation": "меняться",
+    "transcription": "bakkwida",
+    "description": "Становиться другим или заменяться чем-то новым.",
+    "audio": "audio/바뀌다_tts.mp3"
+  },
+  {
+    "word": "아시아",
+    "translation": "Азия",
+    "transcription": "asia",
+    "description": "континент, включающий Восточную и Южную Азию",
+    "audio": "audio/아시아_tts.mp3"
+  },
+  {
+    "word": "만지다",
+    "translation": "трогать",
+    "transcription": "manjida",
+    "description": "Прикасаться рукой к предмету.",
+    "audio": "audio/만지다_tts.mp3"
+  },
+  {
+    "word": "지난번",
+    "translation": "прошлый раз",
+    "transcription": "jinanbeon",
+    "description": "предыдущий случай",
+    "audio": "audio/지난번_tts.mp3"
+  },
+  {
+    "word": "조선말",
+    "translation": "корейский язык (чосон)",
+    "transcription": "joseonmal",
+    "description": "название корейского языка в Северной Корее",
+    "audio": "audio/조선말_tts.mp3"
+  },
+  {
+    "word": "해외여행",
+    "translation": "путешествие за границу",
+    "transcription": "хэве ёхэн",
+    "description": "Поездка в другие страны с туристическими или деловыми целями.",
+    "audio": "audio/해외여행_tts.mp3"
+  },
+  {
+    "word": "내용",
+    "translation": "содержание",
+    "transcription": "нэ-ён",
+    "description": "Основной смысл или наполнение текста.",
+    "audio": "audio/내용_tts.mp3"
+  },
+  {
+    "word": "여기",
+    "translation": "здесь",
+    "transcription": "yeogi",
+    "description": "место, где находится говорящий",
+    "audio": "audio/여기_tts.mp3"
+  },
+  {
+    "word": "얇다",
+    "translation": "тонкий",
+    "transcription": "yalpda",
+    "description": "имеющий малую толщину",
+    "audio": "audio/얇다_tts.mp3"
+  },
+  {
+    "word": "오전",
+    "translation": "утро",
+    "transcription": "ojeon",
+    "description": "время до полудня",
+    "audio": "audio/오전_tts.mp3"
+  },
+  {
+    "word": "멕시코",
+    "translation": "Мексика",
+    "transcription": "meksiko",
+    "description": "Страна Мексика.",
+    "audio": "audio/멕시코_tts.mp3"
+  },
+  {
+    "word": "실례하다",
+    "translation": "простите (побеспокоить)",
+    "transcription": "sillyehada",
+    "description": "обращаться с просьбой извинить за неудобство",
+    "audio": "audio/실례하다_tts.mp3"
+  },
+  {
+    "word": "벌다",
+    "translation": "зарабатывать",
+    "transcription": "beolda",
+    "description": "Получать деньги трудом или делом.",
+    "audio": "audio/벌다_tts.mp3"
+  },
+  {
+    "word": "시설",
+    "translation": "объект; сооружение",
+    "transcription": "siseol",
+    "description": "инфраструктура или оборудование",
+    "audio": "audio/시설_tts.mp3"
+  },
+  {
+    "word": "부모",
+    "translation": "родители",
+    "transcription": "bumo",
+    "description": "Отец и мать, воспитатели ребёнка.",
+    "audio": "audio/부모_tts.mp3"
+  },
+  {
+    "word": "저녁식사",
+    "translation": "ужин",
+    "transcription": "jeonyeok siksa",
+    "description": "приём пищи вечером",
+    "audio": "audio/저녁식사_tts.mp3"
+  }
+]

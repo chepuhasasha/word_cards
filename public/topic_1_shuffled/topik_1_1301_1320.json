@@ -1,0 +1,142 @@
+[
+  {
+    "word": "배",
+    "translation": "живот",
+    "transcription": "bae",
+    "description": "Живот, также слово может означать лодку или грушу.",
+    "audio": "audio/배_tts.mp3"
+  },
+  {
+    "word": "모이다",
+    "translation": "собираться",
+    "transcription": "moida",
+    "description": "Сходиться в одно место группой.",
+    "audio": "audio/모이다_tts.mp3"
+  },
+  {
+    "word": "울리다",
+    "translation": "заставлять плакать",
+    "transcription": "ullida",
+    "description": "вызывать слёзы или звон",
+    "audio": "audio/울리다_tts.mp3"
+  },
+  {
+    "word": "거리",
+    "translation": "улица",
+    "transcription": "кори",
+    "description": "Улица или расстояние между объектами.",
+    "audio": "audio/거리_tts.mp3"
+  },
+  {
+    "word": "배탈",
+    "translation": "расстройство желудка",
+    "transcription": "baetal",
+    "description": "Боль или дискомфорт в животе из-за пищеварения.",
+    "audio": "audio/배탈_tts.mp3"
+  },
+  {
+    "word": "동대문시장",
+    "translation": "рынок Тондэмун",
+    "transcription": "тон-дэ-мун-ши-джан",
+    "description": "Известный сеульский рынок Тондэмун.",
+    "audio": "audio/동대문시장_tts.mp3"
+  },
+  {
+    "word": "맥주",
+    "translation": "пиво",
+    "transcription": "maekju",
+    "description": "Слабоалкогольный напиток из солода и хмеля.",
+    "audio": "audio/맥주_tts.mp3"
+  },
+  {
+    "word": "확인하다",
+    "translation": "проверять",
+    "transcription": "хвагинхада",
+    "description": "Убедиться в правильности, удостовериться.",
+    "audio": "audio/확인하다_tts.mp3"
+  },
+  {
+    "word": "영국",
+    "translation": "Великобритания",
+    "transcription": "yeongguk",
+    "description": "государство Соединённое Королевство",
+    "audio": "audio/영국_tts.mp3"
+  },
+  {
+    "word": "이상",
+    "translation": "больше; странный",
+    "transcription": "isang",
+    "description": "превышение нормы или необычное состояние",
+    "audio": "audio/이상_tts.mp3"
+  },
+  {
+    "word": "케이크",
+    "translation": "торт",
+    "transcription": "keikeu",
+    "description": "сладкая выпечка с кремом или начинкой",
+    "audio": "audio/케이크_tts.mp3"
+  },
+  {
+    "word": "영화표",
+    "translation": "билет в кино",
+    "transcription": "yeonghwapyo",
+    "description": "билет на кинопоказ",
+    "audio": "audio/영화표_tts.mp3"
+  },
+  {
+    "word": "관광하다",
+    "translation": "путешествовать",
+    "transcription": "кван-гуан-ха-да",
+    "description": "Ездить ради отдыха и осмотра достопримечательностей.",
+    "audio": "audio/관광하다_tts.mp3"
+  },
+  {
+    "word": "소파",
+    "translation": "диван",
+    "transcription": "sopa",
+    "description": "мягкая мебель для сидения",
+    "audio": "audio/소파_tts.mp3"
+  },
+  {
+    "word": "구두",
+    "translation": "туфли",
+    "transcription": "гу-ду",
+    "description": "Пара классической кожаной обуви.",
+    "audio": "audio/구두_tts.mp3"
+  },
+  {
+    "word": "아마",
+    "translation": "наверное; возможно",
+    "transcription": "ama",
+    "description": "предположение с небольшой уверенностью",
+    "audio": "audio/아마_tts.mp3"
+  },
+  {
+    "word": "낮",
+    "translation": "день; дневное время",
+    "transcription": "нач",
+    "description": "Период суток от утра до заката.",
+    "audio": "audio/낮_tts.mp3"
+  },
+  {
+    "word": "뉴욕",
+    "translation": "Нью-Йорк",
+    "transcription": "ню-йок",
+    "description": "Американский город Нью-Йорк.",
+    "audio": "audio/뉴욕_tts.mp3"
+  },
+  {
+    "word": "그리고",
+    "translation": "и",
+    "transcription": "кы-ри-гу",
+    "description": "Союз для соединения слов или предложений.",
+    "audio": "audio/그리고_tts.mp3"
+  },
+  {
+    "word": "비빔밥",
+    "translation": "пибимпаб",
+    "transcription": "bibimbap",
+    "description": "Корейское блюдо из риса с овощами и соусом.",
+    "audio": "audio/비빔밥_tts.mp3"
+  }
+]

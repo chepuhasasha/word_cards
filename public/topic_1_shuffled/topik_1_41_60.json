@@ -1,0 +1,142 @@
+[
+  {
+    "word": "외삼촌",
+    "translation": "дядя по маме",
+    "transcription": "oesamchon",
+    "description": "брат матери",
+    "audio": "audio/외삼촌_tts.mp3"
+  },
+  {
+    "word": "따로",
+    "translation": "отдельно",
+    "transcription": "ttaro",
+    "description": "Раздельно от других, не вместе.",
+    "audio": "audio/따로_tts.mp3"
+  },
+  {
+    "word": "신청하다",
+    "translation": "подавать заявку",
+    "transcription": "sincheonghada",
+    "description": "официально просить или регистрироваться",
+    "audio": "audio/신청하다_tts.mp3"
+  },
+  {
+    "word": "스포츠",
+    "translation": "спорт",
+    "transcription": "seupocheu",
+    "description": "физическая активность или соревнования",
+    "audio": "audio/스포츠_tts.mp3"
+  },
+  {
+    "word": "경치",
+    "translation": "пейзаж",
+    "transcription": "кёнчхи",
+    "description": "Вид или ландшафт, который можно наблюдать.",
+    "audio": "audio/경치_tts.mp3"
+  },
+  {
+    "word": "사이즈",
+    "translation": "размер",
+    "transcription": "saijeu",
+    "description": "Величина или номер одежды и обуви.",
+    "audio": "audio/사이즈_tts.mp3"
+  },
+  {
+    "word": "토마토",
+    "translation": "помидор",
+    "transcription": "tomato",
+    "description": "красный сочный плод овощного растения",
+    "audio": "audio/토마토_tts.mp3"
+  },
+  {
+    "word": "금연",
+    "translation": "некурение",
+    "transcription": "кым-ён",
+    "description": "Запрет или отказ от курения.",
+    "audio": "audio/금연_tts.mp3"
+  },
+  {
+    "word": "무궁화",
+    "translation": "гибискус",
+    "transcription": "mugunghwa",
+    "description": "Национальный цветок Кореи — алтея.",
+    "audio": "audio/무궁화_tts.mp3"
+  },
+  {
+    "word": "썰다",
+    "translation": "резать ломтиками",
+    "transcription": "sseolda",
+    "description": "нарезать продукты на кусочки",
+    "audio": "audio/썰다_tts.mp3"
+  },
+  {
+    "word": "불다",
+    "translation": "дуть",
+    "transcription": "bulda",
+    "description": "Направлять воздух ртом или когда ветер движется.",
+    "audio": "audio/불다_tts.mp3"
+  },
+  {
+    "word": "매우",
+    "translation": "очень",
+    "transcription": "maeu",
+    "description": "В высшей степени, сильно.",
+    "audio": "audio/매우_tts.mp3"
+  },
+  {
+    "word": "아줌마",
+    "translation": "тетя (разг.)",
+    "transcription": "ajumma",
+    "description": "разговорное обращение к взрослой женщине",
+    "audio": "audio/아줌마_tts.mp3"
+  },
+  {
+    "word": "벗다",
+    "translation": "снимать",
+    "transcription": "beotda",
+    "description": "Убирать с себя одежду или обувь.",
+    "audio": "audio/벗다_tts.mp3"
+  },
+  {
+    "word": "고르다",
+    "translation": "выбирать",
+    "transcription": "ко-ры-да",
+    "description": "Делать выбор среди нескольких вариантов.",
+    "audio": "audio/고르다_tts.mp3"
+  },
+  {
+    "word": "메다",
+    "translation": "нести на плече",
+    "transcription": "meda",
+    "description": "Подхватывать и размещать на плече.",
+    "audio": "audio/메다_tts.mp3"
+  },
+  {
+    "word": "자동차회사",
+    "translation": "автокомпания",
+    "transcription": "jadongcha hoesa",
+    "description": "фирма, производящая или продающая автомобили",
+    "audio": "audio/자동차회사_tts.mp3"
+  },
+  {
+    "word": "저거",
+    "translation": "вон та вещь",
+    "transcription": "jeoge",
+    "description": "предмет, расположенный далеко от говорящих",
+    "audio": "audio/저거_tts.mp3"
+  },
+  {
+    "word": "잃다",
+    "translation": "терять",
+    "transcription": "ilta",
+    "description": "лишаться чего-либо",
+    "audio": "audio/잃다_tts.mp3"
+  },
+  {
+    "word": "나",
+    "translation": "я",
+    "transcription": "на",
+    "description": "Местоимение первого лица.",
+    "audio": "audio/나_tts.mp3"
+  }
+]

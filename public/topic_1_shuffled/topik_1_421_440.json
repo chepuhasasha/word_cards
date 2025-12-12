@@ -1,0 +1,142 @@
+[
+  {
+    "word": "크다",
+    "translation": "большой",
+    "transcription": "keuda",
+    "description": "имеющий значительные размеры",
+    "audio": "audio/크다_tts.mp3"
+  },
+  {
+    "word": "후",
+    "translation": "после",
+    "transcription": "ху",
+    "description": "Позднее, спустя какое-то время.",
+    "audio": "audio/후_tts.mp3"
+  },
+  {
+    "word": "즐겁다",
+    "translation": "радостный",
+    "transcription": "jeulgeopda",
+    "description": "приносящий удовольствие и веселье",
+    "audio": "audio/즐겁다_tts.mp3"
+  },
+  {
+    "word": "수돗물",
+    "translation": "водопроводная вода",
+    "transcription": "sudonmul",
+    "description": "питьевая вода из крана",
+    "audio": "audio/수돗물_tts.mp3"
+  },
+  {
+    "word": "거울",
+    "translation": "зеркало",
+    "transcription": "коуль",
+    "description": "Предмет с отражающей поверхностью.",
+    "audio": "audio/거울_tts.mp3"
+  },
+  {
+    "word": "서다",
+    "translation": "стоять",
+    "transcription": "seoda",
+    "description": "Находиться в вертикальном положении на ногах.",
+    "audio": "audio/서다_tts.mp3"
+  },
+  {
+    "word": "사원",
+    "translation": "сотрудник",
+    "transcription": "sawon",
+    "description": "Работник компании или храма; также буддийский храм.",
+    "audio": "audio/사원_tts.mp3"
+  },
+  {
+    "word": "까맣다",
+    "translation": "быть чёрным",
+    "transcription": "кка-ма-та",
+    "description": "Иметь полностью чёрный оттенок.",
+    "audio": "audio/까맣다_tts.mp3"
+  },
+  {
+    "word": "각",
+    "translation": "каждый",
+    "transcription": "как",
+    "description": "Относится к каждому элементу или единице в группе.",
+    "audio": "audio/각_tts.mp3"
+  },
+  {
+    "word": "외국",
+    "translation": "зарубежная страна",
+    "transcription": "oeguk",
+    "description": "страна за пределами своей родины",
+    "audio": "audio/외국_tts.mp3"
+  },
+  {
+    "word": "아주",
+    "translation": "очень",
+    "transcription": "aju",
+    "description": "в высокой степени",
+    "audio": "audio/아주_tts.mp3"
+  },
+  {
+    "word": "국어",
+    "translation": "корейский язык",
+    "transcription": "гу-о",
+    "description": "Национальный язык Кореи.",
+    "audio": "audio/국어_tts.mp3"
+  },
+  {
+    "word": "유행",
+    "translation": "мода",
+    "transcription": "yuhaeng",
+    "description": "популярное направление или тенденция",
+    "audio": "audio/유행_tts.mp3"
+  },
+  {
+    "word": "앞",
+    "translation": "перед; впереди",
+    "transcription": "ap",
+    "description": "пространство спереди или будущее время",
+    "audio": "audio/앞_tts.mp3"
+  },
+  {
+    "word": "파",
+    "translation": "лук-перо",
+    "transcription": "pa",
+    "description": "зелёный лук, используемый в кулинарии",
+    "audio": "audio/파_tts.mp3"
+  },
+  {
+    "word": "남미",
+    "translation": "Южная Америка",
+    "transcription": "нам-ми",
+    "description": "Континент, включающий страны южной части Америки.",
+    "audio": "audio/남미_tts.mp3"
+  },
+  {
+    "word": "한국요리",
+    "translation": "корейское блюдо",
+    "transcription": "хангун ёри",
+    "description": "Блюдо, относящееся к традиционной или современной корейской кухне.",
+    "audio": "audio/한국요리_tts.mp3"
+  },
+  {
+    "word": "굽다",
+    "translation": "запекать",
+    "transcription": "куп-та",
+    "description": "Готовить пищу жарением или запеканием.",
+    "audio": "audio/굽다_tts.mp3"
+  },
+  {
+    "word": "닭고기",
+    "translation": "куриное мясо",
+    "transcription": "так-коги",
+    "description": "Мясо курицы, используемое в блюдах.",
+    "audio": "audio/닭고기_tts.mp3"
+  },
+  {
+    "word": "보통",
+    "translation": "обычно",
+    "transcription": "botong",
+    "description": "Как правило, в большинстве случаев.",
+    "audio": "audio/보통_tts.mp3"
+  }
+]

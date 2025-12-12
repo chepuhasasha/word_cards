@@ -1,0 +1,142 @@
+[
+  {
+    "word": "주로",
+    "translation": "главным образом",
+    "transcription": "juro",
+    "description": "преимущественно или по большей части",
+    "audio": "audio/주로_tts.mp3"
+  },
+  {
+    "word": "필요하다",
+    "translation": "быть нужным",
+    "transcription": "pilyohada",
+    "description": "являться необходимым или обязательным",
+    "audio": "audio/필요하다_tts.mp3"
+  },
+  {
+    "word": "달걀",
+    "translation": "куриное яйцо",
+    "transcription": "даль-гяль",
+    "description": "Яйцо курицы, используемое в еде.",
+    "audio": "audio/달걀_tts.mp3"
+  },
+  {
+    "word": "음식",
+    "translation": "еда",
+    "transcription": "eumsik",
+    "description": "приготовленные продукты питания",
+    "audio": "audio/음식_tts.mp3"
+  },
+  {
+    "word": "처음",
+    "translation": "первый раз",
+    "transcription": "cheoeum",
+    "description": "самое начало какого-либо опыта",
+    "audio": "audio/처음_tts.mp3"
+  },
+  {
+    "word": "냄비",
+    "translation": "кастрюля",
+    "transcription": "нэм-би",
+    "description": "Глубокая посуда для варки.",
+    "audio": "audio/냄비_tts.mp3"
+  },
+  {
+    "word": "일곱",
+    "translation": "семь",
+    "transcription": "ilgop",
+    "description": "число семь или количество семь",
+    "audio": "audio/일곱_tts.mp3"
+  },
+  {
+    "word": "감다",
+    "translation": "закрывать (глаза)",
+    "transcription": "камда",
+    "description": "Сомкнуть веки или закрыть глаза.",
+    "audio": "audio/감다_tts.mp3"
+  },
+  {
+    "word": "처음",
+    "translation": "начало",
+    "transcription": "cheoeum",
+    "description": "стартовая часть процесса или периода",
+    "audio": "audio/처음_tts.mp3"
+  },
+  {
+    "word": "정문",
+    "translation": "главные ворота",
+    "transcription": "jeongmun",
+    "description": "основной вход в учреждение",
+    "audio": "audio/정문_tts.mp3"
+  },
+  {
+    "word": "국립",
+    "translation": "государственный",
+    "transcription": "гун-нип",
+    "description": "Основанный государством, национальный.",
+    "audio": "audio/국립_tts.mp3"
+  },
+  {
+    "word": "장마철",
+    "translation": "пора дождей",
+    "transcription": "jangmacheol",
+    "description": "сезон, когда идут затяжные дожди",
+    "audio": "audio/장마철_tts.mp3"
+  },
+  {
+    "word": "티셔츠",
+    "translation": "футболка",
+    "transcription": "tisyeocheu",
+    "description": "повседневная рубашка с короткими рукавами",
+    "audio": "audio/티셔츠_tts.mp3"
+  },
+  {
+    "word": "사계절",
+    "translation": "четыре сезона",
+    "transcription": "sagyejeol",
+    "description": "Весна, лето, осень и зима.",
+    "audio": "audio/사계절_tts.mp3"
+  },
+  {
+    "word": "남학생",
+    "translation": "студент-юноша",
+    "transcription": "нам-хак-сэн",
+    "description": "Ученик или студент мужского пола.",
+    "audio": "audio/남학생_tts.mp3"
+  },
+  {
+    "word": "우산",
+    "translation": "зонт",
+    "transcription": "usan",
+    "description": "предмет для защиты от дождя",
+    "audio": "audio/우산_tts.mp3"
+  },
+  {
+    "word": "실례",
+    "translation": "извините; невежливость",
+    "transcription": "sillye",
+    "description": "выражение извинения за беспокойство",
+    "audio": "audio/실례_tts.mp3"
+  },
+  {
+    "word": "형",
+    "translation": "старший брат",
+    "transcription": "хён",
+    "description": "Старший брат по отношению к мужчине.",
+    "audio": "audio/형_tts.mp3"
+  },
+  {
+    "word": "집",
+    "translation": "дом",
+    "transcription": "jip",
+    "description": "место, где живёт человек или семья",
+    "audio": "audio/집_tts.mp3"
+  },
+  {
+    "word": "고장",
+    "translation": "поломка",
+    "transcription": "ко-джан",
+    "description": "Состояние неисправности оборудования или механизма.",
+    "audio": "audio/고장_tts.mp3"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "word": "목",
+    "translation": "шея",
+    "transcription": "mok",
+    "description": "Часть тела, соединяющая голову и туловище.",
+    "audio": "audio/목_tts.mp3"
+  },
+  {
+    "word": "라면",
+    "translation": "рамён",
+    "transcription": "ramyeon",
+    "description": "Корейская лапша быстрого приготовления.",
+    "audio": "audio/라면_tts.mp3"
+  },
+  {
+    "word": "손수건",
+    "translation": "носовой платок",
+    "transcription": "sonsugeon",
+    "description": "небольшой платок для лица и рук",
+    "audio": "audio/손수건_tts.mp3"
+  },
+  {
+    "word": "시작",
+    "translation": "начало",
+    "transcription": "sijak",
+    "description": "момент, когда что-то начинается",
+    "audio": "audio/시작_tts.mp3"
+  },
+  {
+    "word": "사",
+    "translation": "четыре",
+    "transcription": "sa",
+    "description": "Число 4.",
+    "audio": "audio/사_tts.mp3"
+  },
+  {
+    "word": "죽다",
+    "translation": "умирать",
+    "transcription": "jukda",
+    "description": "прекращать жить",
+    "audio": "audio/죽다_tts.mp3"
+  },
+  {
+    "word": "시간",
+    "translation": "время",
+    "transcription": "sigan",
+    "description": "протяжённость или момент событий",
+    "audio": "audio/시간_tts.mp3"
+  },
+  {
+    "word": "형님",
+    "translation": "уважаемый старший брат",
+    "transcription": "хённим",
+    "description": "Почтительное обращение к старшему брату или старшему мужчине.",
+    "audio": "audio/형님_tts.mp3"
+  },
+  {
+    "word": "노트",
+    "translation": "тетрадь; блокнот",
+    "transcription": "но-ты",
+    "description": "Тетрадь или записная книжка для заметок.",
+    "audio": "audio/노트_tts.mp3"
+  },
+  {
+    "word": "그렇다",
+    "translation": "таков",
+    "transcription": "кырот-та",
+    "description": "Подтверждение, что дело обстоит именно так.",
+    "audio": "audio/그렇다_tts.mp3"
+  },
+  {
+    "word": "손님",
+    "translation": "гость; клиент",
+    "transcription": "sonnim",
+    "description": "посетитель или покупатель",
+    "audio": "audio/손님_tts.mp3"
+  },
+  {
+    "word": "잘못",
+    "translation": "ошибка; неверно",
+    "transcription": "jalmot",
+    "description": "неправильное действие или вина",
+    "audio": "audio/잘못_tts.mp3"
+  },
+  {
+    "word": "넷",
+    "translation": "четыре",
+    "transcription": "нет",
+    "description": "Число 4 в счётной форме.",
+    "audio": "audio/넷_tts.mp3"
+  },
+  {
+    "word": "고추장",
+    "translation": "кочхуджан",
+    "transcription": "ко-чху-джан",
+    "description": "Острая паста из красного перца, ферментированная.",
+    "audio": "audio/고추장_tts.mp3"
+  },
+  {
+    "word": "얼음",
+    "translation": "лёд",
+    "transcription": "eoreum",
+    "description": "замёрзшая вода",
+    "audio": "audio/얼음_tts.mp3"
+  },
+  {
+    "word": "맞습니다",
+    "translation": "верно",
+    "transcription": "matsseumnida",
+    "description": "Вежливое подтверждение правильности.",
+    "audio": "audio/맞습니다_tts.mp3"
+  },
+  {
+    "word": "가을",
+    "translation": "осень",
+    "transcription": "каыль",
+    "description": "Время года между летом и зимой.",
+    "audio": "audio/가을_tts.mp3"
+  },
+  {
+    "word": "친구",
+    "translation": "друг",
+    "transcription": "chingu",
+    "description": "близкий знакомый, с которым поддерживают дружбу",
+    "audio": "audio/친구_tts.mp3"
+  },
+  {
+    "word": "고맙습니다",
+    "translation": "спасибо",
+    "transcription": "ко-мап-ссым-ни-да",
+    "description": "Учтивое выражение благодарности.",
+    "audio": "audio/고맙습니다_tts.mp3"
+  },
+  {
+    "word": "짓다",
+    "translation": "строить",
+    "transcription": "jitda",
+    "description": "возводить здание или создавать что-либо",
+    "audio": "audio/짓다_tts.mp3"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "word": "종이",
+    "translation": "бумага",
+    "transcription": "jongi",
+    "description": "тонкий листовой материал для письма",
+    "audio": "audio/종이_tts.mp3"
+  },
+  {
+    "word": "화장하다",
+    "translation": "краситься",
+    "transcription": "хваджанхада",
+    "description": "Наносить макияж или украшать лицо.",
+    "audio": "audio/화장하다_tts.mp3"
+  },
+  {
+    "word": "비행장",
+    "translation": "аэродром",
+    "transcription": "bihaengjang",
+    "description": "Место взлёта и посадки самолётов.",
+    "audio": "audio/비행장_tts.mp3"
+  },
+  {
+    "word": "언제나",
+    "translation": "всегда",
+    "transcription": "eonjena",
+    "description": "в любое время, постоянно",
+    "audio": "audio/언제나_tts.mp3"
+  },
+  {
+    "word": "그리다",
+    "translation": "рисовать",
+    "transcription": "кы-ри-да",
+    "description": "Создавать изображения линиями и красками.",
+    "audio": "audio/그리다_tts.mp3"
+  },
+  {
+    "word": "삼촌",
+    "translation": "дядя",
+    "transcription": "samchon",
+    "description": "Дядя по отцовской линии.",
+    "audio": "audio/삼촌_tts.mp3"
+  },
+  {
+    "word": "오징어",
+    "translation": "кальмар",
+    "transcription": "ojingeo",
+    "description": "морское головоногое животное",
+    "audio": "audio/오징어_tts.mp3"
+  },
+  {
+    "word": "색깔",
+    "translation": "окраска",
+    "transcription": "saekkkal",
+    "description": "Видимый цвет предмета или явления.",
+    "audio": "audio/색깔_tts.mp3"
+  },
+  {
+    "word": "회사",
+    "translation": "компания",
+    "transcription": "хвеса",
+    "description": "Организация или фирма, занимающаяся бизнесом.",
+    "audio": "audio/회사_tts.mp3"
+  },
+  {
+    "word": "늦잠",
+    "translation": "поздний сон; проспание",
+    "transcription": "ныт-чам",
+    "description": "Ситуация, когда просыпаются позже обычного.",
+    "audio": "audio/늦잠_tts.mp3"
+  },
+  {
+    "word": "멋있다",
+    "translation": "классный",
+    "transcription": "meositda",
+    "description": "Производящий приятное, стильное впечатление.",
+    "audio": "audio/멋있다_tts.mp3"
+  },
+  {
+    "word": "이제",
+    "translation": "теперь",
+    "transcription": "ije",
+    "description": "настоящий момент",
+    "audio": "audio/이제_tts.mp3"
+  },
+  {
+    "word": "똑같다",
+    "translation": "одинаковый",
+    "transcription": "ttokkatda",
+    "description": "Совершенно такой же, без отличий.",
+    "audio": "audio/똑같다_tts.mp3"
+  },
+  {
+    "word": "교통",
+    "translation": "транспорт",
+    "transcription": "кё-тхон",
+    "description": "Система дорожного движения и перевозок.",
+    "audio": "audio/교통_tts.mp3"
+  },
+  {
+    "word": "주다",
+    "translation": "давать",
+    "transcription": "juda",
+    "description": "передавать что-либо другому",
+    "audio": "audio/주다_tts.mp3"
+  },
+  {
+    "word": "오랫동안",
+    "translation": "долгое время",
+    "transcription": "oraettongan",
+    "description": "продолжительный период",
+    "audio": "audio/오랫동안_tts.mp3"
+  },
+  {
+    "word": "광고",
+    "translation": "реклама",
+    "transcription": "кван-го",
+    "description": "Объявление, продвигающее товар или услугу.",
+    "audio": "audio/광고_tts.mp3"
+  },
+  {
+    "word": "땀",
+    "translation": "пот",
+    "transcription": "ttam",
+    "description": "Выделяемая жидкость на коже при жаре или нагрузке.",
+    "audio": "audio/땀_tts.mp3"
+  },
+  {
+    "word": "시키다",
+    "translation": "заставлять; заказывать",
+    "transcription": "sikida",
+    "description": "поручать действие или заказывать еду",
+    "audio": "audio/시키다_tts.mp3"
+  },
+  {
+    "word": "간단하다",
+    "translation": "простой",
+    "transcription": "канданхада",
+    "description": "Легко выполнить или понять, несложный.",
+    "audio": "audio/간단하다_tts.mp3"
+  }
+]

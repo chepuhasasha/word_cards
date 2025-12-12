@@ -1,0 +1,142 @@
+[
+  {
+    "word": "햄버거",
+    "translation": "гамбургер",
+    "transcription": "хэмбого",
+    "description": "Булочка с котлетой и начинкой, популярный фастфуд.",
+    "audio": "audio/햄버거_tts.mp3"
+  },
+  {
+    "word": "중학교",
+    "translation": "средняя школа",
+    "transcription": "junghakgyo",
+    "description": "учебное заведение для подростков",
+    "audio": "audio/중학교_tts.mp3"
+  },
+  {
+    "word": "거실",
+    "translation": "гостиная",
+    "transcription": "кошиль",
+    "description": "Комната в доме для отдыха и приема гостей.",
+    "audio": "audio/거실_tts.mp3"
+  },
+  {
+    "word": "아내",
+    "translation": "жена",
+    "transcription": "anae",
+    "description": "супруга мужчины",
+    "audio": "audio/아내_tts.mp3"
+  },
+  {
+    "word": "귀",
+    "translation": "ухо",
+    "transcription": "кви",
+    "description": "Орган слуха человека или животного.",
+    "audio": "audio/귀_tts.mp3"
+  },
+  {
+    "word": "기사",
+    "translation": "статья; водитель",
+    "transcription": "ки-са",
+    "description": "Печатный материал или профессия водителя.",
+    "audio": "audio/기사_tts.mp3"
+  },
+  {
+    "word": "뒤쪽",
+    "translation": "задняя сторона",
+    "transcription": "тви-ччок",
+    "description": "Область, находящаяся позади чего-либо.",
+    "audio": "audio/뒤쪽_tts.mp3"
+  },
+  {
+    "word": "시다",
+    "translation": "кислый",
+    "transcription": "sida",
+    "description": "имеющий кислый вкус",
+    "audio": "audio/시다_tts.mp3"
+  },
+  {
+    "word": "계산하다",
+    "translation": "подсчитывать",
+    "transcription": "кесанхада",
+    "description": "Выполнять расчёты или оплачивать сумму.",
+    "audio": "audio/계산하다_tts.mp3"
+  },
+  {
+    "word": "아뇨",
+    "translation": "нет",
+    "transcription": "anyo",
+    "description": "простое отрицание в ответе",
+    "audio": "audio/아뇨_tts.mp3"
+  },
+  {
+    "word": "입원하다",
+    "translation": "лечь в больницу",
+    "transcription": "ibwonhada",
+    "description": "поступать на стационарное лечение",
+    "audio": "audio/입원하다_tts.mp3"
+  },
+  {
+    "word": "더",
+    "translation": "ещё; больше",
+    "transcription": "до",
+    "description": "Используется для выражения увеличения количества или степени.",
+    "audio": "audio/더_tts.mp3"
+  },
+  {
+    "word": "빨다",
+    "translation": "стирать",
+    "transcription": "ppalda",
+    "description": "Мыть или сосать; часто про стирку белья.",
+    "audio": "audio/빨다_tts.mp3"
+  },
+  {
+    "word": "날짜",
+    "translation": "дата",
+    "transcription": "наль-джа",
+    "description": "Число и месяц календаря.",
+    "audio": "audio/날짜_tts.mp3"
+  },
+  {
+    "word": "저것",
+    "translation": "вон то",
+    "transcription": "jeogeot",
+    "description": "то, что находится на удалении",
+    "audio": "audio/저것_tts.mp3"
+  },
+  {
+    "word": "마흔",
+    "translation": "сорок",
+    "transcription": "maheun",
+    "description": "Числительное 40 в корейской системе.",
+    "audio": "audio/마흔_tts.mp3"
+  },
+  {
+    "word": "미터",
+    "translation": "метр",
+    "transcription": "miteo",
+    "description": "Единица длины международной системы.",
+    "audio": "audio/미터_tts.mp3"
+  },
+  {
+    "word": "붓다",
+    "translation": "лить",
+    "transcription": "butda",
+    "description": "Наливать жидкость; также отекать.",
+    "audio": "audio/붓다_tts.mp3"
+  },
+  {
+    "word": "토요일",
+    "translation": "суббота",
+    "transcription": "toyoil",
+    "description": "шестой день недели",
+    "audio": "audio/토요일_tts.mp3"
+  },
+  {
+    "word": "병원",
+    "translation": "больница",
+    "transcription": "byeongwon",
+    "description": "Медицинское учреждение для лечения пациентов.",
+    "audio": "audio/병원_tts.mp3"
+  }
+]

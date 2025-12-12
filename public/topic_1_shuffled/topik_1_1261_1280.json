@@ -1,0 +1,142 @@
+[
+  {
+    "word": "에어컨",
+    "translation": "кондиционер",
+    "transcription": "eeokeon",
+    "description": "устройство для охлаждения и вентиляции воздуха",
+    "audio": "audio/에어컨_tts.mp3"
+  },
+  {
+    "word": "싱겁다",
+    "translation": "пресный",
+    "transcription": "singgeopda",
+    "description": "недостаточно солёный или безвкусный",
+    "audio": "audio/싱겁다_tts.mp3"
+  },
+  {
+    "word": "도와주다",
+    "translation": "помогать",
+    "transcription": "до-ва-чу-да",
+    "description": "Оказывать помощь или поддержку кому-либо.",
+    "audio": "audio/도와주다_tts.mp3"
+  },
+  {
+    "word": "화내다",
+    "translation": "злиться",
+    "transcription": "хванэда",
+    "description": "Проявлять раздражение или гнев наружу.",
+    "audio": "audio/화내다_tts.mp3"
+  },
+  {
+    "word": "소금",
+    "translation": "соль",
+    "transcription": "sogeum",
+    "description": "поваренная соль как приправа",
+    "audio": "audio/소금_tts.mp3"
+  },
+  {
+    "word": "비누",
+    "translation": "мыло",
+    "transcription": "binu",
+    "description": "Средство для мытья и чистки кожи.",
+    "audio": "audio/비누_tts.mp3"
+  },
+  {
+    "word": "이름",
+    "translation": "имя",
+    "transcription": "ireum",
+    "description": "личное имя человека",
+    "audio": "audio/이름_tts.mp3"
+  },
+  {
+    "word": "도착",
+    "translation": "прибытие",
+    "transcription": "до-чхак",
+    "description": "Момент, когда кто-то или что-то прибывает в пункт назначения.",
+    "audio": "audio/도착_tts.mp3"
+  },
+  {
+    "word": "겨울",
+    "translation": "зима",
+    "transcription": "кёуль",
+    "description": "Холодное время года между осенью и весной.",
+    "audio": "audio/겨울_tts.mp3"
+  },
+  {
+    "word": "잊다",
+    "translation": "забывать",
+    "transcription": "itda",
+    "description": "не помнить о чем-либо",
+    "audio": "audio/잊다_tts.mp3"
+  },
+  {
+    "word": "고기",
+    "translation": "мясо",
+    "transcription": "ко-ги",
+    "description": "Пищевой продукт животного происхождения.",
+    "audio": "audio/고기_tts.mp3"
+  },
+  {
+    "word": "샌드위치",
+    "translation": "сэндвич",
+    "transcription": "saendeuwichi",
+    "description": "Закуска из двух ломтиков хлеба с начинкой.",
+    "audio": "audio/샌드위치_tts.mp3"
+  },
+  {
+    "word": "여덟",
+    "translation": "восемь",
+    "transcription": "yeodeol",
+    "description": "число 8 в корейской счётной системе",
+    "audio": "audio/여덟_tts.mp3"
+  },
+  {
+    "word": "삼거리",
+    "translation": "т-образный перекрёсток",
+    "transcription": "samgeori",
+    "description": "Перекрёсток трёх дорог.",
+    "audio": "audio/삼거리_tts.mp3"
+  },
+  {
+    "word": "늘다",
+    "translation": "увеличиваться; расти",
+    "transcription": "ныль-да",
+    "description": "Становиться больше по количеству или уровню.",
+    "audio": "audio/늘다_tts.mp3"
+  },
+  {
+    "word": "메시지",
+    "translation": "сообщение",
+    "transcription": "mesiji",
+    "description": "Текст или устная информация, передаваемая кому-то.",
+    "audio": "audio/메시지_tts.mp3"
+  },
+  {
+    "word": "종업원",
+    "translation": "сотрудник; официант",
+    "transcription": "jongeobwon",
+    "description": "работник сферы обслуживания",
+    "audio": "audio/종업원_tts.mp3"
+  },
+  {
+    "word": "돼지고기",
+    "translation": "свинина",
+    "transcription": "твэ-джи-коги",
+    "description": "Мясо свиньи, используемое в блюдах.",
+    "audio": "audio/돼지고기_tts.mp3"
+  },
+  {
+    "word": "바로",
+    "translation": "сразу",
+    "transcription": "baro",
+    "description": "Немедленно, без задержки или точно.",
+    "audio": "audio/바로_tts.mp3"
+  },
+  {
+    "word": "부치다",
+    "translation": "отправлять",
+    "transcription": "buchida",
+    "description": "Посылать письмо или посылку; также жарить на масле.",
+    "audio": "audio/부치다_tts.mp3"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "word": "다시",
+    "translation": "снова; опять",
+    "transcription": "да-щи",
+    "description": "Повторение действия после паузы.",
+    "audio": "audio/다시_tts.mp3"
+  },
+  {
+    "word": "큰아버지",
+    "translation": "старший дядя",
+    "transcription": "keunabeoji",
+    "description": "старший брат отца",
+    "audio": "audio/큰아버지_tts.mp3"
+  },
+  {
+    "word": "산",
+    "translation": "гора",
+    "transcription": "san",
+    "description": "Высокий подъём рельефа с вершиной.",
+    "audio": "audio/산_tts.mp3"
+  },
+  {
+    "word": "여러",
+    "translation": "несколько",
+    "transcription": "yeoreo",
+    "description": "многие, разные по виду",
+    "audio": "audio/여러_tts.mp3"
+  },
+  {
+    "word": "시원하다",
+    "translation": "прохладный; освежающий",
+    "transcription": "siwonhada",
+    "description": "приятно прохладный или дающий облегчение",
+    "audio": "audio/시원하다_tts.mp3"
+  },
+  {
+    "word": "여든",
+    "translation": "восемьдесят",
+    "transcription": "yeodeun",
+    "description": "число 80",
+    "audio": "audio/여든_tts.mp3"
+  },
+  {
+    "word": "초대하다",
+    "translation": "приглашать",
+    "transcription": "chodaehada",
+    "description": "звать к себе на мероприятие или в гости",
+    "audio": "audio/초대하다_tts.mp3"
+  },
+  {
+    "word": "팔",
+    "translation": "рука",
+    "transcription": "pal",
+    "description": "конечность от плеча до кисти",
+    "audio": "audio/팔_tts.mp3"
+  },
+  {
+    "word": "주무시다",
+    "translation": "спать (вежл.)",
+    "transcription": "jumusida",
+    "description": "уважительная форма глагола \"спать\"",
+    "audio": "audio/주무시다_tts.mp3"
+  },
+  {
+    "word": "씨",
+    "translation": "семя; господин",
+    "transcription": "ssi",
+    "description": "зерно для посадки или уважительное обращение",
+    "audio": "audio/씨_tts.mp3"
+  },
+  {
+    "word": "오랜만",
+    "translation": "спустя долгое время",
+    "transcription": "oraenman",
+    "description": "после значительного промежутка",
+    "audio": "audio/오랜만_tts.mp3"
+  },
+  {
+    "word": "소식",
+    "translation": "новости",
+    "transcription": "sosik",
+    "description": "сведения или сообщения о событиях",
+    "audio": "audio/소식_tts.mp3"
+  },
+  {
+    "word": "누르다",
+    "translation": "нажимать",
+    "transcription": "ну-ры-да",
+    "description": "Прилагать давление пальцем или рукой.",
+    "audio": "audio/누르다_tts.mp3"
+  },
+  {
+    "word": "미리",
+    "translation": "заранее",
+    "transcription": "miri",
+    "description": "До наступления события, предварительно.",
+    "audio": "audio/미리_tts.mp3"
+  },
+  {
+    "word": "설탕",
+    "translation": "сахар",
+    "transcription": "seoltang",
+    "description": "кристаллический сладкий продукт",
+    "audio": "audio/설탕_tts.mp3"
+  },
+  {
+    "word": "퍼센트",
+    "translation": "процент",
+    "transcription": "peosenteu",
+    "description": "одна сотая часть целого",
+    "audio": "audio/퍼센트_tts.mp3"
+  },
+  {
+    "word": "잠자다",
+    "translation": "спать",
+    "transcription": "jamjada",
+    "description": "находиться в состоянии сна",
+    "audio": "audio/잠자다_tts.mp3"
+  },
+  {
+    "word": "중식",
+    "translation": "китайская кухня",
+    "transcription": "jungsik",
+    "description": "блюда, приготовленные в китайском стиле",
+    "audio": "audio/중식_tts.mp3"
+  },
+  {
+    "word": "일월",
+    "translation": "январь",
+    "transcription": "irwol",
+    "description": "первый месяц года",
+    "audio": "audio/일월_tts.mp3"
+  },
+  {
+    "word": "연습",
+    "translation": "упражнение",
+    "transcription": "yeonseup",
+    "description": "тренировка для закрепления навыка",
+    "audio": "audio/연습_tts.mp3"
+  }
+]

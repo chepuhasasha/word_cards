@@ -1,0 +1,142 @@
+[
+  {
+    "word": "속",
+    "translation": "внутри",
+    "transcription": "sok",
+    "description": "внутреннее пространство чего-либо",
+    "audio": "audio/속_tts.mp3"
+  },
+  {
+    "word": "오늘",
+    "translation": "сегодня",
+    "transcription": "oneul",
+    "description": "текущий день",
+    "audio": "audio/오늘_tts.mp3"
+  },
+  {
+    "word": "하지만",
+    "translation": "однако",
+    "transcription": "hajiman",
+    "description": "союз, вводящий противопоставление",
+    "audio": "audio/하지만_tts.mp3"
+  },
+  {
+    "word": "밝다",
+    "translation": "светлый",
+    "transcription": "bakda",
+    "description": "Ярко освещённый или радостный по настроению.",
+    "audio": "audio/밝다_tts.mp3"
+  },
+  {
+    "word": "한글",
+    "translation": "хангыль",
+    "transcription": "хангыль",
+    "description": "Корейская азбука, созданная в XV веке.",
+    "audio": "audio/한글_tts.mp3"
+  },
+  {
+    "word": "걱정",
+    "translation": "беспокойство",
+    "transcription": "кокчжон",
+    "description": "Чувство тревоги или волнения о чем-либо.",
+    "audio": "audio/걱정_tts.mp3"
+  },
+  {
+    "word": "현금",
+    "translation": "наличные",
+    "transcription": "хёнгым",
+    "description": "Деньги в виде купюр или монет, а не на счёте.",
+    "audio": "audio/현금_tts.mp3"
+  },
+  {
+    "word": "조선어",
+    "translation": "чосон-о (корейский язык)",
+    "transcription": "joseoneo",
+    "description": "другое обозначение корейского языка в КНДР",
+    "audio": "audio/조선어_tts.mp3"
+  },
+  {
+    "word": "피",
+    "translation": "кровь",
+    "transcription": "pi",
+    "description": "жидкость, циркулирующая по сосудам организма",
+    "audio": "audio/피_tts.mp3"
+  },
+  {
+    "word": "블라우스",
+    "translation": "блузка",
+    "transcription": "beullaauseu",
+    "description": "Лёгкая женская рубашка.",
+    "audio": "audio/블라우스_tts.mp3"
+  },
+  {
+    "word": "이쪽",
+    "translation": "сюда",
+    "transcription": "ijjok",
+    "description": "направление к говорящему или эта сторона",
+    "audio": "audio/이쪽_tts.mp3"
+  },
+  {
+    "word": "행복",
+    "translation": "счастье",
+    "transcription": "хэнбок",
+    "description": "Состояние радости и удовлетворения жизнью.",
+    "audio": "audio/행복_tts.mp3"
+  },
+  {
+    "word": "제목",
+    "translation": "заголовок",
+    "transcription": "jemok",
+    "description": "название текста или произведения",
+    "audio": "audio/제목_tts.mp3"
+  },
+  {
+    "word": "지난달",
+    "translation": "прошлый месяц",
+    "transcription": "jinandal",
+    "description": "месяц, который был перед текущим",
+    "audio": "audio/지난달_tts.mp3"
+  },
+  {
+    "word": "공책",
+    "translation": "тетрадь",
+    "transcription": "кон-чхэк",
+    "description": "Блок листов для записей или учебных упражнений.",
+    "audio": "audio/공책_tts.mp3"
+  },
+  {
+    "word": "음악가",
+    "translation": "музыкант",
+    "transcription": "eumakga",
+    "description": "человек, создающий или исполняющий музыку",
+    "audio": "audio/음악가_tts.mp3"
+  },
+  {
+    "word": "주머니",
+    "translation": "карман",
+    "transcription": "jumeoni",
+    "description": "небольшой мешочек в одежде для хранения",
+    "audio": "audio/주머니_tts.mp3"
+  },
+  {
+    "word": "나무",
+    "translation": "дерево",
+    "transcription": "на-му",
+    "description": "Многолетнее растение с древесным стволом.",
+    "audio": "audio/나무_tts.mp3"
+  },
+  {
+    "word": "카메라",
+    "translation": "камера",
+    "transcription": "kamera",
+    "description": "устройство для фотографирования или видеосъёмки",
+    "audio": "audio/카메라_tts.mp3"
+  },
+  {
+    "word": "인구",
+    "translation": "население",
+    "transcription": "ingu",
+    "description": "численность жителей страны или региона",
+    "audio": "audio/인구_tts.mp3"
+  }
+]

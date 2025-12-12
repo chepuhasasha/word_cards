@@ -1,0 +1,142 @@
+[
+  {
+    "word": "큰어머니",
+    "translation": "тетя",
+    "transcription": "keuneomeoni",
+    "description": "жена старшего брата отца",
+    "audio": "audio/큰어머니_tts.mp3"
+  },
+  {
+    "word": "휴일",
+    "translation": "выходной день",
+    "transcription": "хюиль",
+    "description": "День без работы или учёбы, часто праздничный.",
+    "audio": "audio/휴일_tts.mp3"
+  },
+  {
+    "word": "수학",
+    "translation": "математика",
+    "transcription": "suhak",
+    "description": "наука о числах и формах",
+    "audio": "audio/수학_tts.mp3"
+  },
+  {
+    "word": "가구",
+    "translation": "мебель",
+    "transcription": "кагу",
+    "description": "Предметы обстановки дома или офиса.",
+    "audio": "audio/가구_tts.mp3"
+  },
+  {
+    "word": "양복",
+    "translation": "костюм",
+    "transcription": "yangbok",
+    "description": "деловой мужской костюм с пиджаком",
+    "audio": "audio/양복_tts.mp3"
+  },
+  {
+    "word": "내일",
+    "translation": "завтра",
+    "transcription": "нэ-иль",
+    "description": "Следующий день после сегодняшнего.",
+    "audio": "audio/내일_tts.mp3"
+  },
+  {
+    "word": "사십",
+    "translation": "сорок",
+    "transcription": "sasip",
+    "description": "Число 40.",
+    "audio": "audio/사십_tts.mp3"
+  },
+  {
+    "word": "외국어",
+    "translation": "иностранный язык",
+    "transcription": "oegugeo",
+    "description": "язык другой страны",
+    "audio": "audio/외국어_tts.mp3"
+  },
+  {
+    "word": "이월",
+    "translation": "февраль",
+    "transcription": "iwol",
+    "description": "второй месяц года",
+    "audio": "audio/이월_tts.mp3"
+  },
+  {
+    "word": "사과",
+    "translation": "яблоко",
+    "transcription": "sagwa",
+    "description": "Фрукт с сочной мякотью; также «извинение».",
+    "audio": "audio/사과_tts.mp3"
+  },
+  {
+    "word": "호텔",
+    "translation": "отель",
+    "transcription": "хотхель",
+    "description": "Гостиница, предоставляющая проживание и сервис.",
+    "audio": "audio/호텔_tts.mp3"
+  },
+  {
+    "word": "거기",
+    "translation": "там",
+    "transcription": "коги",
+    "description": "То место, о котором идет речь.",
+    "audio": "audio/거기_tts.mp3"
+  },
+  {
+    "word": "듣다",
+    "translation": "слушать",
+    "transcription": "тыт-та",
+    "description": "Воспринимать звуки или речь ушами.",
+    "audio": "audio/듣다_tts.mp3"
+  },
+  {
+    "word": "물",
+    "translation": "вода",
+    "transcription": "mul",
+    "description": "Жидкость без цвета и запаха, необходимая для жизни.",
+    "audio": "audio/물_tts.mp3"
+  },
+  {
+    "word": "다음해",
+    "translation": "следующий год",
+    "transcription": "да-ым-хэ",
+    "description": "Год, наступающий после нынешнего.",
+    "audio": "audio/다음해_tts.mp3"
+  },
+  {
+    "word": "조심하다",
+    "translation": "быть осторожным",
+    "transcription": "josimhada",
+    "description": "действовать осмотрительно, избегая опасности",
+    "audio": "audio/조심하다_tts.mp3"
+  },
+  {
+    "word": "무리",
+    "translation": "чрезмерность",
+    "transcription": "muri",
+    "description": "Перегрузка или чрезмерное усилие; также группа.",
+    "audio": "audio/무리_tts.mp3"
+  },
+  {
+    "word": "필통",
+    "translation": "пенал",
+    "transcription": "piltong",
+    "description": "футляр для письменных принадлежностей",
+    "audio": "audio/필통_tts.mp3"
+  },
+  {
+    "word": "매일",
+    "translation": "каждый день",
+    "transcription": "maeil",
+    "description": "Происходящее ежедневно без пропусков.",
+    "audio": "audio/매일_tts.mp3"
+  },
+  {
+    "word": "공연",
+    "translation": "выступление",
+    "transcription": "кон-ён",
+    "description": "Показ спектакля, концерта или другого номера перед публикой.",
+    "audio": "audio/공연_tts.mp3"
+  }
+]

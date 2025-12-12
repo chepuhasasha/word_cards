@@ -1,0 +1,142 @@
+[
+  {
+    "word": "장마",
+    "translation": "сезон дождей",
+    "transcription": "jangma",
+    "description": "длительный летний период ливней",
+    "audio": "audio/장마_tts.mp3"
+  },
+  {
+    "word": "냉면",
+    "translation": "нэнмён",
+    "transcription": "нэн-мён",
+    "description": "Холодная лапша в бульоне или соусе.",
+    "audio": "audio/냉면_tts.mp3"
+  },
+  {
+    "word": "나라",
+    "translation": "страна",
+    "transcription": "на-ра",
+    "description": "Государство или территория народа.",
+    "audio": "audio/나라_tts.mp3"
+  },
+  {
+    "word": "이번",
+    "translation": "на этот раз",
+    "transcription": "ibeon",
+    "description": "данный раз или случай",
+    "audio": "audio/이번_tts.mp3"
+  },
+  {
+    "word": "오렌지",
+    "translation": "апельсин",
+    "transcription": "orenji",
+    "description": "цитрусовый фрукт",
+    "audio": "audio/오렌지_tts.mp3"
+  },
+  {
+    "word": "회의",
+    "translation": "совещание",
+    "transcription": "хвыйи",
+    "description": "Собрание для обсуждения и принятия решений.",
+    "audio": "audio/회의_tts.mp3"
+  },
+  {
+    "word": "아이",
+    "translation": "ребёнок",
+    "transcription": "ai",
+    "description": "девочка или мальчик дошкольного возраста",
+    "audio": "audio/아이_tts.mp3"
+  },
+  {
+    "word": "엽서",
+    "translation": "открытка",
+    "transcription": "yeopseo",
+    "description": "почтовая карточка с изображением",
+    "audio": "audio/엽서_tts.mp3"
+  },
+  {
+    "word": "마치다",
+    "translation": "заканчивать",
+    "transcription": "machida",
+    "description": "Доводить дело до завершения.",
+    "audio": "audio/마치다_tts.mp3"
+  },
+  {
+    "word": "가슴",
+    "translation": "грудь",
+    "transcription": "касым",
+    "description": "Грудная клетка или область груди.",
+    "audio": "audio/가슴_tts.mp3"
+  },
+  {
+    "word": "금방",
+    "translation": "скоро",
+    "transcription": "кым-бан",
+    "description": "Через мгновение или только что.",
+    "audio": "audio/금방_tts.mp3"
+  },
+  {
+    "word": "음료수",
+    "translation": "напиток",
+    "transcription": "eumnyosu",
+    "description": "безалкогольное питьё",
+    "audio": "audio/음료수_tts.mp3"
+  },
+  {
+    "word": "서류",
+    "translation": "документы",
+    "transcription": "seoryu",
+    "description": "Бумаги с официальной информацией.",
+    "audio": "audio/서류_tts.mp3"
+  },
+  {
+    "word": "저희",
+    "translation": "мы (скромн.)",
+    "transcription": "jeohui",
+    "description": "самоуничижительное местоимение для группы говорящего",
+    "audio": "audio/저희_tts.mp3"
+  },
+  {
+    "word": "알다",
+    "translation": "знать",
+    "transcription": "alda",
+    "description": "обладать знаниями о факте",
+    "audio": "audio/알다_tts.mp3"
+  },
+  {
+    "word": "약간",
+    "translation": "немного; слегка",
+    "transcription": "yakgan",
+    "description": "небольшая степень или количество",
+    "audio": "audio/약간_tts.mp3"
+  },
+  {
+    "word": "표",
+    "translation": "билет",
+    "transcription": "pyo",
+    "description": "документ для проезда или входа",
+    "audio": "audio/표_tts.mp3"
+  },
+  {
+    "word": "해외",
+    "translation": "зарубежье",
+    "transcription": "хэве",
+    "description": "Иностранные страны, находящиеся за границей.",
+    "audio": "audio/해외_tts.mp3"
+  },
+  {
+    "word": "병",
+    "translation": "болезнь",
+    "transcription": "byeong",
+    "description": "Недуг или состояние нездоровья; также счётчик бутылок.",
+    "audio": "audio/병_tts.mp3"
+  },
+  {
+    "word": "말씀",
+    "translation": "речь (уваж.)",
+    "transcription": "malsseum",
+    "description": "Вежливое обозначение слов или высказываний.",
+    "audio": "audio/말씀_tts.mp3"
+  }
+]

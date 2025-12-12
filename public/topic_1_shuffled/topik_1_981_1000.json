@@ -1,0 +1,142 @@
+[
+  {
+    "word": "위치",
+    "translation": "расположение",
+    "transcription": "wichi",
+    "description": "место нахождения",
+    "audio": "audio/위치_tts.mp3"
+  },
+  {
+    "word": "차다",
+    "translation": "ударять ногой",
+    "transcription": "chada",
+    "description": "бить или отбрасывать что-либо ногой",
+    "audio": "audio/차다_tts.mp3"
+  },
+  {
+    "word": "제가",
+    "translation": "я (вежл., подлеж.)",
+    "transcription": "jega",
+    "description": "форма местоимения \"я\" в роли подлежащего",
+    "audio": "audio/제가_tts.mp3"
+  },
+  {
+    "word": "가끔",
+    "translation": "иногда",
+    "transcription": "каккым",
+    "description": "Случается время от времени.",
+    "audio": "audio/가끔_tts.mp3"
+  },
+  {
+    "word": "어울리다",
+    "translation": "подходить",
+    "transcription": "eoulrida",
+    "description": "хорошо сочетаться или быть к лицу",
+    "audio": "audio/어울리다_tts.mp3"
+  },
+  {
+    "word": "봄",
+    "translation": "весна",
+    "transcription": "bom",
+    "description": "Время года после зимы с тёплой погодой.",
+    "audio": "audio/봄_tts.mp3"
+  },
+  {
+    "word": "차리다",
+    "translation": "накрывать стол",
+    "transcription": "charida",
+    "description": "готовить угощение и расставлять посуду",
+    "audio": "audio/차리다_tts.mp3"
+  },
+  {
+    "word": "사촌",
+    "translation": "двоюродный брат",
+    "transcription": "sachon",
+    "description": "Двоюродный брат или сестра.",
+    "audio": "audio/사촌_tts.mp3"
+  },
+  {
+    "word": "소리",
+    "translation": "звук; голос",
+    "transcription": "sori",
+    "description": "любые слышимые колебания или речь",
+    "audio": "audio/소리_tts.mp3"
+  },
+  {
+    "word": "어떻게",
+    "translation": "как",
+    "transcription": "eotteoke",
+    "description": "вопрос о способе действия",
+    "audio": "audio/어떻게_tts.mp3"
+  },
+  {
+    "word": "오래간만",
+    "translation": "давненько",
+    "transcription": "oraeganman",
+    "description": "после долгого перерыва",
+    "audio": "audio/오래간만_tts.mp3"
+  },
+  {
+    "word": "가격",
+    "translation": "цена",
+    "transcription": "кагёк",
+    "description": "Стоимость товара или услуги.",
+    "audio": "audio/가격_tts.mp3"
+  },
+  {
+    "word": "고마웠습니다",
+    "translation": "был благодарен",
+    "transcription": "ко-ма-во-ссым-ни-да",
+    "description": "Вежливое выражение благодарности в прошедшем времени.",
+    "audio": "audio/고마웠습니다_tts.mp3"
+  },
+  {
+    "word": "기억하다",
+    "translation": "помнить",
+    "transcription": "ки-ок-ха-да",
+    "description": "Сохранять информацию в памяти.",
+    "audio": "audio/기억하다_tts.mp3"
+  },
+  {
+    "word": "옆",
+    "translation": "бок",
+    "transcription": "yeop",
+    "description": "сторона или место рядом",
+    "audio": "audio/옆_tts.mp3"
+  },
+  {
+    "word": "꽃",
+    "translation": "цветок",
+    "transcription": "ккоч",
+    "description": "Цветущая часть растения.",
+    "audio": "audio/꽃_tts.mp3"
+  },
+  {
+    "word": "대한민국",
+    "translation": "Республика Корея",
+    "transcription": "дэ-хан-мин-гук",
+    "description": "Официальное название Южной Кореи.",
+    "audio": "audio/대한민국_tts.mp3"
+  },
+  {
+    "word": "과자",
+    "translation": "сладости",
+    "transcription": "ква-джа",
+    "description": "Лёгкие снеки вроде печенья или крекеров.",
+    "audio": "audio/과자_tts.mp3"
+  },
+  {
+    "word": "미안합니다",
+    "translation": "извините",
+    "transcription": "mianhamnida",
+    "description": "Вежливая форма извинения.",
+    "audio": "audio/미안합니다_tts.mp3"
+  },
+  {
+    "word": "빵",
+    "translation": "хлеб",
+    "transcription": "ppang",
+    "description": "Выпечка из теста, буханка или булочка.",
+    "audio": "audio/빵_tts.mp3"
+  }
+]

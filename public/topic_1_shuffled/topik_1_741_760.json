@@ -1,0 +1,142 @@
+[
+  {
+    "word": "비행기",
+    "translation": "самолёт",
+    "transcription": "bihaenggi",
+    "description": "Воздушное транспортное средство с крыльями.",
+    "audio": "audio/비행기_tts.mp3"
+  },
+  {
+    "word": "주사",
+    "translation": "укол; инъекция",
+    "transcription": "jusa",
+    "description": "введение лекарства шприцем",
+    "audio": "audio/주사_tts.mp3"
+  },
+  {
+    "word": "결정하다",
+    "translation": "принимать решение",
+    "transcription": "кёльчжонхада",
+    "description": "Определять выбор после раздумий.",
+    "audio": "audio/결정하다_tts.mp3"
+  },
+  {
+    "word": "도시",
+    "translation": "город",
+    "transcription": "до-си",
+    "description": "Крупный населённый пункт с развитой инфраструктурой.",
+    "audio": "audio/도시_tts.mp3"
+  },
+  {
+    "word": "계란",
+    "translation": "яйцо",
+    "transcription": "керан",
+    "description": "Пищевой продукт в скорлупе, с которым готовят блюда.",
+    "audio": "audio/계란_tts.mp3"
+  },
+  {
+    "word": "끝나다",
+    "translation": "заканчиваться",
+    "transcription": "ккыт-на-да",
+    "description": "Приходить к завершению или окончанию.",
+    "audio": "audio/끝나다_tts.mp3"
+  },
+  {
+    "word": "동생",
+    "translation": "младший брат/сестра",
+    "transcription": "тонг-сэн",
+    "description": "Младший родной брат или сестра.",
+    "audio": "audio/동생_tts.mp3"
+  },
+  {
+    "word": "드라마",
+    "translation": "дорама; сериал",
+    "transcription": "ды-ра-ма",
+    "description": "Телевизионный или онлайн-сериал, часто корейский.",
+    "audio": "audio/드라마_tts.mp3"
+  },
+  {
+    "word": "심하다",
+    "translation": "сильный; серьёзный",
+    "transcription": "simhada",
+    "description": "выраженный, чрезмерный по степени",
+    "audio": "audio/심하다_tts.mp3"
+  },
+  {
+    "word": "동아리",
+    "translation": "кружок; клуб",
+    "transcription": "то-га-ри",
+    "description": "Неформальная группа по интересам, обычно в учебном заведении.",
+    "audio": "audio/동아리_tts.mp3"
+  },
+  {
+    "word": "새로",
+    "translation": "заново",
+    "transcription": "saero",
+    "description": "Снова или в новом виде.",
+    "audio": "audio/새로_tts.mp3"
+  },
+  {
+    "word": "외롭다",
+    "translation": "одинокий",
+    "transcription": "oeropda",
+    "description": "испытывающий чувство одиночества",
+    "audio": "audio/외롭다_tts.mp3"
+  },
+  {
+    "word": "이집트",
+    "translation": "Египет",
+    "transcription": "ijipteu",
+    "description": "государство в северо-восточной Африке",
+    "audio": "audio/이집트_tts.mp3"
+  },
+  {
+    "word": "아까",
+    "translation": "только что; недавно",
+    "transcription": "akka",
+    "description": "момент чуть раньше настоящего",
+    "audio": "audio/아까_tts.mp3"
+  },
+  {
+    "word": "과학",
+    "translation": "наука",
+    "transcription": "ква-хак",
+    "description": "Сфера изучения природы и её закономерностей.",
+    "audio": "audio/과학_tts.mp3"
+  },
+  {
+    "word": "월드컵",
+    "translation": "чемпионат мира",
+    "transcription": "woldeukeop",
+    "description": "международный футбольный турнир",
+    "audio": "audio/월드컵_tts.mp3"
+  },
+  {
+    "word": "짐",
+    "translation": "багаж",
+    "transcription": "jim",
+    "description": "упакованные вещи для перевозки",
+    "audio": "audio/짐_tts.mp3"
+  },
+  {
+    "word": "관계",
+    "translation": "отношение",
+    "transcription": "кван-ге",
+    "description": "Связь или взаимное влияние между людьми или вещами.",
+    "audio": "audio/관계_tts.mp3"
+  },
+  {
+    "word": "술",
+    "translation": "алкоголь; спиртное",
+    "transcription": "sul",
+    "description": "напитки с содержанием алкоголя",
+    "audio": "audio/술_tts.mp3"
+  },
+  {
+    "word": "질문하다",
+    "translation": "задавать вопрос",
+    "transcription": "jilmunhada",
+    "description": "обращаться к кому-либо с просьбой разъяснить",
+    "audio": "audio/질문하다_tts.mp3"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "word": "사진기",
+    "translation": "фотоаппарат",
+    "transcription": "sajingi",
+    "description": "Устройство для съёмки фотографий.",
+    "audio": "audio/사진기_tts.mp3"
+  },
+  {
+    "word": "수박",
+    "translation": "арбуз",
+    "transcription": "subak",
+    "description": "крупная сладкая ягода с красной мякотью",
+    "audio": "audio/수박_tts.mp3"
+  },
+  {
+    "word": "열차",
+    "translation": "поезд",
+    "transcription": "yeolcha",
+    "description": "железнодорожный состав для перевозки",
+    "audio": "audio/열차_tts.mp3"
+  },
+  {
+    "word": "성함",
+    "translation": "имя (вежл.)",
+    "transcription": "seongham",
+    "description": "уважительное обращение к имени собеседника",
+    "audio": "audio/성함_tts.mp3"
+  },
+  {
+    "word": "당근",
+    "translation": "морковь",
+    "transcription": "тан-гын",
+    "description": "Овощ оранжевого цвета, используемый в салатах и блюдах.",
+    "audio": "audio/당근_tts.mp3"
+  },
+  {
+    "word": "그렇지만",
+    "translation": "но всё же",
+    "transcription": "кырот-чи-ман",
+    "description": "Уступка с последующим противопоставлением.",
+    "audio": "audio/그렇지만_tts.mp3"
+  },
+  {
+    "word": "산책",
+    "translation": "прогулка",
+    "transcription": "sanchaek",
+    "description": "Неспешное хождение для отдыха.",
+    "audio": "audio/산책_tts.mp3"
+  },
+  {
+    "word": "구십",
+    "translation": "девяносто",
+    "transcription": "гу-сим",
+    "description": "Число 90 при счёте.",
+    "audio": "audio/구십_tts.mp3"
+  },
+  {
+    "word": "구월",
+    "translation": "сентябрь",
+    "transcription": "гу-вол",
+    "description": "Девятый месяц года.",
+    "audio": "audio/구월_tts.mp3"
+  },
+  {
+    "word": "팔십",
+    "translation": "восемьдесят",
+    "transcription": "palsip",
+    "description": "число 80",
+    "audio": "audio/팔십_tts.mp3"
+  },
+  {
+    "word": "화장품",
+    "translation": "косметика",
+    "transcription": "хваджанпхум",
+    "description": "Средства для макияжа и ухода за кожей.",
+    "audio": "audio/화장품_tts.mp3"
+  },
+  {
+    "word": "민속촌",
+    "translation": "фольклорная деревня",
+    "transcription": "minsokchon",
+    "description": "Этнографический комплекс с традиционными домами.",
+    "audio": "audio/민속촌_tts.mp3"
+  },
+  {
+    "word": "춤",
+    "translation": "танец",
+    "transcription": "chum",
+    "description": "ритмичные движения под музыку",
+    "audio": "audio/춤_tts.mp3"
+  },
+  {
+    "word": "인상",
+    "translation": "впечатление",
+    "transcription": "insang",
+    "description": "ощущение или образ, полученный от кого-либо",
+    "audio": "audio/인상_tts.mp3"
+  },
+  {
+    "word": "데리다",
+    "translation": "брать с собой; приводить",
+    "transcription": "дэ-ри-да",
+    "description": "Вести или сопровождать кого-то куда-либо.",
+    "audio": "audio/데리다_tts.mp3"
+  },
+  {
+    "word": "칼",
+    "translation": "нож",
+    "transcription": "kal",
+    "description": "инструмент с лезвием для резки",
+    "audio": "audio/칼_tts.mp3"
+  },
+  {
+    "word": "씹다",
+    "translation": "жевать",
+    "transcription": "ssipda",
+    "description": "перемалывать пищу зубами",
+    "audio": "audio/씹다_tts.mp3"
+  },
+  {
+    "word": "쓰기",
+    "translation": "письмо; диктант",
+    "transcription": "sseugi",
+    "description": "написание текста или упражнение по письму",
+    "audio": "audio/쓰기_tts.mp3"
+  },
+  {
+    "word": "신문",
+    "translation": "газета",
+    "transcription": "sinmun",
+    "description": "периодическое печатное издание",
+    "audio": "audio/신문_tts.mp3"
+  },
+  {
+    "word": "봉투",
+    "translation": "конверт",
+    "transcription": "bongtu",
+    "description": "Бумажный пакет для писем или денег.",
+    "audio": "audio/봉투_tts.mp3"
+  }
+]

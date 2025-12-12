@@ -1,0 +1,142 @@
+[
+  {
+    "word": "강아지",
+    "translation": "щенок",
+    "transcription": "каначжи",
+    "description": "Молодая собака, щенок.",
+    "audio": "audio/강아지_tts.mp3"
+  },
+  {
+    "word": "걸다",
+    "translation": "вешать",
+    "transcription": "колда",
+    "description": "Подвешивать предмет на крюк или опору; также ставить ставку.",
+    "audio": "audio/걸다_tts.mp3"
+  },
+  {
+    "word": "팔월",
+    "translation": "август",
+    "transcription": "palwol",
+    "description": "восьмой месяц года",
+    "audio": "audio/팔월_tts.mp3"
+  },
+  {
+    "word": "일본어",
+    "translation": "японский язык",
+    "transcription": "ilboneo",
+    "description": "официальный язык Японии",
+    "audio": "audio/일본어_tts.mp3"
+  },
+  {
+    "word": "맛없다",
+    "translation": "невкусный",
+    "transcription": "mateopda",
+    "description": "Не приносить удовольствия на вкус.",
+    "audio": "audio/맛없다_tts.mp3"
+  },
+  {
+    "word": "쉬다",
+    "translation": "отдыхать",
+    "transcription": "swida",
+    "description": "делать перерыв для восстановления сил",
+    "audio": "audio/쉬다_tts.mp3"
+  },
+  {
+    "word": "학",
+    "translation": "учёба",
+    "transcription": "hak",
+    "description": "наука или учебный процесс",
+    "audio": "audio/학_tts.mp3"
+  },
+  {
+    "word": "메뉴",
+    "translation": "меню",
+    "transcription": "menyu",
+    "description": "Список блюд или команд для выбора.",
+    "audio": "audio/메뉴_tts.mp3"
+  },
+  {
+    "word": "등산",
+    "translation": "восхождение на гору",
+    "transcription": "тынг-сан",
+    "description": "Поход или прогулка по горам.",
+    "audio": "audio/등산_tts.mp3"
+  },
+  {
+    "word": "휴지",
+    "translation": "бумажная салфетка",
+    "transcription": "хюджи",
+    "description": "Тонкая бумага для вытирания рук или носа.",
+    "audio": "audio/휴지_tts.mp3"
+  },
+  {
+    "word": "이해",
+    "translation": "понимание",
+    "transcription": "ihae",
+    "description": "способность осознавать смысл",
+    "audio": "audio/이해_tts.mp3"
+  },
+  {
+    "word": "움직이다",
+    "translation": "двигаться",
+    "transcription": "umjigida",
+    "description": "менять положение или место",
+    "audio": "audio/움직이다_tts.mp3"
+  },
+  {
+    "word": "비슷하다",
+    "translation": "похожий",
+    "transcription": "biseuthada",
+    "description": "Иметь сходство или быть подобным.",
+    "audio": "audio/비슷하다_tts.mp3"
+  },
+  {
+    "word": "시청",
+    "translation": "мэрия",
+    "transcription": "sicheong",
+    "description": "городская администрация",
+    "audio": "audio/시청_tts.mp3"
+  },
+  {
+    "word": "외출하다",
+    "translation": "выходить",
+    "transcription": "oechulhada",
+    "description": "ненадолго покидать дом или офис",
+    "audio": "audio/외출하다_tts.mp3"
+  },
+  {
+    "word": "어저께",
+    "translation": "вчера",
+    "transcription": "eojeokke",
+    "description": "день, непосредственно предшествующий сегодняшнему",
+    "audio": "audio/어저께_tts.mp3"
+  },
+  {
+    "word": "버스",
+    "translation": "автобус",
+    "transcription": "beoseu",
+    "description": "Общественный транспорт на колёсах по маршруту.",
+    "audio": "audio/버스_tts.mp3"
+  },
+  {
+    "word": "면도",
+    "translation": "бритьё",
+    "transcription": "myeondo",
+    "description": "Процесс удаления волос бритвой.",
+    "audio": "audio/면도_tts.mp3"
+  },
+  {
+    "word": "팔리다",
+    "translation": "продаваться",
+    "transcription": "pallida",
+    "description": "находить покупателя, быть реализованным",
+    "audio": "audio/팔리다_tts.mp3"
+  },
+  {
+    "word": "공항",
+    "translation": "аэропорт",
+    "transcription": "кон-хан",
+    "description": "Комплекс для приёма и отправки самолётов.",
+    "audio": "audio/공항_tts.mp3"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "word": "삼계탕",
+    "translation": "самгетхан",
+    "transcription": "samgyetang",
+    "description": "Корейский суп из курицы с женьшенем и рисом.",
+    "audio": "audio/삼계탕_tts.mp3"
+  },
+  {
+    "word": "수첩",
+    "translation": "блокнот",
+    "transcription": "sucheop",
+    "description": "небольшая записная книжка",
+    "audio": "audio/수첩_tts.mp3"
+  },
+  {
+    "word": "시외",
+    "translation": "пригород; загород",
+    "transcription": "sioe",
+    "description": "территория за пределами города",
+    "audio": "audio/시외_tts.mp3"
+  },
+  {
+    "word": "전하다",
+    "translation": "передавать; сообщать",
+    "transcription": "jeonhada",
+    "description": "донести информацию или предмет другому",
+    "audio": "audio/전하다_tts.mp3"
+  },
+  {
+    "word": "들다",
+    "translation": "поднимать; входить",
+    "transcription": "тыль-да",
+    "description": "Брать в руки или заходить внутрь помещения.",
+    "audio": "audio/들다_tts.mp3"
+  },
+  {
+    "word": "이십",
+    "translation": "двадцать",
+    "transcription": "isip",
+    "description": "число 20",
+    "audio": "audio/이십_tts.mp3"
+  },
+  {
+    "word": "소화제",
+    "translation": "желудочные капли",
+    "transcription": "sohwaje",
+    "description": "лекарство, облегчающее пищеварение",
+    "audio": "audio/소화제_tts.mp3"
+  },
+  {
+    "word": "대화",
+    "translation": "беседа; диалог",
+    "transcription": "дэ-хва",
+    "description": "Разговор между двумя или несколькими людьми.",
+    "audio": "audio/대화_tts.mp3"
+  },
+  {
+    "word": "결과",
+    "translation": "результат",
+    "transcription": "кёльгва",
+    "description": "Итог или следствие каких-либо действий.",
+    "audio": "audio/결과_tts.mp3"
+  },
+  {
+    "word": "학원",
+    "translation": "учебный центр",
+    "transcription": "хагвон",
+    "description": "Частная академия или курсы, где дополнительно обучают различным предметам.",
+    "audio": "audio/학원_tts.mp3"
+  },
+  {
+    "word": "꿈",
+    "translation": "сон; мечта",
+    "transcription": "ккум",
+    "description": "Картины во сне или заветное желание.",
+    "audio": "audio/꿈_tts.mp3"
+  },
+  {
+    "word": "마음",
+    "translation": "сердце",
+    "transcription": "maeum",
+    "description": "Внутренние чувства, душевное состояние.",
+    "audio": "audio/마음_tts.mp3"
+  },
+  {
+    "word": "주차하다",
+    "translation": "парковать",
+    "transcription": "juchahada",
+    "description": "ставить машину на место стоянки",
+    "audio": "audio/주차하다_tts.mp3"
+  },
+  {
+    "word": "무역",
+    "translation": "торговля",
+    "transcription": "muyeok",
+    "description": "Обмен товарами между странами или регионами.",
+    "audio": "audio/무역_tts.mp3"
+  },
+  {
+    "word": "이렇다",
+    "translation": "быть таким",
+    "transcription": "ireota",
+    "description": "иметь данный вид или состояние",
+    "audio": "audio/이렇다_tts.mp3"
+  },
+  {
+    "word": "화",
+    "translation": "гнев",
+    "transcription": "хва",
+    "description": "Сильное чувство раздражения или злости.",
+    "audio": "audio/화_tts.mp3"
+  },
+  {
+    "word": "그치다",
+    "translation": "прекращаться",
+    "transcription": "кы-чи-да",
+    "description": "Останавливаться, завершаться.",
+    "audio": "audio/그치다_tts.mp3"
+  },
+  {
+    "word": "추억",
+    "translation": "воспоминание",
+    "transcription": "chueok",
+    "description": "память о прошлом событии",
+    "audio": "audio/추억_tts.mp3"
+  },
+  {
+    "word": "사용하다",
+    "translation": "использовать",
+    "transcription": "sayonghada",
+    "description": "Применять что-то для нужной цели.",
+    "audio": "audio/사용하다_tts.mp3"
+  },
+  {
+    "word": "가지",
+    "translation": "ветка",
+    "transcription": "каджи",
+    "description": "Ответвление дерева или линии; также разновидность предмета.",
+    "audio": "audio/가지_tts.mp3"
+  }
+]

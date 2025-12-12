@@ -1,0 +1,142 @@
+[
+  {
+    "word": "인터넷",
+    "translation": "интернет",
+    "transcription": "inteonet",
+    "description": "глобальная сеть передачи данных",
+    "audio": "audio/인터넷_tts.mp3"
+  },
+  {
+    "word": "계속",
+    "translation": "продолжение",
+    "transcription": "кесок",
+    "description": "Без перерыва или постоянно; продолжать что-либо.",
+    "audio": "audio/계속_tts.mp3"
+  },
+  {
+    "word": "문",
+    "translation": "дверь",
+    "transcription": "mun",
+    "description": "Проём или створка для входа и выхода.",
+    "audio": "audio/문_tts.mp3"
+  },
+  {
+    "word": "공원",
+    "translation": "парк",
+    "transcription": "кон-вон",
+    "description": "Озеленённая территория для отдыха.",
+    "audio": "audio/공원_tts.mp3"
+  },
+  {
+    "word": "보다",
+    "translation": "смотреть",
+    "transcription": "boda",
+    "description": "Наблюдать глазами или пробовать.",
+    "audio": "audio/보다_tts.mp3"
+  },
+  {
+    "word": "평양",
+    "translation": "Пхеньян",
+    "transcription": "pyeongyang",
+    "description": "столица Северной Кореи",
+    "audio": "audio/평양_tts.mp3"
+  },
+  {
+    "word": "곱다",
+    "translation": "красивый",
+    "transcription": "коп-да",
+    "description": "Отличаться мягкой, приятной красотой.",
+    "audio": "audio/곱다_tts.mp3"
+  },
+  {
+    "word": "안",
+    "translation": "внутри; не (частица отрицания)",
+    "transcription": "an",
+    "description": "внутреннее пространство или частица отрицания",
+    "audio": "audio/안_tts.mp3"
+  },
+  {
+    "word": "받다",
+    "translation": "получать",
+    "transcription": "batda",
+    "description": "Принимать что-либо от кого-то.",
+    "audio": "audio/받다_tts.mp3"
+  },
+  {
+    "word": "떡볶이",
+    "translation": "ттокпокки",
+    "transcription": "tteokbokki",
+    "description": "Острые тушёные рисовые палочки со специями.",
+    "audio": "audio/떡볶이_tts.mp3"
+  },
+  {
+    "word": "편",
+    "translation": "сторона",
+    "transcription": "pyeon",
+    "description": "часть или позиция относительно чего-то",
+    "audio": "audio/편_tts.mp3"
+  },
+  {
+    "word": "선택하다",
+    "translation": "выбирать",
+    "transcription": "seontaekhada",
+    "description": "Делать выбор из нескольких вариантов.",
+    "audio": "audio/선택하다_tts.mp3"
+  },
+  {
+    "word": "의자",
+    "translation": "стул",
+    "transcription": "uija",
+    "description": "сиденье с ножками и спинкой",
+    "audio": "audio/의자_tts.mp3"
+  },
+  {
+    "word": "두",
+    "translation": "два (до счётного слова)",
+    "transcription": "ту",
+    "description": "Корейское числительное 2 перед счётными словами.",
+    "audio": "audio/두_tts.mp3"
+  },
+  {
+    "word": "입학",
+    "translation": "поступление в учебное заведение",
+    "transcription": "iphak",
+    "description": "зачисление в школу или университет",
+    "audio": "audio/입학_tts.mp3"
+  },
+  {
+    "word": "숟가락",
+    "translation": "ложка",
+    "transcription": "sutgarak",
+    "description": "столовый прибор для жидкой пищи",
+    "audio": "audio/숟가락_tts.mp3"
+  },
+  {
+    "word": "사이다",
+    "translation": "сидр",
+    "transcription": "saida",
+    "description": "Газированный напиток типа лимонада.",
+    "audio": "audio/사이다_tts.mp3"
+  },
+  {
+    "word": "철",
+    "translation": "сезон",
+    "transcription": "cheol",
+    "description": "пора года с характерной погодой",
+    "audio": "audio/철_tts.mp3"
+  },
+  {
+    "word": "직접",
+    "translation": "лично",
+    "transcription": "jikjeop",
+    "description": "самостоятельно, без посредников",
+    "audio": "audio/직접_tts.mp3"
+  },
+  {
+    "word": "이거",
+    "translation": "эта вещь",
+    "transcription": "igeo",
+    "description": "предмет рядом с говорящим",
+    "audio": "audio/이거_tts.mp3"
+  }
+]

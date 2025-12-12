@@ -1,0 +1,142 @@
+[
+  {
+    "word": "독일",
+    "translation": "Германия",
+    "transcription": "то-гиль",
+    "description": "Европейское государство Германия.",
+    "audio": "audio/독일_tts.mp3"
+  },
+  {
+    "word": "명",
+    "translation": "человек (счёт)",
+    "transcription": "myeong",
+    "description": "Счётное слово для людей.",
+    "audio": "audio/명_tts.mp3"
+  },
+  {
+    "word": "건너다",
+    "translation": "пересекать",
+    "transcription": "коннода",
+    "description": "Проходить через что-то с одной стороны на другую.",
+    "audio": "audio/건너다_tts.mp3"
+  },
+  {
+    "word": "들어오다",
+    "translation": "входить; заходить",
+    "transcription": "ты-ро-о-да",
+    "description": "Появляться внутри, переходя через вход.",
+    "audio": "audio/들어오다_tts.mp3"
+  },
+  {
+    "word": "달력",
+    "translation": "календарь",
+    "transcription": "даль-лёк",
+    "description": "Сетка дат по месяцам для планирования времени.",
+    "audio": "audio/달력_tts.mp3"
+  },
+  {
+    "word": "양식",
+    "translation": "форма; западная кухня",
+    "transcription": "yangsik",
+    "description": "бланк для заполнения или блюда западного стиля",
+    "audio": "audio/양식_tts.mp3"
+  },
+  {
+    "word": "오다",
+    "translation": "приходить",
+    "transcription": "oda",
+    "description": "двигаться к месту говорящего",
+    "audio": "audio/오다_tts.mp3"
+  },
+  {
+    "word": "아저씨",
+    "translation": "дядя; мужчина средних лет",
+    "transcription": "ajeossi",
+    "description": "обращение к незнакомому мужчине постарше",
+    "audio": "audio/아저씨_tts.mp3"
+  },
+  {
+    "word": "남녀",
+    "translation": "мужчины и женщины",
+    "transcription": "нам-нё",
+    "description": "Представители обоих полов.",
+    "audio": "audio/남녀_tts.mp3"
+  },
+  {
+    "word": "편지",
+    "translation": "письмо",
+    "transcription": "pyeonji",
+    "description": "письменное сообщение, отправленное кому-то",
+    "audio": "audio/편지_tts.mp3"
+  },
+  {
+    "word": "아무",
+    "translation": "любой; никто",
+    "transcription": "amu",
+    "description": "неопределённое лицо или предмет",
+    "audio": "audio/아무_tts.mp3"
+  },
+  {
+    "word": "아래",
+    "translation": "внизу; под",
+    "transcription": "arae",
+    "description": "нижняя часть или расположение под чем-то",
+    "audio": "audio/아래_tts.mp3"
+  },
+  {
+    "word": "등",
+    "translation": "спина; и так далее",
+    "transcription": "тынг",
+    "description": "Часть тела сзади туловища или обозначение перечисления.",
+    "audio": "audio/등_tts.mp3"
+  },
+  {
+    "word": "컴퓨터",
+    "translation": "компьютер",
+    "transcription": "keompyuteo",
+    "description": "электронное устройство для обработки данных",
+    "audio": "audio/컴퓨터_tts.mp3"
+  },
+  {
+    "word": "박물관",
+    "translation": "музей",
+    "transcription": "bangmulgwan",
+    "description": "Учреждение, где хранят и показывают экспонаты.",
+    "audio": "audio/박물관_tts.mp3"
+  },
+  {
+    "word": "남자",
+    "translation": "мужчина",
+    "transcription": "нам-джа",
+    "description": "Взрослый представитель мужского пола.",
+    "audio": "audio/남자_tts.mp3"
+  },
+  {
+    "word": "무용",
+    "translation": "танец",
+    "transcription": "muyong",
+    "description": "Искусство танцевального выражения.",
+    "audio": "audio/무용_tts.mp3"
+  },
+  {
+    "word": "드리다",
+    "translation": "давать (вежл.)",
+    "transcription": "ды-ри-да",
+    "description": "Вежливо вручать или передавать что-то адресату.",
+    "audio": "audio/드리다_tts.mp3"
+  },
+  {
+    "word": "위하다",
+    "translation": "ради",
+    "transcription": "wihada",
+    "description": "делать что-то в интересах кого-либо",
+    "audio": "audio/위하다_tts.mp3"
+  },
+  {
+    "word": "열",
+    "translation": "десять",
+    "transcription": "yeol",
+    "description": "число 10",
+    "audio": "audio/열_tts.mp3"
+  }
+]

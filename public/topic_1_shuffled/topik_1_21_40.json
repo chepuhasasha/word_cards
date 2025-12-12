@@ -1,0 +1,142 @@
+[
+  {
+    "word": "와이셔츠",
+    "translation": "рубашка",
+    "transcription": "waisyeocheu",
+    "description": "лёгкая мужская сорочка",
+    "audio": "audio/와이셔츠_tts.mp3"
+  },
+  {
+    "word": "단점",
+    "translation": "недостаток",
+    "transcription": "дан-чом",
+    "description": "Слабая сторона или минус предмета или человека.",
+    "audio": "audio/단점_tts.mp3"
+  },
+  {
+    "word": "치약",
+    "translation": "зубная паста",
+    "transcription": "chiyak",
+    "description": "средство для чистки зубов",
+    "audio": "audio/치약_tts.mp3"
+  },
+  {
+    "word": "재미없다",
+    "translation": "неинтересно",
+    "transcription": "jaemieoptta",
+    "description": "вызывать скуку, без удовольствия",
+    "audio": "audio/재미없다_tts.mp3"
+  },
+  {
+    "word": "촬영하다",
+    "translation": "снимать",
+    "transcription": "chwaryeonghada",
+    "description": "делать фото или видеозапись",
+    "audio": "audio/촬영하다_tts.mp3"
+  },
+  {
+    "word": "출구",
+    "translation": "выход",
+    "transcription": "chulgu",
+    "description": "место, через которое покидают здание",
+    "audio": "audio/출구_tts.mp3"
+  },
+  {
+    "word": "연습하다",
+    "translation": "практиковаться",
+    "transcription": "yeonseupada",
+    "description": "выполнять упражнения для отработки",
+    "audio": "audio/연습하다_tts.mp3"
+  },
+  {
+    "word": "외국인",
+    "translation": "иностранец",
+    "transcription": "oegugin",
+    "description": "человек из другой страны",
+    "audio": "audio/외국인_tts.mp3"
+  },
+  {
+    "word": "그렇구나",
+    "translation": "вот как",
+    "transcription": "кырот-ку-на",
+    "description": "Выражение понимания услышанного.",
+    "audio": "audio/그렇구나_tts.mp3"
+  },
+  {
+    "word": "끝",
+    "translation": "конец",
+    "transcription": "ккыт",
+    "description": "Завершающая часть или предел чего-либо.",
+    "audio": "audio/끝_tts.mp3"
+  },
+  {
+    "word": "이틀",
+    "translation": "двое суток",
+    "transcription": "iteul",
+    "description": "период в два дня",
+    "audio": "audio/이틀_tts.mp3"
+  },
+  {
+    "word": "가다",
+    "translation": "идти",
+    "transcription": "када",
+    "description": "Перемещаться пешком или направляться куда-либо.",
+    "audio": "audio/가다_tts.mp3"
+  },
+  {
+    "word": "냄새",
+    "translation": "запах",
+    "transcription": "нэм-сэ",
+    "description": "Аромат или запах, ощущаемый носом.",
+    "audio": "audio/냄새_tts.mp3"
+  },
+  {
+    "word": "팔다",
+    "translation": "продавать",
+    "transcription": "palda",
+    "description": "реализовывать товар за деньги",
+    "audio": "audio/팔다_tts.mp3"
+  },
+  {
+    "word": "보내다",
+    "translation": "отправлять",
+    "transcription": "bonaeda",
+    "description": "Посылать что-то или проводить время определённым образом.",
+    "audio": "audio/보내다_tts.mp3"
+  },
+  {
+    "word": "연락처",
+    "translation": "контакты",
+    "transcription": "yeollakcheo",
+    "description": "данные для связи: телефон или адрес",
+    "audio": "audio/연락처_tts.mp3"
+  },
+  {
+    "word": "보도",
+    "translation": "тротуар",
+    "transcription": "bodo",
+    "description": "Дорожка для пешеходов; также новостной репортаж.",
+    "audio": "audio/보도_tts.mp3"
+  },
+  {
+    "word": "할아버지",
+    "translation": "дедушка",
+    "transcription": "харабоджи",
+    "description": "Отец отца или матери; пожилой мужчина.",
+    "audio": "audio/할아버지_tts.mp3"
+  },
+  {
+    "word": "출장",
+    "translation": "командировка",
+    "transcription": "chuljang",
+    "description": "служебная поездка по работе",
+    "audio": "audio/출장_tts.mp3"
+  },
+  {
+    "word": "영어회화",
+    "translation": "разговорный английский",
+    "transcription": "yeongeo hoehwa",
+    "description": "устная речь и диалоги на английском",
+    "audio": "audio/영어회화_tts.mp3"
+  }
+]

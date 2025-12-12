@@ -1,0 +1,142 @@
+[
+  {
+    "word": "다치다",
+    "translation": "пораниться",
+    "transcription": "да-чи-да",
+    "description": "Получить травму или повреждение.",
+    "audio": "audio/다치다_tts.mp3"
+  },
+  {
+    "word": "아흔",
+    "translation": "девяносто",
+    "transcription": "aheun",
+    "description": "корейское числительное 90",
+    "audio": "audio/아흔_tts.mp3"
+  },
+  {
+    "word": "벚꽃",
+    "translation": "сакура",
+    "transcription": "beotkkot",
+    "description": "Цветок вишни, весенний розовый цвет.",
+    "audio": "audio/벚꽃_tts.mp3"
+  },
+  {
+    "word": "무슨",
+    "translation": "какой",
+    "transcription": "museun",
+    "description": "Вопросительное слово о виде или типе.",
+    "audio": "audio/무슨_tts.mp3"
+  },
+  {
+    "word": "아주머니",
+    "translation": "тётя; мадам",
+    "transcription": "ajumeoni",
+    "description": "уважительное обращение к женщине среднего возраста",
+    "audio": "audio/아주머니_tts.mp3"
+  },
+  {
+    "word": "부탁",
+    "translation": "просьба",
+    "transcription": "butak",
+    "description": "Обращение к кому-то с просьбой о помощи.",
+    "audio": "audio/부탁_tts.mp3"
+  },
+  {
+    "word": "행복하다",
+    "translation": "быть счастливым",
+    "transcription": "хэнбокхада",
+    "description": "Испытывать чувство счастья и довольства.",
+    "audio": "audio/행복하다_tts.mp3"
+  },
+  {
+    "word": "서른",
+    "translation": "тридцать",
+    "transcription": "seoreun",
+    "description": "Число 30 в разговорной форме.",
+    "audio": "audio/서른_tts.mp3"
+  },
+  {
+    "word": "편하다",
+    "translation": "удобный",
+    "transcription": "pyeonhada",
+    "description": "комфортный и лёгкий в использовании",
+    "audio": "audio/편하다_tts.mp3"
+  },
+  {
+    "word": "하얗다",
+    "translation": "быть белым",
+    "transcription": "hayata",
+    "description": "иметь белый оттенок",
+    "audio": "audio/하얗다_tts.mp3"
+  },
+  {
+    "word": "외숙모",
+    "translation": "тётя по маме",
+    "transcription": "oesukmo",
+    "description": "жена брата матери",
+    "audio": "audio/외숙모_tts.mp3"
+  },
+  {
+    "word": "쓰다",
+    "translation": "писать; использовать; надевать (очки)",
+    "transcription": "sseuda",
+    "description": "оставлять текст, применять предмет или носить очки",
+    "audio": "audio/쓰다_tts.mp3"
+  },
+  {
+    "word": "등산복",
+    "translation": "одежда для хайкинга",
+    "transcription": "тынг-сан-бок",
+    "description": "Спортивная одежда, подходящая для походов в горы.",
+    "audio": "audio/등산복_tts.mp3"
+  },
+  {
+    "word": "허리",
+    "translation": "поясница",
+    "transcription": "хори",
+    "description": "Часть тела между грудной клеткой и тазом.",
+    "audio": "audio/허리_tts.mp3"
+  },
+  {
+    "word": "러시아",
+    "translation": "Россия",
+    "transcription": "reosia",
+    "description": "Страна Россия.",
+    "audio": "audio/러시아_tts.mp3"
+  },
+  {
+    "word": "양",
+    "translation": "количество; овца",
+    "transcription": "yang",
+    "description": "объём чего-либо или животное овца",
+    "audio": "audio/양_tts.mp3"
+  },
+  {
+    "word": "맛있다",
+    "translation": "вкусный",
+    "transcription": "masitda",
+    "description": "Доставляющий удовольствие вкусом.",
+    "audio": "audio/맛있다_tts.mp3"
+  },
+  {
+    "word": "감사합니다",
+    "translation": "спасибо",
+    "transcription": "камсамнида",
+    "description": "Вежливое благодарственное выражение.",
+    "audio": "audio/감사합니다_tts.mp3"
+  },
+  {
+    "word": "밤",
+    "translation": "ночь",
+    "transcription": "bam",
+    "description": "Время суток после заката и до рассвета.",
+    "audio": "audio/밤_tts.mp3"
+  },
+  {
+    "word": "달다",
+    "translation": "сладкий",
+    "transcription": "даль-да",
+    "description": "Имеющий сладкий вкус как сахар или мёд.",
+    "audio": "audio/달다_tts.mp3"
+  }
+]

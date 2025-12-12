@@ -1,0 +1,142 @@
+[
+  {
+    "word": "목요일",
+    "translation": "четверг",
+    "transcription": "mogyoil",
+    "description": "Четвёртый день недели.",
+    "audio": "audio/목요일_tts.mp3"
+  },
+  {
+    "word": "빠르다",
+    "translation": "быстрый",
+    "transcription": "ppareuda",
+    "description": "Движущийся или происходящий с большой скоростью.",
+    "audio": "audio/빠르다_tts.mp3"
+  },
+  {
+    "word": "복잡하다",
+    "translation": "сложный",
+    "transcription": "bokjapada",
+    "description": "Имеющий много элементов или хаотичный.",
+    "audio": "audio/복잡하다_tts.mp3"
+  },
+  {
+    "word": "소",
+    "translation": "корова; маленький",
+    "transcription": "so",
+    "description": "домашний скот крупного рогатого; показатель малого размера",
+    "audio": "audio/소_tts.mp3"
+  },
+  {
+    "word": "네",
+    "translation": "да; четыре",
+    "transcription": "не",
+    "description": "Утвердительный ответ или числительное 4.",
+    "audio": "audio/네_tts.mp3"
+  },
+  {
+    "word": "섬",
+    "translation": "остров",
+    "transcription": "seom",
+    "description": "участок суши, окружённый водой",
+    "audio": "audio/섬_tts.mp3"
+  },
+  {
+    "word": "모르다",
+    "translation": "не знать",
+    "transcription": "moreuda",
+    "description": "Не иметь информации о чём-либо.",
+    "audio": "audio/모르다_tts.mp3"
+  },
+  {
+    "word": "그들",
+    "translation": "они",
+    "transcription": "кы-дыль",
+    "description": "Эти люди, третье лицо множественного числа.",
+    "audio": "audio/그들_tts.mp3"
+  },
+  {
+    "word": "원",
+    "translation": "вон",
+    "transcription": "won",
+    "description": "денежная единица Республики Корея",
+    "audio": "audio/원_tts.mp3"
+  },
+  {
+    "word": "옷",
+    "translation": "одежда",
+    "transcription": "ot",
+    "description": "предметы, которые надевают на тело",
+    "audio": "audio/옷_tts.mp3"
+  },
+  {
+    "word": "안전하다",
+    "translation": "безопасный",
+    "transcription": "anjeonhada",
+    "description": "не представляющий опасности",
+    "audio": "audio/안전하다_tts.mp3"
+  },
+  {
+    "word": "된장국",
+    "translation": "суп с твенджаном",
+    "transcription": "твэн-джан-гук",
+    "description": "Лёгкий суп на основе соевой пасты.",
+    "audio": "audio/된장국_tts.mp3"
+  },
+  {
+    "word": "자다",
+    "translation": "спать",
+    "transcription": "jada",
+    "description": "находиться в состоянии сна",
+    "audio": "audio/자다_tts.mp3"
+  },
+  {
+    "word": "나가다",
+    "translation": "выходить",
+    "transcription": "на-га-да",
+    "description": "Покидать помещение или двигаться наружу.",
+    "audio": "audio/나가다_tts.mp3"
+  },
+  {
+    "word": "부엌",
+    "translation": "кухня",
+    "transcription": "bueok",
+    "description": "Помещение для приготовления еды.",
+    "audio": "audio/부엌_tts.mp3"
+  },
+  {
+    "word": "서로",
+    "translation": "друг друга",
+    "transcription": "seoro",
+    "description": "Взаимно, по отношению один к другому.",
+    "audio": "audio/서로_tts.mp3"
+  },
+  {
+    "word": "기쁘다",
+    "translation": "радостный",
+    "transcription": "ки-ппы-да",
+    "description": "Находиться в счастливом, приятном настроении.",
+    "audio": "audio/기쁘다_tts.mp3"
+  },
+  {
+    "word": "생신",
+    "translation": "день рождения (уваж.)",
+    "transcription": "saengsin",
+    "description": "Вежливая форма слова «день рождения».",
+    "audio": "audio/생신_tts.mp3"
+  },
+  {
+    "word": "육",
+    "translation": "шесть",
+    "transcription": "yuk",
+    "description": "число 6 в китайско-корейском счёте",
+    "audio": "audio/육_tts.mp3"
+  },
+  {
+    "word": "일본말",
+    "translation": "японский язык (разговорный)",
+    "transcription": "ilbonmal",
+    "description": "устная речь на японском языке",
+    "audio": "audio/일본말_tts.mp3"
+  }
+]

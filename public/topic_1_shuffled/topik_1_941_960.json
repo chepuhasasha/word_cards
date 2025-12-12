@@ -1,0 +1,142 @@
+[
+  {
+    "word": "빼다",
+    "translation": "вынимать",
+    "transcription": "ppaeda",
+    "description": "Убирать что-то изнутри или уменьшать количество.",
+    "audio": "audio/빼다_tts.mp3"
+  },
+  {
+    "word": "게임",
+    "translation": "игра",
+    "transcription": "кеим",
+    "description": "Развлечение или соревнование по установленным правилам.",
+    "audio": "audio/게임_tts.mp3"
+  },
+  {
+    "word": "내과",
+    "translation": "терапия",
+    "transcription": "нэ-кква",
+    "description": "Отделение внутренней медицины в клинике.",
+    "audio": "audio/내과_tts.mp3"
+  },
+  {
+    "word": "내리다",
+    "translation": "спускаться; идти (о дожде)",
+    "transcription": "нэ-ри-да",
+    "description": "Опускаться вниз или выпадать об осадках.",
+    "audio": "audio/내리다_tts.mp3"
+  },
+  {
+    "word": "정도",
+    "translation": "степень; примерно",
+    "transcription": "jeongdo",
+    "description": "уровень величины или примерное количество",
+    "audio": "audio/정도_tts.mp3"
+  },
+  {
+    "word": "자료",
+    "translation": "данные; материалы",
+    "transcription": "jaryo",
+    "description": "собранная информация или источники",
+    "audio": "audio/자료_tts.mp3"
+  },
+  {
+    "word": "급하다",
+    "translation": "спешить",
+    "transcription": "кып-ха-да",
+    "description": "Быть срочным и требовать быстрого действия.",
+    "audio": "audio/급하다_tts.mp3"
+  },
+  {
+    "word": "삼십",
+    "translation": "тридцать",
+    "transcription": "samsip",
+    "description": "Число 30.",
+    "audio": "audio/삼십_tts.mp3"
+  },
+  {
+    "word": "천천히",
+    "translation": "медленно",
+    "transcription": "cheoncheonhi",
+    "description": "без спешки, неторопливо",
+    "audio": "audio/천천히_tts.mp3"
+  },
+  {
+    "word": "기자",
+    "translation": "журналист",
+    "transcription": "ки-джа",
+    "description": "Собиратель и автор новостных материалов.",
+    "audio": "audio/기자_tts.mp3"
+  },
+  {
+    "word": "넷째",
+    "translation": "четвёртый",
+    "transcription": "нет-чэ",
+    "description": "Занимающий четвёртую позицию.",
+    "audio": "audio/넷째_tts.mp3"
+  },
+  {
+    "word": "냉장고",
+    "translation": "холодильник",
+    "transcription": "нэн-джан-го",
+    "description": "Прибор для хранения продуктов в холоде.",
+    "audio": "audio/냉장고_tts.mp3"
+  },
+  {
+    "word": "월세",
+    "translation": "ежемесячная аренда",
+    "transcription": "wolse",
+    "description": "плата за аренду жилья каждый месяц",
+    "audio": "audio/월세_tts.mp3"
+  },
+  {
+    "word": "밥",
+    "translation": "варёный рис",
+    "transcription": "bap",
+    "description": "Основное блюдо из отваренного риса, еда.",
+    "audio": "audio/밥_tts.mp3"
+  },
+  {
+    "word": "수술하다",
+    "translation": "оперировать",
+    "transcription": "susulhada",
+    "description": "проводить хирургическое вмешательство",
+    "audio": "audio/수술하다_tts.mp3"
+  },
+  {
+    "word": "안경",
+    "translation": "очки",
+    "transcription": "angyeong",
+    "description": "оправа со стеклами для коррекции зрения",
+    "audio": "audio/안경_tts.mp3"
+  },
+  {
+    "word": "열다",
+    "translation": "открывать",
+    "transcription": "yeolda",
+    "description": "раскрывать дверь или начинать доступ",
+    "audio": "audio/열다_tts.mp3"
+  },
+  {
+    "word": "킬로미터",
+    "translation": "километр",
+    "transcription": "killomiteo",
+    "description": "единица длины, равная тысяче метров",
+    "audio": "audio/킬로미터_tts.mp3"
+  },
+  {
+    "word": "아름답다",
+    "translation": "прекрасный",
+    "transcription": "areumdapda",
+    "description": "очень красивый и вызывающий восхищение",
+    "audio": "audio/아름답다_tts.mp3"
+  },
+  {
+    "word": "의미",
+    "translation": "значение",
+    "transcription": "uimi",
+    "description": "смысл слова или поступка",
+    "audio": "audio/의미_tts.mp3"
+  }
+]

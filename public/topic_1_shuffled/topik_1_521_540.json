@@ -1,0 +1,142 @@
+[
+  {
+    "word": "슬퍼하다",
+    "translation": "горевать",
+    "transcription": "seulpeohada",
+    "description": "выражать печаль, переживать",
+    "audio": "audio/슬퍼하다_tts.mp3"
+  },
+  {
+    "word": "짜리",
+    "translation": "номинал",
+    "transcription": "jjari",
+    "description": "предмет определённой стоимости или достоинства",
+    "audio": "audio/짜리_tts.mp3"
+  },
+  {
+    "word": "빨리",
+    "translation": "быстро",
+    "transcription": "ppalli",
+    "description": "С большой скоростью, без промедления.",
+    "audio": "audio/빨리_tts.mp3"
+  },
+  {
+    "word": "아홉",
+    "translation": "девять",
+    "transcription": "ahop",
+    "description": "корейское числительное 9",
+    "audio": "audio/아홉_tts.mp3"
+  },
+  {
+    "word": "경찰",
+    "translation": "полиция",
+    "transcription": "кёнчхаль",
+    "description": "Орган, обеспечивающий общественный порядок и безопасность.",
+    "audio": "audio/경찰_tts.mp3"
+  },
+  {
+    "word": "스페인어",
+    "translation": "испанский язык",
+    "transcription": "seupeineo",
+    "description": "язык, на котором говорят в Испании и Латинской Америке",
+    "audio": "audio/스페인어_tts.mp3"
+  },
+  {
+    "word": "밀가루",
+    "translation": "пшеничная мука",
+    "transcription": "milgaru",
+    "description": "Мука из пшеницы, используется для выпечки и теста.",
+    "audio": "audio/밀가루_tts.mp3"
+  },
+  {
+    "word": "아파트",
+    "translation": "квартира; многоквартирный дом",
+    "transcription": "apateu",
+    "description": "жилое помещение в многоэтажке",
+    "audio": "audio/아파트_tts.mp3"
+  },
+  {
+    "word": "밑",
+    "translation": "низ, под",
+    "transcription": "mit",
+    "description": "Нижняя часть чего-то или место под чем-то.",
+    "audio": "audio/밑_tts.mp3"
+  },
+  {
+    "word": "교실",
+    "translation": "класс",
+    "transcription": "кё-силь",
+    "description": "Аудитория, где проходят занятия.",
+    "audio": "audio/교실_tts.mp3"
+  },
+  {
+    "word": "계시다",
+    "translation": "находиться",
+    "transcription": "кешида",
+    "description": "Вежливая форма глагола \"быть\" или \"находиться\".",
+    "audio": "audio/계시다_tts.mp3"
+  },
+  {
+    "word": "월",
+    "translation": "месяц",
+    "transcription": "wol",
+    "description": "единица времени в календаре",
+    "audio": "audio/월_tts.mp3"
+  },
+  {
+    "word": "우표",
+    "translation": "марка",
+    "transcription": "upyo",
+    "description": "почтовая марка для отправки писем",
+    "audio": "audio/우표_tts.mp3"
+  },
+  {
+    "word": "흐리다",
+    "translation": "быть пасмурным",
+    "transcription": "хырида",
+    "description": "О небе: затянутое облаками; о воде или стекле: мутное.",
+    "audio": "audio/흐리다_tts.mp3"
+  },
+  {
+    "word": "열심히",
+    "translation": "усердно",
+    "transcription": "yeolssimhi",
+    "description": "прилагая много усилий",
+    "audio": "audio/열심히_tts.mp3"
+  },
+  {
+    "word": "야채",
+    "translation": "овощи",
+    "transcription": "yachae",
+    "description": "съедобные части растений",
+    "audio": "audio/야채_tts.mp3"
+  },
+  {
+    "word": "눈물",
+    "translation": "слеза",
+    "transcription": "нун-муль",
+    "description": "Жидкость, выделяемая глазами.",
+    "audio": "audio/눈물_tts.mp3"
+  },
+  {
+    "word": "뜨겁다",
+    "translation": "горячий",
+    "transcription": "tteugeopda",
+    "description": "Иметь высокую температуру, обжигать.",
+    "audio": "audio/뜨겁다_tts.mp3"
+  },
+  {
+    "word": "덕분",
+    "translation": "благодаря (кому-то)",
+    "transcription": "док-пун",
+    "description": "Выражение признательности за чью-то помощь.",
+    "audio": "audio/덕분_tts.mp3"
+  },
+  {
+    "word": "로션",
+    "translation": "лосьон",
+    "transcription": "rosyeon",
+    "description": "Увлажняющее средство для ухода за кожей.",
+    "audio": "audio/로션_tts.mp3"
+  }
+]

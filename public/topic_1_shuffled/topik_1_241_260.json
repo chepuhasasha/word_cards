@@ -1,0 +1,142 @@
+[
+  {
+    "word": "미술관",
+    "translation": "художественный музей",
+    "transcription": "misulgwan",
+    "description": "Музей или галерея изобразительного искусства.",
+    "audio": "audio/미술관_tts.mp3"
+  },
+  {
+    "word": "스타",
+    "translation": "звезда",
+    "transcription": "seuta",
+    "description": "популярная знаменитость",
+    "audio": "audio/스타_tts.mp3"
+  },
+  {
+    "word": "지키다",
+    "translation": "охранять",
+    "transcription": "jikida",
+    "description": "беречь, защищать или соблюдать",
+    "audio": "audio/지키다_tts.mp3"
+  },
+  {
+    "word": "열쇠",
+    "translation": "ключ",
+    "transcription": "yeolsoe",
+    "description": "предмет для запирания и отпирания",
+    "audio": "audio/열쇠_tts.mp3"
+  },
+  {
+    "word": "기뻐하다",
+    "translation": "радоваться",
+    "transcription": "ки-ппо-ха-да",
+    "description": "Испытывать радость или удовольствие.",
+    "audio": "audio/기뻐하다_tts.mp3"
+  },
+  {
+    "word": "관심",
+    "translation": "интерес",
+    "transcription": "кван-сим",
+    "description": "Внимание и забота к чему-либо.",
+    "audio": "audio/관심_tts.mp3"
+  },
+  {
+    "word": "싫다",
+    "translation": "не нравиться",
+    "transcription": "silta",
+    "description": "испытывать неприязнь",
+    "audio": "audio/싫다_tts.mp3"
+  },
+  {
+    "word": "꼭",
+    "translation": "обязательно; непременно",
+    "transcription": "ккок",
+    "description": "Подчёркивает необходимость действия.",
+    "audio": "audio/꼭_tts.mp3"
+  },
+  {
+    "word": "모으다",
+    "translation": "собирать",
+    "transcription": "moeuda",
+    "description": "Складировать или копить вместе.",
+    "audio": "audio/모으다_tts.mp3"
+  },
+  {
+    "word": "점심식사",
+    "translation": "обеденная трапеза",
+    "transcription": "jeomsim siksa",
+    "description": "приём пищи в полдень",
+    "audio": "audio/점심식사_tts.mp3"
+  },
+  {
+    "word": "놀라다",
+    "translation": "удивляться",
+    "transcription": "нол-ла-да",
+    "description": "Испытывать неожиданное удивление или испуг.",
+    "audio": "audio/놀라다_tts.mp3"
+  },
+  {
+    "word": "군인",
+    "translation": "солдат",
+    "transcription": "гу-нин",
+    "description": "Служащий в армии.",
+    "audio": "audio/군인_tts.mp3"
+  },
+  {
+    "word": "발가락",
+    "translation": "палец ноги",
+    "transcription": "balkkarak",
+    "description": "Один из пальцев на стопе.",
+    "audio": "audio/발가락_tts.mp3"
+  },
+  {
+    "word": "창문",
+    "translation": "окно",
+    "transcription": "changmun",
+    "description": "проём в стене с рамой и стеклом",
+    "audio": "audio/창문_tts.mp3"
+  },
+  {
+    "word": "좀",
+    "translation": "немного; чуть",
+    "transcription": "jom",
+    "description": "в небольшой степени",
+    "audio": "audio/좀_tts.mp3"
+  },
+  {
+    "word": "젓가락",
+    "translation": "палочки для еды",
+    "transcription": "jeotgarak",
+    "description": "пара тонких палочек для приёма пищи",
+    "audio": "audio/젓가락_tts.mp3"
+  },
+  {
+    "word": "어떻다",
+    "translation": "каков; какой",
+    "transcription": "eotteota",
+    "description": "просить охарактеризовать состояние или качество",
+    "audio": "audio/어떻다_tts.mp3"
+  },
+  {
+    "word": "김치찌개",
+    "translation": "кимчхиччиге",
+    "transcription": "ким-чи-ччи-гэ",
+    "description": "Острое тушёное рагу на основе кимчхи.",
+    "audio": "audio/김치찌개_tts.mp3"
+  },
+  {
+    "word": "번호",
+    "translation": "номер",
+    "transcription": "beonho",
+    "description": "Обозначение в виде цифр для идентификации.",
+    "audio": "audio/번호_tts.mp3"
+  },
+  {
+    "word": "유럽",
+    "translation": "Европа",
+    "transcription": "yureop",
+    "description": "континент в западной Евразии",
+    "audio": "audio/유럽_tts.mp3"
+  }
+]

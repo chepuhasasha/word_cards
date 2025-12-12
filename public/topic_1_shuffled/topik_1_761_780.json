@@ -1,0 +1,142 @@
+[
+  {
+    "word": "공휴일",
+    "translation": "государственный выходной",
+    "transcription": "кон-хю-иль",
+    "description": "Официальный нерабочий праздничный день.",
+    "audio": "audio/공휴일_tts.mp3"
+  },
+  {
+    "word": "기타",
+    "translation": "прочее",
+    "transcription": "ки-та",
+    "description": "Другие элементы, не входящие в основные пункты.",
+    "audio": "audio/기타_tts.mp3"
+  },
+  {
+    "word": "잡지",
+    "translation": "журнал",
+    "transcription": "japji",
+    "description": "периодическое печатное издание",
+    "audio": "audio/잡지_tts.mp3"
+  },
+  {
+    "word": "아들",
+    "translation": "сын",
+    "transcription": "adeul",
+    "description": "мальчик как ребёнок родителей",
+    "audio": "audio/아들_tts.mp3"
+  },
+  {
+    "word": "방학",
+    "translation": "каникулы",
+    "transcription": "banghak",
+    "description": "Учебные свободные дни между семестрами.",
+    "audio": "audio/방학_tts.mp3"
+  },
+  {
+    "word": "소설",
+    "translation": "роман; повесть",
+    "transcription": "soseol",
+    "description": "художественное прозовое произведение",
+    "audio": "audio/소설_tts.mp3"
+  },
+  {
+    "word": "주",
+    "translation": "неделя",
+    "transcription": "ju",
+    "description": "период семи дней",
+    "audio": "audio/주_tts.mp3"
+  },
+  {
+    "word": "결혼",
+    "translation": "брак",
+    "transcription": "кёрон",
+    "description": "Союз двух людей, оформленный официально или церемониально.",
+    "audio": "audio/결혼_tts.mp3"
+  },
+  {
+    "word": "그렇게",
+    "translation": "так",
+    "transcription": "кы-ро-кэ",
+    "description": "Подобным образом или в таком виде.",
+    "audio": "audio/그렇게_tts.mp3"
+  },
+  {
+    "word": "운동장",
+    "translation": "спортивная площадка",
+    "transcription": "undongjang",
+    "description": "открытое поле или стадион для игр",
+    "audio": "audio/운동장_tts.mp3"
+  },
+  {
+    "word": "이따가",
+    "translation": "позже",
+    "transcription": "ittaga",
+    "description": "через некоторое время",
+    "audio": "audio/이따가_tts.mp3"
+  },
+  {
+    "word": "돼지",
+    "translation": "свинья",
+    "transcription": "твэ-джи",
+    "description": "Домашнее животное, выращиваемое ради мяса.",
+    "audio": "audio/돼지_tts.mp3"
+  },
+  {
+    "word": "시험",
+    "translation": "экзамен",
+    "transcription": "siheom",
+    "description": "проверка знаний",
+    "audio": "audio/시험_tts.mp3"
+  },
+  {
+    "word": "금요일",
+    "translation": "пятница",
+    "transcription": "кым-ё-иль",
+    "description": "Шестой день недели.",
+    "audio": "audio/금요일_tts.mp3"
+  },
+  {
+    "word": "설렁탕",
+    "translation": "соллонгтан (говяжий суп)",
+    "transcription": "seolleongtang",
+    "description": "традиционный молочно-белый говяжий бульон",
+    "audio": "audio/설렁탕_tts.mp3"
+  },
+  {
+    "word": "볼펜",
+    "translation": "ручка",
+    "transcription": "bolpen",
+    "description": "Пишущий прибор с шариковым стержнем.",
+    "audio": "audio/볼펜_tts.mp3"
+  },
+  {
+    "word": "설명하다",
+    "translation": "объяснять",
+    "transcription": "seolmyeonghada",
+    "description": "давать разъяснения, пояснять",
+    "audio": "audio/설명하다_tts.mp3"
+  },
+  {
+    "word": "남쪽",
+    "translation": "юг (сторона света)",
+    "transcription": "нам-ччок",
+    "description": "Направление на юг или южная сторона.",
+    "audio": "audio/남쪽_tts.mp3"
+  },
+  {
+    "word": "그램",
+    "translation": "грамм",
+    "transcription": "кырэм",
+    "description": "Единица массы в метрической системе.",
+    "audio": "audio/그램_tts.mp3"
+  },
+  {
+    "word": "그러면",
+    "translation": "тогда",
+    "transcription": "кы-ро-мён",
+    "description": "Используется при условии: если так, то что дальше.",
+    "audio": "audio/그러면_tts.mp3"
+  }
+]

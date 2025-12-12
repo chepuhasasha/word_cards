@@ -1,0 +1,142 @@
+[
+  {
+    "word": "아빠",
+    "translation": "папа",
+    "transcription": "appa",
+    "description": "разговорное ласковое обращение к отцу",
+    "audio": "audio/아빠_tts.mp3"
+  },
+  {
+    "word": "아버지",
+    "translation": "отец",
+    "transcription": "abeoji",
+    "description": "папа, родитель мужского пола",
+    "audio": "audio/아버지_tts.mp3"
+  },
+  {
+    "word": "운전하다",
+    "translation": "водить машину",
+    "transcription": "unjeonhada",
+    "description": "управлять транспортным средством",
+    "audio": "audio/운전하다_tts.mp3"
+  },
+  {
+    "word": "방",
+    "translation": "комната",
+    "transcription": "bang",
+    "description": "Отдельное помещение в доме или здании.",
+    "audio": "audio/방_tts.mp3"
+  },
+  {
+    "word": "개나리",
+    "translation": "форзиция",
+    "transcription": "кэнари",
+    "description": "Куст с ярко-желтыми цветами, цветущий весной.",
+    "audio": "audio/개나리_tts.mp3"
+  },
+  {
+    "word": "갈비",
+    "translation": "кальби",
+    "transcription": "кальби",
+    "description": "Блюдо или куски ребер, часто маринованные и жареные.",
+    "audio": "audio/갈비_tts.mp3"
+  },
+  {
+    "word": "위험하다",
+    "translation": "опасный",
+    "transcription": "wiheomhada",
+    "description": "содержащий риск или угрозу",
+    "audio": "audio/위험하다_tts.mp3"
+  },
+  {
+    "word": "정리하다",
+    "translation": "убирать; приводить в порядок",
+    "transcription": "jeongrihada",
+    "description": "систематизировать или раскладывать аккуратно",
+    "audio": "audio/정리하다_tts.mp3"
+  },
+  {
+    "word": "배우다",
+    "translation": "учить",
+    "transcription": "baeuda",
+    "description": "Получать знания или навыки через обучение.",
+    "audio": "audio/배우다_tts.mp3"
+  },
+  {
+    "word": "결혼하다",
+    "translation": "жениться",
+    "transcription": "кёронада",
+    "description": "Вступать в брак.",
+    "audio": "audio/결혼하다_tts.mp3"
+  },
+  {
+    "word": "데이트",
+    "translation": "свидание",
+    "transcription": "дэ-и-ты",
+    "description": "Встреча двух людей романтического характера.",
+    "audio": "audio/데이트_tts.mp3"
+  },
+  {
+    "word": "극장",
+    "translation": "театр",
+    "transcription": "ык-чжан",
+    "description": "Здание для показа фильмов или сценических постановок.",
+    "audio": "audio/극장_tts.mp3"
+  },
+  {
+    "word": "안녕하세요",
+    "translation": "здравствуйте",
+    "transcription": "annyeonghaseyo",
+    "description": "вежливое приветствие",
+    "audio": "audio/안녕하세요_tts.mp3"
+  },
+  {
+    "word": "참",
+    "translation": "действительно",
+    "transcription": "cham",
+    "description": "усилительная частица, выражающая искренность",
+    "audio": "audio/참_tts.mp3"
+  },
+  {
+    "word": "늦다",
+    "translation": "опаздывать; поздний",
+    "transcription": "ныт-та",
+    "description": "Приходить позже запланированного времени.",
+    "audio": "audio/늦다_tts.mp3"
+  },
+  {
+    "word": "반바지",
+    "translation": "шорты",
+    "transcription": "banbaji",
+    "description": "Короткие штаны выше колен.",
+    "audio": "audio/반바지_tts.mp3"
+  },
+  {
+    "word": "계절",
+    "translation": "время года",
+    "transcription": "кье-чоль",
+    "description": "Период года с характерными погодными условиями.",
+    "audio": "audio/계절_tts.mp3"
+  },
+  {
+    "word": "벌써",
+    "translation": "уже",
+    "transcription": "beolsseo",
+    "description": "О чём-то, что произошло раньше ожидаемого.",
+    "audio": "audio/벌써_tts.mp3"
+  },
+  {
+    "word": "콜라",
+    "translation": "кола",
+    "transcription": "kolla",
+    "description": "сладкий газированный напиток",
+    "audio": "audio/콜라_tts.mp3"
+  },
+  {
+    "word": "목욕",
+    "translation": "купание",
+    "transcription": "mokyok",
+    "description": "Мытьё тела в воде.",
+    "audio": "audio/목욕_tts.mp3"
+  }
+]

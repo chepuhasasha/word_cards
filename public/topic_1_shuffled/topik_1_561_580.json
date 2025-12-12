@@ -1,0 +1,142 @@
+[
+  {
+    "word": "국내",
+    "translation": "внутренний",
+    "transcription": "гун-нэ",
+    "description": "Относящийся к территории своей страны.",
+    "audio": "audio/국내_tts.mp3"
+  },
+  {
+    "word": "습관",
+    "translation": "привычка",
+    "transcription": "seupgwan",
+    "description": "устойчивый образ действий",
+    "audio": "audio/습관_tts.mp3"
+  },
+  {
+    "word": "연필",
+    "translation": "карандаш",
+    "transcription": "yeonpil",
+    "description": "пишущий стержень из графита",
+    "audio": "audio/연필_tts.mp3"
+  },
+  {
+    "word": "연휴",
+    "translation": "длинные выходные",
+    "transcription": "yeonhyu",
+    "description": "несколько праздничных дней подряд",
+    "audio": "audio/연휴_tts.mp3"
+  },
+  {
+    "word": "시장",
+    "translation": "рынок",
+    "transcription": "sijang",
+    "description": "место торговли товарами",
+    "audio": "audio/시장_tts.mp3"
+  },
+  {
+    "word": "초콜릿",
+    "translation": "шоколад",
+    "transcription": "chokollit",
+    "description": "сладость из какао и сахара",
+    "audio": "audio/초콜릿_tts.mp3"
+  },
+  {
+    "word": "저쪽",
+    "translation": "та сторона",
+    "transcription": "jeojjok",
+    "description": "направление или участок, удалённые от говорящего",
+    "audio": "audio/저쪽_tts.mp3"
+  },
+  {
+    "word": "얼마나",
+    "translation": "сколько",
+    "transcription": "eolmana",
+    "description": "вопрос о степени или количестве",
+    "audio": "audio/얼마나_tts.mp3"
+  },
+  {
+    "word": "한국",
+    "translation": "Корея",
+    "transcription": "хангук",
+    "description": "Государство Республика Корея.",
+    "audio": "audio/한국_tts.mp3"
+  },
+  {
+    "word": "킬로그램",
+    "translation": "килограмм",
+    "transcription": "killogeuraem",
+    "description": "единица массы, равная тысяче граммов",
+    "audio": "audio/킬로그램_tts.mp3"
+  },
+  {
+    "word": "줄",
+    "translation": "верёвка; линия",
+    "transcription": "jul",
+    "description": "длинный вытянутый предмет или очередь",
+    "audio": "audio/줄_tts.mp3"
+  },
+  {
+    "word": "책임",
+    "translation": "ответственность",
+    "transcription": "chaegim",
+    "description": "обязанность отвечать за результат",
+    "audio": "audio/책임_tts.mp3"
+  },
+  {
+    "word": "특별히",
+    "translation": "особенно",
+    "transcription": "teukbyeolhi",
+    "description": "в особой степени, по-особенному",
+    "audio": "audio/특별히_tts.mp3"
+  },
+  {
+    "word": "어리다",
+    "translation": "быть молодым",
+    "transcription": "eorida",
+    "description": "о возрасте: юный или маленький",
+    "audio": "audio/어리다_tts.mp3"
+  },
+  {
+    "word": "서점",
+    "translation": "книжный магазин",
+    "transcription": "seojeom",
+    "description": "Магазин, где продают книги.",
+    "audio": "audio/서점_tts.mp3"
+  },
+  {
+    "word": "깨지다",
+    "translation": "разбиваться; трескаться",
+    "transcription": "ккэ-джи-да",
+    "description": "Ломаться на части или покрываться трещинами.",
+    "audio": "audio/깨지다_tts.mp3"
+  },
+  {
+    "word": "문제",
+    "translation": "проблема",
+    "transcription": "munje",
+    "description": "Вопрос или трудность, требующая решения.",
+    "audio": "audio/문제_tts.mp3"
+  },
+  {
+    "word": "아침식사",
+    "translation": "завтрак (приём пищи)",
+    "transcription": "achim siksa",
+    "description": "приём еды в утреннее время",
+    "audio": "audio/아침식사_tts.mp3"
+  },
+  {
+    "word": "센터",
+    "translation": "центр",
+    "transcription": "senteo",
+    "description": "специализированное учреждение или ядро района",
+    "audio": "audio/센터_tts.mp3"
+  },
+  {
+    "word": "똑바로",
+    "translation": "прямо",
+    "transcription": "ttokbaro",
+    "description": "В прямом направлении или без искривлений.",
+    "audio": "audio/똑바로_tts.mp3"
+  }
+]

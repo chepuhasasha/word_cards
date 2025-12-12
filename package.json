@@ -16,7 +16,7 @@
     "lint": "eslint . --fix --cache",
     "format": "prettier --write --experimental-cli src/",
     "audio": "node scripts/audio.js public/sets.json",
-    "shuffle": "node scripts/shuffle.js public/sets.json topic_1_shuffled 20"
+    "shuffle": "node scripts/shuffle.js public/sets.json public/topic_1_shuffled 20"
   },
   "dependencies": {
     "vue": "^3.5.25"

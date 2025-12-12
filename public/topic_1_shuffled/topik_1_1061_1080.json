@@ -1,0 +1,142 @@
+[
+  {
+    "word": "그래서",
+    "translation": "поэтому",
+    "transcription": "кы-рэ-со",
+    "description": "Указывает на следствие из сказанного ранее.",
+    "audio": "audio/그래서_tts.mp3"
+  },
+  {
+    "word": "오",
+    "translation": "пять",
+    "transcription": "o",
+    "description": "число 5",
+    "audio": "audio/오_tts.mp3"
+  },
+  {
+    "word": "쯤",
+    "translation": "примерно",
+    "transcription": "jjeum",
+    "description": "приблизительная величина или время",
+    "audio": "audio/쯤_tts.mp3"
+  },
+  {
+    "word": "일본사람",
+    "translation": "японец",
+    "transcription": "ilbon saram",
+    "description": "гражданин или уроженец Японии",
+    "audio": "audio/일본사람_tts.mp3"
+  },
+  {
+    "word": "정보",
+    "translation": "информация",
+    "transcription": "jeongbo",
+    "description": "сведения о фактах или событиях",
+    "audio": "audio/정보_tts.mp3"
+  },
+  {
+    "word": "순서",
+    "translation": "порядок; очередь",
+    "transcription": "sunseo",
+    "description": "последовательность действий или позиция в очереди",
+    "audio": "audio/순서_tts.mp3"
+  },
+  {
+    "word": "중요하다",
+    "translation": "быть важным",
+    "transcription": "jungyohada",
+    "description": "иметь большое значение",
+    "audio": "audio/중요하다_tts.mp3"
+  },
+  {
+    "word": "자르다",
+    "translation": "резать",
+    "transcription": "jareuda",
+    "description": "делить предмет ножом или ножницами",
+    "audio": "audio/자르다_tts.mp3"
+  },
+  {
+    "word": "두껍다",
+    "translation": "толстый; плотный",
+    "transcription": "ту-ккоб-та",
+    "description": "О предметах с большой толщиной.",
+    "audio": "audio/두껍다_tts.mp3"
+  },
+  {
+    "word": "바나나",
+    "translation": "банан",
+    "transcription": "banana",
+    "description": "Тропический фрукт с мягкой сладкой мякотью.",
+    "audio": "audio/바나나_tts.mp3"
+  },
+  {
+    "word": "화장실",
+    "translation": "туалет",
+    "transcription": "хваджанщиль",
+    "description": "Помещение с унитазом и умывальником.",
+    "audio": "audio/화장실_tts.mp3"
+  },
+  {
+    "word": "적",
+    "translation": "враг",
+    "transcription": "jeok",
+    "description": "противник или враждебная сторона",
+    "audio": "audio/적_tts.mp3"
+  },
+  {
+    "word": "상처",
+    "translation": "рана",
+    "transcription": "sangcheo",
+    "description": "Повреждение кожи или души.",
+    "audio": "audio/상처_tts.mp3"
+  },
+  {
+    "word": "얘기하다",
+    "translation": "разговаривать",
+    "transcription": "yaegihada",
+    "description": "общаться устно, беседовать",
+    "audio": "audio/얘기하다_tts.mp3"
+  },
+  {
+    "word": "남대문시장",
+    "translation": "рынок Намдэмун",
+    "transcription": "нам-де-мун-щи-джан",
+    "description": "Крупный традиционный рынок в Сеуле.",
+    "audio": "audio/남대문시장_tts.mp3"
+  },
+  {
+    "word": "주차장",
+    "translation": "парковка",
+    "transcription": "juchajang",
+    "description": "площадка для стоянки автомобилей",
+    "audio": "audio/주차장_tts.mp3"
+  },
+  {
+    "word": "다이어트",
+    "translation": "диета",
+    "transcription": "да-и-о-ты",
+    "description": "Контролируемый режим питания ради здоровья или фигуры.",
+    "audio": "audio/다이어트_tts.mp3"
+  },
+  {
+    "word": "쌀밥",
+    "translation": "варёный рис",
+    "transcription": "ssalbap",
+    "description": "готовый рис, сваренный на пару",
+    "audio": "audio/쌀밥_tts.mp3"
+  },
+  {
+    "word": "깨끗하다",
+    "translation": "чистый",
+    "transcription": "ккэ-кыт-ха-да",
+    "description": "Находиться в аккуратном, незагрязнённом состоянии.",
+    "audio": "audio/깨끗하다_tts.mp3"
+  },
+  {
+    "word": "작년",
+    "translation": "прошлый год",
+    "transcription": "jangnyeon",
+    "description": "год, предшествующий текущему",
+    "audio": "audio/작년_tts.mp3"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "word": "엄마",
+    "translation": "мама",
+    "transcription": "eomma",
+    "description": "неформальное обращение к матери",
+    "audio": "audio/엄마_tts.mp3"
+  },
+  {
+    "word": "부드럽다",
+    "translation": "мягкий",
+    "transcription": "budeureopda",
+    "description": "Имеющий гладкую, нежную текстуру или характер.",
+    "audio": "audio/부드럽다_tts.mp3"
+  },
+  {
+    "word": "장소",
+    "translation": "место",
+    "transcription": "jangso",
+    "description": "определённый пункт или локация",
+    "audio": "audio/장소_tts.mp3"
+  },
+  {
+    "word": "씻다",
+    "translation": "мыть; стирать",
+    "transcription": "ssitda",
+    "description": "очищать водой тело или предметы",
+    "audio": "audio/씻다_tts.mp3"
+  },
+  {
+    "word": "일본드라마",
+    "translation": "японская драма",
+    "transcription": "ilbon deurama",
+    "description": "сериал или теледрама, снятые в Японии",
+    "audio": "audio/일본드라마_tts.mp3"
+  },
+  {
+    "word": "듣기",
+    "translation": "аудирование",
+    "transcription": "тыт-ки",
+    "description": "Вид деятельности по восприятию информации на слух.",
+    "audio": "audio/듣기_tts.mp3"
+  },
+  {
+    "word": "브라질",
+    "translation": "Бразилия",
+    "transcription": "beurajil",
+    "description": "Государство в Южной Америке.",
+    "audio": "audio/브라질_tts.mp3"
+  },
+  {
+    "word": "피아노",
+    "translation": "пианино",
+    "transcription": "piano",
+    "description": "клавишный музыкальный инструмент",
+    "audio": "audio/피아노_tts.mp3"
+  },
+  {
+    "word": "건물",
+    "translation": "здание",
+    "transcription": "конмуль",
+    "description": "Сооружение, предназначенное для проживания или работы.",
+    "audio": "audio/건물_tts.mp3"
+  },
+  {
+    "word": "누구",
+    "translation": "кто",
+    "transcription": "ну-гу",
+    "description": "Вопросительное слово о личности.",
+    "audio": "audio/누구_tts.mp3"
+  },
+  {
+    "word": "봉지",
+    "translation": "пакет",
+    "transcription": "bongji",
+    "description": "Мешочек или пакет для мелких покупок.",
+    "audio": "audio/봉지_tts.mp3"
+  },
+  {
+    "word": "언제",
+    "translation": "когда",
+    "transcription": "eonje",
+    "description": "вопрос о времени события",
+    "audio": "audio/언제_tts.mp3"
+  },
+  {
+    "word": "부업",
+    "translation": "подработка",
+    "transcription": "bueop",
+    "description": "Дополнительная работа помимо основной.",
+    "audio": "audio/부업_tts.mp3"
+  },
+  {
+    "word": "일",
+    "translation": "дело; работа",
+    "transcription": "il",
+    "description": "занятие, событие или обязанность",
+    "audio": "audio/일_tts.mp3"
+  },
+  {
+    "word": "다섯",
+    "translation": "пять",
+    "transcription": "да-сот",
+    "description": "Число 5 в корейском счёте.",
+    "audio": "audio/다섯_tts.mp3"
+  },
+  {
+    "word": "때",
+    "translation": "время",
+    "transcription": "ttae",
+    "description": "Определённый момент или период.",
+    "audio": "audio/때_tts.mp3"
+  },
+  {
+    "word": "느리다",
+    "translation": "медленный",
+    "transcription": "ны-ри-да",
+    "description": "Движущийся или происходящий без спешки.",
+    "audio": "audio/느리다_tts.mp3"
+  },
+  {
+    "word": "서울역",
+    "translation": "Сеульский вокзал",
+    "transcription": "seoul-yeok",
+    "description": "Главная железнодорожная станция в Сеуле.",
+    "audio": "audio/서울역_tts.mp3"
+  },
+  {
+    "word": "것",
+    "translation": "вещь",
+    "transcription": "кос",
+    "description": "Предмет или понятие, на которое указывает говорящий.",
+    "audio": "audio/것_tts.mp3"
+  },
+  {
+    "word": "환영하다",
+    "translation": "приветствовать",
+    "transcription": "хванёнхада",
+    "description": "Радушно встречать и выражать одобрение приходу кого-либо.",
+    "audio": "audio/환영하다_tts.mp3"
+  }
+]

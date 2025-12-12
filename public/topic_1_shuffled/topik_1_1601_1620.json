@@ -1,0 +1,142 @@
+[
+  {
+    "word": "돌아오다",
+    "translation": "возвращаться домой; приходить обратно",
+    "transcription": "то-ра-о-да",
+    "description": "Приходить обратно в исходное место.",
+    "audio": "audio/돌아오다_tts.mp3"
+  },
+  {
+    "word": "대학교",
+    "translation": "университет",
+    "transcription": "дэ-хак-кё",
+    "description": "Институт высшего образования с факультетами и кафедрами.",
+    "audio": "audio/대학교_tts.mp3"
+  },
+  {
+    "word": "소개하다",
+    "translation": "представлять; знакомить",
+    "transcription": "sogaehada",
+    "description": "знакомить людей или рассказывать о ком-то",
+    "audio": "audio/소개하다_tts.mp3"
+  },
+  {
+    "word": "경기",
+    "translation": "соревнование",
+    "transcription": "кёнги",
+    "description": "Матч или спортивная игра между участниками.",
+    "audio": "audio/경기_tts.mp3"
+  },
+  {
+    "word": "닫다",
+    "translation": "закрывать",
+    "transcription": "дат-та",
+    "description": "Приводить дверь, крышку или окно в закрытое положение.",
+    "audio": "audio/닫다_tts.mp3"
+  },
+  {
+    "word": "축하",
+    "translation": "поздравление",
+    "transcription": "chukha",
+    "description": "слова или действия в честь радостного события",
+    "audio": "audio/축하_tts.mp3"
+  },
+  {
+    "word": "김치",
+    "translation": "кимчхи",
+    "transcription": "ким-чи",
+    "description": "Острая ферментированная капуста.",
+    "audio": "audio/김치_tts.mp3"
+  },
+  {
+    "word": "이사",
+    "translation": "переезд",
+    "transcription": "isa",
+    "description": "смена места жительства или офиса",
+    "audio": "audio/이사_tts.mp3"
+  },
+  {
+    "word": "경주",
+    "translation": "Кёнджу",
+    "transcription": "кёнджу",
+    "description": "Город в Республике Корея, известный историческими памятниками.",
+    "audio": "audio/경주_tts.mp3"
+  },
+  {
+    "word": "나쁘다",
+    "translation": "плохой",
+    "transcription": "на-ппы-да",
+    "description": "Обладать отрицательными свойствами.",
+    "audio": "audio/나쁘다_tts.mp3"
+  },
+  {
+    "word": "인사",
+    "translation": "приветствие",
+    "transcription": "insa",
+    "description": "обмен приветственными словами или поклоном",
+    "audio": "audio/인사_tts.mp3"
+  },
+  {
+    "word": "사전",
+    "translation": "словарь",
+    "transcription": "sajeon",
+    "description": "Справочник со словами и их значениями.",
+    "audio": "audio/사전_tts.mp3"
+  },
+  {
+    "word": "눕다",
+    "translation": "ложиться",
+    "transcription": "нуп-та",
+    "description": "Принимать горизонтальное положение тела.",
+    "audio": "audio/눕다_tts.mp3"
+  },
+  {
+    "word": "경기장",
+    "translation": "стадион",
+    "transcription": "кёнгиджан",
+    "description": "Площадка или арена для проведения соревнований.",
+    "audio": "audio/경기장_tts.mp3"
+  },
+  {
+    "word": "고추",
+    "translation": "острый перец",
+    "transcription": "ко-чху",
+    "description": "Красный стручковый перец, используемый как приправа.",
+    "audio": "audio/고추_tts.mp3"
+  },
+  {
+    "word": "남편",
+    "translation": "муж",
+    "transcription": "нам-пхён",
+    "description": "Супруг женщины.",
+    "audio": "audio/남편_tts.mp3"
+  },
+  {
+    "word": "꾸다",
+    "translation": "видеть сон",
+    "transcription": "кку-да",
+    "description": "Переживать события во сне.",
+    "audio": "audio/꾸다_tts.mp3"
+  },
+  {
+    "word": "만두",
+    "translation": "манду",
+    "transcription": "mandu",
+    "description": "Корейские пельмени с начинкой.",
+    "audio": "audio/만두_tts.mp3"
+  },
+  {
+    "word": "노래방",
+    "translation": "караоке-клуб",
+    "transcription": "но-рэ-бан",
+    "description": "Заведение, где поют песни под минус.",
+    "audio": "audio/노래방_tts.mp3"
+  },
+  {
+    "word": "슈퍼마켓",
+    "translation": "супермаркет",
+    "transcription": "syupeomaket",
+    "description": "крупный магазин самообслуживания",
+    "audio": "audio/슈퍼마켓_tts.mp3"
+  }
+]

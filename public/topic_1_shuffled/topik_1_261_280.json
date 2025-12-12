@@ -1,0 +1,142 @@
+[
+  {
+    "word": "공부",
+    "translation": "учёба",
+    "transcription": "кон-бу",
+    "description": "Процесс освоения знаний.",
+    "audio": "audio/공부_tts.mp3"
+  },
+  {
+    "word": "응",
+    "translation": "ага",
+    "transcription": "eung",
+    "description": "неформальное согласие или отклик",
+    "audio": "audio/응_tts.mp3"
+  },
+  {
+    "word": "수도",
+    "translation": "столица; водопровод",
+    "transcription": "sudo",
+    "description": "главный город страны или система подачи воды",
+    "audio": "audio/수도_tts.mp3"
+  },
+  {
+    "word": "키",
+    "translation": "рост",
+    "transcription": "ki",
+    "description": "высота человека или предмета",
+    "audio": "audio/키_tts.mp3"
+  },
+  {
+    "word": "책장",
+    "translation": "книжный шкаф",
+    "transcription": "chaekjang",
+    "description": "мебель для хранения книг",
+    "audio": "audio/책장_tts.mp3"
+  },
+  {
+    "word": "찾아가다",
+    "translation": "заходить в гости",
+    "transcription": "chajagada",
+    "description": "отправляться к кому-либо с визитом",
+    "audio": "audio/찾아가다_tts.mp3"
+  },
+  {
+    "word": "일어나다",
+    "translation": "вставать",
+    "transcription": "ireonada",
+    "description": "подниматься с постели или с места",
+    "audio": "audio/일어나다_tts.mp3"
+  },
+  {
+    "word": "독서실",
+    "translation": "читальный зал",
+    "transcription": "ток-со-силь",
+    "description": "Тихое помещение, предназначенное для чтения и учебы.",
+    "audio": "audio/독서실_tts.mp3"
+  },
+  {
+    "word": "진달래",
+    "translation": "азалия",
+    "transcription": "jindallae",
+    "description": "весенний кустарник с яркими цветами",
+    "audio": "audio/진달래_tts.mp3"
+  },
+  {
+    "word": "아랍어",
+    "translation": "арабский язык",
+    "transcription": "arabeo",
+    "description": "язык, распространённый в арабских странах",
+    "audio": "audio/아랍어_tts.mp3"
+  },
+  {
+    "word": "다니다",
+    "translation": "ходить; посещать регулярно",
+    "transcription": "да-ни-да",
+    "description": "Регулярно бывать где-либо, например в школе или на работе.",
+    "audio": "audio/다니다_tts.mp3"
+  },
+  {
+    "word": "동안",
+    "translation": "в течение; во время",
+    "transcription": "тон-ан",
+    "description": "Промежуток времени, на протяжении которого что-то происходит.",
+    "audio": "audio/동안_tts.mp3"
+  },
+  {
+    "word": "알맞다",
+    "translation": "подходящий",
+    "transcription": "almatda",
+    "description": "соответствующий нужным условиям",
+    "audio": "audio/알맞다_tts.mp3"
+  },
+  {
+    "word": "프로그램",
+    "translation": "программа",
+    "transcription": "peurogeuraem",
+    "description": "план мероприятий или программное обеспечение",
+    "audio": "audio/프로그램_tts.mp3"
+  },
+  {
+    "word": "단어",
+    "translation": "слово",
+    "transcription": "да-но",
+    "description": "Минимальная единица языка с самостоятельным значением.",
+    "audio": "audio/단어_tts.mp3"
+  },
+  {
+    "word": "웃다",
+    "translation": "смеяться",
+    "transcription": "utda",
+    "description": "издавать смех",
+    "audio": "audio/웃다_tts.mp3"
+  },
+  {
+    "word": "점퍼",
+    "translation": "джемпер; куртка",
+    "transcription": "jeompeo",
+    "description": "лёгкая верхняя одежда",
+    "audio": "audio/점퍼_tts.mp3"
+  },
+  {
+    "word": "고등학교",
+    "translation": "старшая школа",
+    "transcription": "ко-дын-хак-кё",
+    "description": "Учебное заведение для учеников старших классов.",
+    "audio": "audio/고등학교_tts.mp3"
+  },
+  {
+    "word": "기온",
+    "translation": "температура воздуха",
+    "transcription": "ки-он",
+    "description": "Уровень тепла в окружающей среде.",
+    "audio": "audio/기온_tts.mp3"
+  },
+  {
+    "word": "녹차",
+    "translation": "зелёный чай",
+    "transcription": "нок-ча",
+    "description": "Чайный напиток из неферментированных листьев.",
+    "audio": "audio/녹차_tts.mp3"
+  }
+]

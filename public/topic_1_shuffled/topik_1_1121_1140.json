@@ -1,0 +1,142 @@
+[
+  {
+    "word": "넥타이",
+    "translation": "галстук",
+    "transcription": "нек-та-и",
+    "description": "Лента ткани, надеваемая на шею с рубашкой.",
+    "audio": "audio/넥타이_tts.mp3"
+  },
+  {
+    "word": "콧노래",
+    "translation": "насвистывание",
+    "transcription": "kotnorae",
+    "description": "лёгкое напевание с закрытым ртом",
+    "audio": "audio/콧노래_tts.mp3"
+  },
+  {
+    "word": "흰색",
+    "translation": "белый цвет",
+    "transcription": "хвинсэк",
+    "description": "Цвет белого оттенка, противоположный чёрному.",
+    "audio": "audio/흰색_tts.mp3"
+  },
+  {
+    "word": "어디",
+    "translation": "где",
+    "transcription": "eodi",
+    "description": "вопросительное слово о месте",
+    "audio": "audio/어디_tts.mp3"
+  },
+  {
+    "word": "주말",
+    "translation": "выходные",
+    "transcription": "jumal",
+    "description": "период субботы и воскресенья",
+    "audio": "audio/주말_tts.mp3"
+  },
+  {
+    "word": "뵙다",
+    "translation": "встретиться",
+    "transcription": "boepda",
+    "description": "Смиренная форма глагола «встречать» старших.",
+    "audio": "audio/뵙다_tts.mp3"
+  },
+  {
+    "word": "잊어버리다",
+    "translation": "забыть напрочь",
+    "transcription": "ijeobeorida",
+    "description": "полностью вылететь из памяти",
+    "audio": "audio/잊어버리다_tts.mp3"
+  },
+  {
+    "word": "바이올린",
+    "translation": "скрипка",
+    "transcription": "baiollin",
+    "description": "Смычковый струнный музыкальный инструмент.",
+    "audio": "audio/바이올린_tts.mp3"
+  },
+  {
+    "word": "오른쪽",
+    "translation": "правая сторона",
+    "transcription": "oreunjjok",
+    "description": "направление справа",
+    "audio": "audio/오른쪽_tts.mp3"
+  },
+  {
+    "word": "먹다",
+    "translation": "есть",
+    "transcription": "meokda",
+    "description": "Употреблять пищу.",
+    "audio": "audio/먹다_tts.mp3"
+  },
+  {
+    "word": "고맙다",
+    "translation": "быть благодарным",
+    "transcription": "ко-мап-да",
+    "description": "Чувствовать благодарность к кому-либо.",
+    "audio": "audio/고맙다_tts.mp3"
+  },
+  {
+    "word": "양파",
+    "translation": "лук репчатый",
+    "transcription": "yangpa",
+    "description": "овощ с характерным острым вкусом",
+    "audio": "audio/양파_tts.mp3"
+  },
+  {
+    "word": "글",
+    "translation": "текст",
+    "transcription": "кыль",
+    "description": "Написанное высказывание или письменный знак.",
+    "audio": "audio/글_tts.mp3"
+  },
+  {
+    "word": "사월",
+    "translation": "апрель",
+    "transcription": "sawol",
+    "description": "Четвёртый месяц года.",
+    "audio": "audio/사월_tts.mp3"
+  },
+  {
+    "word": "반찬",
+    "translation": "закуски",
+    "transcription": "banchan",
+    "description": "Небольшие корейские блюда, подаваемые к рису.",
+    "audio": "audio/반찬_tts.mp3"
+  },
+  {
+    "word": "먼저",
+    "translation": "сначала",
+    "transcription": "meonjeo",
+    "description": "В первую очередь, перед другими.",
+    "audio": "audio/먼저_tts.mp3"
+  },
+  {
+    "word": "이런",
+    "translation": "такой",
+    "transcription": "ireon",
+    "description": "подобный этому",
+    "audio": "audio/이런_tts.mp3"
+  },
+  {
+    "word": "예약",
+    "translation": "бронь",
+    "transcription": "yeyak",
+    "description": "предварительное резервирование услуги",
+    "audio": "audio/예약_tts.mp3"
+  },
+  {
+    "word": "부산",
+    "translation": "Пусан",
+    "transcription": "busan",
+    "description": "Крупный портовый город на юге Кореи.",
+    "audio": "audio/부산_tts.mp3"
+  },
+  {
+    "word": "감동하다",
+    "translation": "быть тронутым",
+    "transcription": "камдонхада",
+    "description": "Испытывать глубокое впечатление или умиление.",
+    "audio": "audio/감동하다_tts.mp3"
+  }
+]

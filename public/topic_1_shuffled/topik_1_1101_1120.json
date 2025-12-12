@@ -1,0 +1,142 @@
+[
+  {
+    "word": "괜찮습니다",
+    "translation": "всё в порядке",
+    "transcription": "квэн-чан-сым-ни-да",
+    "description": "Вежливый ответ, что беспокоиться не нужно.",
+    "audio": "audio/괜찮습니다_tts.mp3"
+  },
+  {
+    "word": "정하다",
+    "translation": "решать; устанавливать",
+    "transcription": "jeonghada",
+    "description": "принимать решение или определять правило",
+    "audio": "audio/정하다_tts.mp3"
+  },
+  {
+    "word": "첫째",
+    "translation": "первый; старший",
+    "transcription": "cheotjae",
+    "description": "первый по порядку или старший ребёнок",
+    "audio": "audio/첫째_tts.mp3"
+  },
+  {
+    "word": "줄다",
+    "translation": "уменьшаться",
+    "transcription": "julda",
+    "description": "становиться меньше по размеру или количеству",
+    "audio": "audio/줄다_tts.mp3"
+  },
+  {
+    "word": "적다",
+    "translation": "мало",
+    "transcription": "jeokda",
+    "description": "иметь небольшое количество",
+    "audio": "audio/적다_tts.mp3"
+  },
+  {
+    "word": "담배",
+    "translation": "сигареты; табак",
+    "transcription": "там-бэ",
+    "description": "Табачное изделие для курения.",
+    "audio": "audio/담배_tts.mp3"
+  },
+  {
+    "word": "떨어지다",
+    "translation": "падать",
+    "transcription": "tteoreojida",
+    "description": "Опускаться вниз, отрываться и падать.",
+    "audio": "audio/떨어지다_tts.mp3"
+  },
+  {
+    "word": "축구",
+    "translation": "футбол",
+    "transcription": "chukgu",
+    "description": "командная игра с мячом ногами",
+    "audio": "audio/축구_tts.mp3"
+  },
+  {
+    "word": "돈",
+    "translation": "деньги",
+    "transcription": "тон",
+    "description": "Средство оплаты товаров и услуг.",
+    "audio": "audio/돈_tts.mp3"
+  },
+  {
+    "word": "여학생",
+    "translation": "студентка",
+    "transcription": "yeohaksaeng",
+    "description": "учащаяся женского пола",
+    "audio": "audio/여학생_tts.mp3"
+  },
+  {
+    "word": "반달",
+    "translation": "полумесяц",
+    "transcription": "bandal",
+    "description": "Фаза луны в виде половины диска.",
+    "audio": "audio/반달_tts.mp3"
+  },
+  {
+    "word": "이모",
+    "translation": "тётя (сестра матери)",
+    "transcription": "imo",
+    "description": "родная сестра матери",
+    "audio": "audio/이모_tts.mp3"
+  },
+  {
+    "word": "명절",
+    "translation": "праздник",
+    "transcription": "myeongjeol",
+    "description": "Традиционный праздничный день.",
+    "audio": "audio/명절_tts.mp3"
+  },
+  {
+    "word": "크리스마스",
+    "translation": "Рождество",
+    "transcription": "keuriseumaseu",
+    "description": "христианский праздник 25 декабря",
+    "audio": "audio/크리스마스_tts.mp3"
+  },
+  {
+    "word": "옛날",
+    "translation": "давно",
+    "transcription": "yennal",
+    "description": "в старину, в прежние времена",
+    "audio": "audio/옛날_tts.mp3"
+  },
+  {
+    "word": "평일",
+    "translation": "будний день",
+    "transcription": "pyeongil",
+    "description": "день недели кроме выходных",
+    "audio": "audio/평일_tts.mp3"
+  },
+  {
+    "word": "스트레스",
+    "translation": "стресс",
+    "transcription": "seuteureseu",
+    "description": "психологическое или физическое напряжение",
+    "audio": "audio/스트레스_tts.mp3"
+  },
+  {
+    "word": "걸어가다",
+    "translation": "идти пешком",
+    "transcription": "корогда",
+    "description": "Продвигаться в направлении от говорящего шагом.",
+    "audio": "audio/걸어가다_tts.mp3"
+  },
+  {
+    "word": "맛",
+    "translation": "вкус",
+    "transcription": "mat",
+    "description": "Впечатление от еды или напитка.",
+    "audio": "audio/맛_tts.mp3"
+  },
+  {
+    "word": "차갑다",
+    "translation": "холодный",
+    "transcription": "chagapda",
+    "description": "имеющий низкую температуру на ощупь",
+    "audio": "audio/차갑다_tts.mp3"
+  }
+]

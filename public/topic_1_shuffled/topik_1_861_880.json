@@ -1,0 +1,142 @@
+[
+  {
+    "word": "설명",
+    "translation": "объяснение",
+    "transcription": "seolmyeong",
+    "description": "разъяснение сути или смысла",
+    "audio": "audio/설명_tts.mp3"
+  },
+  {
+    "word": "다른",
+    "translation": "другой; иной",
+    "transcription": "да-рын",
+    "description": "Указывает на предмет, отличающийся от упомянутого ранее.",
+    "audio": "audio/다른_tts.mp3"
+  },
+  {
+    "word": "예문",
+    "translation": "пример предложения",
+    "transcription": "yemun",
+    "description": "образцовая фраза для изучения",
+    "audio": "audio/예문_tts.mp3"
+  },
+  {
+    "word": "꽃집",
+    "translation": "цветочный магазин",
+    "transcription": "ккоч-джип",
+    "description": "Торговая точка, где продают цветы.",
+    "audio": "audio/꽃집_tts.mp3"
+  },
+  {
+    "word": "시내",
+    "translation": "центр города",
+    "transcription": "sinae",
+    "description": "деловая и торговая часть города",
+    "audio": "audio/시내_tts.mp3"
+  },
+  {
+    "word": "실수",
+    "translation": "ошибка",
+    "transcription": "silsu",
+    "description": "неверное действие или промах",
+    "audio": "audio/실수_tts.mp3"
+  },
+  {
+    "word": "끼다",
+    "translation": "надевать; сгущаться",
+    "transcription": "кки-да",
+    "description": "Надевать кольцо, очки или клубиться, как туман.",
+    "audio": "audio/끼다_tts.mp3"
+  },
+  {
+    "word": "원하다",
+    "translation": "хотеть",
+    "transcription": "wonhada",
+    "description": "желать чего-либо",
+    "audio": "audio/원하다_tts.mp3"
+  },
+  {
+    "word": "여기저기",
+    "translation": "там и сям",
+    "transcription": "yeogijeogi",
+    "description": "в разных местах, повсюду",
+    "audio": "audio/여기저기_tts.mp3"
+  },
+  {
+    "word": "빨갛다",
+    "translation": "быть красным",
+    "transcription": "ppalgata",
+    "description": "Иметь ярко-красный оттенок.",
+    "audio": "audio/빨갛다_tts.mp3"
+  },
+  {
+    "word": "요르단",
+    "translation": "Иордания",
+    "transcription": "yoreudan",
+    "description": "государство на Ближнем Востоке",
+    "audio": "audio/요르단_tts.mp3"
+  },
+  {
+    "word": "달리다",
+    "translation": "бежать",
+    "transcription": "даль-ли-да",
+    "description": "Двигаться быстро, опираясь на ноги.",
+    "audio": "audio/달리다_tts.mp3"
+  },
+  {
+    "word": "하숙집",
+    "translation": "гостевой дом",
+    "transcription": "hasukjip",
+    "description": "жильё, где предоставляют комнату и питание",
+    "audio": "audio/하숙집_tts.mp3"
+  },
+  {
+    "word": "시",
+    "translation": "город; час; стих",
+    "transcription": "si",
+    "description": "административный город, единица времени или поэзия",
+    "audio": "audio/시_tts.mp3"
+  },
+  {
+    "word": "가볍다",
+    "translation": "легкий",
+    "transcription": "кабёпта",
+    "description": "Обладать небольшим весом или быть непринужденным.",
+    "audio": "audio/가볍다_tts.mp3"
+  },
+  {
+    "word": "인도",
+    "translation": "Индия",
+    "transcription": "indo",
+    "description": "государство в Южной Азии",
+    "audio": "audio/인도_tts.mp3"
+  },
+  {
+    "word": "대학생",
+    "translation": "студент университета",
+    "transcription": "дэ-хак-сэн",
+    "description": "Человек, обучающийся в вузе.",
+    "audio": "audio/대학생_tts.mp3"
+  },
+  {
+    "word": "과거",
+    "translation": "прошлое",
+    "transcription": "ква-гэо",
+    "description": "Время, которое уже прошло.",
+    "audio": "audio/과거_tts.mp3"
+  },
+  {
+    "word": "결정",
+    "translation": "решение",
+    "transcription": "gyeoljeong",
+    "description": "Принятое решение или выбор после обдумывания.",
+    "audio": "audio/결정_tts.mp3"
+  },
+  {
+    "word": "간호사",
+    "translation": "медсестра",
+    "transcription": "канхоса",
+    "description": "Медицинский работник, ухаживающий за пациентами.",
+    "audio": "audio/간호사_tts.mp3"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "word": "홍차",
+    "translation": "черный чай",
+    "transcription": "хончха",
+    "description": "Ферментированный чай тёмного цвета.",
+    "audio": "audio/홍차_tts.mp3"
+  },
+  {
+    "word": "볶음밥",
+    "translation": "жареный рис",
+    "transcription": "bokkeumbap",
+    "description": "Рис, обжаренный с начинкой и приправами.",
+    "audio": "audio/볶음밥_tts.mp3"
+  },
+  {
+    "word": "돌아가다",
+    "translation": "возвращаться; уходить обратно",
+    "transcription": "то-ра-га-да",
+    "description": "Двигаться назад к прежнему месту.",
+    "audio": "audio/돌아가다_tts.mp3"
+  },
+  {
+    "word": "둘",
+    "translation": "два",
+    "transcription": "туль",
+    "description": "Корейское числительное 2 в независимой форме.",
+    "audio": "audio/둘_tts.mp3"
+  },
+  {
+    "word": "들",
+    "translation": "поля; суффикс множественного числа",
+    "transcription": "тыль",
+    "description": "Либо равнинные поля, либо показатель множественности в речи.",
+    "audio": "audio/들_tts.mp3"
+  },
+  {
+    "word": "좀더",
+    "translation": "ещё немного",
+    "transcription": "jom deo",
+    "description": "чуть в большей мере",
+    "audio": "audio/좀더_tts.mp3"
+  },
+  {
+    "word": "맞은편",
+    "translation": "напротив",
+    "transcription": "majeunpyeon",
+    "description": "Расположенный с другой стороны.",
+    "audio": "audio/맞은편_tts.mp3"
+  },
+  {
+    "word": "유명하다",
+    "translation": "известный",
+    "transcription": "yumyeonghada",
+    "description": "получивший широкую известность",
+    "audio": "audio/유명하다_tts.mp3"
+  },
+  {
+    "word": "요일",
+    "translation": "день недели",
+    "transcription": "yoil",
+    "description": "название дня в календаре",
+    "audio": "audio/요일_tts.mp3"
+  },
+  {
+    "word": "목걸이",
+    "translation": "ожерелье",
+    "transcription": "mokgeori",
+    "description": "Украшение, надеваемое на шею.",
+    "audio": "audio/목걸이_tts.mp3"
+  },
+  {
+    "word": "부지런하다",
+    "translation": "прилежный",
+    "transcription": "bujireonhada",
+    "description": "Трудолюбивый и постоянно занятый делом.",
+    "audio": "audio/부지런하다_tts.mp3"
+  },
+  {
+    "word": "감동",
+    "translation": "впечатление",
+    "transcription": "камдон",
+    "description": "Сильное эмоциональное впечатление или трогательное чувство.",
+    "audio": "audio/감동_tts.mp3"
+  },
+  {
+    "word": "주위",
+    "translation": "окружающая среда; вокруг",
+    "transcription": "juwi",
+    "description": "пространство вокруг человека или предмета",
+    "audio": "audio/주위_tts.mp3"
+  },
+  {
+    "word": "카드",
+    "translation": "карта",
+    "transcription": "kadeu",
+    "description": "пластиковая платёжная карта или открытка",
+    "audio": "audio/카드_tts.mp3"
+  },
+  {
+    "word": "직장",
+    "translation": "работа",
+    "transcription": "jikjang",
+    "description": "место службы или офис",
+    "audio": "audio/직장_tts.mp3"
+  },
+  {
+    "word": "간식",
+    "translation": "перекус",
+    "transcription": "кансик",
+    "description": "Небольшая закуска между основными приемами пищи.",
+    "audio": "audio/간식_tts.mp3"
+  },
+  {
+    "word": "화나다",
+    "translation": "сердиться",
+    "transcription": "хванада",
+    "description": "Испытывать гнев или раздражение.",
+    "audio": "audio/화나다_tts.mp3"
+  },
+  {
+    "word": "쓰레기",
+    "translation": "мусор",
+    "transcription": "sseuregi",
+    "description": "отходы, подлежащие выбросу",
+    "audio": "audio/쓰레기_tts.mp3"
+  },
+  {
+    "word": "결혼식",
+    "translation": "свадьба",
+    "transcription": "кёронсик",
+    "description": "Церемония заключения брака.",
+    "audio": "audio/결혼식_tts.mp3"
+  },
+  {
+    "word": "감사",
+    "translation": "благодарность",
+    "transcription": "камса",
+    "description": "Чувство признательности за помощь или услугу.",
+    "audio": "audio/감사_tts.mp3"
+  }
+]

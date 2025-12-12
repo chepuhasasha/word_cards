@@ -1,0 +1,142 @@
+[
+  {
+    "word": "닭",
+    "translation": "курица; петух",
+    "transcription": "так",
+    "description": "Домашняя птица, дающая мясо и яйца.",
+    "audio": "audio/닭_tts.mp3"
+  },
+  {
+    "word": "남",
+    "translation": "юг; мужчина",
+    "transcription": "нам",
+    "description": "Направление на юг или представитель мужского пола.",
+    "audio": "audio/남_tts.mp3"
+  },
+  {
+    "word": "가깝다",
+    "translation": "быть близко",
+    "transcription": "каккапта",
+    "description": "Находиться на небольшом расстоянии.",
+    "audio": "audio/가깝다_tts.mp3"
+  },
+  {
+    "word": "몽골",
+    "translation": "Монголия",
+    "transcription": "monggol",
+    "description": "Страна Монголия.",
+    "audio": "audio/몽골_tts.mp3"
+  },
+  {
+    "word": "있다",
+    "translation": "быть; иметься",
+    "transcription": "itda",
+    "description": "существовать или находиться где-либо",
+    "audio": "audio/있다_tts.mp3"
+  },
+  {
+    "word": "영",
+    "translation": "ноль",
+    "transcription": "yeong",
+    "description": "число 0; также значение духа",
+    "audio": "audio/영_tts.mp3"
+  },
+  {
+    "word": "배고프다",
+    "translation": "быть голодным",
+    "transcription": "baegopeuda",
+    "description": "Чувствовать сильное желание поесть.",
+    "audio": "audio/배고프다_tts.mp3"
+  },
+  {
+    "word": "버리다",
+    "translation": "выбрасывать",
+    "transcription": "beorida",
+    "description": "Избавляться от ненужного, оставлять.",
+    "audio": "audio/버리다_tts.mp3"
+  },
+  {
+    "word": "반갑다",
+    "translation": "радоваться встрече",
+    "transcription": "bangapda",
+    "description": "Испытывать приятные эмоции при встрече.",
+    "audio": "audio/반갑다_tts.mp3"
+  },
+  {
+    "word": "다녀오다",
+    "translation": "сходить и вернуться",
+    "transcription": "да-нё-о-да",
+    "description": "Кратко посетить место и вернуться обратно.",
+    "audio": "audio/다녀오다_tts.mp3"
+  },
+  {
+    "word": "독서",
+    "translation": "чтение книг",
+    "transcription": "ток-со",
+    "description": "Процесс чтения литературы для удовольствия или учебы.",
+    "audio": "audio/독서_tts.mp3"
+  },
+  {
+    "word": "그릇",
+    "translation": "миска",
+    "transcription": "кы-рыс",
+    "description": "Посуда или ёмкость для еды.",
+    "audio": "audio/그릇_tts.mp3"
+  },
+  {
+    "word": "눈싸움",
+    "translation": "битва снежками; гляделки",
+    "transcription": "нун-сса-ум",
+    "description": "Игра в снежки или соревнование в пристальном взгляде.",
+    "audio": "audio/눈싸움_tts.mp3"
+  },
+  {
+    "word": "건너편",
+    "translation": "противоположная сторона",
+    "transcription": "коннопхён",
+    "description": "Место, находящееся напротив или через дорогу.",
+    "audio": "audio/건너편_tts.mp3"
+  },
+  {
+    "word": "만나다",
+    "translation": "встречаться",
+    "transcription": "mannada",
+    "description": "Видеться или сталкиваться с кем-либо.",
+    "audio": "audio/만나다_tts.mp3"
+  },
+  {
+    "word": "인기스타",
+    "translation": "популярная звезда",
+    "transcription": "ingiseuta",
+    "description": "артист или знаменитость, пользующийся большим успехом",
+    "audio": "audio/인기스타_tts.mp3"
+  },
+  {
+    "word": "건강",
+    "translation": "здоровье",
+    "transcription": "конган",
+    "description": "Состояние физического и психического благополучия.",
+    "audio": "audio/건강_tts.mp3"
+  },
+  {
+    "word": "두다",
+    "translation": "ставить; оставлять",
+    "transcription": "ту-да",
+    "description": "Помещать предмет куда-то или оставлять в определённом месте.",
+    "audio": "audio/두다_tts.mp3"
+  },
+  {
+    "word": "오래",
+    "translation": "долго",
+    "transcription": "orae",
+    "description": "в течение длительного времени",
+    "audio": "audio/오래_tts.mp3"
+  },
+  {
+    "word": "휴대전화",
+    "translation": "мобильный телефон",
+    "transcription": "хюдэ чонхва",
+    "description": "Переносной телефон для связи через сеть.",
+    "audio": "audio/휴대전화_tts.mp3"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "word": "검은색",
+    "translation": "чёрный цвет",
+    "transcription": "комынсэк",
+    "description": "Цвет темноты; противоположность белому.",
+    "audio": "audio/검은색_tts.mp3"
+  },
+  {
+    "word": "가운데",
+    "translation": "середина",
+    "transcription": "каундэ",
+    "description": "Средняя часть пространства или предмета.",
+    "audio": "audio/가운데_tts.mp3"
+  },
+  {
+    "word": "서쪽",
+    "translation": "запад",
+    "transcription": "seojjok",
+    "description": "Направление стороны света запад.",
+    "audio": "audio/서쪽_tts.mp3"
+  },
+  {
+    "word": "님",
+    "translation": "господин; госпожа",
+    "transcription": "ним",
+    "description": "Почетный суффикс обращения к человеку.",
+    "audio": "audio/님_tts.mp3"
+  },
+  {
+    "word": "메모",
+    "translation": "заметка",
+    "transcription": "memo",
+    "description": "Короткая запись для напоминания.",
+    "audio": "audio/메모_tts.mp3"
+  },
+  {
+    "word": "점심시간",
+    "translation": "обеденное время",
+    "transcription": "jeomsim sigan",
+    "description": "период, отведённый для обеда",
+    "audio": "audio/점심시간_tts.mp3"
+  },
+  {
+    "word": "어머님",
+    "translation": "мама (уваж.)",
+    "transcription": "eomeonim",
+    "description": "уважительная форма слова \"мать\"",
+    "audio": "audio/어머님_tts.mp3"
+  },
+  {
+    "word": "비밀",
+    "translation": "тайна",
+    "transcription": "bimil",
+    "description": "Информация, которую скрывают от других.",
+    "audio": "audio/비밀_tts.mp3"
+  },
+  {
+    "word": "행사",
+    "translation": "мероприятие",
+    "transcription": "хэнса",
+    "description": "Запланированное событие или акция с участием людей.",
+    "audio": "audio/행사_tts.mp3"
+  },
+  {
+    "word": "어둡다",
+    "translation": "тёмный",
+    "transcription": "eodupda",
+    "description": "с низкой освещённостью",
+    "audio": "audio/어둡다_tts.mp3"
+  },
+  {
+    "word": "셋",
+    "translation": "три",
+    "transcription": "set",
+    "description": "числительное 3 в корейской форме",
+    "audio": "audio/셋_tts.mp3"
+  },
+  {
+    "word": "여자",
+    "translation": "женщина",
+    "transcription": "yeoja",
+    "description": "лицо женского пола",
+    "audio": "audio/여자_tts.mp3"
+  },
+  {
+    "word": "곳",
+    "translation": "место",
+    "transcription": "кот",
+    "description": "Определённая точка или пространство.",
+    "audio": "audio/곳_tts.mp3"
+  },
+  {
+    "word": "청소하다",
+    "translation": "убирать",
+    "transcription": "cheongsohada",
+    "description": "приводить помещение в порядок",
+    "audio": "audio/청소하다_tts.mp3"
+  },
+  {
+    "word": "치료하다",
+    "translation": "лечить",
+    "transcription": "chiryohada",
+    "description": "проводить медицинское лечение",
+    "audio": "audio/치료하다_tts.mp3"
+  },
+  {
+    "word": "높다",
+    "translation": "высокий",
+    "transcription": "ноп-та",
+    "description": "Иметь большую высоту или уровень.",
+    "audio": "audio/높다_tts.mp3"
+  },
+  {
+    "word": "치과",
+    "translation": "стоматология",
+    "transcription": "chigwa",
+    "description": "клиника или отделение для лечения зубов",
+    "audio": "audio/치과_tts.mp3"
+  },
+  {
+    "word": "올라가다",
+    "translation": "подниматься",
+    "transcription": "ollagada",
+    "description": "двигаться вверх или на повышение",
+    "audio": "audio/올라가다_tts.mp3"
+  },
+  {
+    "word": "동물",
+    "translation": "животное",
+    "transcription": "тонг-муль",
+    "description": "Живой организм из царства животных.",
+    "audio": "audio/동물_tts.mp3"
+  },
+  {
+    "word": "도착하다",
+    "translation": "прибывать",
+    "transcription": "до-чха-ка-да",
+    "description": "Достигать нужного места или конечного пункта.",
+    "audio": "audio/도착하다_tts.mp3"
+  }
+]

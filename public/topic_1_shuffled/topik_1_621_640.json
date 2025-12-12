@@ -1,0 +1,142 @@
+[
+  {
+    "word": "가져오다",
+    "translation": "принести",
+    "transcription": "каджёода",
+    "description": "Принести или привезти с собой к месту назначения.",
+    "audio": "audio/가져오다_tts.mp3"
+  },
+  {
+    "word": "한국어",
+    "translation": "корейский язык",
+    "transcription": "хангүго",
+    "description": "Национальный язык Кореи, используемый в официальной и письменной речи.",
+    "audio": "audio/한국어_tts.mp3"
+  },
+  {
+    "word": "연예인",
+    "translation": "знаменитость",
+    "transcription": "yeonyein",
+    "description": "известная медийная персона или артист",
+    "audio": "audio/연예인_tts.mp3"
+  },
+  {
+    "word": "나이",
+    "translation": "возраст",
+    "transcription": "на-и",
+    "description": "Количество прожитых лет.",
+    "audio": "audio/나이_tts.mp3"
+  },
+  {
+    "word": "예",
+    "translation": "да (вежливо)",
+    "transcription": "ye",
+    "description": "вежливое подтверждение",
+    "audio": "audio/예_tts.mp3"
+  },
+  {
+    "word": "다르다",
+    "translation": "отличаться",
+    "transcription": "да-ры-да",
+    "description": "Иметь другие свойства или быть не таким, как что-то другое.",
+    "audio": "audio/다르다_tts.mp3"
+  },
+  {
+    "word": "정거장",
+    "translation": "остановка",
+    "transcription": "jeonggeojang",
+    "description": "место, где останавливается транспорт",
+    "audio": "audio/정거장_tts.mp3"
+  },
+  {
+    "word": "개",
+    "translation": "собака",
+    "transcription": "кэ",
+    "description": "Домашняя собака; также счётное слово для предметов.",
+    "audio": "audio/개_tts.mp3"
+  },
+  {
+    "word": "생각하다",
+    "translation": "думать",
+    "transcription": "saenggakhada",
+    "description": "Размышлять или иметь мнение.",
+    "audio": "audio/생각하다_tts.mp3"
+  },
+  {
+    "word": "모르겠습니다",
+    "translation": "не знаю",
+    "transcription": "moreugesseumnida",
+    "description": "Вежливое признание незнания.",
+    "audio": "audio/모르겠습니다_tts.mp3"
+  },
+  {
+    "word": "주인",
+    "translation": "хозяин; владелец",
+    "transcription": "juin",
+    "description": "человек, которому принадлежит имущество",
+    "audio": "audio/주인_tts.mp3"
+  },
+  {
+    "word": "고양이",
+    "translation": "кошка",
+    "transcription": "ко-ян-и",
+    "description": "Домашнее животное семейства кошачьих.",
+    "audio": "audio/고양이_tts.mp3"
+  },
+  {
+    "word": "잘생기다",
+    "translation": "красивый (о мужчине)",
+    "transcription": "jalsaenggida",
+    "description": "иметь привлекательную внешность",
+    "audio": "audio/잘생기다_tts.mp3"
+  },
+  {
+    "word": "취미",
+    "translation": "хобби",
+    "transcription": "chwimi",
+    "description": "любимое занятие для души",
+    "audio": "audio/취미_tts.mp3"
+  },
+  {
+    "word": "점원",
+    "translation": "продавец",
+    "transcription": "jeomwon",
+    "description": "сотрудник торгового заведения",
+    "audio": "audio/점원_tts.mp3"
+  },
+  {
+    "word": "사람",
+    "translation": "человек",
+    "transcription": "saram",
+    "description": "Мужчина или женщина, представитель рода людей.",
+    "audio": "audio/사람_tts.mp3"
+  },
+  {
+    "word": "맑다",
+    "translation": "ясный",
+    "transcription": "makda",
+    "description": "Чистый и прозрачный, без помех или грязи.",
+    "audio": "audio/맑다_tts.mp3"
+  },
+  {
+    "word": "넘어지다",
+    "translation": "падать",
+    "transcription": "но-мо-джи-да",
+    "description": "Терять равновесие и оказываться на земле.",
+    "audio": "audio/넘어지다_tts.mp3"
+  },
+  {
+    "word": "주변",
+    "translation": "окрестности",
+    "transcription": "jubyeon",
+    "description": "пространство вокруг какого-либо места",
+    "audio": "audio/주변_tts.mp3"
+  },
+  {
+    "word": "역",
+    "translation": "станция",
+    "transcription": "yeok",
+    "description": "место посадки на поезд или метро",
+    "audio": "audio/역_tts.mp3"
+  }
+]

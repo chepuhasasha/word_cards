@@ -1,0 +1,142 @@
+[
+  {
+    "word": "개인",
+    "translation": "личность",
+    "transcription": "кэин",
+    "description": "Отдельный человек, индивидуум.",
+    "audio": "audio/개인_tts.mp3"
+  },
+  {
+    "word": "학생증",
+    "translation": "студенческий билет",
+    "transcription": "хаксэнчжын",
+    "description": "Удостоверение, подтверждающее, что человек является студентом или учеником.",
+    "audio": "audio/학생증_tts.mp3"
+  },
+  {
+    "word": "지하철역",
+    "translation": "станция метро",
+    "transcription": "jihacheol-yeok",
+    "description": "остановка, где останавливаются поезда метро",
+    "audio": "audio/지하철역_tts.mp3"
+  },
+  {
+    "word": "한복",
+    "translation": "ханбок",
+    "transcription": "ханбок",
+    "description": "Традиционная корейская одежда.",
+    "audio": "audio/한복_tts.mp3"
+  },
+  {
+    "word": "세수하다",
+    "translation": "умывать(ся)",
+    "transcription": "sesuhada",
+    "description": "мыть лицо и руки водой",
+    "audio": "audio/세수하다_tts.mp3"
+  },
+  {
+    "word": "길",
+    "translation": "дорога",
+    "transcription": "киль",
+    "description": "Путь или улица для движения.",
+    "audio": "audio/길_tts.mp3"
+  },
+  {
+    "word": "바라다",
+    "translation": "желать",
+    "transcription": "barada",
+    "description": "Иметь надежду или желание о чём-либо.",
+    "audio": "audio/바라다_tts.mp3"
+  },
+  {
+    "word": "시작되다",
+    "translation": "начинаться",
+    "transcription": "sijakdoeda",
+    "description": "приходить к старту само по себе",
+    "audio": "audio/시작되다_tts.mp3"
+  },
+  {
+    "word": "추석",
+    "translation": "Чхусок",
+    "transcription": "chuseok",
+    "description": "корейский праздник урожая осенью",
+    "audio": "audio/추석_tts.mp3"
+  },
+  {
+    "word": "말하기",
+    "translation": "говорение",
+    "transcription": "malhagi",
+    "description": "Действие речи или раздел экзамена по устной части.",
+    "audio": "audio/말하기_tts.mp3"
+  },
+  {
+    "word": "한국말",
+    "translation": "корейская речь",
+    "transcription": "хангунмаль",
+    "description": "Корейский язык в устной, разговорной форме.",
+    "audio": "audio/한국말_tts.mp3"
+  },
+  {
+    "word": "특징",
+    "translation": "особенность",
+    "transcription": "teukjing",
+    "description": "характерная черта, отличающее свойство",
+    "audio": "audio/특징_tts.mp3"
+  },
+  {
+    "word": "감기",
+    "translation": "простуда",
+    "transcription": "камги",
+    "description": "Легкое вирусное заболевание с насморком и кашлем.",
+    "audio": "audio/감기_tts.mp3"
+  },
+  {
+    "word": "죄송하다",
+    "translation": "извиняться; сожалею",
+    "transcription": "joesonghada",
+    "description": "выражать сильное сожаление",
+    "audio": "audio/죄송하다_tts.mp3"
+  },
+  {
+    "word": "골프",
+    "translation": "гольф",
+    "transcription": "голь-пхы",
+    "description": "Игра, в которой мяч клюшкой забивают в лунки на поле.",
+    "audio": "audio/골프_tts.mp3"
+  },
+  {
+    "word": "멀다",
+    "translation": "далёкий",
+    "transcription": "meolda",
+    "description": "Находящийся на большом расстоянии.",
+    "audio": "audio/멀다_tts.mp3"
+  },
+  {
+    "word": "대부분",
+    "translation": "большинство; главным образом",
+    "transcription": "дэ-бу-бун",
+    "description": "Наибольшая часть чего-либо.",
+    "audio": "audio/대부분_tts.mp3"
+  },
+  {
+    "word": "약속",
+    "translation": "обещание; встреча",
+    "transcription": "yaksok",
+    "description": "договорённость или обещание встретиться",
+    "audio": "audio/약속_tts.mp3"
+  },
+  {
+    "word": "국제",
+    "translation": "международный",
+    "transcription": "гук-че",
+    "description": "Связанный с отношениями между государствами.",
+    "audio": "audio/국제_tts.mp3"
+  },
+  {
+    "word": "곧",
+    "translation": "скоро",
+    "transcription": "кот",
+    "description": "В ближайшее время, без задержки.",
+    "audio": "audio/곧_tts.mp3"
+  }
+]
