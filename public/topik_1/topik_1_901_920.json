@@ -1,0 +1,122 @@
+[
+  {
+    "word": "신발",
+    "translation": "обувь",
+    "transcription": "sinbal",
+    "description": "любая повседневная или спортивная обувь"
+  },
+  {
+    "word": "신청서",
+    "translation": "заявление; бланк",
+    "transcription": "sincheongseo",
+    "description": "письменная форма для подачи заявки"
+  },
+  {
+    "word": "신청하다",
+    "translation": "подавать заявку",
+    "transcription": "sincheonghada",
+    "description": "официально просить или регистрироваться"
+  },
+  {
+    "word": "실례",
+    "translation": "извините; невежливость",
+    "transcription": "sillye",
+    "description": "выражение извинения за беспокойство"
+  },
+  {
+    "word": "실례하다",
+    "translation": "простите (побеспокоить)",
+    "transcription": "sillyehada",
+    "description": "обращаться с просьбой извинить за неудобство"
+  },
+  {
+    "word": "실수",
+    "translation": "ошибка",
+    "transcription": "silsu",
+    "description": "неверное действие или промах"
+  },
+  {
+    "word": "싫다",
+    "translation": "не нравиться",
+    "transcription": "silta",
+    "description": "испытывать неприязнь"
+  },
+  {
+    "word": "싫어하다",
+    "translation": "не любить; ненавидеть",
+    "transcription": "silheohada",
+    "description": "открыто проявлять неприязнь"
+  },
+  {
+    "word": "심하다",
+    "translation": "сильный; серьёзный",
+    "transcription": "simhada",
+    "description": "выраженный, чрезмерный по степени"
+  },
+  {
+    "word": "십",
+    "translation": "десять",
+    "transcription": "sip",
+    "description": "китайско-корейское числительное 10"
+  },
+  {
+    "word": "십이월",
+    "translation": "декабрь",
+    "transcription": "sipiwol",
+    "description": "двенадцатый месяц года"
+  },
+  {
+    "word": "십일월",
+    "translation": "ноябрь",
+    "transcription": "sibirwol",
+    "description": "одиннадцатый месяц года"
+  },
+  {
+    "word": "싱겁다",
+    "translation": "пресный",
+    "transcription": "singgeopda",
+    "description": "недостаточно солёный или безвкусный"
+  },
+  {
+    "word": "싶다",
+    "translation": "хотеть",
+    "transcription": "sipda",
+    "description": "испытывать желание сделать что-либо"
+  },
+  {
+    "word": "싸다",
+    "translation": "дешёвый; заворачивать",
+    "transcription": "ssada",
+    "description": "иметь низкую цену или упаковывать вещи"
+  },
+  {
+    "word": "싸우다",
+    "translation": "драться; ссориться",
+    "transcription": "ssaunda",
+    "description": "вступать в конфликт или бой"
+  },
+  {
+    "word": "쌀",
+    "translation": "рис (крупа)",
+    "transcription": "ssal",
+    "description": "необработанное зерно риса"
+  },
+  {
+    "word": "쌀밥",
+    "translation": "варёный рис",
+    "transcription": "ssalbap",
+    "description": "готовый рис, сваренный на пару"
+  },
+  {
+    "word": "쌓이다",
+    "translation": "накопляться; складываться",
+    "transcription": "ssahida",
+    "description": "образовывать кучу или накапливаться со временем"
+  },
+  {
+    "word": "썰다",
+    "translation": "резать ломтиками",
+    "transcription": "sseolda",
+    "description": "нарезать продукты на кусочки"
+  }
+]

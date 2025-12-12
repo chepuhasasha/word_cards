@@ -1,0 +1,122 @@
+[
+  {
+    "word": "아흔",
+    "translation": "девяносто",
+    "transcription": "aheun",
+    "description": "корейское числительное 90"
+  },
+  {
+    "word": "악기",
+    "translation": "музыкальный инструмент",
+    "transcription": "akgi",
+    "description": "прибор или устройство для извлечения звуков"
+  },
+  {
+    "word": "안",
+    "translation": "внутри; не (частица отрицания)",
+    "transcription": "an",
+    "description": "внутреннее пространство или частица отрицания"
+  },
+  {
+    "word": "안경",
+    "translation": "очки",
+    "transcription": "angyeong",
+    "description": "оправа со стеклами для коррекции зрения"
+  },
+  {
+    "word": "안내하다",
+    "translation": "информировать; сопровождать",
+    "transcription": "annaehada",
+    "description": "показывать дорогу или давать справку"
+  },
+  {
+    "word": "안녕하세요",
+    "translation": "здравствуйте",
+    "transcription": "annyeonghaseyo",
+    "description": "вежливое приветствие"
+  },
+  {
+    "word": "안녕하십니까",
+    "translation": "здравствуйте (очень вежл.)",
+    "transcription": "annyeonghasimnikka",
+    "description": "формальное приветствие"
+  },
+  {
+    "word": "안다",
+    "translation": "обнимать",
+    "transcription": "anda",
+    "description": "заключать в объятия"
+  },
+  {
+    "word": "안전하다",
+    "translation": "безопасный",
+    "transcription": "anjeonhada",
+    "description": "не представляющий опасности"
+  },
+  {
+    "word": "앉다",
+    "translation": "сидеть; садиться",
+    "transcription": "anjda",
+    "description": "располагаться на стуле или полу"
+  },
+  {
+    "word": "알다",
+    "translation": "знать",
+    "transcription": "alda",
+    "description": "обладать знаниями о факте"
+  },
+  {
+    "word": "알리다",
+    "translation": "сообщать",
+    "transcription": "allida",
+    "description": "доводить информацию до кого-то"
+  },
+  {
+    "word": "알맞다",
+    "translation": "подходящий",
+    "transcription": "almatda",
+    "description": "соответствующий нужным условиям"
+  },
+  {
+    "word": "알았습니다",
+    "translation": "понял; понял(а)",
+    "transcription": "arasseumnida",
+    "description": "вежливое подтверждение понимания"
+  },
+  {
+    "word": "앞",
+    "translation": "перед; впереди",
+    "transcription": "ap",
+    "description": "пространство спереди или будущее время"
+  },
+  {
+    "word": "애",
+    "translation": "ребёнок",
+    "transcription": "ae",
+    "description": "разговорное обозначение ребёнка"
+  },
+  {
+    "word": "액세서리",
+    "translation": "аксессуар",
+    "transcription": "aekseseori",
+    "description": "украшение или дополнительный элемент одежды"
+  },
+  {
+    "word": "야구",
+    "translation": "бейсбол",
+    "transcription": "yagu",
+    "description": "командная игра с битой и мячом"
+  },
+  {
+    "word": "야채",
+    "translation": "овощи",
+    "transcription": "yachae",
+    "description": "съедобные части растений"
+  },
+  {
+    "word": "약",
+    "translation": "лекарство; примерно",
+    "transcription": "yak",
+    "description": "медицинское средство или приблизительное количество"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "word": "소개",
+    "translation": "представление",
+    "transcription": "sogae",
+    "description": "краткое знакомство или вводная информация"
+  },
+  {
+    "word": "소개하다",
+    "translation": "представлять; знакомить",
+    "transcription": "sogaehada",
+    "description": "знакомить людей или рассказывать о ком-то"
+  },
+  {
+    "word": "소고기",
+    "translation": "говядина",
+    "transcription": "sogogi",
+    "description": "мясо коровы"
+  },
+  {
+    "word": "소금",
+    "translation": "соль",
+    "transcription": "sogeum",
+    "description": "поваренная соль как приправа"
+  },
+  {
+    "word": "소리",
+    "translation": "звук; голос",
+    "transcription": "sori",
+    "description": "любые слышимые колебания или речь"
+  },
+  {
+    "word": "소설",
+    "translation": "роман; повесть",
+    "transcription": "soseol",
+    "description": "художественное прозовое произведение"
+  },
+  {
+    "word": "소설가",
+    "translation": "писатель-романист",
+    "transcription": "soseolga",
+    "description": "автор художественных произведений"
+  },
+  {
+    "word": "소식",
+    "translation": "новости",
+    "transcription": "sosik",
+    "description": "сведения или сообщения о событиях"
+  },
+  {
+    "word": "소파",
+    "translation": "диван",
+    "transcription": "sopa",
+    "description": "мягкая мебель для сидения"
+  },
+  {
+    "word": "소포",
+    "translation": "посылка",
+    "transcription": "sopo",
+    "description": "упакованная почтовая отправка"
+  },
+  {
+    "word": "소풍",
+    "translation": "пикник; экскурсия",
+    "transcription": "sopung",
+    "description": "короткая прогулка или выезд на природу"
+  },
+  {
+    "word": "소화제",
+    "translation": "желудочные капли",
+    "transcription": "sohwaje",
+    "description": "лекарство, облегчающее пищеварение"
+  },
+  {
+    "word": "속",
+    "translation": "внутри",
+    "transcription": "sok",
+    "description": "внутреннее пространство чего-либо"
+  },
+  {
+    "word": "손",
+    "translation": "рука (ладонь)",
+    "transcription": "son",
+    "description": "кисть руки человека"
+  },
+  {
+    "word": "손가락",
+    "translation": "палец руки",
+    "transcription": "songarak",
+    "description": "один из пяти пальцев кисти"
+  },
+  {
+    "word": "손님",
+    "translation": "гость; клиент",
+    "transcription": "sonnim",
+    "description": "посетитель или покупатель"
+  },
+  {
+    "word": "손수건",
+    "translation": "носовой платок",
+    "transcription": "sonsugeon",
+    "description": "небольшой платок для лица и рук"
+  },
+  {
+    "word": "송이",
+    "translation": "гроздь; штука (цветок)",
+    "transcription": "songi",
+    "description": "счётное слово для гроздей, цветов"
+  },
+  {
+    "word": "쇼핑",
+    "translation": "шопинг",
+    "transcription": "syoping",
+    "description": "походы по магазинам за покупками"
+  },
+  {
+    "word": "수건",
+    "translation": "полотенце",
+    "transcription": "sugeon",
+    "description": "ткань для вытирания после воды"
+  }
+]

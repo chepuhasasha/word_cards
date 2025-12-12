@@ -1,0 +1,122 @@
+[
+  {
+    "word": "시다",
+    "translation": "кислый",
+    "transcription": "sida",
+    "description": "имеющий кислый вкус"
+  },
+  {
+    "word": "시디",
+    "translation": "CD-диск",
+    "transcription": "sidi",
+    "description": "оптический носитель компакт-диск"
+  },
+  {
+    "word": "시민",
+    "translation": "гражданин",
+    "transcription": "simin",
+    "description": "житель города или страны с правами"
+  },
+  {
+    "word": "시설",
+    "translation": "объект; сооружение",
+    "transcription": "siseol",
+    "description": "инфраструктура или оборудование"
+  },
+  {
+    "word": "시외",
+    "translation": "пригород; загород",
+    "transcription": "sioe",
+    "description": "территория за пределами города"
+  },
+  {
+    "word": "시원하다",
+    "translation": "прохладный; освежающий",
+    "transcription": "siwonhada",
+    "description": "приятно прохладный или дающий облегчение"
+  },
+  {
+    "word": "시월",
+    "translation": "октябрь",
+    "transcription": "siwol",
+    "description": "десятый месяц года"
+  },
+  {
+    "word": "시작",
+    "translation": "начало",
+    "transcription": "sijak",
+    "description": "момент, когда что-то начинается"
+  },
+  {
+    "word": "시작되다",
+    "translation": "начинаться",
+    "transcription": "sijakdoeda",
+    "description": "приходить к старту само по себе"
+  },
+  {
+    "word": "시작하다",
+    "translation": "начинать",
+    "transcription": "sijakhada",
+    "description": "приступать к делу, открывать процесс"
+  },
+  {
+    "word": "시장",
+    "translation": "рынок",
+    "transcription": "sijang",
+    "description": "место торговли товарами"
+  },
+  {
+    "word": "시청",
+    "translation": "мэрия",
+    "transcription": "sicheong",
+    "description": "городская администрация"
+  },
+  {
+    "word": "시키다",
+    "translation": "заставлять; заказывать",
+    "transcription": "sikida",
+    "description": "поручать действие или заказывать еду"
+  },
+  {
+    "word": "시험",
+    "translation": "экзамен",
+    "transcription": "siheom",
+    "description": "проверка знаний"
+  },
+  {
+    "word": "식당",
+    "translation": "столовая; ресторан",
+    "transcription": "sikdang",
+    "description": "место, где готовят и подают еду"
+  },
+  {
+    "word": "식사",
+    "translation": "приём пищи",
+    "transcription": "siksa",
+    "description": "процесс еды — завтрак, обед или ужин"
+  },
+  {
+    "word": "식탁",
+    "translation": "обеденный стол",
+    "transcription": "siktak",
+    "description": "стол, за которым едят"
+  },
+  {
+    "word": "신",
+    "translation": "бог; новый",
+    "transcription": "sin",
+    "description": "божество или приставка к слову «новый»"
+  },
+  {
+    "word": "신다",
+    "translation": "обувать; носить (обувь)",
+    "transcription": "sinda",
+    "description": "надевать на ноги обувь"
+  },
+  {
+    "word": "신문",
+    "translation": "газета",
+    "transcription": "sinmun",
+    "description": "периодическое печатное издание"
+  }
+]

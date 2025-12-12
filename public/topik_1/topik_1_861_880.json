@@ -1,0 +1,122 @@
+[
+  {
+    "word": "스물",
+    "translation": "двадцать",
+    "transcription": "seumul",
+    "description": "корейское числительное 20"
+  },
+  {
+    "word": "스웨터",
+    "translation": "свитер",
+    "transcription": "seweteo",
+    "description": "вязаный тёплый верхний предмет одежды"
+  },
+  {
+    "word": "스케이트",
+    "translation": "коньки; катание на коньках",
+    "transcription": "seukeiteu",
+    "description": "спортивные коньки или сам процесс катания"
+  },
+  {
+    "word": "스키",
+    "translation": "лыжи; лыжный спорт",
+    "transcription": "seuki",
+    "description": "катание на лыжах зимой"
+  },
+  {
+    "word": "스키장",
+    "translation": "горнолыжный курорт",
+    "transcription": "seukijang",
+    "description": "место с трассами для катания на лыжах"
+  },
+  {
+    "word": "스타",
+    "translation": "звезда",
+    "transcription": "seuta",
+    "description": "популярная знаменитость"
+  },
+  {
+    "word": "스타킹",
+    "translation": "чулки",
+    "transcription": "seutaking",
+    "description": "облегающие тонкие чулочные изделия"
+  },
+  {
+    "word": "스트레스",
+    "translation": "стресс",
+    "transcription": "seuteureseu",
+    "description": "психологическое или физическое напряжение"
+  },
+  {
+    "word": "스페인어",
+    "translation": "испанский язык",
+    "transcription": "seupeineo",
+    "description": "язык, на котором говорят в Испании и Латинской Америке"
+  },
+  {
+    "word": "스포츠",
+    "translation": "спорт",
+    "transcription": "seupocheu",
+    "description": "физическая активность или соревнования"
+  },
+  {
+    "word": "슬퍼하다",
+    "translation": "горевать",
+    "transcription": "seulpeohada",
+    "description": "выражать печаль, переживать"
+  },
+  {
+    "word": "슬프다",
+    "translation": "грустный",
+    "transcription": "seulpeuda",
+    "description": "испытывать печаль"
+  },
+  {
+    "word": "습관",
+    "translation": "привычка",
+    "transcription": "seupgwan",
+    "description": "устойчивый образ действий"
+  },
+  {
+    "word": "시",
+    "translation": "город; час; стих",
+    "transcription": "si",
+    "description": "административный город, единица времени или поэзия"
+  },
+  {
+    "word": "시간",
+    "translation": "время",
+    "transcription": "sigan",
+    "description": "протяжённость или момент событий"
+  },
+  {
+    "word": "시간표",
+    "translation": "расписание",
+    "transcription": "siganpyo",
+    "description": "таблица с указанием времени занятий или транспорта"
+  },
+  {
+    "word": "시계",
+    "translation": "часы",
+    "transcription": "sigye",
+    "description": "прибор для измерения времени"
+  },
+  {
+    "word": "시골",
+    "translation": "деревня; провинция",
+    "transcription": "sigol",
+    "description": "сельская местность вдали от города"
+  },
+  {
+    "word": "시끄럽다",
+    "translation": "шумный",
+    "transcription": "sikkeureopda",
+    "description": "создающий много громких звуков"
+  },
+  {
+    "word": "시내",
+    "translation": "центр города",
+    "transcription": "sinae",
+    "description": "деловая и торговая часть города"
+  }
+]

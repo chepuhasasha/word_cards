@@ -1,0 +1,122 @@
+[
+  {
+    "word": "약간",
+    "translation": "немного; слегка",
+    "transcription": "yakgan",
+    "description": "небольшая степень или количество"
+  },
+  {
+    "word": "약국",
+    "translation": "аптека",
+    "transcription": "yakkuk",
+    "description": "магазин лекарственных средств"
+  },
+  {
+    "word": "약사",
+    "translation": "фармацевт",
+    "transcription": "yaksa",
+    "description": "специалист, отпускающий лекарства"
+  },
+  {
+    "word": "약속",
+    "translation": "обещание; встреча",
+    "transcription": "yaksok",
+    "description": "договорённость или обещание встретиться"
+  },
+  {
+    "word": "얇다",
+    "translation": "тонкий",
+    "transcription": "yalpda",
+    "description": "имеющий малую толщину"
+  },
+  {
+    "word": "양",
+    "translation": "количество; овца",
+    "transcription": "yang",
+    "description": "объём чего-либо или животное овца"
+  },
+  {
+    "word": "양말",
+    "translation": "носки",
+    "transcription": "yangmal",
+    "description": "пара текстильных изделий для ступней"
+  },
+  {
+    "word": "양복",
+    "translation": "костюм",
+    "transcription": "yangbok",
+    "description": "деловой мужской костюм с пиджаком"
+  },
+  {
+    "word": "양식",
+    "translation": "форма; западная кухня",
+    "transcription": "yangsik",
+    "description": "бланк для заполнения или блюда западного стиля"
+  },
+  {
+    "word": "양파",
+    "translation": "лук репчатый",
+    "transcription": "yangpa",
+    "description": "овощ с характерным острым вкусом"
+  },
+  {
+    "word": "얘기하다",
+    "translation": "разговаривать",
+    "transcription": "yaegihada",
+    "description": "общаться устно, беседовать"
+  },
+  {
+    "word": "어깨",
+    "translation": "плечо",
+    "transcription": "eokkae",
+    "description": "часть тела между рукой и шеей"
+  },
+  {
+    "word": "어느",
+    "translation": "какой; который",
+    "transcription": "eoneu",
+    "description": "вопрос о выборе из ряда предметов"
+  },
+  {
+    "word": "어둡다",
+    "translation": "тёмный",
+    "transcription": "eodupda",
+    "description": "с низкой освещённостью"
+  },
+  {
+    "word": "어디",
+    "translation": "где",
+    "transcription": "eodi",
+    "description": "вопросительное слово о месте"
+  },
+  {
+    "word": "어떤",
+    "translation": "какой; какой-то",
+    "transcription": "eotteon",
+    "description": "спрашивает или указывает на качество предмета"
+  },
+  {
+    "word": "어떻게",
+    "translation": "как",
+    "transcription": "eotteoke",
+    "description": "вопрос о способе действия"
+  },
+  {
+    "word": "어떻다",
+    "translation": "каков; какой",
+    "transcription": "eotteota",
+    "description": "просить охарактеризовать состояние или качество"
+  },
+  {
+    "word": "어떻습니까",
+    "translation": "как вам?",
+    "transcription": "eotteosseumnikka",
+    "description": "вежливый вопрос о впечатлении или мнении"
+  },
+  {
+    "word": "어렵다",
+    "translation": "трудный",
+    "transcription": "eoryeopda",
+    "description": "требующий усилий или сложный для понимания"
+  }
+]
