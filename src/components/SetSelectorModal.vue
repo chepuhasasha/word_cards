@@ -74,9 +74,9 @@ const handleSelect = (setId: string): void => {
 .selector {
   display: grid;
   gap: 16px;
+  border: 1px solid var(--c2);
   border-radius: 40px;
   background: var(--c1);
-  border: 1px solid var(--c2);
   padding: 40px;
   width: min(480px, 100%);
 }
@@ -135,9 +135,10 @@ const handleSelect = (setId: string): void => {
   color: var(--c5);
 
   &:hover {
+    transform: none;
     background: var(--accent);
     color: var(--c1);
-    transform: none;
+
     span {
       color: var(--c1);
     }
