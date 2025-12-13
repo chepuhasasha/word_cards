@@ -8,7 +8,6 @@
   },
   "scripts": {
     "dev": "vite",
-    "prebuild": "node scripts/audio.js src/assets/sets",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",

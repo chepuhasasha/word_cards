@@ -40,6 +40,9 @@ jobs:
       - name: Test with coverage
         run: npm run test:coverage
 
+      - name: TTS Audio
+        run: npm run audio
+
       - name: Build
         run: npm run build
 
