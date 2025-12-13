@@ -57,27 +57,70 @@ const normalizeDictionary = (data: unknown): Word[] | null => {
 }
 
 /**
+ * Формирует наборы слов из данных конкретного файла.
+ * @param path Путь к JSON-файлу набора.
+ * @param data Сырые данные, загруженные из файла.
+ * @returns Список корректных сетов, извлеченных из файла.
+ */
+const extractSetsFromModule = (path: string, data: unknown): EmbeddedSet[] => {
+  const normalized = normalizeDictionary(data)
+
+  if (normalized) {
+    return [
+      {
+        id: path,
+        label: getLabelFromPath(path),
+        words: normalized,
+        size: normalized.length,
+      },
+    ]
+  }
+
+  if (!Array.isArray(data)) return []
+
+  return data
+    .map((item, index) => {
+      if (!item || typeof item !== 'object' || !('words' in item)) return null
+
+      const section = item as { title?: unknown; words?: unknown }
+      const words = normalizeDictionary(section.words)
+
+      if (!words) return null
+
+      const label =
+        typeof section.title === 'string' && section.title.trim().length
+          ? section.title
+          : `${getLabelFromPath(path)} #${index + 1}`
+
+      return {
+        id: `${path}#${index}`,
+        label,
+        words,
+        size: words.length,
+      }
+    })
+    .filter((value): value is EmbeddedSet => Boolean(value))
+}
+
+/**
  * Собирает список доступных встроенных сетов и их метаданные.
  * @returns Список валидных сетов с размерами и названиями.
  */
 const collectSets = (): EmbeddedSet[] => {
   return Object.entries(rawSets)
-    .map(([path, module]) => {
-      const parsed = normalizeDictionary(module.default)
-      if (!parsed) return null
-
-      return {
-        id: path,
-        label: getLabelFromPath(path),
-        words: parsed,
-        size: parsed.length,
-      }
-    })
-    .filter((value): value is EmbeddedSet => Boolean(value))
+    .flatMap(([path, module]) => extractSetsFromModule(path, module.default))
     .sort((a, b) => {
       const [aStart] = a.label.split('-')
       const [bStart] = b.label.split('-')
-      return Number(aStart) - Number(bStart)
+
+      const aNumber = Number(aStart)
+      const bNumber = Number(bStart)
+
+      if (Number.isFinite(aNumber) && Number.isFinite(bNumber)) {
+        return aNumber - bNumber
+      }
+
+      return a.label.localeCompare(b.label)
     })
 }
 
