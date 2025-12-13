@@ -4,7 +4,7 @@ Teleport(to="body")
     .selector-overlay(v-if="isOpen" @click.self="handleClose")
       .selector
         .selector__header
-          h2.selector__title Выберите набор слов
+          h2.selector__title TOPIK 1
           button.selector__close(type="button" @click="handleClose" aria-label="Закрыть окно выбора")
             span ×
         .selector__content
@@ -68,37 +68,39 @@ const handleSelect = (setId: string): void => {
   inset: 0;
   place-items: center;
   z-index: 1000;
-  padding: 20px;
+  background: var(--c1);
 }
 
 .selector {
   display: grid;
-  gap: 16px;
-  border: 1px solid var(--c2);
-  border-radius: 40px;
-  background: var(--c1);
-  padding: 40px;
-  width: min(480px, 100%);
+  grid-template-rows: max-content 1fr;
+  border-right: 1px solid var(--c2);
+  border-left: 1px solid var(--c2);
+  width: 500px;
+  max-width: 100vw;
+  height: 100vh;
 }
 
 .selector__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 20px;
+  padding-top: 60px;
 }
 
 .selector__title {
   margin: 0;
-  color: var(--c4);
-  font-size: 18px;
+  color: var(--c5);
+  font-size: 14px;
   font-weight: 300;
 }
 
 .selector__close {
   @include mixins.button-reset;
 
+  border: 2px solid transparent;
   border-radius: 50%;
-  background: var(--c2);
   width: 32px;
   height: 32px;
   line-height: 1;
@@ -106,13 +108,16 @@ const handleSelect = (setId: string): void => {
   font-size: 20px;
 
   &:hover {
-    background: var(--accent);
-    color: var(--c1);
+    transform: rotate(-10deg);
+    border-color: var(--accent);
+    color: var(--accent);
   }
 }
 
 .selector__content {
-  max-height: 360px;
+  border-top: 1px solid var(--c2);
+  border-bottom: 1px solid var(--c2);
+  padding-bottom: 60px;
   overflow: auto;
 }
 
@@ -125,31 +130,27 @@ const handleSelect = (setId: string): void => {
 
 .selector__button {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 10px;
+  flex-direction: column;
+  gap: 4px;
+  border-bottom: 1px solid var(--c2);
   background: var(--c1);
   cursor: pointer;
-  padding: 10px;
+  padding: 20px;
   width: 100%;
   color: var(--c5);
 
   &:hover {
-    transform: none;
-    background: var(--accent);
-    color: var(--c1);
-
-    span {
-      color: var(--c1);
-    }
+    border-left: 4px solid var(--accent);
   }
 }
 
 .selector__label {
-  font-weight: 600;
+  text-align: left;
+  font-weight: 500;
 }
 
 .selector__size {
+  text-align: left;
   color: var(--c4);
   font-size: 12px;
 }
