@@ -89,6 +89,7 @@ const getModeClass = (targetMode: 'test' | 'learn' | 'write') => [
 
 .bar {
   @include mixins.flex-center(10px);
+  flex-wrap: wrap;
 
   &__button {
     @include mixins.button-reset;
