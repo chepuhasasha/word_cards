@@ -19,8 +19,9 @@ app.mount('#app')
 
 /**
  * Регистрирует сервис-воркер приложения для поддержки PWA.
+ * @returns {void} Возвращает `undefined` после инициализации регистрации.
  */
-function registerServiceWorker() {
+function registerServiceWorker(): void {
   registerSW()
 }
 

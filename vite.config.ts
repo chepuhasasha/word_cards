@@ -37,6 +37,7 @@ function createPwaPlugin(basePath: string) {
     manifest: {
       name: 'Word Cards',
       short_name: 'Word Cards',
+      id: basePath,
       start_url: basePath,
       scope: basePath,
       display: 'standalone',
@@ -64,7 +65,13 @@ function createPwaPlugin(basePath: string) {
     workbox: {
       navigateFallback: `${basePath}index.html`,
     },
-    includeAssets: ['favicon.ico', 'apple-touch-icon.png'],
+    includeAssets: [
+      'favicon.ico',
+      'apple-touch-icon.png',
+      'icons/icon-192.png',
+      'icons/icon-512.png',
+      'icons/icon-maskable-512.png',
+    ],
   })
 }
 
