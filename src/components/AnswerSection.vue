@@ -91,7 +91,7 @@ const getOptionClass = (option: string): (string | Record<string, boolean>)[] =>
 
 .answer {
   @include mixins.flex-center(10px, row, wrap);
-  padding: 20px 40px;
+  padding: 20px 0;
 
   &__option {
     @include mixins.button-reset;
@@ -129,6 +129,7 @@ const getOptionClass = (option: string): (string | Record<string, boolean>)[] =>
     border-bottom: 2px solid var(--c2);
     background: none;
     text-align: center;
+    width: 100%;
 
     &::placeholder {
       @include mixins.text(12px, var(--c3));
