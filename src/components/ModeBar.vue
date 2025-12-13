@@ -90,7 +90,7 @@ const getModeClass = (targetMode: 'test' | 'learn' | 'write') => [
 
 .bar {
   @include mixins.flex-center(10px);
-  padding: 40px;
+  padding: 40px 0;
   flex-wrap: wrap;
 
   &__button {
