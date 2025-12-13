@@ -13,7 +13,8 @@ main {
 .pwa {
   display: flex;
   justify-content: space-between;
-  padding: 40px;
+  align-items: center;
+  padding: 20px 40px;
   background: var(--accent);
   &_not {
     padding: 20px;

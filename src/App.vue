@@ -2,11 +2,8 @@
 main
   UploadPrompt(v-if="!current" @open="openSelector")
   template(v-else)
-    .pwa(v-if="canInstallPwa")
-      button(
-        aria-label="Установить приложение"
-        @click="installPwa"
-      ) Установить приложение
+    button.pwa(v-if="canInstallPwa" @click="installPwa")
+      span Установить приложение
       img(src='/icons/icon-192.png')
     .pwa_not(v-else)
     WordCounter(
