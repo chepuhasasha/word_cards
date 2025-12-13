@@ -76,6 +76,7 @@ const next = (): void => {
   @include mixins.text(14px, var(--c4));
 
   position: relative;
+  padding: 20px 40px;
 
   &__like {
     position: absolute;

@@ -2,6 +2,13 @@
 main
   UploadPrompt(v-if="!current" @open="openSelector")
   template(v-else)
+    .pwa(v-if="canInstallPwa")
+      button(
+        aria-label="Установить приложение"
+        @click="installPwa"
+      ) Установить приложение
+      img(src='/icons/icon-192.png')
+    .pwa_not(v-else)
     WordCounter(
       :passed="passedCount"
       :total="totalCount"
@@ -41,11 +48,9 @@ main
       :mode="mode"
       :use-favorites="useFavorites"
       :has-favorites="hasFavorites"
-      :can-install-pwa="canInstallPwa"
       @update:mode="updateMode"
       @toggle:favorites="toggleFavorites"
       @open="openSelector"
-      @install:pwa="installPwa"
     )
     KeyboardHints(v-if="isDesktop" :active-key="activeKey")
   SetSelectorModal(

@@ -35,6 +35,7 @@ const getValueClass = (keyCode: string): Record<string, boolean> => ({
 
 .keyboard {
   @include mixins.flex-center(10px, row, wrap);
+  padding: 20px 40px;
 
   &__key {
     @include mixins.flex-center(4px);
