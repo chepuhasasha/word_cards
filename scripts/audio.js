@@ -12,15 +12,20 @@ const __dirname = path.dirname(__filename)
 const OUTPUT_DIR = path.join(__dirname, '../public/audio')
 
 /**
- * @typedef {Object} SyllableItem
- * @property {string} word           Корейское слово/слог.
- * @property {string} [audio]        Путь к аудио-файлу или 'error'.
- * @property {any} [other]           Произвольные дополнительные поля.
+ * @typedef {Object} WordItem
+ * @property {string} word           Корейское слово или выражение.
+ * @property {string} [audio]        Относительный путь к аудиофайлу или 'error'.
+ * @property {any} [other]           Дополнительные произвольные поля.
+ */
+
+/**
+ * @typedef {Object} WordItemRef
+ * @property {WordItem} target Объект слова, в который можно записать путь к аудио.
  */
 
 /**
  * @typedef {Object} CliOptions
- * @property {string} configPath     Путь к sets.json.
+ * @property {string} setsDir        Путь к директории с JSON-наборами.
  * @property {boolean} forceRewrite  Флаг принудительной перезаписи аудио.
  */
 
@@ -28,36 +33,35 @@ const OUTPUT_DIR = path.join(__dirname, '../public/audio')
  * Разбор аргументов командной строки.
  *
  * Поддерживаемые аргументы:
- * - `<path/to/sets.json>` — путь к конфигу с массивом имён JSON-файлов
+ * - `<path/to/sets/dir>`  — путь к директории с JSON-файлами
  * - `--rewrite-audio`     — принудительно перезаписывать аудио
  *
  * @param {string[]} argv Аргументы командной строки (без `node` и имени файла скрипта).
  * @returns {CliOptions}
  */
 function parseCliArgs(argv) {
-  const configArg = argv.find((arg) => !arg.startsWith('--'))
+  const setsDirArg = argv.find((arg) => !arg.startsWith('--')) ?? 'src/assets/sets'
   const forceRewrite = argv.includes('--rewrite-audio')
 
-  if (!configArg) {
-    console.error(
-      'Ошибка: нужно указать путь к конфигу sets.json.\n' +
-        'Пример: node tts.js ./public/sets.json --rewrite-audio',
-    )
+  const setsDir = path.resolve(process.cwd(), setsDirArg)
+  const dirStats = fs.existsSync(setsDir) ? fs.statSync(setsDir) : null
+
+  if (!dirStats || !dirStats.isDirectory()) {
+    console.error('Ошибка: нужно указать существующую директорию с JSON-наборами.')
+    console.error('Пример: node scripts/audio.js ./src/assets/sets --rewrite-audio')
     process.exit(1)
   }
 
-  const configPath = path.resolve(process.cwd(), configArg)
-
   return {
-    configPath,
+    setsDir,
     forceRewrite,
   }
 }
 
 const args = process.argv.slice(2)
-const { configPath: CONFIG_PATH, forceRewrite: FORCE_REWRITE_AUDIO } = parseCliArgs(args)
+const { setsDir: SETS_DIR, forceRewrite: FORCE_REWRITE_AUDIO } = parseCliArgs(args)
 
-console.log(`Использую конфиг sets.json: ${CONFIG_PATH}`)
+console.log(`Использую директорию наборов: ${SETS_DIR}`)
 console.log(
   `Режим перезаписи аудио: ${
     FORCE_REWRITE_AUDIO
@@ -80,10 +84,10 @@ function ensureDir(dirPath) {
 ensureDir(OUTPUT_DIR)
 
 /**
- * Загружает и парсит JSON-файл с массивом объектов.
+ * Загружает и парсит JSON-файл с набором слов.
  *
  * @param {string} jsonPath Путь к JSON-файлу.
- * @returns {SyllableItem[]} Массив элементов.
+ * @returns {unknown[]} Исходные данные (массив объектов или категорий).
  * @throws {Error} Если файл не содержит массив.
  */
 function loadJson(jsonPath) {
@@ -92,32 +96,31 @@ function loadJson(jsonPath) {
   if (!Array.isArray(data)) {
     throw new Error(`${jsonPath}: .json должен содержать массив объектов`)
   }
-  return /** @type {SyllableItem[]} */ (data)
+  return data
 }
 
 /**
- * Сохраняет массив объектов в JSON-файл.
+ * Сохраняет набор слов в JSON-файл.
  *
  * @param {string} jsonPath Путь к JSON-файлу.
- * @param {SyllableItem[]} data Данные для сохранения.
+ * @param {unknown[]} data Данные для сохранения.
  */
 function saveJson(jsonPath, data) {
   fs.writeFileSync(jsonPath, JSON.stringify(data, null, 2), 'utf8')
 }
 
 /**
- * Загружает конфиг sets.json — массив имён файлов наборов.
+ * Возвращает список JSON-файлов в директории наборов.
  *
- * @param {string} cfgPath Путь к sets.json.
- * @returns {string[]} Массив имён файлов (строк).
+ * @param {string} setsDir Путь к директории с наборами.
+ * @returns {string[]} Список файлов с расширением .json.
  */
-function loadSetsConfig(cfgPath) {
-  const raw = fs.readFileSync(cfgPath, 'utf8')
-  const data = JSON.parse(raw)
-  if (!Array.isArray(data) || !data.every((x) => typeof x === 'string')) {
-    throw new Error(`${cfgPath}: конфиг должен быть массивом строк с именами JSON-файлов`)
-  }
-  return data
+function getJsonSetFiles(setsDir) {
+  return fs
+    .readdirSync(setsDir)
+    .filter((name) => name.toLowerCase().endsWith('.json'))
+    .map((name) => path.join(setsDir, name))
+    .sort()
 }
 
 /**
@@ -128,6 +131,47 @@ function loadSetsConfig(cfgPath) {
  */
 function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms))
+}
+
+/**
+ * Извлекает объекты слов из произвольной структуры набора.
+ *
+ * Поддерживает два формата:
+ * 1. Простой массив объектов слов вида `{ word, ... }`.
+ * 2. Массив категорий, где у каждой есть поле `words` с массивом слов.
+ *
+ * @param {unknown[]} data Данные, загруженные из JSON-набора.
+ * @param {string} jsonPath Путь к исходному файлу (для сообщений об ошибках).
+ * @returns {WordItemRef[]} Массив ссылок на объекты слов.
+ */
+function collectWordItems(data, jsonPath) {
+  const directWords = data.every((entry) => entry && typeof entry === 'object' && 'word' in entry)
+
+  if (directWords) {
+    return data.map((entry) => ({ target: /** @type {WordItem} */ (entry) }))
+  }
+
+  const collected = []
+
+  data.forEach((entry) => {
+    if (!entry || typeof entry !== 'object') return
+    if (!('words' in entry)) return
+
+    const words = /** @type {{ words?: WordItem[] }} */ (entry).words
+    if (!Array.isArray(words)) return
+
+    words.forEach((wordItem) => {
+      if (wordItem && typeof wordItem.word === 'string') {
+        collected.push({ target: wordItem })
+      }
+    })
+  })
+
+  if (collected.length === 0) {
+    throw new Error(`${jsonPath}: не найдено ни одного слова в ожидаемом формате`)
+  }
+
+  return collected
 }
 
 /**
@@ -246,16 +290,16 @@ function hasExistingAudioFile(safeName) {
 /**
  * Возвращает список элементов, для которых нужно создать или перезаписать аудио.
  *
- * @param {SyllableItem[]} data Все элементы.
+ * @param {WordItemRef[]} wordItems Ссылки на объекты слов.
  * @param {boolean} forceRewrite Флаг принудительной перезаписи аудио.
- * @returns {SyllableItem[]} Отфильтрованный список элементов.
+ * @returns {WordItemRef[]} Отфильтрованный список элементов.
  */
-function getItemsToProcess(data, forceRewrite) {
-  return data.filter((item) => {
-    if (!item || !item.word) return false
+function getItemsToProcess(wordItems, forceRewrite) {
+  return wordItems.filter(({ target }) => {
+    if (!target || !target.word) return false
     if (forceRewrite) return true
 
-    const safeName = toSafeFileName(item.word)
+    const safeName = toSafeFileName(target.word)
     const hasFile = hasExistingAudioFile(safeName)
     return !hasFile
   })
@@ -264,8 +308,8 @@ function getItemsToProcess(data, forceRewrite) {
 /**
  * Основной процессор: создаёт/перезаписывает аудио-файлы для переданных элементов.
  *
- * @param {SyllableItem[]} data Все данные из JSON.
- * @param {SyllableItem[]} itemsToProcess Отфильтрованные элементы, требующие обработки.
+ * @param {unknown[]} data Все данные из JSON (для сохранения прогресса).
+ * @param {WordItemRef[]} itemsToProcess Отфильтрованные элементы, требующие обработки.
  * @param {boolean} forceRewrite Флаг принудительной перезаписи.
  * @param {string} jsonPath Путь к исходному JSON-файлу для сохранения прогресса.
  * @returns {Promise<void>}
@@ -274,9 +318,9 @@ async function processItems(data, itemsToProcess, forceRewrite, jsonPath) {
   let processed = 0
   const total = itemsToProcess.length
 
-  for (const item of itemsToProcess) {
+  for (const { target } of itemsToProcess) {
     processed += 1
-    const word = item.word
+    const word = target.word
     const percent = ((processed / total) * 100).toFixed(1)
 
     console.log(`\n[${processed}/${total}] (${percent}%) Обрабатываю слово: "${word}"`)
@@ -288,8 +332,8 @@ async function processItems(data, itemsToProcess, forceRewrite, jsonPath) {
     if (!forceRewrite && fs.existsSync(targetFilePath)) {
       console.log(`Файл уже существует, пропускаю загрузку: ${targetFilePath}`)
 
-      if (!item.audio || item.audio === 'error') {
-        item.audio = `audio/${targetFileName}`
+      if (!target.audio || target.audio === 'error') {
+        target.audio = `audio/${targetFileName}`
         saveJson(jsonPath, data)
       }
       continue
@@ -297,10 +341,10 @@ async function processItems(data, itemsToProcess, forceRewrite, jsonPath) {
 
     try {
       await createTtsAudio(word, targetFilePath)
-      item.audio = `audio/${targetFileName}`
+      target.audio = `audio/${targetFileName}`
     } catch (e) {
       console.log(`Ошибка TTS для "${word}": ${e.message}`)
-      item.audio = 'error'
+      target.audio = 'error'
     }
 
     // сохраняем прогресс после каждого элемента
@@ -311,25 +355,30 @@ async function processItems(data, itemsToProcess, forceRewrite, jsonPath) {
 /**
  * Точка входа скрипта.
  *
- * 1. Загружает sets.json (массив имён файлов).
+ * 1. Находит все JSON-файлы в директории наборов.
  * 2. Для каждого файла:
  *    - загружает JSON
+ *    - извлекает объекты слов (прямые или внутри категорий)
  *    - фильтрует элементы по необходимости создания аудио
  *    - вызывает Google TTS и сохраняет обновлённый JSON
  */
 ;(async () => {
-  const setFiles = loadSetsConfig(CONFIG_PATH)
-  const baseDir = path.dirname(CONFIG_PATH)
+  const setFiles = getJsonSetFiles(SETS_DIR)
+
+  if (setFiles.length === 0) {
+    console.log('Не найдено JSON-файлов в директории наборов. Работа завершена.')
+    return
+  }
 
   console.log(`Найдено наборов: ${setFiles.length}`)
-  console.log(setFiles.map((name) => ` - ${name}`).join('\n'))
+  console.log(setFiles.map((name) => ` - ${path.basename(name)}`).join('\n'))
 
-  for (const fileName of setFiles) {
-    const jsonPath = path.resolve(baseDir, fileName)
+  for (const jsonPath of setFiles) {
     console.log(`Обрабатываю набор: ${jsonPath}`)
 
     const data = loadJson(jsonPath)
-    const itemsToProcess = getItemsToProcess(data, FORCE_REWRITE_AUDIO)
+    const wordItems = collectWordItems(data, jsonPath)
+    const itemsToProcess = getItemsToProcess(wordItems, FORCE_REWRITE_AUDIO)
 
     if (itemsToProcess.length === 0) {
       console.log('Все слова уже имеют аудио-файлы — пропускаю этот набор.')

@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "prebuild": "node scripts/audio.js src/assets/sets/sets.json",
+    "prebuild": "node scripts/audio.js src/assets/sets",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
@@ -19,7 +19,7 @@
     "format": "run-p format:code format:styles",
     "format:code": "prettier --write \"{src,tests}/**/*.{ts,js,vue}\"",
     "format:styles": "stylelint \"src/**/*.{vue,css,sass,scss}\" --fix",
-    "audio": "node scripts/audio.js src/assets/sets/sets.json",
+    "audio": "node scripts/audio.js src/assets/sets",
     "test": "vitest",
     "test:watch": "vitest --watch",
     "test:coverage": "vitest run --coverage"
