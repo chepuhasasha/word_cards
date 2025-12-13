@@ -107,8 +107,7 @@ useSwipeNavigation(wrapperRef, {
 
   position: relative;
   justify-content: space-between;
-  padding: 0 100px;
-  width: 100vw;
+  width: 100%;
   height: 120px;
 
   &__word {
@@ -117,7 +116,6 @@ useSwipeNavigation(wrapperRef, {
     position: absolute;
     inset: 0;
     transition: all 0.3s ease;
-    padding: 0 100px;
   }
 
   &__title {

@@ -1,13 +1,23 @@
 @use '@/assets/styles/mixins' as mixins;
 
-main {
-  @include mixins.stack(20px);
-
-  place-content: center;
-  place-items: center;
+body {
   background: var(--c1);
+}
+
+main {
+  display: grid;
+  grid-template-rows: max-content 1fr max-content max-content;
+  gap: 40px;
+  padding: 40px;
   width: 100vw;
   height: 100vh;
+}
+
+.card {
+  @include mixins.stack(20px);
+
+  width: 100%;
+  height: 100%;
 }
 
 button {

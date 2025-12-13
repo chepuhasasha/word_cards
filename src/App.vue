@@ -2,14 +2,6 @@
 main
   UploadPrompt(v-if="!current" @open="openSelector")
   template(v-else)
-    ModeBar(
-      :mode="mode"
-      :use-favorites="useFavorites"
-      :has-favorites="hasFavorites"
-      @update:mode="updateMode"
-      @toggle:favorites="toggleFavorites"
-      @open="openSelector"
-    )
     WordCounter(
       :passed="passedCount"
       :total="totalCount"
@@ -20,29 +12,38 @@ main
       @remove-like="removeLike"
       @like="likeCurrentWord"
     )
-    WordDisplay(
-      :word="displayedWord"
-      :word-key="wordKey"
-      :help="helpText"
-      @next="next"
-      @prev="prev"
-    )
-    AudioPlayer(
-      v-if="mode !== 'write' && current?.audio"
-      :audio-src="current?.audio || ''"
-      :transcription="current?.transcription || ''"
-      :autoplay="mode !== 'write'"
-    )
-    AnswerSection(
+    .card
+      WordDisplay(
+        :word="displayedWord"
+        :word-key="wordKey"
+        :help="helpText"
+        @next="next"
+        @prev="prev"
+      )
+      AudioPlayer(
+        v-if="mode !== 'write' && current?.audio"
+        :audio-src="current?.audio || ''"
+        :transcription="current?.transcription || ''"
+        :autoplay="mode !== 'write'"
+      )
+      AnswerSection(
+        :mode="mode"
+        :options="options"
+        :selected="selected"
+        :is-correct="isCorrect"
+        :translation="current?.translation || ''"
+        :user-answer="userAnswer"
+        @select="check"
+        @submit-write="checkWrite"
+        @update:userAnswer="updateUserAnswer"
+      )
+    ModeBar(
       :mode="mode"
-      :options="options"
-      :selected="selected"
-      :is-correct="isCorrect"
-      :translation="current?.translation || ''"
-      :user-answer="userAnswer"
-      @select="check"
-      @submit-write="checkWrite"
-      @update:userAnswer="updateUserAnswer"
+      :use-favorites="useFavorites"
+      :has-favorites="hasFavorites"
+      @update:mode="updateMode"
+      @toggle:favorites="toggleFavorites"
+      @open="openSelector"
     )
     KeyboardHints(v-if="isDesktop" :active-key="activeKey")
   SetSelectorModal(
