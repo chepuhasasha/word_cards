@@ -34,6 +34,15 @@
     svg(width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg")
       path(d="M16.1111 3C19.6333 3 22 6.3525 22 9.48C22 15.8138 12.1778 21 12 21C11.8222 21 2 15.8138 2 9.48C2 6.3525 4.36667 3 7.88889 3C9.91111 3 11.2333 4.02375 12 4.92375C12.7667 4.02375 14.0889 3 16.1111 3Z" stroke="var(--c4)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
 
+  button(
+    v-if="canInstallPwa"
+    class="bar__button"
+    aria-label="Установить приложение"
+    @click="installPwa"
+  )
+    svg(width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg")
+      path(d="M12 16L12 6M12 16L8 12M12 16L16 12M3 16.0069C3.00351 17.6704 3.06331 18.7266 3.42159 19.5451C3.93506 20.7252 4.8025 21.6711 5.88924 22.21C6.8636 22.6898 8.07115 22.8323 9.99823 22.8738C10.6604 22.8881 11.328 22.75 12 22.75C12.672 22.75 13.3396 22.8881 14.0018 22.8738C15.9289 22.8323 17.1364 22.6898 18.1108 22.21C19.1975 21.6711 20.065 20.7252 20.5784 19.5451C21 18.5695 21 17.3089 21 15.75V12.25C21 10.6911 21 9.43048 20.5784 8.45491C20.065 7.27478 19.1975 6.32895 18.1108 5.78999C17.1364 5.31018 15.9289 5.16769 14.0018 5.12625C13.3396 5.11191 12.672 5.25 12 5.25C11.328 5.25 10.6604 5.11191 9.99823 5.12625C8.07115 5.16769 6.8636 5.31018 5.88924 5.78999C4.8025 6.32895 3.93506 7.27478 3.42159 8.45491C3 9.43048 3 10.6911 3 12.25V16.0069Z" stroke="var(--c4)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+
   button(@click="emit('open')" class="bar__button" aria-label="Загрузить словарь")
     svg(width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg")
       path(d="M14 2.26953V6.40007C14 6.96012 14 7.24015 14.109 7.45406C14.2049 7.64222 14.3578 7.7952 14.546 7.89108C14.7599 8.00007 15.0399 8.00007 15.6 8.00007H19.7305M9 15L12 18M12 18L15 15M12 18L12 12M14 2H8.8C7.11984 2 6.27976 2 5.63803 2.32698C5.07354 2.6146 4.6146 3.07354 4.32698 3.63803C4 4.27976 4 5.11984 4 6.8V17.2C4 18.8802 4 19.7202 4.32698 20.362C4.6146 20.9265 5.07354 21.3854 5.63803 21.673C6.27976 22 7.11984 22 8.8 22H15.2C16.8802 22 17.7202 22 18.362 21.673C18.9265 21.3854 19.3854 20.9265 19.673 20.362C20 19.7202 20 18.8802 20 17.2V8L14 2Z" stroke="var(--c4)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
@@ -46,11 +55,13 @@ const props = defineProps<{
   mode: 'test' | 'learn' | 'write'
   useFavorites: boolean
   hasFavorites: boolean
+  canInstallPwa: boolean
 }>()
 const emit = defineEmits<{
   (e: 'update:mode', mode: 'test' | 'learn' | 'write'): void
   (e: 'toggle:favorites'): void
   (e: 'open'): void
+  (e: 'install:pwa'): void
 }>()
 
 const favoritesButtonClass = computed(() => [
@@ -82,6 +93,13 @@ const getModeClass = (targetMode: 'test' | 'learn' | 'write') => [
   'bar__button',
   { 'bar__button--active': props.mode === targetMode },
 ]
+
+/**
+ * Инициирует установку PWA по сохраненному приглашению браузера.
+ */
+const installPwa = (): void => {
+  emit('install:pwa')
+}
 </script>
 
 <style scoped lang="scss">
@@ -89,6 +107,7 @@ const getModeClass = (targetMode: 'test' | 'learn' | 'write') => [
 
 .bar {
   @include mixins.flex-center(10px);
+
   flex-wrap: wrap;
 
   &__button {

@@ -41,9 +41,11 @@ main
       :mode="mode"
       :use-favorites="useFavorites"
       :has-favorites="hasFavorites"
+      :can-install-pwa="canInstallPwa"
       @update:mode="updateMode"
       @toggle:favorites="toggleFavorites"
       @open="openSelector"
+      @install:pwa="installPwa"
     )
     KeyboardHints(v-if="isDesktop" :active-key="activeKey")
   SetSelectorModal(
@@ -69,6 +71,7 @@ import SetSelectorModal from '@/components/SetSelectorModal.vue'
 import { useEmbeddedSets } from '@/composables/useEmbeddedSets'
 import { useKeyboardShortcuts } from '@/composables/useKeyboardShortcuts'
 import { useDeviceType } from '@/composables/useDeviceType'
+import { usePwaInstall } from '@/composables/usePwaInstall'
 import { useWordsStore } from '@/stores/useWordsStore'
 
 const wordStore = useWordsStore()
@@ -106,6 +109,7 @@ const { availableSets, isSelectorOpen, openSelector, closeSelector, selectSet } 
 )
 const { activeKey } = useKeyboardShortcuts({ store: wordStore })
 const { isDesktop } = useDeviceType()
+const { canInstallPwa, promptInstall } = usePwaInstall()
 
 const helpText = computed(() =>
   mode.value !== 'write' ? current.value?.translation || '' : current.value?.word || '',
@@ -115,4 +119,11 @@ onMounted(() => {
   wordStore.loadFavorites()
   wordStore.generateQuestion()
 })
+
+/**
+ * Показывает пользователю системный диалог установки PWA.
+ */
+const installPwa = async (): Promise<void> => {
+  await promptInstall()
+}
 </script>
