@@ -129,7 +129,7 @@ const collectSets = (): EmbeddedSet[] => {
  * @param onApply Метод стора, который принимает выбранный набор слов.
  */
 export const useEmbeddedSets = (onApply: ReturnType<typeof useWordsStore>['setWords']) => {
-  const isSelectorOpen = ref(false)
+  const isSelectorOpen = ref(true)
   const availableSets = computed<EmbeddedSet[]>(() => collectSets())
 
   /**
